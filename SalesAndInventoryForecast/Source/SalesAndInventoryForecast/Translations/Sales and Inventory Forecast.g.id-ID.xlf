@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9bdba5b696809debe3ae9953e6ac99bc097abf4b820b17a7c700cb034b125ef9
-size 434
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="id-ID" original="Sales and Inventory Forecast">
+    <body>
+      <group id="body" />
+    </body>
+  </file>
+</xliff>

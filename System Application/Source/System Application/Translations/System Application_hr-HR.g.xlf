@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:84e10b24eb17d517d2da8b3d435ea7c5e945b18dde8a847260bb1ec98c450d80
-size 424
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="hr-HR" original="System Application">
+    <body>
+      <group id="body" />
+    </body>
+  </file>
+</xliff>

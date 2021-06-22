@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16615a25715f20413e98d5f4d249fbc0717433bc8851718cea2b3f43fa138c28
-size 430
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="et-EE" original="PayPal Payments Standard">
+    <body>
+      <group id="body" />
+    </body>
+  </file>
+</xliff>
