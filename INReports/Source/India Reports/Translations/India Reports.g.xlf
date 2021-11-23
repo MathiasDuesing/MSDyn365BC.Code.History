@@ -2468,6 +2468,486 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report General Journal - Test GST - Control ShowDim_ - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 758217773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR-1 File Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2266075126" size-unit="char" translate="yes" xml:space="preserve">
+          <source>atadj</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ATADJTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3700507175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ATTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 365109486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>b2b</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType B2BTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2281859569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>b2cl</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType B2CLTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3700865388" size-unit="char" translate="yes" xml:space="preserve">
+          <source>b2cs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType B2CSTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1935004965" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cdnr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CDNRTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2639458858" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cdnur</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CDNURTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1893823934" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CESS Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CESSAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 4267848136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CESS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CessLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2906001609" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CGST Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CGSTAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3373308843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CGST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CGSTLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2112665763" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType CLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 780080134" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note/Refund Voucher Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DebitNoteDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3801974961" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note/Refund Voucher Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DebitNoteNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3948389424" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deemed Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DeemedExportTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2248871371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Desciption Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DescTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1734792990" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Desciption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DespTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1143648514" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3133182353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType DocumentTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2073613730" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Commerce GSTIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ECommGSTINTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1996302177" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ELbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2550514463" size-unit="char" translate="yes" xml:space="preserve">
+          <source>exemp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType EXEMPTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1248521972" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exempted(other than nil rated/non GST supply)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ExmpTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 68611088" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ExportTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 588555919" size-unit="char" translate="yes" xml:space="preserve">
+          <source>exp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType EXPTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2970104975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>expwop</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType EXPWOPayTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2777995694" size-unit="char" translate="yes" xml:space="preserve">
+          <source>expwp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType EXPWPayTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3450464380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select GSTR File Format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType FileFormatErr</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3379032381" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gross Advance Received</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType GrossAdvanceRcvdTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2799225199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTIN/Uin of Recipient</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType GSTINUINTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 967153522" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HSN/SAC of Supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType HSNSACofSupplyTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 490428895" size-unit="char" translate="yes" xml:space="preserve">
+          <source>hsn</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType HSNTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1601009151" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IGST Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType IGSTAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1404846277" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IGST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType IGSTLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2170812192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inter-State supplies to registered persons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InterRegTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3576067609" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inter-State supplies to unregistered persons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InterUnRegTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3576656316" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intra-State supplies to registered persons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType IntraRegTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3086143301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intra-State supplies to unregistered persons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType IntraUnRegTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2250889175" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InvoiceDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3226948044" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InvoiceNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3202187219" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InvoiceTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3089258358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType InvoiceValueTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3279325773" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nil Rated Supplies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType NilTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2771879880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>N</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType NLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2991375349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-GST Supplies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType NonGSTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2938142904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice/Advance Receipt date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType OriginalInvDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1814015947" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice/Advance Receipt Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType OriginalInvNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3404989567" size-unit="char" translate="yes" xml:space="preserve">
+          <source>oe</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType OtherECommTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2753565939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Place of Supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType PlaceofSupplyTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1605661288" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Port Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType PortCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1315193297" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pre GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType PreGSTTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2779639592" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing......#1######################\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ProgressMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2709532582" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType RateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1508133379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receiver Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ReceiverTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1102088071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note/Refund Voucher Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType RefundVoucherValueTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1974548814" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regular</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType RegularTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2144629094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Charge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ReverseChargeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1277964500" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType RLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1682023264" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEZ Without Pay</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType SEZWOPayTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2111335845" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SEZ With Pay</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType SEZWPayTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 382995129" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SGST Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType SGSTAmountTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2570334075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SGST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType SGSTLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 609120679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Bill Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ShipBillDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 2119567100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Bill Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType ShipBillNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1966607360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType TaxableValueTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3560116983" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applicable % of Tax Rate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType TaxTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3815313962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType TotalQtyTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1347932691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType TotalValTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 254653772" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType TypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 325498289" size-unit="char" translate="yes" xml:space="preserve">
+          <source>uqc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType UQCTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3351522001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UR Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType URTypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 233021260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>wopay</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType WOPAYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 3723602809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>wpay</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType WPAYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - NamedType 1813053821" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Y</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - NamedType YLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3976031962 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Invoice Value for B2CL or B2CS. For example , 250000.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control B2CLimit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3976031962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B2C Limit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control B2CLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that you want the period of the Return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 4072933583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the nature of GST transaction. For example, B2B/B2C.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control FileFormat - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 4072933583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Format</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control FileFormat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3942276657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the GST registration number for which the report will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control GSTIN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 758217773 - Control 3942276657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTin of the location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-1 File Format - Control GSTIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR-3B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - NamedType 2932411483" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date must be after Period End Date %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1= period date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - NamedType PostingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 2148159573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Authorised Person Name for Print on Report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Authorised Person - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 2148159573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the Authorized Person</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Authorised Person - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 331688346 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the GST registration number for which the report will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control GSTIN No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 331688346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTIN No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control GSTIN No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 492492547 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date that you want the period of the Return.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Period Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 492492547 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Period Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 470764112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Place Name for Print on Reports.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Place Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 470764112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Place</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Place Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Date for print on Reports. Date should be after end of the period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4099198210 - Control 3710982960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report GSTR-3B - Control Posting Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 405200107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7808,6 +8288,181 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Transfer Shipment GST - Control ShowInternalInfo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Query 2043623329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Amount GSTR3B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GST Amount GSTR3B - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 191539105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATADJCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATADJCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 829351802 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATADJGSTPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATADJGSTPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3110914869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATADJQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATADJQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 4122460356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 245430803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1808002928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ATQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ATQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2282451481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2BCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2BCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2100193666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2BGSTPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2BGSTPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3436319213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2BQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2BQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2655311126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CInterCess</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CInterCess - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 4198577274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CIntraCess</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CIntraCess - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3781879422 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CLCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CLCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3528545277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CLPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CLPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 675634602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CLQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CLQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1829518143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CSCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CSCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1048784409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CSInter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CSInter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3685992469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CSIntra</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CSIntra - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2487694784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CSPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CSPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1683784307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2CSQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2CSQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 13781410 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNRCess</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNRCess - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2285424935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNRPerQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNRPerQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 547815598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNRQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNRQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 4022971373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNURCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNURCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1546148054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNURGSTPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNURGSTPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 1909747737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1CDNURQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1CDNURQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 911685264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1EXEMPQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1EXEMPQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3236587700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ExpCessAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ExpCessAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3558508997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ExpExemp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ExpExemp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 4271951651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ExpPer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ExpPer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3223421760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1ExpQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1ExpQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 3669375474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1HSNGSTAmt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1HSNGSTAmt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 103154814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1HSNQty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1HSNQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 2556043808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1HSNQuery</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1HSNQuery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Query 117166731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1NonGSTExemp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1NonGSTExemp - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 340522122 - Action 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2591587468">
           <source>Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7882,6 +8537,61 @@
           <source>Print Voucher</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Ledger Entry Ext - Action Print Voucher - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 3105245423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue AT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 772578822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ATADJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue ATADJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 297040718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B2B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue B2B - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 3181857209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B2CL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue B2CL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 1606585404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B2CS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue B2CS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 1940560557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CDNR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue CDNR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 1677350826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CDNUR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue CDNUR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 3702822199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EXEMP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue EXEMP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 2885178119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EXP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue EXP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3962430981 - EnumValue 3664260471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HSN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nature of Supply - EnumValue HSN - Property Caption</note>
         </trans-unit>
       </group>
     </body>

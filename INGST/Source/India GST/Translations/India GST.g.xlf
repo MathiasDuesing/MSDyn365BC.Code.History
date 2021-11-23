@@ -5558,6 +5558,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Cess Tax Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 229426313 - Field 1334543401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate E-Inv. on Service Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Generate E-Inv. on Ser. Post - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 229426313 - Field 2143623695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Tax Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9693,10 +9698,45 @@
           <note from="Developer" annotates="general" priority="2">%1 = Sales Lines count</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType SalesLinesMaxCountLimitErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - NamedType 3296489515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Invoicing is not supported if document number is blank in the current document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - NamedType DocumentNoBlankErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - NamedType 1880470668" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Invoicing is not applicable for Unregistered Customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - NamedType eInvoiceNotApplicableCustErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - NamedType 2060224454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No matched IRN Hash %1 found to update.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = IRN Hash</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - NamedType IRNHashErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - NamedType 3417159529" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Invoice allowes only 100 lines per Invoice. Current transaction is having %1 lines.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Service Lines count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - NamedType ServiceLinesMaxCountLimitErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - Method 1584447853 - NamedType 2507510580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B2B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - Method ReadCreditMemoTransactionDetails - NamedType B2BLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1720667578 - Method 1584447853 - NamedType 1498444585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EXP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - Method ReadCreditMemoTransactionDetails - NamedType EXPLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 209614294 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Accounting Period does not exist for the given Date %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Management - NamedType AccountingPeriodErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 422625949 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Accounting Period does not exist for the given Date %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Management for Ser. - NamedType AccountingPeriodErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4154143677 - NamedType 2939576801" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Finance Charge Memo Use Cases</source>
@@ -11508,6 +11548,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - NamedType LocGSTRegNoARNNoErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1072956185 - NamedType 1917065697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either GST Registration No. or ARN No. should have a value in Order Address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - NamedType OrderAddGSTARNErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1072956185 - NamedType 3533036368" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot select Blank Place of Supply for Template %1 and Batch %2 for Line %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 =Journal Template Name , %2 = Journal Batch Name , %3 =Line No.</note>
@@ -11562,6 +11607,11 @@
           <source>Either GST Registration No. or ARN No. should have a value in Ship To Code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - NamedType ShiptoGSTARNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1072956185 - NamedType 778485899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Vendor GST Registration No. or ARN No. in Vendor should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Line Validations - NamedType VendGSTARNErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1072956185 - NamedType 973238824" size-unit="char" translate="yes" xml:space="preserve">
           <source>You can select POS Out Of India field on header only if GST Vendor Type is Registered.</source>
@@ -11713,6 +11763,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = Document Type , %2 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType GSTAssessableErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3536484230 - NamedType 1974549406" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please update GST Registration No. to blank in the record %1 from Order Address.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Order Address Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType GSTPANErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3536484230 - NamedType 1146034800" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot select GST Reg. No. for selected Vendor Type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11797,6 +11852,11 @@
           <source>Selected Document No does not exit for Reference Invoice No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType ReferenceNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3536484230 - NamedType 932383268" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From position 3 to 12 in GST Registration No. should be same as it is in PAN No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType SamePANErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3536484230 - NamedType 606221348" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Vendor Type must be Unregistered or Registered Reverse Charge for Invoice Type : Self-Invoice.</source>
@@ -13817,6 +13877,131 @@
           <source>Custom Duty Amount must be 0 if GST Group Type is Service while transferring from Bonded Warehouse location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Transfer Subscribers - NamedType GSTCustomDutyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3511565749" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {5577B8ED-6471-4480-AD5A-63BA31696AB7}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 454262894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {A274F11C-332F-4EE3-AC91-2E2D95E9E2B6}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2116954962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {F6EB6D82-74A5-413E-BE36-9308F41811A3}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1555640125" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {7759D07C-F691-4738-8FB8-F682B03DA922}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1783680046" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {65C755B4-E396-453F-9425-896AFF64D1B3}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 910326341" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0D76D452-CCE9-473B-998A-71EDADD459AE}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 853973082" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {A8B3F6FB-A42D-4767-BD3D-D4C9BB11AEAA}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1177865152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {B86AA24C-78CF-4F29-BD88-E17580D6992B}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 4076695385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {679E7F9F-9AAC-4CC5-A263-904ECC708057}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3108742611" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1B2046C2-4264-4272-A998-085B20832B87}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3118369402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {998A15E8-B4E6-460E-A89C-239F276E9B3C}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 4074889786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {FFBADC05-CF47-4787-B31A-EB85F88CACE8}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3653931826" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {35C8BFED-ED88-46B7-AFE8-9F2C58421857}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1905637111" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {E0AA74AA-F401-4115-B768-D41BB661B532}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3896796992" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {51395C06-549D-40B5-98C5-A7F6B73AF427}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2737502966" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {131AC7D7-6079-4C25-A3A6-CEAC66A6203D}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 695811858" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {F759EFFB-61F9-4B84-B9CD-01E2616A7B85}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 452477696" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {F023887D-C599-4FE6-89E7-49C257DC208C}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2809259422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {E75A7A67-D332-41BE-B7EA-61C8BF69E9F7}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2295720534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1440B152-A710-4982-86C0-5C27FEF4A7D6}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 104385756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {BB48AD27-2942-4C4A-B19C-4A7E76E181DA}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 418762437" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {d8792403-fbc9-455c-8a3a-c67dafdb6e53}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 416019544" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {e607f91d-d6e7-459a-801a-cbb9c7f8ce89}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3264754465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {aa85ef19-5f94-438e-adc4-a9acf0dcb0c1}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2805611503" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {4738101c-19e3-418c-a19d-61e67100d199}Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
@@ -22493,6 +22678,96 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Invoice QR Code - Control QR Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2825931226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Credit Memo Dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2825931226 - Control 3106964826 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of acknowledgement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Control Acknowledgement Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2825931226 - Control 3326657031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique number assigned by e-invoice portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Control Acknowledgement No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2825931226 - Control 1157332158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cancellation reason.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Control Cancel Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2825931226 - Control 3521172508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies e-invoice cancellation date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Control E-Inv. Cancelled Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2825931226 - Control 82115433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique number of 64 character generated by system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo Dialog - Control IRN Hash - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1622894956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Cr Memo QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1622894956 - NamedType 3440484596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click here to update Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo QR Code - NamedType UpdateTaxInfoLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1622894956 - Control 1160835642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the QR Code assigned by e-invoice portal for sales document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Cr Memo QR Code - Control QR Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice Dialog</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Control 3106964826 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date of acknowledgement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Control Acknowledgement Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Control 3326657031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique number assigned by e-invoice portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Control Acknowledgement No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Control 1157332158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cancellation reason.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Control Cancel Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Control 3521172508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies e-invoice cancellation date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Control E-Inv. Cancelled Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4114321968 - Control 82115433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a unique number of 64 character generated by system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice Dialog - Control IRN Hash - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4006348598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Invoice QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice QR Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4006348598 - NamedType 3440484596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Click here to update Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice QR Code - NamedType UpdateTaxInfoLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4006348598 - Control 1160835642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the QR Code assigned by e-invoice portal for sales document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Invoice QR Code - Control QR Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 777781589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Transfer Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -24657,6 +24932,11 @@
           <source>Specifies the code of the tax type. Tax type can be TDS, TCS and GST.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3621093334 - Control 1334543401 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the function through which e-invoice will be generated at the time of service post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control Generate E-Inv. on Ser. Post - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4266580770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update GST TDS Cert. Details</source>
@@ -27778,6 +28058,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Cr Memos - Control GST Reason Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - NamedType 3690465086" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3090558677">
+          <source>E-Invoicing is not applicable for Non-GST Transactions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - NamedType eInvoiceNonGSTTransactionErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - NamedType 2698731095" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3090558677">
+          <source>E-Invoicing is not applicable for Unregistered, Export and Deemed Export Customers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - NamedType eInvoiceNotApplicableCustomerErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 699553126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies the function through which Json file will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Generate E-Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 699553126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Generate E-Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Generate E-Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 3409967602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies the function which will generate IRN No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Generate IRN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 3409967602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Generate IRN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Generate IRN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 4161479801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies the function through which Json file can be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Import E-Invoice Response - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Action 4161479801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Import E-Invoice Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Action Import E-Invoice Response - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 3106964826 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies the date of acknowledgement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Acknowledgement Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 3326657031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies a unique number assigned by e-invoice portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Acknowledgement No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3090558677 - Control 2117080758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
           <source>Specifies the entry date defined in bill of export document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27787,6 +28117,16 @@
           <source>Specifies the bill of export number. It is a document number which is submitted to custom department .</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Bill Of Export No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 1157332158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies the cancellation reason.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Cancel Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 3521172508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies e-invoice cancellation date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control E-Inv. Cancelled Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3090558677 - Control 3463723080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
           <source>Specifies the type of the customer. For example, Registered/Unregistered/Export/Exempted/SEZ Unit/SEZ Development etc.</source>
@@ -27813,6 +28153,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Invoice Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 82115433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>Specifies a unique number of 64 character generated by system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control IRN Hash - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3090558677 - Control 3962430981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
           <source>Specifies the nature of GST transaction. For example, B2B/B2C.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27837,6 +28182,11 @@
           <source>Specifies the supply finish date. For example, Before rate change/After rate change.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control Supply Finish Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3090558677 - Control 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4222048109">
+          <source>QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Credit Memo - Control QR Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3180232857 - Control 1815712918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187328241">
           <source>Specifies an identifier for the GST Group  used to calculate and post GST.</source>
@@ -27868,10 +28218,70 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Inv Subform - Control Non-GST Line - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - NamedType 3690465086" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2896584767">
+          <source>E-Invoicing is not applicable for Non-GST Transactions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - NamedType eInvoiceNonGSTTransactionErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - NamedType 2698731095" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2896584767">
+          <source>E-Invoicing is not applicable for Unregistered, Export and Deemed Export Customers.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - NamedType eInvoiceNotApplicableCustomerErr</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 400859641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the function through which cancelled Json file will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Cancel E-Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 400859641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Cancel E-Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Cancel E-Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 699553126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the function through which Json file will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Generate E-Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 699553126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Generate E-Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Generate E-Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 3409967602 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the function which will generate IRN No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Generate IRN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 3409967602 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Generate IRN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Generate IRN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 4161479801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the function through which Json file can be imported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Import E-Invoice Response - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Action 4161479801 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Import E-Invoice Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Action Import E-Invoice Response - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2896584767 - Control 4002142776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
           <source>Specifies the reason of return or credit memo of a posted document where gst is applicable. For example Deficiency in Service/Correction in Invoice etc.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control GST Reason Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 3106964826 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the date of acknowledgement.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Acknowledgement Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 3326657031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies a unique number assigned by e-invoice portal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Acknowledgement No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2896584767 - Control 2117080758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
           <source>Specifies the entry date defined in bill of export document.</source>
@@ -27882,6 +28292,16 @@
           <source>Specifies the bill of export number. It is a document number which is submitted to custom department .</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Bill Of Export No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 1157332158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies the cancellation reason.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Cancel Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 3521172508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies e-invoice cancellation date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control E-Inv. Cancelled Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2896584767 - Control 3463723080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
           <source>Specifies the type of the customer. For example, Registered/Unregistered/Export/Exempted/SEZ Unit/SEZ Development etc.</source>
@@ -27907,6 +28327,11 @@
           <source>Specifies the invoice type on the service document. For example, Bill of supply, Export, Supplementary, Debit Note, Non-GST and Taxable.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Invoice Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 82115433 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>Specifies a unique number of 64 character generated by system.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control IRN Hash - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2896584767 - Control 3962430981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
           <source>Specifies the nature of GST transaction. For example, B2B/B2C.</source>
@@ -27937,6 +28362,11 @@
           <source>Specifies the supply finish date. For example, Before rate change/After rate change.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control Supply Finish Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2896584767 - Control 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
+          <source>QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Service Invoice - Control QR Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1820050154 - Control 4002142776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 540259714">
           <source>Specifies the reason of return or credit memo of a posted document where gst is applicable. For example Deficiency in Service/Correction in Invoice etc.</source>
@@ -31588,6 +32018,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field Exempted - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 2776967842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>FA Availment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field FA Availment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 467863240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>FA Custom Duty Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field FA Custom Duty Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 3320377600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>FA Non-Availment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field FA Non-Availment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 1489655508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>FA Non-Availment Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field FA Non-Availment Amount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 314775136 - Field 304292933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>GST Adjustment Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -31952,6 +32402,26 @@
           <source>Sub. Component Location</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Inventory Setup Ext - Field Sub. Component Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1165652527 - Field 2776967842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>FA Availment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Invoice Pos Buffer - Field FA Availment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1165652527 - Field 467863240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>FA Custom Duty Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Invoice Pos Buffer - Field FA Custom Duty Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1165652527 - Field 3320377600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>FA Non-Availment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Invoice Pos Buffer - Field FA Non-Availment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1165652527 - Field 1489655508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
+          <source>FA Non-Availment Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Invoice Pos Buffer - Field FA Non-Availment Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 190695382 - Field 3666116087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2675224487">
           <source>Customer GST Reg. No.</source>
@@ -35183,6 +35653,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr. Memo Line - Field Non-GST Line - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 3106964826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>Acknowledgement Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Acknowledgement Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 3326657031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>Acknowledgement No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Acknowledgement No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 2117080758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>Bill Of Export Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -35193,10 +35673,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Bill Of Export No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 1157332158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>Cancel Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Cancel Reason - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 3666116087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>Customer GST Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Customer GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 3521172508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>E-Inv. Cancelled Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field E-Inv. Cancelled Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 3370547937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>GST Bill-to State Code</source>
@@ -35237,6 +35727,16 @@
           <source>Invoice Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Invoice Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 82115433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>IRN Hash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field IRN Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 1608289946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>IsJSONImported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field IsJSONImported - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 897926272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>Location GST Reg. No.</source>
@@ -35283,6 +35783,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field POS Out Of India - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field QR Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 564832403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>Rate Change Applicable</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -35297,6 +35802,16 @@
           <source>Sale Return Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Sale Return Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 3195762964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>Ship-to Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Ship-to Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3362048833 - Field 1883316924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
+          <source>Ship-to GST Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Cr.Memo Header - Field Ship-to GST Customer Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3362048833 - Field 2175957087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3471029625">
           <source>Ship-to GST Reg. No.</source>
@@ -35498,6 +36013,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Header - Field Vehicle No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 3106964826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>Acknowledgement Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Acknowledgement Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 3326657031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>Acknowledgement No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Acknowledgement No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 2117080758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Bill Of Export Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -35508,10 +36033,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Bill Of Export No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 1157332158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>Cancel Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Cancel Reason - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 3666116087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Customer GST Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Customer GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 3521172508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>E-Inv. Cancelled Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field E-Inv. Cancelled Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 3370547937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>GST Bill-to State Code</source>
@@ -35552,6 +36087,16 @@
           <source>Invoice Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Invoice Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 82115433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>IRN Hash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field IRN Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 1608289946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>IsJSONImported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field IsJSONImported - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 897926272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Location GST Reg. No.</source>
@@ -35598,6 +36143,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field POS Out Of India - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 1160835642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field QR Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 564832403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Rate Change Applicable</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -35612,6 +36162,16 @@
           <source>Sale Return Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Sale Return Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 3195762964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>Ship-to Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Ship-to Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 632555781 - Field 1883316924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
+          <source>Ship-to GST Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Service Invoice Header - Field Ship-to GST Customer Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 632555781 - Field 2175957087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Ship-to GST Reg. No.</source>
@@ -37892,6 +38452,41 @@
           <source>Service Transfer Shipment</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Service Doc Transfer Type - EnumValue Service Transfer Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 1051650675 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill of Supply</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Bill of Supply - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 551726890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Debit Note - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 2963916390 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Non-GST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 732511737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplementary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Supplementary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1529094960 - EnumValue 50922609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Service Invoice Type - EnumValue Taxable - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2554959480 - EnumValue 1682139193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank Account";</source>

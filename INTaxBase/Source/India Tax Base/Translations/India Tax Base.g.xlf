@@ -888,6 +888,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action Voucher Narration - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 52617824 - Action 1894708121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action &amp;Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 52617824 - Action 2728007209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create payment suggestions as lines in the payment Voucher.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action SuggestEmployeePayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 52617824 - Action 2728007209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Employee Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action SuggestEmployeePayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 52617824 - Action 3356747371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create payment suggestions as lines in the payment Voucher.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action SuggestVendorPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 52617824 - Action 3356747371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Vendor Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bank Payment Voucher - Action SuggestVendorPayments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 52617824 - Action 1892509601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>A&amp;ccount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2932,6 +2957,31 @@
           <source>Voucher Narration</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action Voucher Narration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1993654917 - Action 1894708121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action &amp;Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1993654917 - Action 2728007209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create payment suggestions as lines in the payment Voucher.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action SuggestEmployeePayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1993654917 - Action 2728007209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Employee Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action SuggestEmployeePayments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1993654917 - Action 3356747371 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create payment suggestions as lines in the payment Voucher.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action SuggestVendorPayments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1993654917 - Action 3356747371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Vendor Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Payment Voucher - Action SuggestVendorPayments - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1993654917 - Action 1892509601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>A&amp;ccount</source>

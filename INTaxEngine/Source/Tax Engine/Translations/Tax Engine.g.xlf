@@ -4578,6 +4578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Type Archival Mgmt. - NamedType ChangedByPartnerLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3169965198 - NamedType 20080324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1.%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Major Version, %2 - Minor Version</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Type Archival Mgmt. - NamedType VersionLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3169965198 - Method 2682724630 - NamedType 3237788749" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you restore this version then current version will be deleted and might make your existing use cases inconsistent. Do you want continue ?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4618,6 +4623,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Use Case Archival Mgmt. - NamedType ExportUseCaseQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2583898508 - NamedType 20080324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1.%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Major Version, %2 - Minor Version</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Use Case Archival Mgmt. - NamedType VersionLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2583898508 - Method 170013878 - NamedType 743953283" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use case is copied. Do you want open use case card now ?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4647,6 +4657,11 @@
           <source>You cannot change configuration on Released use case : %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = use case name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Use Case Entity Mgmt. - NamedType CannotChangeReleasedUseCaseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3138525591 - NamedType 20080324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1.%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Major Version, %2 - Minor Version</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Use Case Execution - NamedType VersionLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 4086741120 - Method 1640885200 - NamedType 1058013241" size-unit="char" translate="yes" xml:space="preserve">
           <source>Parent Use Case :%1 does not exist</source>

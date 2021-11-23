@@ -178,10 +178,15 @@
           <note from="Developer" annotates="general" priority="2">%1 = Account No., %2 = Voucher Type, %3 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Narration Posting Events - NamedType CashAccountErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 450714271 - NamedType 745746709" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Account No. %1 is not define as cash account for document No. %2</source>
-          <note from="Developer" annotates="general" priority="2">%1 = GenJnlLine.Account No. %2 = GenJnlLine.Document No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Narration Posting Events - NamedType CashAccountNotExistErr</note>
+        <trans-unit id="Codeunit 450714271 - NamedType 3874935913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No. %1 is not defined as bank account for the Voucher Sub Type %2 and Document No. %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No., %2 = Voucher Type, %3 = Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Narration Posting Events - NamedType ContraBankAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 450714271 - NamedType 4199335660" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account No. %1 is not defined as cash account for the Voucher Sub Type %2 and Document No. %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No., %2 = Voucher Type, %3 = Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Narration Posting Events - NamedType ContraCashAccountErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3894693032 - NamedType 3004087127" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Account No. %1 should not be used for Sub Voucher Type %2 and Document No. %3.</source>
