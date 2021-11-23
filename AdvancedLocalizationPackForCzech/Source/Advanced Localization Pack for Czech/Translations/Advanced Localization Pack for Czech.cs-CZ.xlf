@@ -1256,6 +1256,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3105459369</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3720681779 - Control 3179923559 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Date formula for calculating the resulting date</source>
+          <target state="translated">Určuje vzorec data pro výpočet výsledného data.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3842111185</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 541621504 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Apply the G/L Entries.</source>
           <target state="translated">Vyrovnejte věcné položky.</target>
@@ -1528,6 +1535,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3622167055</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4219322330 - Field 3999414358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Formula</source>
+          <target state="translated">Vzorec data</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2577957938</note>
         </trans-unit>
         <trans-unit id="TableExtension 3894160309 - Field 4104537882 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Auto. Create Value Posting</source>

@@ -6858,6 +6858,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Advance Letter Type CZZ - EnumValue Sales - Property Caption</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 26321991 - EnumValue 2473906886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1170745677">
+          <source>Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EET Applied Document Type CZZ - EnumValue Advance - Property Caption</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 960125044 - EnumValue 4269074616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1079378746">
           <source>Advance Payments Localization for Czech</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -1033,6 +1033,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Chart of Accounts CZA - Action G/L Entry Applying CZA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3720681779 - Control 3179923559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3842111185">
+          <source>Specifies the Date formula for calculating the resulting date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Data Exch Field Mapp. Part CZA - Control Date Formula_CZA - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 541621504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
           <source>Apply the G/L Entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1227,6 +1232,11 @@
           <source>User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Capacity Ledger Entry CZA - Field User ID CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4219322330 - Field 3999414358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2577957938">
+          <source>Date Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Data Exch. Field Mapping CZA - Field Date Formula CZA - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3894160309 - Field 4104537882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 128399837">
           <source>Auto. Create Value Posting</source>

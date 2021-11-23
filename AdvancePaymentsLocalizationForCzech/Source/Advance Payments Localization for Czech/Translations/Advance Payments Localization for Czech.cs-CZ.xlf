@@ -8358,6 +8358,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Advance Letter Type CZZ - EnumValue Sales - Property Caption</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 26321991 - EnumValue 2473906886 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance</source>
+          <target state="translated">Záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1170745677</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 960125044 - EnumValue 4269074616 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Payments Localization for Czech</source>
           <target state="translated">Lokalizace zálohových plateb pro ČR</target>

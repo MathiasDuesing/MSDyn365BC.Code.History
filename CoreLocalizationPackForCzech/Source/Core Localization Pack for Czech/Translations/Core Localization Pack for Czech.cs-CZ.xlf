@@ -1017,6 +1017,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EET Entry CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2445209895 - NamedType 894755168" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The signature code of EET Entry is not valid. Some of the following fields have changed.\"%1"\"%2"\"%3"\"%4"\"%5"\"%6"</source>
+          <target state="translated">Podpisový kód položky EET není platný. Některá z následujících polí se změnila.\"%1"\"%2"\"%3"\"%4"\"%5"\"%6"</target>
+          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption, %3 = field caption, %4 = field caption, %5 = field caption, %6 = field caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EET Entry CZL - NamedType SignatureCodeErr</note>
+        </trans-unit>
         <trans-unit id="Table 2445209895 - Method 788258546 - NamedType 3638455825" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 No. %2 has been already canceled by Entry No. %3.\\Do you want to continue?</source>
           <target state="translated">%1 číslo %2 byla již stornována položkou číslo %3.\\Chcete pokračovat?</target>
