@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nb-NO" original="Electronic VAT submission for Norway">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1483331023 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT Setup</source>
+          <target state="translated">Elektronisk mva-oppsett</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 1663593181 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target state="translated">Primærnøkkel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 2891538263 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target state="translated">Aktivert</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 3490282128 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth 2.0 Code</source>
+          <target state="translated">OAuth 2,0-kode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field OAuth Feature GUID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 3087942712 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate VAT Return Url</source>
+          <target state="translated">Valider URL-adresse for mva-retur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Validate VAT Return Url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 1128855067 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange ID-Porten Token Url</source>
+          <target state="translated">URL-adresse for Exchange ID-Porten token</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Exchange ID-Porten Token Url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 805056650 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submission Environment URL</source>
+          <target state="translated">URL-adresse for bidrags miljø</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Submission Environment URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 1614505654 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submission App URL</source>
+          <target state="translated">URL for sending av app</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Submission App URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 618784563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Redirect URL</source>
+          <target state="translated">Nettadresse for omdirigering</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Redirect URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 652819368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target state="translated">Klient-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Client ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 2529110793 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <target state="translated">Klienthemmelighet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Client Secret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3676833381" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validating lines\@1@@@@@@@</source>
+          <target state="translated">Validerer linjer \ @ 1 @@@@@@@</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ValidatingLinesProgressTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2400363345" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The electronic VAT submission feature is not enabled. To enable it, on the Electronic VAT Setup page, turn on the Enabled toggle.</source>
+          <target state="translated">Funksjonen for elektronisk mva-sending er ikke aktivert. Hvis du vil aktivere den, aktiverer du aktivert veksleknapp på siden elektronisk mva-oppsett.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType FeatureConsentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1472935401" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate VAT Return.</source>
+          <target state="translated">Valider mva-retur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ValidateVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 4112506502" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validating VAT report...</source>
+          <target state="translated">Validerer mva-rapport...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ValidatingVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 4035573803" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Getting Altinn token...</source>
+          <target state="translated">Henter Altinn-token...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GettingAltinnTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3433011868" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creating instance...</source>
+          <target state="translated">Oppretter forekomst...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CreatingInstanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3838208942" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uploading VAT return submission...</source>
+          <target state="translated">Laster opp mva-retur-sending...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadingVATReturnSubmissionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 81655286" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uploading VAT return...</source>
+          <target state="translated">Laster opp mva-retur...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadingVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2749155253" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completing data filling...</source>
+          <target state="translated">Full fører data som fylles...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CompletingDataFillingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2504979648" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completing submission...</source>
+          <target state="translated">Full fører innsending...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CompletingSubmissionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3464834743" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create instance.</source>
+          <target state="translated">Opprett forekomst.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CreateInstanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1800681796" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange ID-Porten token</source>
+          <target state="translated">Token for Exchange ID-Porten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ExchangeTokenTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3126348014" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload VAT return submission</source>
+          <target state="translated">Last opp mva-retur-sending</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadVATReturnSubmissionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 818295606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload VAT return</source>
+          <target state="translated">Last opp mva-retur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 913936394" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete data filling</source>
+          <target state="translated">Fullfør data utfylling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CompleteDataFillingTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1235008293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check feedback status</source>
+          <target state="translated">Kontroller tilbake meldings status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CheckFeedbackStatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 707886697" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get feedback</source>
+          <target state="translated">Få tilbake melding</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GetFeedbackTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 636717801" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get feedback data</source>
+          <target state="translated">Hent tilbake meldings data</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GetFeedbackDataTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 862413083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot validate the VAT return.</source>
+          <target state="translated">Kan ikke validere mva-returen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ValidateReturnErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1608952079" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot exchange the token with ID-porten.</source>
+          <target state="translated">Kan ikke utveksle tokenet med ID-en fra.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ExchangeTokenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 959228661" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot create an instance.</source>
+          <target state="translated">Kan ikke opprette en forekomst.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CreateIntanceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2350946921" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot upload the VAT return submission.</source>
+          <target state="translated">Kan ikke laste opp mva-Returs ending.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadVATReturnSubmissionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 4291466145" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot upload the VAT return.</source>
+          <target state="translated">Kan ikke laste opp mva-returen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType UploadVATReturnErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 903564237" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to complete data filling</source>
+          <target state="translated">Det er ikke mulig å fullføre data utfylling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CompleteDataFillingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2817989057" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot generate the instance URL from response: %1.</source>
+          <target state="translated">Kan ikke generere URL-adresse for forekomst fra svar: %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = raw response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GenerateIntanceUrlErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2436881377" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot parse the feedback check from the response: %1.</source>
+          <target state="translated">Kan ikke analysere tilbake meldings kontrollen fra svaret: %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = raw response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ParseFeedbackCheckErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 117629932" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not possible to get feedback instance from the response: %1.</source>
+          <target state="translated">Det er ikke mulig å hente tilbake meldings forekomst fra svaret: %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = raw response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ParseFeedbackInstanceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3451865101" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot get the instance URL %1 because it has more than 250 characters.</source>
+          <target state="translated">Kan ikke hente URL-adressen for forekomsten %1 fordi den har mer enn 250 tegn.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = url</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType InstanceUrlIncreaseMaxLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3011151106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot check the feedback status</source>
+          <target state="translated">Kan ikke kontrollere tilbake meldings statusen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CheckFeedbackStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1179152990" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot get feedback.</source>
+          <target state="translated">Kan ikke motta tilbake melding.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GetFeedbackErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 1107984094" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot get feedback data</source>
+          <target state="translated">Kan ikke hente tilbake meldings data</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType GetFeedbackDataErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 937380464" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason from the Skatteetaten server: </source>
+          <target state="translated">Årsak fra Skatteetaten-serveren: </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ReasonTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2903171250" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validation fails on the server side for the box %1: %2</source>
+          <target state="translated">Valide ringen mislykkes på serversiden av-boksen %1: %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = raw response text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CannotHandleResponseFromServerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3252064332" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validation fails on the server side for the box %1. Reason: %2. Use the Download Response Message action from the VAT report to get more details.</source>
+          <target state="translated">Valide ringen mislykkes på serversiden for-boksen %1. Årsak: %2. Bruk handlingen Last ned svar melding fra mva-rapporten for å få mer informasjon.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = reason text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CannotHandleResponseWithReasonFromServerErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3949230830" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment blocks an outgoing HTTP request to '%1'.</source>
+          <target state="translated">Environment blokkerer en utgående HTTP-forespørsel til '%1'.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - url, e.g. https://microsoft.com</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType EnvironmentBlocksErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 2389531293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not connect to the remote service %1.</source>
+          <target state="translated">Kan ikke koble til den eksterne tjeneste %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - url, e.g. https://microsoft.com</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ConnectionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4149390856 - NamedType 3122328270" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HTTP error %1 (%2)</source>
+          <target state="translated">HTTP-feilmelding %1 (%2)</target>
+          <note from="Developer" annotates="general" priority="2">%1 = code, %2 = reason</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType HttpErrorCodeAndReasonTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4005051675 - NamedType 1472935401" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>validate VAT return</source>
+          <target state="translated">Valider mva-retur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Logging Mgt. - NamedType ValidateVATReturnTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 1518570653" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ELECVAT-1</source>
+          <target state="translated">ELECVAT-1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType ElecVATCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 2961565706" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1&amp;state=%2</source>
+          <target state="translated">%1&amp;sTate =%2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = base url, %2 = guid</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType UrlWithStateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 3921054357" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth setup is not enabled for Electronic VAT submissiob feature.</source>
+          <target state="translated">OAuth-installasjonsprogrammet er ikke aktivert for funksjonen elektronisk mva-submissiob.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType OAuthNotConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 3556582670" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open service connections to setup.</source>
+          <target state="translated">Åpne tjeneste tilkoblinger til oppsett.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType OpenSetupMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 2966527975" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the setup?</source>
+          <target state="translated">Vil du åpne oppsettet?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType OpenSetupQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 4178021275" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1\%2</source>
+          <target state="translated">%1 \ %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = first statement; %2 = second statement</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType CombinedStatementMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 1881807871" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HTTP error %1 (%2). %3</source>
+          <target state="translated">HTTP-feilmelding %1 (%2). %3</target>
+          <note from="Developer" annotates="general" priority="2">%1 = StatusCode, %2 = StatusReason, %3 = HttpError</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType HttpErrorTextWithDetailsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1040672575 - NamedType 1481040075" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
+          <target state="translated">Godkjenningen er fullført. \ vil du åpne oppsettet for selskaps opplysninger for å bekrefte ORGANISASJONs nummeret?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType CheckCompanyVATNoAfterSuccessAuthorizationQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 1420859235" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up an electronic VAT submission</source>
+          <target state="translated">Konfigurer en elektronisk mva-sending</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType AssistedSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connect to the ID-porten integration point and submit your VAT return to Skatteetaten.</source>
+          <target state="translated">Koble til integrerings punktet for ID-porten og Send mva-tilbake til Skatteetaten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType AssistedSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 2344385613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ELEC VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1834438041 - NamedType 3419673621" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot identify month number</source>
+          <target state="translated">Kan ikke identifisere måneds nummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Create Content - NamedType CannotIdentifyMonthNumberErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 1753922530" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input VAT deduct. (domestic)</source>
+          <target state="translated">Fradragsberettiget inngående avgift hjemme</target>
+          <note from="Developer" annotates="general" priority="2">Fradragsberettiget innenlands inng+�ende merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType InputVATDeductibleDomesticTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 1091217143" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input VAT deduct. (payed on import)</source>
+          <target state="translated">Fradragsberettiget inngående avgift (payed ved import)</target>
+          <note from="Developer" annotates="general" priority="2">Fradragsberettiget innf++rselsmerverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType InputVATDeductiblePayedOnImportTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 2895632704" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output VAT</source>
+          <target state="translated">Utgående avgift</target>
+          <note from="Developer" annotates="general" priority="2">Utg+�ende merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType OutputVATTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 1340048400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Domestic sales of reverce charge /VAT obligation</source>
+          <target state="translated">Innenlands salg av reverce gebyr AVR/mva.OBL forpliktelse</target>
+          <note from="Developer" annotates="general" priority="2">Innenlandsk omsetning med omvendt avgiftplikt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType DomesticSalesReverseChargeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 3914144122" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not liable to VAT treatment, turnover outside the scope of the VAT legislation</source>
+          <target state="translated">Ikke skyldig mva-behandling, omsetning utenfor omfanget av mva-lov givningen</target>
+          <note from="Developer" annotates="general" priority="2">Omsetning utenfor merverdiavgiftsloven</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType NotLiableToVATTreatmentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 2647155836" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export of goods and services</source>
+          <target state="translated">Eksport av varer og tjenester</target>
+          <note from="Developer" annotates="general" priority="2">Utf++rsel av varer og tjenester</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ExportOfGoodsAndServicesTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 2747642305" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importation of goods, VAT deduct.</source>
+          <target state="translated">Import av varer, mva-fradrag</target>
+          <note from="Developer" annotates="general" priority="2">Grunnlag innf++rsel av varer med fradragsrett for innf++rselsmerverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ImportationOfGoodsVATDeductibleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 2911708556" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importation of goods, without deduction of VAT</source>
+          <target state="translated">Import av varer, uten fradrag av mva</target>
+          <note from="Developer" annotates="general" priority="2">Grunnlag innf++rsel av varer uten fradragsrett for innf++rselsmerverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ImportationOfGoodsWithoutDeductionOfVATTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 134426147" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Importation of goods, not applicable for VAT</source>
+          <target state="translated">Import av varer, ikke tilgjengelig for mva</target>
+          <note from="Developer" annotates="general" priority="2">Grunnlag innf++rsel av varer som det ikke skal beregnes merverdiavgift av</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ImportationOfGoodsNotApplicableForVATTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 783981430" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Services purchased from abroad, VAT deduct.</source>
+          <target state="translated">Tjenester som er kjøpt fra utland, mva-fradrag</target>
+          <note from="Developer" annotates="general" priority="2">Tjenester kj++pt fra utlandet med fradragsrett for merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ServicesPurchasedFromAbroadVATDeductibleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 4062508048" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Services purchased from abroad, without deduction of VAT</source>
+          <target state="translated">Tjenester kjøpt fra utland, uten fradrag av mva</target>
+          <note from="Developer" annotates="general" priority="2">Tjenester kj++pt fra utlandet uten fradragsrett for merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType ServicesPurchasedFromAbroadWithoutVATDeductionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 1172885100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase of emissions trading or gold, VAT deduct.</source>
+          <target state="translated">Kjøp av utslipp handel eller gull, mva-fradrag</target>
+          <note from="Developer" annotates="general" priority="2">Kj++p av klimakvoter eller gull med fradragsrett for merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType PurchaseOfEmissionsTradingOrGoldVATDeductibleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 543753386" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase of emissions trading or gold, without deduction of VAT</source>
+          <target state="translated">Kjøp av utslipp handel eller gull, uten fradrag av mva</target>
+          <note from="Developer" annotates="general" priority="2">Kj++p av klimakvoter eller gull uten fradragsrett for merverdiavgift</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType PurchaseOfEmissionsTradingOrGoldWithoutVATDeductionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 4239299461" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT statement template or VAT statement name has not been specified.</source>
+          <target state="translated">Det er ikke angitt noen Mva-oppgavenavn eller et Mva-oppgavenavn-navn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType VATStatementNameNotSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 3167963124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT statement %1 already exists. Specify another name.</source>
+          <target state="translated">MVA-oppgave %1 finnes allerede. Angi et annet navn.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = name of the VAT statement</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType VATStatementWithNameAlreadyExistsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 3064793091" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT statement for electronic VAT submission</source>
+          <target state="translated">MVA-oppgave for elektronisk mva-sending</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType NewVATStatementNameDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2673552518 - NamedType 2337179158" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The actual VAT rates for reporting have been assigned to VAT codes.</source>
+          <target state="translated">De faktiske mva-satsene for rapportering er tilordnet mva-koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType VATRatesForReportingHaveBeenSetMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2652910105 - NamedType 1995204114" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The feedback for your submission is not ready yet.</source>
+          <target state="translated">Tilbake meldingen for sendingen er ikke klar ennå.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Get Response - NamedType NoFeedbackProvidedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2652910105 - NamedType 180942322" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The report has been successfully accepted.</source>
+          <target state="translated">Rapporten er godkjent.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Get Response - NamedType ReportAcceptedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2652910105 - NamedType 2390285027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The report was rejected. To find out why, download the response message and check the attached documents.</source>
+          <target state="translated">Rapporten ble avvist. Last ned svar meldingen og kontroller de vedlagte dokumentene for å finne ut hvorfor.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Get Response - NamedType ReportRejectedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3905663042 - NamedType 2221241153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The amount in the box %1 has an incorrect sign. It must be %2.</source>
+          <target state="translated">Beløpet i boksen %1 har feil tegn. Det må %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = either positive or negative</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType IncorrectSignErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3905663042 - NamedType 2660910107" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>positive</source>
+          <target state="translated">positive</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType PositiveLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3905663042 - NamedType 3126481395" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>negative</source>
+          <target state="translated">virke</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType NegativeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3905663042 - NamedType 1939937657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT amount in the box %1 is not equal to the base VAT * VAT Rate.</source>
+          <target state="translated">MVA-beløpet i boksen %1, er ikke likt standard-mva * mva-sats.</target>
+          <note from="Developer" annotates="general" priority="2">%1 - number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType VATAmountCalcErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3910166423 - NamedType 3300734809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot insert element %1 with the value %2</source>
+          <target state="translated">Kan ikke sette inn elementet %1 med verdien %2</target>
+          <note from="Developer" annotates="general" priority="2">%1 = name of the element. %2 = value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT XML Helper - NamedType NotPossibleToInsertElementErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3910166423 - NamedType 3021226244" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incorrect XML structure</source>
+          <target state="translated">Feilaktig XML-struktur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT XML Helper - NamedType IncorrectXMLStructureErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT Setup</source>
+          <target state="translated">Elektronisk mva-oppsett</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 2891538263 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the electronic VAT declaration feature is enabled.</source>
+          <target state="translated">Angir om funksjonen elektronisk mva-oppgjør er aktivert.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 3856621992 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client ID</source>
+          <target state="translated">Klient-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control ClientID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 3856621992 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client ID token.</source>
+          <target state="translated">Angir tokenet for klient-ID.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control ClientID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 4069789961 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <target state="translated">Klienthemmelighet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control ClientSecret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 4069789961 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the client secret token.</source>
+          <target state="translated">Angir tokenet for klients hemmelig.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control ClientSecret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 618784563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the redirect URL.</source>
+          <target state="translated">Angir URL-adressen for omdirigering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Redirect URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 3087942712 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL to validate VAT return.</source>
+          <target state="translated">Angir URL-adressen for å validere mva-returen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Validate VAT Return Url - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 1128855067 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL to exchange the access token with the Altinn token.</source>
+          <target state="translated">Angir URL-adressen som skal utveksles tilgangstoken med Altinn-tokenet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Exchange ID-Porten Token Url - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 805056650 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL for the submission environment.</source>
+          <target state="translated">Angir URL-adressen for bidrags miljøet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Submission Environment URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 1614505654 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL for the submission app.</source>
+          <target state="translated">Angir URL-adressen for sendings appen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Submission App URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Action 2823348192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open OAuth 2.0 setup page</source>
+          <target state="translated">Konfigurasjons side for åpen OAuth 2,0</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Action OpenOAuthSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Action 2823348192 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the OAuth 2.0 setup for the current user.</source>
+          <target state="translated">Åpner installasjonen av OAuth 2,0 for gjeldende bruker.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Action OpenOAuthSetup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT Submission Wizard</source>
+          <target state="translated">Vei viser for sending via elektronisk mva</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 1121962313 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control StandardBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 300852202 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control FinishedBanner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3800514526 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Welcome to the setup of Electronic VAT submission.</source>
+          <target state="translated">Velkommen til oppsettet av elektronisk mva-sending.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control Welcome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2506538127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control WizardDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2506538127 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This guide helps you to set up the integration with the Skatteetaten API to submit VAT returns.</source>
+          <target state="translated">Denne veiledningen gir deg hjelp til å konfigurere integreringen med Skatteetaten API til å sende mva-returer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control WizardDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2671986494 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup the connect to ID-Porten to use the Skatteetaten API.</source>
+          <target state="translated">Konfigurer tilkoblingen til ID-Porten for å bruke Skatteetaten-APIEN.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AuthenticationDetails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2671986494 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check your authorization status. If your status is Authorized, choose Next. If you are not authorized and have not yet specified the client ID and the client secret, choose Open Electronic VAT Setup. Then click the Status below to open the OAuth 2.0 setup page and use the Authorize action to complete the process.</source>
+          <target state="translated">Kontroller godkjennings statusen. Velg neste Hvis statusen er godkjent. Hvis du ikke er autorisert og ikke har angitt klient-ID-en og klient hemmeligheten ennå, velger du åpne elektronisk mva-oppsett. Klikk deretter statusen nedenfor for å åpne oppsetts siden for OAuth 2,0, og bruk handlingen Godkjenn til å fullføre prosessen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AuthenticationDetails - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3981274940 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the Electronic VAT Setup to specify client ID and client secret.</source>
+          <target state="translated">Åpner det elektroniske mva-oppsettet for å angi klient-ID og klient hemmelighet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control OpenElecVATSetupControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3406544380 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the OAuth 2.0 setup page where you can specify the data and authorize.</source>
+          <target state="translated">Åpner oppsetts siden fra OAuth 2,0 der du kan angi dataene og autorisere.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AuthorizationStatusControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2632894559 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup your VAT Codes</source>
+          <target state="translated">Konfigurer mva-kodene</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATCodesHeaderGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2632894559 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make sure your VAT codes are ready for reporting.</source>
+          <target state="translated">Kontroller at mva-kodene er klare til rapportering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATCodesHeaderGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2187937125 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>One or more required codes does not exist. Click Show Codes to see missing codes. Click Add Codes to add missing codes.</source>
+          <target state="translated">Én eller flere nødvendige koder finnes ikke. Klikk Vis koder for å vise manglende koder. Klikk Legg til koder for å legge til manglende koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AddVATCodesGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3923443802 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the list of missing VAT codes.</source>
+          <target state="translated">Åpner listen over manglende mva-koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control ShowMissingCodesControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2417488000 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adds missing VAT codes.</source>
+          <target state="translated">Legger til manglende mva-koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AddMissingCodesControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3925055941 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some of the VAT codes must be set up to also report the base VAT. Choose Update to make sure all the VAT codes are ready for reporting.</source>
+          <target state="translated">Noen av mva-kodene må defineres for også å rapportere den grunnleggende mva. Velg Oppdater for å kontrollere at alle mva-kodene er klare til rapportering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control UpdateVATCodesGroup - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 544500563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have already updated:</source>
+          <target state="translated">Du allerede har oppdatert:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AlreadyUpdatedVATCodesControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 544500563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many VAT codes are marked to report base VAT.</source>
+          <target state="translated">Angir hvor mange mva-koder som er merket for å rapportere basis-mva.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AlreadyUpdatedVATCodesControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 372726373 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updates the VAT codes that are required to report base VAT base and assigns the relevant VAT rate.</source>
+          <target state="translated">Oppdaterer mva-kodene som kreves for å rapportere basis-Mva-grunnlag, og tilordner den relevante mva-satsen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control UpdateVATCodesControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2946106874 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement</source>
+          <target state="translated">MVA-oppgave</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2946106874 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a VAT statement with all required VAT codes. Make sure that VAT codes are specified in the VAT posting setup in advance. Specify the name of the VAT statement and click Create VAT statement. If you do not want to create a VAT statement, click Next.</source>
+          <target state="translated">Opprett en mva-oppgave med alle nødvendige mva-koder. Kontroller at mva-kodene er angitt i det inngående mva-bokføringsoppsettet på forhånd. Angi navnet på mva-oppgaven, og klikk Opprett mva-oppgave. Klikk Neste hvis du ikke vil opprette en mva-oppgave.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatement - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 3585407665 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the VAT posting setup page.</source>
+          <target state="translated">Åpner siden mva-bokføringsoppsett.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control OpenVATPostingSetupControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 115456330 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement Template Name</source>
+          <target state="translated">Navn på Mva-oppgavenavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatementTemplateNameControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 115456330 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the template.</source>
+          <target state="translated">Angir navnet på malen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatementTemplateNameControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 1162732754 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement Name</source>
+          <target state="translated">Mva-oppgavenavn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatementNameControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 1162732754 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name for the new VAT statement.</source>
+          <target state="translated">Angir navnet på den nye mva-oppgaven.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatementNameControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 4087625927 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates the VAT statement with required VAT codes.</source>
+          <target state="translated">Oppretter mva-oppgaven med nødvendige mva-koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control CreateVATStatementControl - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 2203603252 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Electronic VAT submission setup is complete.</source>
+          <target state="translated">Installasjonen av elektronisk mva-sending er fullført.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control FinishedChild - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 1182202415 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control FinishDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Control 1182202415 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You're ready to create and submit VAT returns.</source>
+          <target state="translated">Du er klar til å opprette og sende mva-returer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control FinishDescription - Property InstructionalText</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Action 2438272767 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="translated">Tilbake</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Action ActionBack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Action 914282563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next</source>
+          <target state="translated">Neste</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Action ActionNext - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - Action 3259912055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finish</source>
+          <target state="translated">Fullfør</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Action ActionFinish - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 984350027" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A setup has not been completed.\\Are you sure that you want to exit?</source>
+          <target state="translated">Et oppsett er ikke fullført. \ \ er du sikker på at du vil avslutte?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType SetupNotCompletedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 1958360706" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You need to complete the authorization to submit your VAT return electronically.</source>
+          <target state="translated">Du må fullføre autorisasjonen for å sende mva-retur elektronisk.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType AuthorizationNotCompletedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 60708689" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Codes</source>
+          <target state="translated">Vis koder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType ShowCodesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 121401319" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Add Codes</source>
+          <target state="translated">Legg til koder</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType AddCodesLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 1369133989" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target state="translated">Oppdateringen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType UpdateLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 2566722175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Electronic VAT Setup</source>
+          <target state="translated">Åpne elektronisk mva-oppsett</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType OpenElecVATSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 1895844654" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open VAT Posting Setup</source>
+          <target state="translated">Åpne mva-bokf. oppsett</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType OpenVATPostingSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 2374410244" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create VAT statement</source>
+          <target state="translated">Opprett mva-oppgave</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType CreateVATStatementLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 3975962340" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing VAT codes have been added.</source>
+          <target state="translated">Manglende mva-koder er lagt til.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType MissingCodesAddedLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 2800075812" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT statement has been successfully created. Do you want to view it now?</source>
+          <target state="translated">MVA-oppgaven er opprettet. Vil du vise den nå?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType VATStatementCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Page 547137075 - NamedType 1647974071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status: %1</source>
+          <target state="translated">Status: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = either "not authorized" or "authorized</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType StatusMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1646863680 - Control 31596600 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT rate to report.</source>
+          <target state="translated">Angir mva-satsen som skal rapporteres.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3059077503</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1646863680 - Control 1224122553 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the VAT rate value must be reported.</source>
+          <target state="translated">Angir om verdien for mva-sats må rapporteres.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3059077503</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1342932104 - Control 2318452738 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number to identify the payment.</source>
+          <target state="translated">Angir nummeret som identifiserer betalingen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 962565375</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 771852649 - Field 31596600 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Rate For Reporting</source>
+          <target state="translated">MVA-sats for rapportering</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1256068594</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 771852649 - Field 1224122553 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report VAT Rate</source>
+          <target state="translated">MVA-sats for rapport</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1256068594</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 346407172 - Field 1832736989 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Altinn Token</source>
+          <target state="translated">Altinn-token</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 3364475416</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1694509023 - NamedType 1604460421" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The VAT code you have selected has a VAT rate for reporting (%1 %) that is different than the rate in the VAT posting setup (%2)</source>
+          <target state="translated">MVA-koden du har valgt, har en mva-sats for rapportering (%1%) som er forskjellig fra kursen i mva-bokføringsoppsettet (%2)</target>
+          <note from="Developer" annotates="general" priority="2">%1,%2 = VAT rates/numbers</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1694509023</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3294506677 - Field 2318452738 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>KID</source>
+          <target state="translated">KID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4272790790</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

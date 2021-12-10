@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Electronic VAT submission for Norway Tests">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2369116484 - NamedType 4232242651" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unexpected element name. Expected element name: %1. Actual element name: %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Expetced XML Element Name;%2=Actual XML Element Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Elec. VAT Submission - NamedType UnexpectedElementNameErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2369116484 - NamedType 2890512375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unexpected element value for element %1. Expected element value: %2. Actual element value: %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1=XML Element Name;%2=Expected XML Element Value;%3=Actual XML element Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Elec. VAT Submission - NamedType UnexpectedElementValueErr</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
