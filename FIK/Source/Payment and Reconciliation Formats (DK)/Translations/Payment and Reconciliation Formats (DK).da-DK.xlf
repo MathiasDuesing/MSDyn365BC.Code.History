@@ -422,6 +422,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2583272393</note>
         </trans-unit>
+        <trans-unit id="PageExtension 691353248 - Control 2407072886 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the FIK import format.</source>
+          <target state="translated">Angiver FIK-importformatet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4050813720</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3961762325 - Control 4147043821 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the vendor's giro account.</source>
           <target state="translated">Angiver kreditorens girokonto.</target>

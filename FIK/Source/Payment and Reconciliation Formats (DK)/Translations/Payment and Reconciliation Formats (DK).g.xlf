@@ -348,6 +348,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GeneralJournal - Action ImportFIK - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 691353248 - Control 2407072886 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4050813720">
+          <source>Specifies the FIK import format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GeneralLedgerSetup - Control FIK Import Format - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3961762325 - Control 4147043821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
           <source>Specifies the vendor's giro account.</source>
           <note from="Developer" annotates="general" priority="2"></note>
