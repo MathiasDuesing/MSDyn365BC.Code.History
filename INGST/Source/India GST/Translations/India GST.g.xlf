@@ -2508,6 +2508,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Dist. Component Amount - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 859037556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Comm. Merchant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table E-Comm. Merchant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 859037556 - Field 2492704634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company GST Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table E-Comm. Merchant - Field Company GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 859037556 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table E-Comm. Merchant - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 859037556 - Field 182692705 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table E-Comm. Merchant - Field Merchant Id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1902912481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>E-Commerce Merchant</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5559,7 +5579,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Cess Tax Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229426313 - Field 1334543401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Generate E-Inv. on Service Post</source>
+          <source>Generate E-Inv. on Ser. Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Generate E-Inv. on Ser. Post - Property Caption</note>
         </trans-unit>
@@ -11998,6 +12018,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTCustRegErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 378964061 - NamedType 1767675318" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST dependency type must be Bill to Address or Ship to Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTDependencyTypeErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 4028750564" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Group Code %1 with Reverse Charge cannot be selected for Sales transactions.</source>
           <note from="Developer" annotates="general" priority="2">%1 = GSTGroupCode</note>
@@ -16538,6 +16563,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Dist. Input GST Credit - Control Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Comm. Merchant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - NamedType 392772076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - NamedType CustomerNumLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - Control 2492704634 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the company's GST Reg. number issued by authorized body.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Control Company GST Reg. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the customer number for which merchant id has to be recorded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - Control 182692705 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the merchant id provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Control Merchant Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - Action 158382408 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send the data in the page to an Excel file for analysis or editing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Action EditInExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4174357583 - Action 158382408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit in Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Comm. Merchant Id - Action EditInExcel - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 879857166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>e-Commerce Merchant</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -16547,6 +16607,11 @@
           <source>Code %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Customer No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page E-Commerce Merchant Id - NamedType CustomerNumLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 879857166 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This Page has been marked as obsolete and will be removed from version 23.0. Instead of this Page use ‘E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page E-Commerce Merchant Id - NamedType UnusedFieldLbl</note>
         </trans-unit>
         <trans-unit id="Page 879857166 - Control 2492704634 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the company's GST Reg. number issued by authorized body.</source>
@@ -24934,7 +24999,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3621093334 - Control 1334543401 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the function through which e-invoice will be generated at the time of service post.</source>
+          <source>Specifies the boolean for Generate E-Inv. on Ser. Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control Generate E-Inv. on Ser. Post - Property ToolTip</note>
         </trans-unit>
@@ -26082,6 +26147,11 @@
           <source>Specifies the sate code mentioned in location used in the transaction.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Receipt Voucher Ext - Control Location State Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 434911021 - Control 993414011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1124727046">
+          <source>Specifies this Ship-to-Code for the customer related transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Receipt Voucher Ext - Control Ship-to Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4244928168 - Control 2635586661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1843696368">
           <source>Specifies the custom duty amount  on the transfer line.</source>
@@ -27588,6 +27658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Cr. Memo Ext - NamedType eInvoiceNotApplicableCustomerErr</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4168964863 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 4168964863">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Cr. Memo Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4168964863 - Action 699553126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
           <source>Specifies the function through which Json file will be generated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27657,6 +27732,11 @@
           <source>Specifies the distance.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Cr. Memo Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4168964863 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Cr. Memo Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4168964863 - Control 444603859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -27768,6 +27848,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - NamedType eInvoiceNotApplicableCustomerErr</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1968287659 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1968287659">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1968287659 - Action 400859641 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Specifies the function through which cancelled Json file will be generated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27852,6 +27937,11 @@
           <source>Specifies the distance on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1968287659 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1968287659 - Control 1718034355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -27973,6 +28063,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Control QR Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2079592396 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2079592396">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Shipment Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2079592396 - Control 2117080758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
           <source>Specifies the entry date defined in bill of export document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27992,6 +28087,11 @@
           <source>Date of Removal</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Shipment Ext - Control Date of Removal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2079592396 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Shipment Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2079592396 - Control 1718034355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3373253667">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -29543,6 +29643,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Resource Card Ext - Control HSN/SAC Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1648643826 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1648643826">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1648643826 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Specifies the function through which reference number can be updated in the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -29577,6 +29682,11 @@
           <source>Specifies the distance on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1648643826 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1648643826 - Control 444603859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -29658,6 +29768,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - Control Ship-to GST Reg. No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2823296164 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2823296164">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Invoice Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2823296164 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Specifies the function through which reference number can be updated in the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -29717,6 +29832,11 @@
           <source>Specifies the distance on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Invoice Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2823296164 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Invoice Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2823296164 - Control 1718034355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -29938,6 +30058,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Journal Ext - Control Sales Invoice Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3119262329 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3119262329">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Order Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3119262329 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Specifies the function through which reference number can be updated in the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -29982,6 +30107,11 @@
           <source>Specifies the distance on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Order Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3119262329 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the customer number for which merchant id has to be recorded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Order Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3119262329 - Control 1718034355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -30163,6 +30293,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Prices Ext - Control Price Inclusive of Tax - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 364004205 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 364004205">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 364004205 - Control 2117080758 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
           <source>Specifies the entry date defined in bill of export document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -30177,6 +30312,11 @@
           <source>Specifies the GST registration number of the Customer specified on the journal line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Ext - Control Customer GST Reg. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 364004205 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 364004205 - Control 1718034355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -30263,6 +30403,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Subform Ext - Control HSN/SAC Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3464295975 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 3464295975">
+          <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Order Ext - NamedType UnusedFieldLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3464295975 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
           <source>Specifies the function through which reference number can be updated in the document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -30292,6 +30437,11 @@
           <source>Specifies the distance on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Order Ext - Control Distance (Km) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3464295975 - Control 4174357583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the merchant ID provided to customers by their payment processor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Return Order Ext - Control E-Comm. Merchant Id - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3464295975 - Control 444603859 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
           <source>Specifies the customer number for which merchant id has to be recorded.</source>
@@ -31203,6 +31353,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Ship-to Address - Control State - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 838813340 - Control 2143950946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4073709604">
+          <source>Specifies the Shipping Agents Tax Registration number issued by authorized body.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Shipping Agents - Control GST Registration No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1877030191 - Control 832415558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3651789288">
           <source>Specifies the state code for GST Registration of the state as per authorized body.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -31997,6 +32152,11 @@
           <source>Customer GST Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field Customer GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>e-Commerce Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field E-Comm. Merchant Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 314775136 - Field 444603859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>e-Commerce Customer</source>
@@ -34373,6 +34533,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Cr.Memo Header Ext - Field Distance (Km) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2856929237 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Cr.Memo Header Ext - Field E-Comm. Merchant Id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2856929237 - Field 1718034355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
           <source>E-Commerce Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -34623,6 +34788,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Archive Ext - Field Distance (Km) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1783851184 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
+          <source>E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Archive Ext - Field E-Comm. Merchant Id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1783851184 - Field 1718034355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1948788855">
           <source>E-Commerce Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -34757,6 +34927,11 @@
           <source>Distance (Km)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Ext - Field Distance (Km) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 811202466 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Ext - Field E-Comm. Merchant Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 811202466 - Field 1718034355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>E-Commerce Customer</source>
@@ -34937,6 +35112,11 @@
           <source>Distance (Km)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Invoice Header Ext - Field Distance (Km) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2658059889 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Invoice Header Ext - Field E-Comm. Merchant Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2658059889 - Field 1718034355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>E-Commerce Customer</source>
@@ -35357,6 +35537,11 @@
           <source>Distance (Km)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Shipment Header Ext - Field Distance (Km) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2568065010 - Field 4174357583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>E-Comm. Merchant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Shipment Header Ext - Field E-Comm. Merchant Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2568065010 - Field 1718034355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>E-Commerce Customer</source>
