@@ -189,7 +189,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType TermsNotAcceptedTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3810257405 - NamedType 92634937" size-unit="char" translate="yes" xml:space="preserve">
-          <source>/TestGetTransactions</source>
+          <source>/TestGetTrans</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType TestGetTransactionsTxt</note>
         </trans-unit>

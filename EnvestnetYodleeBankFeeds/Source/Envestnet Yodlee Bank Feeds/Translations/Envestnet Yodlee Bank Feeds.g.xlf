@@ -318,11 +318,6 @@
           <note from="Developer" annotates="general" priority="2">%1 and %2 are company and Yodlee currency codes.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 3142536881" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The online bank account %1 has two mismatching currency codes: %2 and %3.</source>
-          <note from="Developer" annotates="general" priority="2">%1 - bank account name, %2 - currency code, %3 - currency code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchOnOnlineBankAccountErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1345849937" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot use the Envestnet Yodlee Bank Feeds Service on the demonstration company. Open another company and try again.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -663,6 +658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeFastlinkUrlTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 758984636 - NamedType 3500701119" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yodlee Response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType YodleeResponseTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 3938776048" size-unit="char" translate="yes" xml:space="preserve">
           <source>Envestnet Yodlee Bank Feeds Service</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -824,7 +824,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Enabled - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1268761635 - Control 1496594050 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if web requests should be logged. This is normally only required for troubleshooting.</source>
+          <source>Specifies if web request responses should be logged to the Activity Log table. This is normally only required for troubleshooting.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Log Web Requests - Property ToolTip</note>
         </trans-unit>
