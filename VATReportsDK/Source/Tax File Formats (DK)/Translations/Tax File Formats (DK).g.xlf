@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Tax File Formats (DK)">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1772322696 - NamedType 1721961453" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Intrastat report for the calendar year 2022 is now available. To use it, open the VAT Reports Configuration page. In the line where the VAT Report Type field is set to Intrastat Report, set the Content Codeunit ID field to 0.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType NewFileExport2022ReportMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1772322696 - NamedType 2914246598" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the VAT Reports Configuration page.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType OpenVATReportConfigMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
           <note from="Developer" annotates="general" priority="2"></note>
