@@ -344,12 +344,6 @@
           <note from="Developer" annotates="general" priority="2">%1 and %2 are company and Yodlee currency codes.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 3142536881" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The online bank account %1 has two mismatching currency codes: %2 and %3.</source>
-          <target state="translated">The online bank account %1 has two mismatching currency codes: %2 and %3.</target>
-          <note from="Developer" annotates="general" priority="2">%1 - bank account name, %2 - currency code, %3 - currency code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType CurrencyMismatchOnOnlineBankAccountErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1345849937" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot use the Envestnet Yodlee Bank Feeds Service on the demonstration company. Open another company and try again.</source>
           <target state="translated">You cannot use the Envestnet Yodlee Bank Feeds Service on the demonstration company. Open another company and try again.</target>
@@ -917,12 +911,6 @@
           <target state="translated">Specifies if the service should be enabled.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Enabled - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1268761635 - Control 1496594050 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if web requests should be logged. This is normally only required for troubleshooting.</source>
-          <target state="translated">Specifies if web requests should be logged. This is normally only required for troubleshooting.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Bank Service Setup - Control Log Web Requests - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1268761635 - Control 3560784556 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies that the service must be disabled to make changes.</source>
