@@ -1605,6 +1605,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Advance Payments Mgt. CZZ - Method TestIsEnabled - NamedType AdvancePaymentsFeatureNotEnabledErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 829789868 - NamedType 951629405" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source data does not exist for %1: %2.</source>
+          <target state="translated">Zdrojová data pro %1 neexistují: %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = caption of table, %2 = code of record, example: Source data doesn't exist for G/L Account: 8210.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Flow Handler CZZ - NamedType SourceDataDoesNotExistErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4146039880 - NamedType 1427565258" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you use Advance Payments, data from Base application to Czech localization application will be copied.</source>
           <target state="translated">Pokud budete používat Advance Payments, data budou zkopírována z Base Application do aplikace české lokaliazce.</target>
@@ -7346,6 +7352,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 548777415</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2253912553 - Control 4110146191 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the cash flow account for purchase advance letters </source>
+          <target state="translated">Určuje číslo účtu cash flow pro nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1013642112</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2253912553 - Control 214258970 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the cash flow account for sales advance letters</source>
+          <target state="translated">Určuje číslo účtu cash flow pro prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1013642112</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3853529373 - Action 3723042445 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create sales advance letter.</source>
           <target state="translated">Vytvořit prodejní zálohu.</target>
@@ -8060,6 +8080,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2453418483</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2253912553 - Field 3857262661 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Adv. Letter CF Account No.</source>
+          <target state="translated">Číslo účtu nákupní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1013642112</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2253912553 - Field 2972972596 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Adv. Letter CF Account No.</source>
+          <target state="translated">Číslo účtu prodejní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1013642112</note>
+        </trans-unit>
         <trans-unit id="TableExtension 416144783 - Field 1612228127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter Template Code</source>
           <target state="translated">Kód šablony záloh</target>
@@ -8358,6 +8392,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Advance Letter Type CZZ - EnumValue Sales - Property Caption</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 3747129863 - EnumValue 415329009 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letters</source>
+          <target state="translated">Nákupní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 2702425922</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3747129863 - EnumValue 2081690216 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letters</source>
+          <target state="translated">Prodejní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 2702425922</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 26321991 - EnumValue 2473906886 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance</source>
           <target state="translated">Záloha</target>
@@ -8418,6 +8466,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Report 3299552698</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 1775592900" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">ReportExtension 8633400</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 2622049853" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">ReportExtension 8633400</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 2802229490" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 %3</source>
+          <target state="translated">%1 %2 %3</target>
+          <note from="Developer" annotates="general" priority="2">%1 = table caption, %2 = name of customer/vendor, %3 = date</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">ReportExtension 8633400</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3072498704 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if purchase advances will be sugested</source>
+          <target state="translated">Určuje, zda budou nákupní zálohy navrženy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 1834352305</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3072498704 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 1834352305</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3807901769 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if sales advances will be sugested</source>
+          <target state="translated">Určuje, zda budou prodejní zálohy navrženy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 1834352305</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3807901769 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 1834352305</note>
         </trans-unit>
       </group>
     </body>

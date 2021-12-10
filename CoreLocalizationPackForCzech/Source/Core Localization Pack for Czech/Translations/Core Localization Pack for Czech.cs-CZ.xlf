@@ -6183,6 +6183,12 @@
           <note from="Developer" annotates="general" priority="2">%1 = Vendor No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType CheckDisabledMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 1198714824" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The unreliable payer service is not enabled.</source>
+          <target state="translated">Služba nespolehlivého plátce není povolena.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Unreliable Payer Mgt. CZL - Method ImportUnrPayerStatusForVendor - NamedType ServiceNotEnabledMsg</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2002661171 - Method 2454131724 - NamedType 855666346" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check is not possible.\%1 must not be empty and must match %2 in %3.</source>
           <target state="translated">Kontrola není možná.\%1 nesmí být prázdný a musí odpovídat %2 v %3.</target>

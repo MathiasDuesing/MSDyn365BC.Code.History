@@ -1338,6 +1338,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Advance Payments Mgt. CZZ - Method TestIsEnabled - NamedType AdvancePaymentsFeatureNotEnabledErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 829789868 - NamedType 951629405" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source data does not exist for %1: %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = caption of table, %2 = code of record, example: Source data doesn't exist for G/L Account: 8210.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Flow Handler CZZ - NamedType SourceDataDoesNotExistErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4146039880 - NamedType 1427565258" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you use Advance Payments, data from Base application to Czech localization application will be copied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4848,6 +4853,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control Options - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 387165142 - Control 2588497446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print only advance letter with differences.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 387165142 - Control 2588497446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Differences</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 387165142 - Control 4131377678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print only open advance letter.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5908,6 +5923,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control Options - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 595115396 - Control 2588497446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print only advance letter with differences.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 595115396 - Control 2588497446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Differences</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 595115396 - Control 4131377678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print only open advance letter.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6117,6 +6142,16 @@
           <source>Specifies advance letter no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Document Subform CZZ - Control Advance Letter No. CZZ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2253912553 - Control 4110146191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1013642112">
+          <source>Specifies the number of the cash flow account for purchase advance letters </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Flow Setup CZZ - Control P. Adv. Letter CF Account No. CZZ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2253912553 - Control 214258970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1013642112">
+          <source>Specifies the number of the cash flow account for sales advance letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Flow Setup CZZ - Control S. Adv. Letter CF Account No. CZZ - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3853529373 - Action 3723042445 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Create sales advance letter.</source>
@@ -6628,6 +6663,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cash Document Line CZZ - Field Advance Letter No. CZZ - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2253912553 - Field 3857262661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1013642112">
+          <source>Purch. Adv. Letter CF Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cash Flow Setup CZZ - Field P. Adv. Letter CF Acc. No. CZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2253912553 - Field 2972972596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1013642112">
+          <source>Sales Adv. Letter CF Account No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Cash Flow Setup CZZ - Field S. Adv. Letter CF Acc. No. CZZ - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 416144783 - Field 1612228127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
           <source>Advance Letter Template Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6858,6 +6903,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Advance Letter Type CZZ - EnumValue Sales - Property Caption</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 3747129863 - EnumValue 415329009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2702425922">
+          <source>Purchase Advance Letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Cash Flow Source Type CZZ - EnumValue Purchase Advance Letters CZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3747129863 - EnumValue 2081690216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2702425922">
+          <source>Sales Advance Letters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Cash Flow Source Type CZZ - EnumValue Sales Advance Letters CZZ - Property Caption</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 26321991 - EnumValue 2473906886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1170745677">
           <source>Advance</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6902,6 +6957,41 @@
           <source>Vendor Advances</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Payments CZZ - Control VendorAdvancesCZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 1775592900" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 8633400">
+          <source>Purchase Advances</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - NamedType PurchaseAdvancesCZZMsg</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 2622049853" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 8633400">
+          <source>Sales Advances</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - NamedType SalesAdvancesCZZMsg</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - NamedType 2802229490" size-unit="char" translate="yes" xml:space="preserve" al-object-target="ReportExtension 8633400">
+          <source>%1 %2 %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = table caption, %2 = name of customer/vendor, %3 = date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - NamedType ThreePlaceholdersTxt</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3072498704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 1834352305">
+          <source>Specifies if purchase advances will be sugested</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - Control IsPurchaseAdvanceLettersConsidered - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3072498704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 1834352305">
+          <source>Purchase Advances</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - Control IsPurchaseAdvanceLettersConsidered - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3807901769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 1834352305">
+          <source>Specifies if sales advances will be sugested</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - Control IsSalesAdvanceLettersConsidered - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 8633400 - Control 3807901769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 1834352305">
+          <source>Sales Advances</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Suggest Worksheet Lines CZZ - Control IsSalesAdvanceLettersConsidered - Property Caption</note>
         </trans-unit>
       </group>
     </body>
