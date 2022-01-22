@@ -1406,7 +1406,7 @@
         </trans-unit>
         <trans-unit id="Table 2794189023 - Field 1001505280 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ignore Case</source>
-          <target state="translated">Groß-/Kleinschreibung ignorieren</target>
+          <target state="translated">Gross-/Kleinschreibung ignorieren</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Regex Options - Field IgnoreCase - Property Caption</note>
         </trans-unit>
@@ -1754,7 +1754,7 @@
         </trans-unit>
         <trans-unit id="Table 3865875552 - Field 3349558288 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include</source>
-          <target state="translated">Einschließen</target>
+          <target state="translated">Einschliessen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tenant Web Service Columns - Field Include - Property Caption</note>
         </trans-unit>
@@ -3637,7 +3637,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3991262771 - NamedType 1260724060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The password that you entered does not meet the minimum requirements. It must be at least %1 characters long and contain at least one uppercase letter, one lowercase letter, one number and one special character. It must not have a sequence of 3 or more ascending, descending or repeating characters.</source>
-          <target state="translated">Das eingegebene Kennwort entspricht nicht den Minimalanforderungen. Es muss mindestens %1 Zeichen lang sein und mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten. Es darf keine Folge von drei oder mehr aufsteigenden, absteigenden oder wiederholten Zeichen enthalten.</target>
+          <target state="translated">Das eingegebene Kennwort entspricht nicht den Minimalanforderungen. Es muss mindestens %1 Zeichen lang sein und mindestens einen Grossbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten. Es darf keine Folge von drei oder mehr aufsteigenden, absteigenden oder wiederholten Zeichen enthalten.</target>
           <note from="Developer" annotates="general" priority="2">%1: The minimum number of characters required in the password</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Password Dialog Impl. - NamedType PasswordTooSimpleErr</note>
         </trans-unit>
@@ -5349,7 +5349,7 @@
         </trans-unit>
         <trans-unit id="Page 1122678929 - Control 1593335407 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the color of the indicator when the value of data in the Cue is greater than or equal to the value that is specified by the Threshold 1 field but less than or equal to the value that is specified by the Threshold 2 field.</source>
-          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel größer oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
+          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel grösser oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cue Setup Administrator - Control Middle Range Style - Property ToolTip</note>
         </trans-unit>
@@ -5391,7 +5391,7 @@
         </trans-unit>
         <trans-unit id="Page 3449870094 - Control 1593335407 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the color of the indicator when the value of data in the Cue is greater than or equal to the value that is specified by the Threshold 1 field but less than or equal to the value that is specified by the Threshold 2 field.</source>
-          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel größer oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
+          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel grösser oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cue Setup End User - Control Middle Range Style - Property ToolTip</note>
         </trans-unit>
@@ -5631,7 +5631,7 @@
         </trans-unit>
         <trans-unit id="Page 3970971575 - Control 4294284153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default sensitivity classifications to apply to data on setup tables that control how you will use features, such as the tables used by the general ledger. You can view the fields to classify them individually.</source>
-          <target state="translated">Gibt die standardmäßigen Sensitivitätsklassifizierungen an, die auf Daten in Einrichtungstabellen angewendet werden sollen, die steuern, wie Sie Funktionen, z. B. die von der Fibuposten verwendeten Tabellen, verwenden. Sie können die Felder anzeigen, um sie einzeln zu klassifizieren.</target>
+          <target state="translated">Gibt die standardmässigen Sensitivitätsklassifizierungen an, die auf Daten in Einrichtungstabellen angewendet werden sollen, die steuern, wie Sie Funktionen, z. B. die von der Fibuposten verwendeten Tabellen, verwenden. Sie können die Felder anzeigen, um sie einzeln zu klassifizieren.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Data Classification Wizard - Control SetupTablesDefaultClassification - Property ToolTip</note>
         </trans-unit>
