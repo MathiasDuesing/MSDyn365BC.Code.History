@@ -29,6 +29,32 @@ codeunit 134220 "WFWH General Journal Line"
         UserCannotRejectErr: Label 'User %1 does not have the permission necessary to reject the item.', Comment = '%1 = NAV USERID';
         UnexpectedNoOfApprovalEntriesErr: Label 'Unexpected number of approval entries found.', Locked = true;
         UnexpectedNoOfWorkflowStepInstancesErr: Label 'Unexpected number of workflow step instances found.';
+        RestrictionLineImposedErr: Label 'The restriction was imposed by the %1 workflow, General Journal Line Approval Workflow.';
+
+    [Test]
+    [Scope('OnPrem')]
+    procedure HasPendingWorkflowWebhookEntryByRecordId()
+    var
+        GenJournalLine: Record "Gen. Journal Line";
+        WorkflowWebhookEntry: Record "Workflow Webhook Entry";
+        WorkflowWebhookManagement: Codeunit "Workflow Webhook Management";
+    begin
+        // [FEATURE] [UT]
+        // [SCENARIO 418743] CanRequestApproval is refactored to show if there are no pending entries.
+        // [GIVEN] Gen. Jnl line 'GJL' has a pending WorkflowWebhookEntry
+        GenJournalLine.Insert();
+        WorkflowWebhookEntry.Init();
+        WorkflowWebhookEntry."Record ID" := GenJournalLine.RecordId();
+        WorkflowWebhookEntry.Response := WorkflowWebhookEntry.Response::Pending;
+        WorkflowWebhookEntry.Insert();
+
+        // [THEN] CanRequestApproval() is reverted FindWorkflowWebhookEntryByRecordIdAndResponse() for 'Pending'
+        Assert.IsFalse(WorkflowWebhookManagement.CanRequestApproval(GenJournalLine.RecordId()), 'CanRequestApproval');
+        Assert.IsTrue(
+        WorkflowWebhookManagement.FindWorkflowWebhookEntryByRecordIdAndResponse(
+            WorkflowWebhookEntry, GenJournalLine.RecordId(), WorkflowWebhookEntry.Response::Pending),
+            'FindWorkflowWebhookEntryByRecordIdAndResponse');
+    end;
 
     [Normal]
     local procedure ChangeWorkflowWebhookEntryInitiatedBy(Id: Guid; InitiatedByUserID: Code[50])
@@ -801,6 +827,76 @@ codeunit 134220 "WFWH General Journal Line"
         VerifyWorkflowWebhookEntryResponse(GenJournalLine.SystemId, DummyWorkflowWebhookEntry.Response::Cancel);
         WorkflowStepInstance.SetRange("Workflow Code", DummyWorkflowCode);
         Assert.IsTrue(WorkflowStepInstance.IsEmpty, UnexpectedNoOfWorkflowStepInstancesErr);
+    end;
+
+    [Test]
+    [HandlerFunctions('MessageHandler')]
+    [Scope('OnPrem')]
+    procedure CannotModifyJournalLineAfterLineApprovalIsSent()
+    var
+        GenJournalBatch: Record "Gen. Journal Batch";
+        GenJournalLine: Record "Gen. Journal Line";
+        DummyWorkflowWebhookEntry: Record "Workflow Webhook Entry";
+        GeneralJournal: TestPage "General Journal";
+        WorkflowCode: Code[20];
+    begin
+        // [SCENARIO 418743] A user cannot modify a general journal line after they send it for approval 
+        Initialize();
+
+        // [GIVEN] Existing approval for the journal line for the workflow 'X'
+        WorkflowCode := CreateAndEnableGeneralJournalLineWorkflowDefinition(UserId);
+        CreateGeneralJournalBatchWithOneJournalLine(GenJournalBatch, GenJournalLine);
+        MakeCurrentUserAnApprover;
+        SendApprovalRequestForGeneralJournal(GenJournalLine."Journal Batch Name");
+
+        Commit();
+
+        VerifyWorkflowWebhookEntryResponse(GenJournalLine.SystemId, DummyWorkflowWebhookEntry.Response::Pending);
+
+        // [WHEN] The user modifies Amount in the general journal line.
+        ClearLastError();
+        GeneralJournal.OpenEdit();
+        GeneralJournal.CurrentJnlBatchName.SetValue(GenJournalLine."Journal Batch Name");
+        GeneralJournal.First();
+        GeneralJournal.Amount.SetValue(GenJournalLine.Amount + 1);
+        GeneralJournal.Next(); // line modification triggered here
+
+        // [THEN] The error message: 'The restriction was imposed by the X workflow...'
+        Assert.ExpectedMessage(StrSubstNo(RestrictionLineImposedErr, WorkflowCode), GetLastErrorText());
+    end;
+
+    [Test]
+    [HandlerFunctions('MessageHandler')]
+    [Scope('OnPrem')]
+    procedure CannotInsertJournalLineAfterLineApprovalIsSent()
+    var
+        GenJournalBatch: Record "Gen. Journal Batch";
+        GenJournalLine: Record "Gen. Journal Line";
+        DummyWorkflowWebhookEntry: Record "Workflow Webhook Entry";
+    begin
+        // [SCENARIO 418743] A user cannot modify a general journal line after they send it for approval 
+        Initialize();
+
+        // [GIVEN] Existing approval for the journal line for the workflow 'X'
+        CreateAndEnableGeneralJournalLineWorkflowDefinition(UserId);
+        CreateGeneralJournalBatchWithOneJournalLine(GenJournalBatch, GenJournalLine);
+        MakeCurrentUserAnApprover;
+        SendApprovalRequestForGeneralJournal(GenJournalLine."Journal Batch Name");
+
+        Commit();
+
+        VerifyWorkflowWebhookEntryResponse(GenJournalLine.SystemId, DummyWorkflowWebhookEntry.Response::Pending);
+
+        // [WHEN] The user tries to insert another general journal line to the batch
+        ClearLastError();
+        GenJournalLine."Line No." += 10000;
+        GenJournalLine.Insert(true);
+
+        // [THEN] No error message, the new journal line is inserted
+        Assert.AreEqual('', GetLastErrorText(), 'error text');
+        GenJournalLine.SetRange("Journal Template Name", GenJournalLine."Journal Template Name");
+        GenJournalLine.SetRange("Journal Batch Name", GenJournalLine."Journal Batch Name");
+        Assert.RecordCount(GenJournalLine, 2);
     end;
 
     [Test]

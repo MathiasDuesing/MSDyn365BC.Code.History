@@ -2117,19 +2117,19 @@
         </trans-unit>
         <trans-unit id="Codeunit 1769783446 - NamedType 2435513626" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>thousand</source>
-          <target state="translated">tisíc</target>
+          <target state="translated">tisíce</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Desk Management CZP - NamedType ThousandTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1769783446 - NamedType 3600130273" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>thousand</source>
-          <target state="translated">tisíce</target>
+          <target state="translated">jedentisíc</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Desk Management CZP - NamedType ThousandATxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1769783446 - NamedType 3562594720" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>thousand</source>
-          <target state="translated">tisíce</target>
+          <target state="translated">tisíc</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Desk Management CZP - NamedType ThousandBTxt</note>
         </trans-unit>
@@ -6173,7 +6173,7 @@
         </trans-unit>
         <trans-unit id="Report 3986244016 - ReportLabel 26742315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Take</source>
-          <target state="translated">Vyfotit</target>
+          <target state="translated">Převzal</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Cash Desk Hand Over CZP - ReportLabel TakeLbl</note>
         </trans-unit>
