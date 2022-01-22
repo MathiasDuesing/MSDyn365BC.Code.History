@@ -2993,6 +2993,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Compensation - Edit CZC - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 3256173296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Compensation - Objects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Compensation - Objects CZC - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2190166588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Compensation - Read</source>
           <note from="Developer" annotates="general" priority="2"></note>

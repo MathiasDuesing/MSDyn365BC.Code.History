@@ -20043,6 +20043,66 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - NamedType NullSatementWithLinesErr</note>
         </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 2346885236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Možnosti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 1256243135 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the year for which to report Intrastat. This ensures that the report has the correct format for that year.</source>
+          <target state="translated">Určuje rok, pro který se má Intrastat vykazovat. Tím je zajištěno, že sestava má pro tento rok správný formát.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control ExportFormatField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 1256243135 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Format</source>
+          <target state="translated">Formát exportu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control ExportFormatField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Document</source>
+          <target state="translated">Doklad zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 96789032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Amount</source>
+          <target state="translated">Orientační částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel EstimatedAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 2763256510" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Unit Amount</source>
+          <target state="translated">Orientační jednotková částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel EstimatedUnitAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 1022116878" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Receipt - Test</source>
+          <target state="translated">Příjem zásob - Test</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel InventoryReceiptTestLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 2067432370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Shipment - Test</source>
+          <target state="translated">Výdej zásob - Test</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel InventoryShipmentTestLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 1877187315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Strana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2901479708 - ReportLabel 2410138484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Celkem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Document CZL - ReportLabel TotalLbl</note>
+        </trans-unit>
         <trans-unit id="Report 2968244395 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Joining Banking Account Adjustment</source>
           <target state="translated">Vyrovnání bankovního konta</target>
@@ -21194,6 +21254,90 @@
           <target state="translated">základní měrné jednotce,měrné jednotce pohybu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Document CZL - Control PrintQtyInUoMField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Receipt</source>
+          <target state="translated">Účtovaný příjem zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - ReportLabel 2636616999" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt</source>
+          <target state="translated">Příjem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - ReportLabel DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - ReportLabel 1877187315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Strana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - ReportLabel 420176508" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted by</source>
+          <target state="translated">Zaúčtoval</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - ReportLabel PostedByLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - ReportLabel 617781293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Receipt</source>
+          <target state="translated">Účtovaný příjem zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - ReportLabel ReportNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3849435014 - ReportLabel 2410138484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Celkem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Receipt CZL - ReportLabel TotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Shipment</source>
+          <target state="translated">Účtovaný výdej zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 2636616999" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment</source>
+          <target state="translated">Dodávka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 96789032" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Amount</source>
+          <target state="translated">Orientační částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel EstimatedAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 2763256510" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Unit Amount</source>
+          <target state="translated">Orientační jednotková částka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel EstimatedUnitAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 1877187315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Strana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 420176508" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted by</source>
+          <target state="translated">Zaúčtoval</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel PostedByLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 617781293" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Inventory Shipment</source>
+          <target state="translated">Účtovaný výdej zásob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel ReportNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2297099538 - ReportLabel 2410138484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Celkem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Inventory Shipment CZL - ReportLabel TotalLbl</note>
         </trans-unit>
         <trans-unit id="Report 4009097684 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase Order</source>

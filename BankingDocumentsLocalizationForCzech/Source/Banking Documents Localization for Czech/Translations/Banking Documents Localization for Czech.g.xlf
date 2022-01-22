@@ -5623,6 +5623,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Bank Documents - Edit CZB - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 2897792056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Bank Documents - Objects</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Bank Documents - Obj. CZB - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2863513961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Bank Documents - Read</source>
           <note from="Developer" annotates="general" priority="2"></note>

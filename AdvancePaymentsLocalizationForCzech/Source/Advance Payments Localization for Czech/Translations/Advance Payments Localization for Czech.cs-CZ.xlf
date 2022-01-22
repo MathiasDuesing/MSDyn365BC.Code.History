@@ -255,6 +255,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Entry CZZ - Field Global Dimension 2 Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 987872330 - Field 1165839923 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Document VAT Date</source>
+          <target state="translated">Datum DPH pův.dokladu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Entry CZZ - Field Original Document VAT Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 987872330 - Field 3710982960 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <target state="translated">Zúčtovací datum</target>
@@ -1989,6 +1995,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Adv. Payment Close Dialog CZZ - Control ExternalDocumentNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3088644446 - Control 1788931515 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies original document VAT date.</source>
+          <target state="translated">Určuje datum DPH původního dokladu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Adv. Payment Close Dialog CZZ - Control OriginalDocumentVATDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3088644446 - Control 1788931515 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Document VAT Date</source>
+          <target state="translated">Datum DPH pův.dokladu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Adv. Payment Close Dialog CZZ - Control OriginalDocumentVATDate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3088644446 - Control 3037438984 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
@@ -2373,6 +2391,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Pur. Adv. Letter Ent.Prev. CZZ - Control Entry Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4120534993 - Control 1165839923 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies original document VAT date.</source>
+          <target state="translated">Určuje datum DPH původního dokladu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Pur. Adv. Letter Ent.Prev. CZZ - Control Original Document VAT Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4120534993 - Control 3710982960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
@@ -2499,6 +2523,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Control External Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4091573732 - Control 1165839923 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies original document VAT date.</source>
+          <target state="translated">Určuje datum DPH původního dokladu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Control Original Document VAT Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4091573732 - Control 3710982960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
@@ -2603,13 +2633,13 @@
         </trans-unit>
         <trans-unit id="Page 4091573732 - Action 454749684 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post cancel usage VAT.</source>
-          <target state="translated">Účtovat uzavření DPH.</target>
+          <target state="translated">Účtovat storno použití DPH.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Action PostCancelUsageVAT - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4091573732 - Action 454749684 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post Cancel Usage VAT</source>
-          <target state="translated">Účtovat uzavření DPH</target>
+          <target state="translated">Účtovat storno použití DPH</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Action PostCancelUsageVAT - Property Caption</note>
         </trans-unit>
@@ -5367,6 +5397,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page VAT Document CZZ - Control ExternalDocumentNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 239284017 - Control 1788931515 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies original document VAT date.</source>
+          <target state="translated">Určuje datum DPH původního dokladu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Document CZZ - Control OriginalDocumentVATDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 239284017 - Control 1788931515 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Document VAT Date</source>
+          <target state="translated">Datum DPH pův.dokladu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VAT Document CZZ - Control OriginalDocumentVATDate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 239284017 - Control 3037438984 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
@@ -5822,6 +5864,18 @@
           <target state="translated">Možnosti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 387165142 - Control 2588497446 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print only advance letter with differences.</source>
+          <target state="translated">Tiskněte pouze zálohy s rozdíly.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 387165142 - Control 2588497446 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Differences</source>
+          <target state="translated">Pouze rozdíly</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Purch. Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 387165142 - Control 4131377678 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print only open advance letter.</source>
@@ -7095,6 +7149,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control Options - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 595115396 - Control 2588497446 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print only advance letter with differences.</source>
+          <target state="translated">Tiskněte pouze zálohy s rozdíly.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 595115396 - Control 2588497446 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Differences</source>
+          <target state="translated">Pouze rozdíly</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales Adv. Letters Recap. CZZ - Control OnlyDifferencesField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 595115396 - Control 4131377678 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print only open advance letter.</source>
           <target state="translated">Tisknout pouze otevřené zálohy.</target>
@@ -7352,6 +7418,62 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 548777415</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1172414852 - Control 1678078043 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of purchase advances</source>
+          <target state="translated">Určuje částku nákupních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 432634465</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1172414852 - Control 1678078043 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 432634465</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1172414852 - Control 557695342 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of sales advances</source>
+          <target state="translated">Určuje částku prodejních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 432634465</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1172414852 - Control 557695342 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 432634465</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3725895849 - Control 1678078043 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of purchase advances</source>
+          <target state="translated">Určuje částku nákupních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3272280567</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3725895849 - Control 1678078043 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3272280567</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3725895849 - Control 557695342 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of sales advances</source>
+          <target state="translated">Určuje částku prodejních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3272280567</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3725895849 - Control 557695342 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3272280567</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2253912553 - Control 4110146191 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the cash flow account for purchase advance letters </source>
           <target state="translated">Určuje číslo účtu cash flow pro nákupní zálohy</target>
@@ -7365,6 +7487,34 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1013642112</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484076840 - Control 1678078043 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of purchase advances.</source>
+          <target state="translated">Určuje částku nákupních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1084798234</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484076840 - Control 1678078043 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1084798234</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484076840 - Control 557695342 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies an amount of sales advances.</source>
+          <target state="translated">Určuje částku prodejních záloh.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1084798234</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484076840 - Control 557695342 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1084798234</note>
         </trans-unit>
         <trans-unit id="PageExtension 3853529373 - Action 3723042445 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create sales advance letter.</source>
@@ -8079,6 +8229,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2453418483</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3584675455 - Field 4135754083 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advances</source>
+          <target state="translated">Nákupní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2716614102</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3584675455 - Field 384045254 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advances</source>
+          <target state="translated">Prodejní zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2716614102</note>
         </trans-unit>
         <trans-unit id="TableExtension 2253912553 - Field 3857262661 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purch. Adv. Letter CF Account No.</source>
