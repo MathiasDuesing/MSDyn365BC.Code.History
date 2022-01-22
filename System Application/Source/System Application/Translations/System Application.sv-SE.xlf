@@ -12845,7 +12845,7 @@
         </trans-unit>
         <trans-unit id="Enum 3362773080 - EnumValue 670344902 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Anyone with roles</source>
-          <target state="translated">Alla med roller</target>
+          <target state="translated">Någon med rollen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Checklist Completion Requirements - EnumValue Anyone - Property Caption</note>
         </trans-unit>
