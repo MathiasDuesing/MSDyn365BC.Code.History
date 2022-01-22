@@ -28,6 +28,8 @@ codeunit 134219 "WFWH General Journal Batch"
         UserCannotContinueErr: Label 'User %1 does not have the permission necessary to continue the item.', Comment = '%1 = NAV USERID';
         UserCannotRejectErr: Label 'User %1 does not have the permission necessary to reject the item.', Comment = '%1 = NAV USERID';
         UnexpectedNoOfWorkflowStepInstancesErr: Label 'Unexpected number of workflow step instances found.';
+        RestrictionBatchWFImposedErr: Label 'The restriction was imposed by the %1 workflow, General Journal Batch Approval Workflow.';
+        RestrictionBatchImposedErr: Label 'The restriction was imposed because the journal batch requires approval.';
 
     [Test]
     [Scope('OnPrem')]
@@ -701,6 +703,75 @@ codeunit 134219 "WFWH General Journal Batch"
         VerifyWorkflowWebhookEntryResponse(GenJournalBatch.SystemId, DummyWorkflowWebhookEntry.Response::Cancel);
         WorkflowStepInstance.SetRange("Workflow Code", DummyWorkflowCode);
         Assert.IsTrue(WorkflowStepInstance.IsEmpty, UnexpectedNoOfWorkflowStepInstancesErr);
+    end;
+
+    [Test]
+    [Scope('OnPrem')]
+    procedure CannotModifyJournalLineAfterBatchApprovalIsSent()
+    var
+        ApproverUserSetup: Record "User Setup";
+        GenJournalBatch: Record "Gen. Journal Batch";
+        GenJournalLine: Record "Gen. Journal Line";
+        RequestorUserSetup: Record "User Setup";
+        DummyWorkflowWebhookEntry: Record "Workflow Webhook Entry";
+        GeneralJournal: TestPage "General Journal";
+    begin
+        // [SCENARIO 418743] A user cannot modify a general journal line after they send it for approval 
+        Initialize();
+
+        // [GIVEN] Existing approval for the journal line for the workflow 'X'
+        CreateApprovalSetup(ApproverUserSetup, RequestorUserSetup);
+        CreateAndEnableGeneralJournalBatchWorkflowDefinition(UserId);
+        CreateGeneralJournalBatchWithOneJournalLine(GenJournalBatch, GenJournalLine);
+
+        Commit();
+        SendApprovalRequestForGeneralJournal(GenJournalBatch.Name);
+
+        VerifyWorkflowWebhookEntryResponse(GenJournalBatch.SystemId, DummyWorkflowWebhookEntry.Response::Pending);
+
+        // [WHEN] The user modifies Amount in the general journal line.
+        ClearLastError();
+        GeneralJournal.OpenEdit();
+        GeneralJournal.CurrentJnlBatchName.SetValue(GenJournalLine."Journal Batch Name");
+        GeneralJournal.First();
+        GeneralJournal.Amount.SetValue(GenJournalLine.Amount + 1);
+        GeneralJournal.Next(); // line modification triggered here
+
+        // [THEN] The error message: 'The restriction was imposed by batch workflow...'
+        Assert.ExpectedMessage(RestrictionBatchImposedErr, GetLastErrorText());
+    end;
+
+    [Test]
+    [Scope('OnPrem')]
+    procedure CannotInsertJournalLineAfterBatchApprovalIsSent()
+    var
+        ApproverUserSetup: Record "User Setup";
+        GenJournalBatch: Record "Gen. Journal Batch";
+        GenJournalLine: Record "Gen. Journal Line";
+        RequestorUserSetup: Record "User Setup";
+        DummyWorkflowWebhookEntry: Record "Workflow Webhook Entry";
+        WorkflowCode: Code[20];
+    begin
+        // [SCENARIO 418743] A user cannot modify a general journal line after they send it for approval 
+        Initialize();
+
+        // [GIVEN] Existing approval for the journal line for the workflow 'X'
+        CreateApprovalSetup(ApproverUserSetup, RequestorUserSetup);
+        WorkflowCode := CreateAndEnableGeneralJournalBatchWorkflowDefinition(UserId);
+        CreateGeneralJournalBatchWithOneJournalLine(GenJournalBatch, GenJournalLine);
+
+        Commit();
+        SendApprovalRequestForGeneralJournal(GenJournalBatch.Name);
+
+        VerifyWorkflowWebhookEntryResponse(GenJournalBatch.SystemId, DummyWorkflowWebhookEntry.Response::Pending);
+
+        // [WHEN] The user tries to insert another general journal line to the batch
+        ClearLastError();
+        GenJournalLine."Line No." += 10000;
+        asserterror GenJournalLine.Insert(true);
+
+        // [THEN] The error message: 'The restriction was imposed by the X workflow...'
+        Assert.ExpectedError(StrSubstNo(RestrictionBatchWFImposedErr, WorkflowCode));
     end;
 
     [Test]
