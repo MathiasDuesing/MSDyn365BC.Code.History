@@ -18585,6 +18585,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - NamedType NullSatementWithLinesErr</note>
         </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 2346885236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Možnosti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 1256243135 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the year for which to report Intrastat. This ensures that the report has the correct format for that year.</source>
+          <target state="translated">Určuje rok, pro který se má Intrastat vykazovat. Tím je zajištěno, že sestava má pro tento rok správný formát.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control ExportFormatField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3309874008 - Control 1256243135 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Format</source>
+          <target state="translated">Formát exportu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Control ExportFormatField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 2968244395 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Joining Banking Account Adjustment</source>
           <target state="translated">Vyrovnání bankovního konta</target>
