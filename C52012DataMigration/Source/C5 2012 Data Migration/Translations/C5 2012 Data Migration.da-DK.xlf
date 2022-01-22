@@ -455,7 +455,7 @@
         </trans-unit>
         <trans-unit id="Table 3539943979 - Field 3676652088 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balance LCY</source>
-          <target state="translated">Saldo i LCY</target>
+          <target state="translated">Saldo i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 CustTable - Field BalanceMST - Property Caption</note>
         </trans-unit>
@@ -893,7 +893,7 @@
         </trans-unit>
         <trans-unit id="Table 3306450511 - Field 3876581058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount in LCY</source>
-          <target state="translated">Beløb i LCY</target>
+          <target state="translated">Beløb i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 CustTrans - Field AmountMST - Property Caption</note>
         </trans-unit>
@@ -2039,7 +2039,7 @@
         </trans-unit>
         <trans-unit id="Table 2113318422 - Field 1814628561 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value delivered in LCY</source>
-          <target state="translated">Værdien på det leverede i LCY</target>
+          <target state="translated">Værdien på det leverede i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenTable - Field DeliveredValue - Property Caption</note>
         </trans-unit>
@@ -2309,7 +2309,7 @@
         </trans-unit>
         <trans-unit id="Table 2113318422 - Field 3296620152 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Value received in LCY</source>
-          <target state="translated">Værdi, der er modtaget i LCY</target>
+          <target state="translated">Værdi, der er modtaget i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenTable - Field ReceivedValue - Property Caption</note>
         </trans-unit>
@@ -2429,7 +2429,7 @@
         </trans-unit>
         <trans-unit id="Table 3319706570 - Field 3876581058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount in LCY</source>
-          <target state="translated">Beløb i LCY</target>
+          <target state="translated">Beløb i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenTrans - Field AmountMST - Property Caption</note>
         </trans-unit>
@@ -2483,7 +2483,7 @@
         </trans-unit>
         <trans-unit id="Table 3319706570 - Field 3212189721 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cost value in LCY</source>
-          <target state="translated">Kostværdi i LCY</target>
+          <target state="translated">Kostværdi i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 InvenTrans - Field CostAmount - Property Caption</note>
         </trans-unit>
@@ -2921,7 +2921,7 @@
         </trans-unit>
         <trans-unit id="Table 4032886559 - Field 3676652088 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balance in LCY</source>
-          <target state="translated">Saldo i LCY</target>
+          <target state="translated">Saldo i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 LedTable - Field BalanceMST - Property Caption</note>
         </trans-unit>
@@ -3311,7 +3311,7 @@
         </trans-unit>
         <trans-unit id="Table 3594340523 - Field 694672097 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT amount LCY</source>
-          <target state="translated">Momsbeløb i LCY</target>
+          <target state="translated">Momsbeløb i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 LedTrans - Field VatAmount - Property Caption</note>
         </trans-unit>
@@ -3959,7 +3959,7 @@
         </trans-unit>
         <trans-unit id="Table 424594451 - Field 3676652088 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Balance LCY</source>
-          <target state="translated">Saldo i LCY</target>
+          <target state="translated">Saldo i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 VendTable - Field BalanceMST - Property Caption</note>
         </trans-unit>
@@ -4409,7 +4409,7 @@
         </trans-unit>
         <trans-unit id="Table 1668449495 - Field 3876581058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount in LCY</source>
-          <target state="translated">Beløb i LCY</target>
+          <target state="translated">Beløb i RV</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table C5 VendTrans - Field AmountMST - Property Caption</note>
         </trans-unit>

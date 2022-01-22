@@ -15,6 +15,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType InvalidPeriodErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1772322696 - NamedType 1721961453" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Intrastat report for the calendar year 2022 is now available. To use it, open the VAT Reports Configuration page. In the line where the VAT Report Type field is set to Intrastat Report, set the Content Codeunit ID field to 0.</source>
+          <target state="translated">Intrastat-rapporten for kalenderåret 2022 er nu tilgængelig. Åbn konfigurationssiden for momsrapporter for at bruge den. Indstil indholdet af feltet Codeunit-ID til 0 på den linje, hvor feltet Momsrapporttype er angivet til Intrastat-rapport.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType NewFileExport2022ReportMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1772322696 - NamedType 2914246598" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the VAT Reports Configuration page.</source>
+          <target state="translated">Åbn konfigurationssiden for momsrapporter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Setup VAT Reports Config DK - NamedType OpenVATReportConfigMsg</note>
+        </trans-unit>
         <trans-unit id="Report 2597579300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Intrastat Export To Disk</source>
           <target state="translated">Intrastat – Eksporter til disk</target>
