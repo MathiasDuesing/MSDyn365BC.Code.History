@@ -3608,6 +3608,141 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TDS Posting Setup - Control TDS Section - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3464193326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Rates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 3438653682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2055761402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 1418064785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 780368168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 142671551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 311580574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 3968851253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 3331154636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue16 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2693458019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue17 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2862367042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue18 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2224670425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue19 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 1525563831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2315497671 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue20 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2163260448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 1056776237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 1694472854 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 4076350299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 419079620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 1994351425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Control 2632048042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2283777931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes all tax rates for the tax type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action DeleteAllRates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2283777931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action DeleteAllRates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2851454604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the tax rates to Excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ExportToExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2851454604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ExportToExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 3545432896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import the tax rates from Excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ImportFromExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 3545432896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import From Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ImportFromExcel - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 542678530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS Section</source>
           <note from="Developer" annotates="general" priority="2"></note>

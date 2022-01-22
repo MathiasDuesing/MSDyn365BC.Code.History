@@ -14028,6 +14028,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {4738101c-19e3-418c-a19d-61e67100d199}Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3104520229" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {4e1d5479-c527-4295-a0c1-7d82d94860f6}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3745340977" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0628d305-f863-48e9-986e-0570995f7002}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2048879405" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {f643a772-5ca6-4cc5-913c-9188c52df8e0}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3236792871" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0321474a-abd0-45db-8cea-b586a5cb7f49}Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -18867,6 +18887,141 @@
           <source>Edit in Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page GST Posting Setup - Action EditInExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Rates</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 3438653682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2055761402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 1418064785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 780368168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 142671551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue13 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 311580574 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue14 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 3968851253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue15 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 3331154636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue16 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2693458019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue17 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2862367042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue18 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2224670425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue19 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 1525563831 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2315497671 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue20 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2163260448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 1056776237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 1694472854 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 4076350299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 419079620 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 1994351425 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Control 2632048042 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of column based on the configuration on rate setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Control AttributeValue9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 2283777931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes all tax rates for the tax type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action DeleteAllRates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 2283777931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete All</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action DeleteAllRates - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 2851454604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the tax rates to Excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action ExportToExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 2851454604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export To Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action ExportToExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 3545432896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import the tax rates from Excel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action ImportFromExcel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1263833995 - Action 3545432896 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import From Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page GST Rates - Action ImportFromExcel - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2942171735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Recon. Field Mapping</source>
@@ -31617,6 +31772,16 @@
           <source>Specifies the location state of the posted entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Vendor Ledger Entries Ext - Control Location State Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3336251243 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
+          <source>Specifies the function through which reference number can be updated in the document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Action Update Reference Invoice No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3336251243 - Action 1481724448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
+          <source>Update Reference Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Action Update Reference Invoice No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3004830615 - Action 3257783260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 743575308">
           <source>Goods and Services Tax</source>

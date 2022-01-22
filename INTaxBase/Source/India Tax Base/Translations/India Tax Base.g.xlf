@@ -8028,6 +8028,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Posting Document Type - EnumValue Service - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 3375441977 - EnumValue 3471029625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Service Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posting Document Type - EnumValue Service Cr.Memo Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3375441977 - EnumValue 3117283677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Service Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posting Document Type - EnumValue Service Invoice Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3375441977 - EnumValue 4081358646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Service Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Posting Document Type - EnumValue Service Shipment Header - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 3375441977 - EnumValue 2262002670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Tranfer Receipt</source>
           <note from="Developer" annotates="general" priority="2"></note>

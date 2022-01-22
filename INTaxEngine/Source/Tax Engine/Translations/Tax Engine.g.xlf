@@ -2973,6 +2973,71 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Column Setup - Field Visible On Interface - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2332343257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Rate Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1692399443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attribute ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Attribute ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1217248869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Column ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1881355371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Column Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 2012224114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Range Column</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Column Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 2028573266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Conditional Operator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Conditional Operator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 3548966341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Is Range Column</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Is Range Column - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 399602020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linked Attribute ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Linked Attribute ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 46082055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Tax Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1878130204 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option,Text,Integer,Decimal,Boolean,Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2332343257 - Field 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Rate Filter - Field Value - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3007734288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Configuration Value</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7048,6 +7113,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Posting Setup Dialog - Control TaxPostingFilters - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3551625808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Rate Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rate Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3551625808 - Control 1881355371 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rate Filters - Control Column Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3551625808 - Control 2028573266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operator</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rate Filters - Control Conditional Operator - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3551625808 - Control 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rate Filters - Control Value - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 986968008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Rates</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7153,6 +7238,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Control AttributeValue9 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 986968008 - Action 1553741435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clears Filter on Tax Rates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action ClearFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 986968008 - Action 1553741435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action ClearFilter - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 986968008 - Action 2283777931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deletes all tax rates for the tax type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7172,6 +7267,16 @@
           <source>Export To Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action ExportToExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 986968008 - Action 2390565067 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Tax Rates by attributes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action FilterRates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 986968008 - Action 2390565067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter By Attributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Tax Rates - Action FilterRates - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 986968008 - Action 3545432896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import the tax rates from Excel.</source>
