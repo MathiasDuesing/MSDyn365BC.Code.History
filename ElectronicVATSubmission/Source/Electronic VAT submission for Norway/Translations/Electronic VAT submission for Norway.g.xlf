@@ -8,6 +8,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 3242117461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication URL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Authentication URL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1483331023 - Field 652819368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Client ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -18,13 +23,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Client Secret - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1483331023 - Field 4136836923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disable Checks On Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Disable Checks On Release - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1483331023 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Enabled - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1483331023 - Field 1128855067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Exchange ID-Porten Token Url</source>
+          <source>Exchange ID-Porten Token URL</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Exchange ID-Porten Token Url - Property Caption</note>
         </trans-unit>
@@ -54,17 +64,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Submission Environment URL - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1483331023 - Field 3087942712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Validate VAT Return Url</source>
+          <source>Validate VAT Return URL</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Setup - Field Validate VAT Return Url - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 4149390856 - NamedType 2903171250" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Validation fails on the server side for the box %1: %2</source>
+          <source>Validation failed for the row %1: %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = number, %2 = raw response text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CannotHandleResponseFromServerErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4149390856 - NamedType 3252064332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Validation fails on the server side for the box %1. Reason: %2. Use the Download Response Message action from the VAT report to get more details.</source>
+          <source>Validation failed for the row %1. Reason: %2. Use the Download Response Message action for more details</source>
           <note from="Developer" annotates="general" priority="2">%1 = number, %2 = reason text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CannotHandleResponseWithReasonFromServerErr</note>
         </trans-unit>
@@ -104,7 +114,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType ConnectionErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4149390856 - NamedType 3464834743" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create instance.</source>
+          <source>Create instance</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType CreateInstanceTxt</note>
         </trans-unit>
@@ -334,7 +344,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType VATStatementWithNameAlreadyExistsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2652910105 - NamedType 1995204114" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The feedback for your submission is not ready yet.</source>
+          <source>The response for your submission is not ready yet.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Get Response - NamedType NoFeedbackProvidedMsg</note>
         </trans-unit>
@@ -354,7 +364,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Logging Mgt. - NamedType ValidateVATReturnTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1040672575 - NamedType 1481040075" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
+          <source>Authorization successful.\Do you want to open the Company Information page to verify the VAT registration number?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType CheckCompanyVATNoAfterSuccessAuthorizationQst</note>
         </trans-unit>
@@ -388,13 +398,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType OpenSetupQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1040672575 - NamedType 2961565706" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1&amp;state=%2</source>
-          <note from="Developer" annotates="general" priority="2">%1 = base url, %2 = guid</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType UrlWithStateTxt</note>
+        <trans-unit id="Codeunit 1040672575 - NamedType 2702905682" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. VAT Return Submission Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType ServiceConnectionSetupLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3905663042 - NamedType 2221241153" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The amount in the box %1 has an incorrect sign. It must be %2.</source>
+          <source>The amount on the row %1 has an incorrect sign. It must be %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = number, %2 = either positive or negative</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType IncorrectSignErr</note>
         </trans-unit>
@@ -443,10 +453,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType AddCodesLbl</note>
         </trans-unit>
-        <trans-unit id="Page 547137075 - NamedType 1958360706" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You need to complete the authorization to submit your VAT return electronically.</source>
+        <trans-unit id="Page 547137075 - NamedType 1426652911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The authorization has not been completed. You would not be able to submit your VAT return electronically. Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType AuthorizationNotCompletedErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - NamedType AuthorizationNotCompletedQst</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - NamedType 2374410244" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create VAT statement</source>
@@ -509,7 +519,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AuthenticationDetails - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 2671986494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Setup the connect to ID-Porten to use the Skatteetaten API.</source>
+          <source>Set up the connection to the ID-Porten to use the Skatteetaten API.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AuthenticationDetails - Property Caption</note>
         </trans-unit>
@@ -544,7 +554,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control Welcome - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 2506538127 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This guide helps you to set up the integration with the Skatteetaten API to submit VAT returns.</source>
+          <source>This guide helps you to set up the integration with the ID-Porten and use the Skatteetaten API to submit VAT returns.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control WizardDescription - Property InstructionalText</note>
         </trans-unit>
@@ -569,22 +579,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control ShowMissingCodesControl - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 3925055941 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Some of the VAT codes must be set up to also report the base VAT. Choose Update to make sure all the VAT codes are ready for reporting.</source>
+          <source>Some of the VAT codes must be set up to also report the VAT rate. Choose Update to make sure all the VAT codes are ready for reporting.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control UpdateVATCodesGroup - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 544500563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how many VAT codes are marked to report base VAT.</source>
+          <source>Specifies how many VAT codes are marked to report VAT Rate.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AlreadyUpdatedVATCodesControl - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 544500563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have already updated:</source>
+          <source>Codes for reporting VAT rate:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control AlreadyUpdatedVATCodesControl - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 372726373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Updates the VAT codes that are required to report base VAT base and assigns the relevant VAT rate.</source>
+          <source>Updates the VAT codes that are required to report VAT rate and assigns the relevant VAT rate.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control UpdateVATCodesControl - Property ToolTip</note>
         </trans-unit>
@@ -594,12 +604,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATCodesHeaderGroup - Property InstructionalText</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 2632894559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Setup your VAT Codes</source>
+          <source>Set up your VAT Codes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATCodesHeaderGroup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 547137075 - Control 2946106874 - Property 1968111052" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Create a VAT statement with all required VAT codes. Make sure that VAT codes are specified in the VAT posting setup in advance. Specify the name of the VAT statement and click Create VAT statement. If you do not want to create a VAT statement, click Next.</source>
+          <source>Create a VAT statement with all required VAT codes. Make sure that VAT codes are specified in the VAT posting setup in advance. Select the template name, specify the name of the VAT statement and click Create VAT statement. If you do not want to create a VAT statement, click Next.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Submission Wizard - Control VATStatement - Property InstructionalText</note>
         </trans-unit>
@@ -658,6 +668,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 3242117461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the URL to connect to ID-Porten.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Authentication URL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1354521070 - Control 3856621992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the client ID token.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -677,6 +692,11 @@
           <source>Client Secret</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control ClientSecret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1354521070 - Control 4136836923 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to disable checks when user clicks Release in the VAT return. Use this option when you are sure that checks are not correct.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Disable Checks On Release - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1354521070 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the electronic VAT declaration feature is enabled.</source>
@@ -714,7 +734,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Action OpenOAuthSetup - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1354521070 - Action 2823348192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open OAuth 2.0 setup page</source>
+          <source>Open OAuth 2.0 setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Action OpenOAuthSetup - Property Caption</note>
         </trans-unit>
@@ -733,6 +753,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Elec. VAT Report - Control KID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1342932104 - Control 2426398906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 962565375">
+          <source>Specifies the unique reference of the submission attempt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Elec. VAT Report - Control Message Id - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 771852649 - Field 1224122553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1256068594">
           <source>Report VAT Rate</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -749,7 +774,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Elec. VAT OAuth 2.0. Setup - Field Altinn Token - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1694509023 - NamedType 1604460421" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1694509023">
-          <source>The VAT code you have selected has a VAT rate for reporting (%1 %) that is different than the rate in the VAT posting setup (%2)</source>
+          <source>The VAT code you have selected has a VAT rate for reporting (%1 %) that is different than a VAT rate in the VAT posting setup (%2)</source>
           <note from="Developer" annotates="general" priority="2">%1,%2 = VAT rates/numbers</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Elec. VAT Posting Setup - NamedType VATRateDoesNotMatchMsg</note>
         </trans-unit>
