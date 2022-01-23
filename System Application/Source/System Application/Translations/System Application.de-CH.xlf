@@ -647,7 +647,7 @@
         </trans-unit>
         <trans-unit id="Table 3215974682 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Size Cache</source>
-          <target state="translated">Unternehmensgrößencache</target>
+          <target state="translated">Unternehmensgrössencache</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Company Size Cache - Property Caption</note>
         </trans-unit>
@@ -659,19 +659,19 @@
         </trans-unit>
         <trans-unit id="Table 3215974682 - Field 720611327 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Size (KB)</source>
-          <target state="translated">Datengröße (KB)</target>
+          <target state="translated">Datengrösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Company Size Cache - Field Data Size (KB</note>
         </trans-unit>
         <trans-unit id="Table 3215974682 - Field 3599723277 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Index Size (KB)</source>
-          <target state="translated">Indexgröße (KB)</target>
+          <target state="translated">Indexgrösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Company Size Cache - Field Index Size (KB</note>
         </trans-unit>
         <trans-unit id="Table 3215974682 - Field 3391158951 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Size (KB)</source>
-          <target state="translated">Größe (KB)</target>
+          <target state="translated">Grösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Company Size Cache - Field Size (KB</note>
         </trans-unit>
@@ -2120,7 +2120,7 @@
         </trans-unit>
         <trans-unit id="Table 2794189023 - Field 1001505280 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ignore Case</source>
-          <target state="translated">Groß-/Kleinschreibung ignorieren</target>
+          <target state="translated">Gross-/Kleinschreibung ignorieren</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Regex Options - Field IgnoreCase - Property Caption</note>
         </trans-unit>
@@ -2642,7 +2642,7 @@
         </trans-unit>
         <trans-unit id="Table 248118458 - Field 720611327 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Data Size (KB)</source>
-          <target state="translated">Datengröße (KB)</target>
+          <target state="translated">Datengrösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Table Information Cache - Field Data Size (KB</note>
         </trans-unit>
@@ -2654,13 +2654,13 @@
         </trans-unit>
         <trans-unit id="Table 248118458 - Field 3599723277 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Index Size (KB)</source>
-          <target state="translated">Indexgröße (KB)</target>
+          <target state="translated">Indexgrösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Table Information Cache - Field Index Size (KB</note>
         </trans-unit>
         <trans-unit id="Table 248118458 - Field 3057683566 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last Period Size (30D)</source>
-          <target state="translated">Größe der letzten Periode (30D)</target>
+          <target state="translated">Grösse der letzten Periode (30D)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Table Information Cache - Field Last Period Data Size (KB</note>
         </trans-unit>
@@ -2678,13 +2678,13 @@
         </trans-unit>
         <trans-unit id="Table 248118458 - Field 2499764284 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Record Size</source>
-          <target state="translated">Datensatzgröße</target>
+          <target state="translated">Datensatzgrösse</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Table Information Cache - Field Record Size - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 248118458 - Field 3391158951 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Size (KB)</source>
-          <target state="translated">Größe (KB)</target>
+          <target state="translated">Grösse (KB)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Table Information Cache - Field Size (KB</note>
         </trans-unit>
@@ -2786,7 +2786,7 @@
         </trans-unit>
         <trans-unit id="Table 3865875552 - Field 3349558288 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include</source>
-          <target state="translated">Einschließen</target>
+          <target state="translated">Einschliessen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tenant Web Service Columns - Field Include - Property Caption</note>
         </trans-unit>
@@ -3044,13 +3044,13 @@
         </trans-unit>
         <trans-unit id="Table 3049595448 - Field 1550704454 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exclude Fields Outside of the Repeater</source>
-          <target state="translated">Felder außerhalb der Wiederholung ausschließen</target>
+          <target state="translated">Felder ausserhalb der Wiederholung ausschliessen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Web Service Aggregate - Field ExcludeFieldsOutsideRepeater - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3049595448 - Field 4240069560 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exclude Non-Editable FlowFields</source>
-          <target state="translated">Schreibgeschützte FlowFields ausschließen</target>
+          <target state="translated">Schreibgeschützte FlowFields ausschliessen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Web Service Aggregate - Field ExcludeNonEditableFlowFields - Property Caption</note>
         </trans-unit>
@@ -3464,7 +3464,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2693243134 - NamedType 1924891195" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you change the completion requirements to "Specific users", then any roles that are assigned to complete this checklist item will be deleted. Are you sure that you want to continue?</source>
-          <target state="translated">Wenn Sie die Abschlussanforderungen auf „Bestimmte Benutzer“ ändern, werden alle Rollen gelöscht, die diesem Checklistenelement zum Abschließen zugeordnet sind. Möchten Sie den Vorgang wirklich fortsetzen?</target>
+          <target state="translated">Wenn Sie die Abschlussanforderungen auf „Bestimmte Benutzer“ ändern, werden alle Rollen gelöscht, die diesem Checklistenelement zum Abschliessen zugeordnet sind. Möchten Sie den Vorgang wirklich fortsetzen?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Checklist Administration - NamedType RolesWillBeDeletedLbl</note>
         </trans-unit>
@@ -3476,7 +3476,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2693243134 - NamedType 2875755308" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you change the completion requirements now, then any users that are assigned to complete this checklist item will be deleted. Are you sure that you want to continue?</source>
-          <target state="translated">Wenn Sie die Abschlussanforderungen jetzt ändern, werden alle Benutzer gelöscht, die diesem Checklistenelement zum Abschließen zugeordnet sind, gelöscht. Möchten Sie den Vorgang wirklich fortsetzen?</target>
+          <target state="translated">Wenn Sie die Abschlussanforderungen jetzt ändern, werden alle Benutzer gelöscht, die diesem Checklistenelement zum Abschliessen zugeordnet sind, gelöscht. Möchten Sie den Vorgang wirklich fortsetzen?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Checklist Administration - NamedType UsersWillBeDeassignedLbl</note>
         </trans-unit>
@@ -3692,7 +3692,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3415626413 - NamedType 2958770673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This app may transfer data to other geographies than the current geography of your Dynamics 365 Business Central environment. This is to ensure proper functionality of the app.</source>
-          <target state="translated">Diese App kann Daten in andere geografische Regionen übertragen als die aktuelle Region ihrer Dynamics 365 Business Central-Umgebung. Dies dient zum Gewährleisten der ordnungsgemäßen Funktionsweise der Apps.</target>
+          <target state="translated">Diese App kann Daten in andere geografische Regionen übertragen als die aktuelle Region ihrer Dynamics 365 Business Central-Umgebung. Dies dient zum Gewährleisten der ordnungsgemässen Funktionsweise der Apps.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Data Out Of Geo. App Impl. - NamedType GeoNotificationNewAppsMsg</note>
         </trans-unit>
@@ -4382,7 +4382,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3991262771 - NamedType 1260724060" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The password that you entered does not meet the minimum requirements. It must be at least %1 characters long and contain at least one uppercase letter, one lowercase letter, one number and one special character. It must not have a sequence of 3 or more ascending, descending or repeating characters.</source>
-          <target state="translated">Das eingegebene Kennwort entspricht nicht den Minimalanforderungen. Es muss mindestens %1 Zeichen lang sein und mindestens einen Großbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten. Es darf keine Folge von drei oder mehr aufsteigenden, absteigenden oder wiederholten Zeichen enthalten.</target>
+          <target state="translated">Das eingegebene Kennwort entspricht nicht den Minimalanforderungen. Es muss mindestens %1 Zeichen lang sein und mindestens einen Grossbuchstaben, einen Kleinbuchstaben und eine Zahl enthalten. Es darf keine Folge von drei oder mehr aufsteigenden, absteigenden oder wiederholten Zeichen enthalten.</target>
           <note from="Developer" annotates="general" priority="2">%1: The minimum number of characters required in the password</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Password Dialog Impl. - NamedType PasswordTooSimpleErr</note>
         </trans-unit>
@@ -5534,7 +5534,7 @@
         </trans-unit>
         <trans-unit id="Page 2693243134 - NamedType 3163637980" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The number must be larger than 0.</source>
-          <target state="translated">Die Anzahl muss größer als 0 sein.</target>
+          <target state="translated">Die Anzahl muss grösser als 0 sein.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Checklist Administration - NamedType OrderGreaterThanZeroErr</note>
         </trans-unit>
@@ -5984,7 +5984,7 @@
         </trans-unit>
         <trans-unit id="Page 1122678929 - Control 1593335407 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the color of the indicator when the value of data in the Cue is greater than or equal to the value that is specified by the Threshold 1 field but less than or equal to the value that is specified by the Threshold 2 field.</source>
-          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel größer oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
+          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel grösser oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cue Setup Administrator - Control Middle Range Style - Property ToolTip</note>
         </trans-unit>
@@ -6044,7 +6044,7 @@
         </trans-unit>
         <trans-unit id="Page 3449870094 - Control 1593335407 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the color of the indicator when the value of data in the Cue is greater than or equal to the value that is specified by the Threshold 1 field but less than or equal to the value that is specified by the Threshold 2 field.</source>
-          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel größer oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
+          <target state="translated">Gibt die Farbe des Indikators an, wenn der Wert der Daten im Stapel grösser oder gleich dem Wert im Feld „Schwellenwert 1“, aber kleiner oder gleich dem Wert im Feld „Schwellenwert 2“ ist.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cue Setup End User - Control Middle Range Style - Property ToolTip</note>
         </trans-unit>
@@ -6283,7 +6283,7 @@
         </trans-unit>
         <trans-unit id="Page 3970971575 - Control 4294284153 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default sensitivity classifications to apply to data on setup tables that control how you will use features, such as the tables used by the general ledger. You can view the fields to classify them individually.</source>
-          <target state="translated">Gibt die standardmäßigen Sensitivitätsklassifizierungen an, die auf Daten in Einrichtungstabellen angewendet werden sollen, die steuern, wie Sie Funktionen, z. B. die von der Fibuposten verwendeten Tabellen, verwenden. Sie können die Felder anzeigen, um sie einzeln zu klassifizieren.</target>
+          <target state="translated">Gibt die standardmässigen Sensitivitätsklassifizierungen an, die auf Daten in Einrichtungstabellen angewendet werden sollen, die steuern, wie Sie Funktionen, z. B. die von der Fibuposten verwendeten Tabellen, verwenden. Sie können die Felder anzeigen, um sie einzeln zu klassifizieren.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Data Classification Wizard - Control SetupTablesDefaultClassification - Property ToolTip</note>
         </trans-unit>
@@ -9327,7 +9327,7 @@
         </trans-unit>
         <trans-unit id="Page 4061016505 - NamedType 2845400600" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>A new browser tab was opened for you to try out the feature. For now, the feature has been temporarily enabled for you only. It will remain enabled whenever you open Business Central in the browser, until you completely sign out or close the browser.</source>
-          <target state="translated">Eine neue Browser-Registerkarte wurde geöffnet, damit Sie die Funktion ausprobieren können. Die Funktion wurde nur für Sie vorübergehend aktiviert. Sie bleibt aktiviert, wenn Sie Business Central im Browser öffnen, bis Sie sich vollständig abmelden oder den Browser schließen.</target>
+          <target state="translated">Eine neue Browser-Registerkarte wurde geöffnet, damit Sie die Funktion ausprobieren können. Die Funktion wurde nur für Sie vorübergehend aktiviert. Sie bleibt aktiviert, wenn Sie Business Central im Browser öffnen, bis Sie sich vollständig abmelden oder den Browser schliessen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Feature Management - NamedType TryItOutStartedMsg</note>
         </trans-unit>
@@ -11318,7 +11318,7 @@
         </trans-unit>
         <trans-unit id="Page 398629195 - Property 3863440606" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Database,Size,Storage</source>
-          <target state="translated">Datenbank,Größe,Speicher</target>
+          <target state="translated">Datenbank,Grösse,Speicher</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Table Information Cache Part - Property AdditionalSearchTerms</note>
         </trans-unit>
@@ -11348,7 +11348,7 @@
         </trans-unit>
         <trans-unit id="Page 398629195 - Control 709111184 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>How much the table size grew in 30 daya (in percent).</source>
-          <target state="translated">Wie viel die Tabellengröße in 30 Tagen (in Prozent) anstieg.</target>
+          <target state="translated">Wie viel die Tabellengrösse in 30 Tagen (in Prozent) anstieg.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Table Information Cache Part - Control Growth % - Property ToolTip</note>
         </trans-unit>
@@ -11378,7 +11378,7 @@
         </trans-unit>
         <trans-unit id="Page 398629195 - Control 54790405 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The average size of a record (in bytes).</source>
-          <target state="translated">Die durchschnittliche Größe eines Datensatzes (in Byte).</target>
+          <target state="translated">Die durchschnittliche Grösse eines Datensatzes (in Byte).</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Table Information Cache Part - Control Record Size (Byte</note>
         </trans-unit>
