@@ -612,6 +612,11 @@
                   DATABASE::Campaign, "Campaign No.");
             end;
         }
+        field(28; "Pending Approval"; Boolean)
+        {
+            Caption = 'Pending Approval';
+            Editable = false;
+        }
         field(29; "Source Code"; Code[10])
         {
             Caption = 'Source Code';
@@ -2925,8 +2930,6 @@
         DontShowAgainActionTxt: Label 'Don''t show again.';
         SetDimFiltersActionTxt: Label 'Set dimension filters.';
         SetDimFiltersMessageTxt: Label 'Dimension filters are not set for one or more lines that use the BD Balance by Dimension or RBD Reversing Balance by Dimension options. Do you want to set the filters?';
-        TelemetryCategoryTxt: Label 'GenJournal', Locked = true;
-        GenJournalPostFailedTxt: Label 'General journal posting failed. Journal Template: %1, Journal Batch: %2', Locked = true;
 
     protected var
         Currency: Record Currency;
@@ -7850,30 +7853,9 @@
 
     procedure SendToPosting(PostingCodeunitID: Integer)
     var
-        ErrorMessageMgt: Codeunit "Error Message Management";
-        ErrorMessageHandler: Codeunit "Error Message Handler";
+        BatchProcessingMgt: Codeunit "Batch Processing Mgt.";
     begin
-        Commit();
-        ErrorMessageMgt.Activate(ErrorMessageHandler);
-
-        if not Codeunit.Run(PostingCodeunitID, Rec) then begin
-            ErrorMessageHandler.ShowErrors();
-            LogFailurePostTelemetry();
-        end;
-    end;
-
-    local procedure LogFailurePostTelemetry()
-    var
-        ErrorMessage: Record "Error Message";
-        Dimensions: Dictionary of [Text, Text];
-        ErrorMessageTxt: Text;
-    begin
-        ErrorMessage.SetRange("Context Table Number", Database::"Gen. Journal Line");
-        if ErrorMessage.FindLast() then
-            ErrorMessageTxt := ErrorMessage.Description;
-        Dimensions.Add('Category', TelemetryCategoryTxt);
-        Dimensions.Add('Error', ErrorMessageTxt);
-        Session.LogMessage('0000F9J', StrSubstNo(GenJournalPostFailedTxt, Rec."Journal Template Name", Rec."Journal Batch Name"), Verbosity::Warning, DataClassification::SystemMetadata, TelemetryScope::ExtensionPublisher, Dimensions);
+        BatchProcessingMgt.BatchProcessGenJournalLine(Rec, PostingCodeunitID);
     end;
 
     local procedure RecallSetDimFiltersNotification()
