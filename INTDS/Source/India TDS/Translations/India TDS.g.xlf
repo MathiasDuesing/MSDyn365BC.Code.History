@@ -1898,6 +1898,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method OnGetTaxTypeConfig - NamedType TDSTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3589253041 - Method 1893039520 - NamedType 3257280872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method OnGetUpgradedTaxTypeConfig - NamedType TDSTaxTypeLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1943516711 - NamedType 3257280872" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS Tax Type Place Holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1932,11 +1937,6 @@
           <source>You cannot reverse the transaction, because it has already been reversed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Validations - NamedType TDSReverseErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 489655448 - NamedType 2853336947" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TDS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade TDS Tax Config - NamedType TDSLbl</note>
         </trans-unit>
         <trans-unit id="Page 3496913511 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acknowledgement Setup</source>

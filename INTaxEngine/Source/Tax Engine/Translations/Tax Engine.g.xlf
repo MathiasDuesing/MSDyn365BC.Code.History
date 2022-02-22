@@ -2608,6 +2608,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Tax Component Summary - Field Use Case - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 978102458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Engine Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Engine Notification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 978102458 - Field 1483851300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Engine Notification - Field Hide - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 978102458 - Field 415504711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Engine Notification - Field Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 978102458 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tax Engine Notification - Field Message - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2402422906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Entity</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4358,10 +4378,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType DontAskAgainLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1316980702 - NamedType 2837749086" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import From Wizard</source>
+        <trans-unit id="Codeunit 1316980702 - NamedType 356011784" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import it now.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType ImportFromWizardLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType ImportItNowLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1316980702 - NamedType 2722763728" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up Tax Engine</source>
@@ -4377,6 +4397,11 @@
           <source>Show Modified Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType ShowUseCasesLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1316980702 - NamedType 1369207394" size-unit="char" translate="yes" xml:space="preserve">
+          <source>We have upgraded tax confgiurations, this includes bug fix's or regulatory changes. we reconmmend you to upgrade it now or else it will be imported when you create documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType TaxConfigUpgradeMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1316980702 - NamedType 3156718777" size-unit="char" translate="yes" xml:space="preserve">
           <source>You don't have Tax Configurations due to which transactions will not calculate tax. but you can import it manually or from Assisted Setup.</source>
@@ -4402,21 +4427,6 @@
           <source>Use Case configuration does not exist for Tax Type: %1, and Case ID : %2</source>
           <note from="Developer" annotates="general" priority="2">%1 - Tax Type,%2 - Case ID</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType UseCaseConfigNotFoundErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1316980702 - Method 65719700 - NamedType 2151054288" size-unit="char" translate="yes" xml:space="preserve">
-          <source>67173147-288c-4e51-87ba-cbd5f1a1261c</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - Method SendNotificationForEmptyTaxConfig - NamedType TaxEngineNotificationLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1316980702 - Method 2102589184 - NamedType 2783265899" size-unit="char" translate="yes" xml:space="preserve">
-          <source>a7957d72-b5c4-4c36-88dd-b23ce9184221</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - Method SendNotificationForUpgradeTaxTypes - NamedType UpgradeTaxTypesNotificationLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1316980702 - Method 1163562674 - NamedType 3535219340" size-unit="char" translate="yes" xml:space="preserve">
-          <source>a81af8c6-f3a6-4b70-8721-4d3badd1f8b9</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - Method SendNotificationForUpgradeUseCases - NamedType UpgradeUseCaseNotificationLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 4246769398 - NamedType 1769234531" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot read property %1.</source>
@@ -4472,6 +4482,11 @@
           <source>Tax Type              #2######\</source>
           <note from="Developer" annotates="general" priority="2">Tax Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Deserialization - NamedType ValueLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4246769398 - NamedType 20080324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1.%2</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Major Version, %2 - Minor Version</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Json Deserialization - NamedType VersionLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3210610597 - NamedType 1786030490" size-unit="char" translate="yes" xml:space="preserve">
           <source>Exporting              #1######\</source>

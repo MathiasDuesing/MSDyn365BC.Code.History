@@ -1498,6 +1498,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Tax Engine Setup - Method OnGetTaxTypeConfig - NamedType TCSTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1435830188 - Method 1893039520 - NamedType 594677709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TCS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Tax Engine Setup - Method OnGetUpgradedTaxTypeConfig - NamedType TCSTaxTypeLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3162279667 - NamedType 594677709" size-unit="char" translate="yes" xml:space="preserve">
           <source>TCS Tax Type place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1522,11 +1527,6 @@
           <source>You cannot reverse %1 No. %2 because the entry has already been involved in a reversal.</source>
           <note from="Developer" annotates="general" priority="2">%1 = TCS Entry Table Caption, %2 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCS Validation and Settlement - Method OnBeforeReverseEntries - NamedType AlreadyReversedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3569499173 - NamedType 2463426458" size-unit="char" translate="yes" xml:space="preserve">
-          <source>TCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade TCS Tax Config - NamedType TCSLbl</note>
         </trans-unit>
         <trans-unit id="Page 1958049646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allowed NOC</source>

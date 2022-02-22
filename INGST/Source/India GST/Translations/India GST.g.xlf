@@ -9693,6 +9693,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Tax Type Setup - Method OnGetTaxTypeConfig - NamedType CESSTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 830023400 - Method 1893039520 - NamedType 1348115531" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST CESS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Tax Type Setup - Method OnGetUpgradedTaxTypeConfig - NamedType CESSTaxTypeLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 344750931 - NamedType 4050930333" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cess Use Cases place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11243,6 +11248,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Tax Engine Setup - Method OnGetTaxTypeConfig - NamedType GSTTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2560798699 - Method 1893039520 - NamedType 412811977" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Tax Engine Setup - Method OnGetUpgradedTaxTypeConfig - NamedType GSTTaxTypeLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2293320866 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Accounting Period does not exist for the given Date %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
@@ -11392,6 +11402,46 @@
           <source>Rounding Type %1 is not a valid option.</source>
           <note from="Developer" annotates="general" priority="2">%1 = GST Ledger Transaction Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Base Validation - Method TaxComponentDirections2DetailedGSTLedgerDirection - NamedType ConversionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008961493 - NamedType 1022022966" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted purchase Credit Memo because GST Vendor Type is Import.\\You must manually create a purchase Invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Purch Inv Credit - NamedType CorrectCancellCrMemoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008961493 - NamedType 2565729576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted purchase invoice because GST Vendor Type is Import.\\You must manually create a purchase credit memo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Purch Inv Credit - NamedType CorrectCancellPurchInvErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008961493 - NamedType 3920713431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted purchase invoice because it is fully or partially paid.\\To reverse a paid purchase invoice, you must manually create a purchase credit memo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Purch Inv Credit - NamedType PostedInvoiceIsPaidCancelErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3008961493 - NamedType 1950519325" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted purchase credit memo because it is fully or partially applied.\\To reverse an applied purchase credit memo, you must manually unapply all applied entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Purch Inv Credit - NamedType UnappliedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2968084129 - NamedType 3599151846" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted Sales Cr. Memo because GST Customer Type is Export.\\You must manually create a Sales Invoice.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Sales Inv Credit - NamedType CorrectCancellSalesCrMemoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2968084129 - NamedType 1085303964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted Sales invoice because GST Customer Type is Export.\\You must manually create a Sales credit memo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Sales Inv Credit - NamedType CorrectCancellSalesInvoiceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2968084129 - NamedType 3920713431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted sales invoice because it is fully or partially paid.\\To reverse a paid sales invoice, you must manually create a sales credit memo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Sales Inv Credit - NamedType PostedInvoiceIsPaidCancelErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2968084129 - NamedType 1950519325" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot cancel this posted sales credit memo because it is fully or partially applied.\\To reverse an applied sales credit memo, you must manually unapply all applied entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Canc Corr Sales Inv Credit - NamedType UnappliedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4218731206 - NamedType 2199114054" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot post Reversal before Reversal Invoice No. %1 Posting Date: %2. Current Posting Date is: %3.</source>
@@ -13853,6 +13903,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Tax Type Setup - Method OnGetTaxTypeConfig - NamedType GSTTDSTCSTaxTypeLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2599372415 - Method 1893039520 - NamedType 1017353652" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST TDS TCS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST TDS TCS Tax Type Setup - Method OnGetUpgradedTaxTypeConfig - NamedType GSTTDSTCSTaxTypeLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3484715364 - NamedType 863196710" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST TDS TCS Use Cases place holder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -14477,21 +14532,6 @@
           <source>Reopening is not allowed Production Order %1 has already been reported as Finished.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Production Order No</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Validations - Method OnAfterValidateEventdeSubconStatus - NamedType ReopenErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3085513153 - NamedType 1348115531" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GST CESS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade GST Tax Config - NamedType CESSTaxTypeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3085513153 - NamedType 412811977" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade GST Tax Config - NamedType GSTTaxTypeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3085513153 - NamedType 1017353652" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GST TDS TCS</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Upgrade GST Tax Config - NamedType GSTTDSTCSTaxTypeLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1336800903 - NamedType 2388775229" size-unit="char" translate="yes" xml:space="preserve">
           <source>All bank charge lines must have same sign Amount.</source>
@@ -31782,6 +31822,21 @@
           <source>Update Reference Invoice No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Action Update Reference Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3336251243 - Control 574103807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
+          <source>Specifies the GST Credit as selected from the given options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Control GST Credit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3336251243 - Control 1815712918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
+          <source>Specifies the GST Group Code as selected from the given options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Control GST Group Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3336251243 - Control 2629078778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
+          <source>Specifies the HSN/SAC Code as selected from the given options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Journal Voucher - Control HSN/SAC Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3004830615 - Action 3257783260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 743575308">
           <source>Goods and Services Tax</source>
