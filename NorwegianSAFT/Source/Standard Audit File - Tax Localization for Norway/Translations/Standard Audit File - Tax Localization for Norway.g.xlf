@@ -1559,7 +1559,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType GLAccountMappingRemainder2Txt</note>
         </trans-unit>
         <trans-unit id="Page 3918905259 - NamedType 243693635" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mapping is not mandatory if no G/L entries are posted in the reported period.</source>
+          <source>You must provide mapping for all G/L accounts in the company.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType GLAccountMappingRemainderTxt</note>
         </trans-unit>
