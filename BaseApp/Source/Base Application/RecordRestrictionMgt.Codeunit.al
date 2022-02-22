@@ -129,29 +129,19 @@ codeunit 1550 "Record Restriction Mgt."
         RestrictGenJournalLine(Rec);
     end;
 
-    local procedure HasLineOpenOrPendingApprovalEntries(GenJournalLine: Record "Gen. Journal Line"): Boolean;
+    local procedure HasLineOpenOrPendingApprovalEntries(var GenJournalLine: Record "Gen. Journal Line"): Boolean;
     var
         GenJournalBatch: Record "Gen. Journal Batch";
     begin
-        if HasPendingApprovals(GenJournalLine.RecordId()) then
+        if GenJournalLine."Pending Approval" then
             exit(true);
         exit(HasBatchOpenOrPendingApprovalEntries(GenJournalLine, GenJournalBatch));
     end;
 
-    local procedure HasBatchOpenOrPendingApprovalEntries(GenJournalLine: Record "Gen. Journal Line"; var GenJournalBatch: Record "Gen. Journal Batch"): Boolean
+    local procedure HasBatchOpenOrPendingApprovalEntries(var GenJournalLine: Record "Gen. Journal Line"; var GenJournalBatch: Record "Gen. Journal Batch"): Boolean
     begin
         if GenJournalBatch.Get(GenJournalLine."Journal Template Name", GenJournalLine."Journal Batch Name") then
-            exit(HasPendingApprovals(GenJournalBatch.RecordId()));
-    end;
-
-    local procedure HasPendingApprovals(RecId: RecordId): Boolean;
-    var
-        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
-        WorkflowWebhookManagement: Codeunit "Workflow Webhook Management";
-    begin
-        if ApprovalsMgmt.HasOpenOrPendingApprovalEntries(RecId) then
-            exit(true);
-        exit(WorkflowWebhookManagement.HasPendingWorkflowWebhookEntryByRecordId(RecId));
+            exit(GenJournalBatch."Pending Approval");
     end;
 
     local procedure RestrictGenJournalLine(var GenJournalLine: Record "Gen. Journal Line")
