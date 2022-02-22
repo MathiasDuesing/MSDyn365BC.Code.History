@@ -2179,8 +2179,8 @@ codeunit 134150 "ERM Intrastat Journal"
         IntrastatJnlLine: Record "Intrastat Jnl. Line";
         ItemNo: Code[20];
     begin
-        // [FEATURE] [Partner VAT ID] [Tranfer Order]
-        // [SCENARIO 417835] Partner VAT ID of Transfer Shipment
+        // [FEATURE] [Partner VAT ID] [Transfer Order] [In-Transit]
+        // [SCENARIO 417835] Partner VAT ID of Transfer Shipment (using In-Transit location)
         Initialize();
 
         // [GIVEN] Local location "A", local In-Transit location "B", EU foreign location "C"
@@ -2196,6 +2196,50 @@ codeunit 134150 "ERM Intrastat Journal"
         // [GIVEN] Transfer Order to transfer item "I" from location "A" to "C" using In-Transit location "B"
         // [GIVEN] Transfer Order's "Partner VAT ID" = "X"
         LibraryWarehouse.CreateTransferHeader(TransferHeader, FromLocation.Code, ToLocation.Code, InTransitLocation.Code);
+        TransferHeader.Validate("Partner VAT ID", LibraryUtility.GenerateGUID());
+        TransferHeader.Modify(true);
+        LibraryWarehouse.CreateTransferLine(TransferHeader, TransferLine, ItemNo, 1);
+
+        // [GIVEN] Transfer Order is Shipped and Receipt
+        LibraryWarehouse.PostTransferOrder(TransferHeader, true, true);
+
+        // [WHEN] Invoke Get Entries from Intrastat journal
+        CreateIntrastatJnlLineAndGetEntries(IntrastatJnlLine, CalcDate('<CM-1M+1D>', WorkDate()), CalcDate('<CM>', WorkDate()));
+
+        // [THEN] Intrastat journal line is created and has "Partner VAT ID" = "X"
+        IntrastatJnlLine.SetRange("Journal Template Name", IntrastatJnlLine."Journal Template Name");
+        IntrastatJnlLine.SetRange("Journal Batch Name", IntrastatJnlLine."Journal Batch Name");
+        IntrastatJnlLine.SetRange("Item No.", ItemNo);
+        IntrastatJnlLine.FindFirst();
+        IntrastatJnlLine.TestField("Partner VAT ID", TransferHeader."Partner VAT ID");
+    end;
+
+    [Test]
+    procedure GetPartnerVATIDDirectTransferShipment()
+    var
+        TransferHeader: Record "Transfer Header";
+        TransferLine: Record "Transfer Line";
+        CountryRegion: Record "Country/Region";
+        FromLocation: Record Location;
+        ToLocation: Record Location;
+        IntrastatJnlLine: Record "Intrastat Jnl. Line";
+        ItemNo: Code[20];
+    begin
+        // [FEATURE] [Partner VAT ID] [Transfer Order] [Direct Transfer]
+        // [SCENARIO 417834] Partner VAT ID of Transfer Shipment (direct transfer)
+        Initialize();
+
+        // [GIVEN] Local location "A", EU foreign location "B"
+        // [GIVEN] Item "I" on local location "A"
+        CreateCountryRegion(CountryRegion, true);
+        ItemNo := CreateItem();
+        CreateFromToLocations(FromLocation, ToLocation, CountryRegion.Code);
+        CreateAndPostPurchaseItemJournalLine(FromLocation.Code, ItemNo);
+
+        // [GIVEN] Transfer Order to transfer item "I" from location "A" to "C" (direct transfer)
+        // [GIVEN] Transfer Order's "Partner VAT ID" = "X"
+        LibraryWarehouse.CreateTransferHeader(TransferHeader, FromLocation.Code, ToLocation.Code, '');
+        TransferHeader.Validate("Direct Transfer", true);
         TransferHeader.Validate("Partner VAT ID", LibraryUtility.GenerateGUID());
         TransferHeader.Modify(true);
         LibraryWarehouse.CreateTransferLine(TransferHeader, TransferLine, ItemNo, 1);
