@@ -108,6 +108,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType GenerateSAFTFileImmediatelyQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3129724570 - NamedType 3262655130" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to copy sales and purchase reporting codes to sales/purchase SAF-T standard tax codes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Unit Tests - NamedType CopyReportingCodesToSAFTCodesQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2271899501 - NamedType 1484253947" size-unit="char" translate="yes" xml:space="preserve">
           <source>DEFAULT</source>
           <note from="Developer" annotates="general" priority="2"></note>

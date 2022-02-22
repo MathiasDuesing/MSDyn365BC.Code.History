@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Electronic VAT submission for Norway Tests">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1497041956 - NamedType 2702905682" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. VAT Return Submission Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Submission Misc. - NamedType ServiceConnectionSetupLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2369116484 - NamedType 4232242651" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unexpected element name. Expected element name: %1. Actual element name: %2.</source>
           <note from="Developer" annotates="general" priority="2">%1=Expetced XML Element Name;%2=Actual XML Element Name</note>

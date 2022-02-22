@@ -1504,11 +1504,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType OpenDimensionExportSetupLbl</note>
         </trans-unit>
-        <trans-unit id="Page 3918905259 - NamedType 243693635" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Mapping is not mandatory if no G/L entries are posted in the reported period.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Setup Wizard - NamedType GLAccountMappingRemainderTxt</note>
-        </trans-unit>
         <trans-unit id="Page 3918905259 - NamedType 3666634517" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For G/L account with no mapping code, enter NA.</source>
           <note from="Developer" annotates="general" priority="2"></note>
