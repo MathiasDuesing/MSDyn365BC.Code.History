@@ -8253,6 +8253,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Cash Desk - Edit CZP - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 3344222005 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Cash Desk - Objects</source>
+          <target state="translated">CZ Pokladna - Objekty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Cash Desk - Objects CZP - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 1447313689 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Cash Desk - Read</source>
           <target state="translated">Pokladna CZ - čtení</target>

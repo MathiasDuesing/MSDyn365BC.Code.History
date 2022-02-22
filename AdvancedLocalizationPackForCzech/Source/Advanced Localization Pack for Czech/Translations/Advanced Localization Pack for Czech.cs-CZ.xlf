@@ -1906,6 +1906,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Edit CZA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 4112226363 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Advance Pack - Objects</source>
+          <target state="translated">Objekty - CZ Advance Pack</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Objects CZA - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2801731927 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Advance Pack - Read</source>
           <target state="translated">CZ Advance Pack - čtení</target>

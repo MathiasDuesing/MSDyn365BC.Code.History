@@ -12088,6 +12088,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control PostingDescriptionField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 629953382 - Control 175637332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to skip Advance Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control SkipAdvancePaymentsField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 629953382 - Control 175637332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Advance Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control SkipAdvancePaymentsField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 629953382 - Control 493843669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the etries will be summarized</source>
           <note from="Developer" annotates="general" priority="2"></note>

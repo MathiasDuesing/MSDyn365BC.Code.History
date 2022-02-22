@@ -2110,8 +2110,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Advance Letter Application CZZ - Action AdvanceCard - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1813680169 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Advance Letter Link CZZ</source>
-          <target state="translated">Propojení zálohy CZZ</target>
+          <source>Advance Letter Link</source>
+          <target state="translated">Propojení zálohy</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Advance Letter Link CZZ - Property Caption</note>
         </trans-unit>
@@ -2740,8 +2740,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Action PrintVATDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 787164449 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Purchase Advance Letter FactBox</source>
-          <target state="translated">Okno s fakty Nákupní zálohová faktura</target>
+          <source>Purchase Advance Letter</source>
+          <target state="translated">Nákupní zálohová faktura</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter FactBox CZZ - Property Caption</note>
         </trans-unit>
@@ -3657,11 +3657,29 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Pay-to Vendor No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2936817786 - Control 3855271124 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how to make payment, such as with bank transfer, cash, or check.</source>
+          <target state="translated">Určuje způsob provedení platby, například bankovním převodem, hotovostí nebo šekem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Payment Method Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2936817786 - Control 3710982960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2936817786 - Control 1577567912 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target state="translated">Určuje Kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Shortcut Dimension 1 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2936817786 - Control 1003760969 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target state="translated">Určuje Kód zkratky dimenze 2, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Shortcut Dimension 2 Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2936817786 - Control 1365281506 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies specific symbol.</source>
@@ -4216,8 +4234,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action PrintVATDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 133543695 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales Advance Letter FactBox</source>
-          <target state="translated">Okno s fakty Prodejní zálohová faktura</target>
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter FactBox CZZ - Property Caption</note>
         </trans-unit>
@@ -5109,11 +5127,29 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Order No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2081690216 - Control 3855271124 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how to make payment, such as with bank transfer, cash, or check.</source>
+          <target state="translated">Určuje způsob provedení platby, například bankovním převodem, hotovostí nebo šekem.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Payment Method Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2081690216 - Control 3710982960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies posting date.</source>
           <target state="translated">Určuje datum zaúčtování.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2081690216 - Control 1577567912 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target state="translated">Určuje Kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Shortcut Dimension 1 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2081690216 - Control 1003760969 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target state="translated">Určuje Kód zkratky dimenze 2, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Shortcut Dimension 2 Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2081690216 - Control 1365281506 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies specific symbol.</source>
@@ -5314,8 +5350,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Action PrintToAttachment - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1846531013 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Suggested Usage CZZ</source>
-          <target state="translated">Propojené doklady CZZ</target>
+          <source>Suggested Usage</source>
+          <target state="translated">Propojené doklady</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Suggested Usage CZZ - Property Caption</note>
         </trans-unit>
@@ -7593,6 +7629,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2901867346</note>
         </trans-unit>
+        <trans-unit id="PageExtension 92269290 - Control 2226926547 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of opened advance letters.</source>
+          <target state="translated">Určuje počet otevřených záloh.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3902691336</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 92269290 - Control 2226926547 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3902691336</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2614324880 - Control 2060499916 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies advance letter no.</source>
           <target state="translated">Určuje číslo zálohové faktury.</target>
@@ -8223,6 +8273,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4194195770</note>
         </trans-unit>
+        <trans-unit id="PageExtension 729137826 - Control 2226926547 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of opened advance letters.</source>
+          <target state="translated">Určuje počet otevřených záloh.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 518836496</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 729137826 - Control 2226926547 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 518836496</note>
+        </trans-unit>
         <trans-unit id="TableExtension 240450061 - Field 2060499916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter No.</source>
           <target state="translated">Číslo zálohy</target>
@@ -8603,6 +8667,12 @@
           <target state="translated">CZ Advance Payments - úprava</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Payments - Edit CZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1047480703 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Advance Payments - Objects</source>
+          <target state="translated">CZ Zálohové platby - Objekty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Payments - Obj. CZZ - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 1696479490 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Advance Payments - Read</source>

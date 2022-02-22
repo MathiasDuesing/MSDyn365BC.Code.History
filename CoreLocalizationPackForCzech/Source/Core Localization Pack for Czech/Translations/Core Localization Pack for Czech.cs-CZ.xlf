@@ -41337,6 +41337,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Core Pack - Edit CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 2371300623 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Core Pack - Objects</source>
+          <target state="translated">CZ Core Pack - Objekty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Core Pack - Objects CZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 2323995195 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Core Pack - Read</source>
           <target state="translated">CZ Core Pack - čtení</target>

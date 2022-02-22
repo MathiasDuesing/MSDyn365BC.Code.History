@@ -1863,6 +1863,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Search Rule Line CZB - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 481323743 - Field 195135658 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Match Related Party Only</source>
+          <target state="translated">Párovat jen na partnera</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Search Rule Line CZB - Field Match Related Party Only - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 481323743 - Field 120583795 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Multiple Result</source>
           <target state="translated">Vícenásobný výsledek</target>
@@ -5289,6 +5295,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Card CZB - Control Constant Symbol - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1627831747 - Control 195135658 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the match related party only</source>
+          <target state="translated">Určuje párování jen na partnera.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Card CZB - Control Match Related Party Only - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1627831747 - Control 120583795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>In the case of multiple search results, determines which record to select for automatic payment applying.</source>
           <target state="translated">V případě vícenásobného výsledku vyhledání určuje, jaký záznam vybrat pro automatické aplikování platby.</target>
@@ -5306,6 +5318,108 @@
           <target state="translated">Určuje, zda bude zvažován variabilní symbol pro automatické aplikování platby na otevřený záznam.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Card CZB - Control Variable Symbol - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Search Rule Lines</source>
+          <target state="translated">Hledat řádky pravidla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 1622979514 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the account number to be entered in the financial journal line if the bank statement line matches the specified filters.</source>
+          <target state="translated">Specifikuje číslo účtu, které se zapíše do řádku finančního deníku, pokud řádek bankovního výpisu vyhovuje zadaným filtrům.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 3699788827 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of account to be entered in the financial journal line if the bank statement line matches the specified filters.</source>
+          <target state="translated">Určuje typ účtu, který má být zadán do řádku finančního deníku, pokud řádek bankovního výpisu odpovídá zadaným filtrům.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Account Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 636392376 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to consider the amount (including payment tolerance) for automatically applying a payment to an open record.</source>
+          <target state="translated">Určuje, zda bude zvažováno částka (platební odchylky) pro automatické aplikování platby na otevřený záznam.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 4248640148 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to consider a bank account number for automatically applying a payment to an open record.</source>
+          <target state="translated">Určuje, zda bude zvažováno číslo bankovního účtu pro automatické aplikování platby na otevřený záznam.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Bank Account No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 3358234606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Defines restrictions on the type of bank transaction. Values can be + (credit), - (debit), or both (no resolution).</source>
+          <target state="translated">Definuje omezení typu bankovní transakce. Hodnoty mohou být + (kreditní), - (debetní) nebo Obě (bez rozlišení).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Banking Transaction Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 1645885828 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to consider a constant symbol to automatically apply a payment to an open record.</source>
+          <target state="translated">Určuje, zda bude zvažován konstantní symbol pro automatické aplikování platby na otevřený záznam.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Constant Symbol - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 2654839796 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the transaction constant symbol filter from the bank statement. If the system finds a match in the bank statement line based on the specified filters, then the account type and account number from the rule line are entered in the financial journal line.</source>
+          <target state="translated">Specifikuje filtr konstantního symbolu transakce z bankovního výpisu. Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu z řádku pravidla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Constant Symbol Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description line of the rule.</source>
+          <target state="translated">Určuje popis pravidla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 2321055114 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the transaction description filter from the bank statement. If the system finds a match in the bank statement line based on the specified filters, then the account type and account number from the rule line are entered in the financial journal line.</source>
+          <target state="translated">Specifikuje filtr popisu transakce z bankovního výpisu. Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu z řádku pravidla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Description Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 195135658 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the match related party only</source>
+          <target state="translated">Určuje párování jen na partnera.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Match Related Party Only - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 120583795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In the case of multiple search results, determines which record to select for automatic payment applying.</source>
+          <target state="translated">V případě vícenásobného výsledku vyhledání určuje, jaký záznam vybrat pro automatické aplikování platby.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Multiple Result - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 834817648 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which logical part of a row is valid for finding an entry to match.</source>
+          <target state="translated">Určuje, která logická část řádku je platná pro nalezení odpovídající položky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Search Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 1365281506 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to consider a specific symbol to automatically apply a payment to an open record.</source>
+          <target state="translated">Určuje, zda bude zvažován specifický symbol pro automatické aplikování platby na otevřený záznam.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Specific Symbol - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 2216799362 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the transaction specific symbol filter from the bank statement. If the system finds a match in the bank statement line based on the specified filters, then the account type and account number from the rule line are entered in the financial journal line.</source>
+          <target state="translated">Specifikuje filtr specifického symbolu transakce z bankovního výpisu. Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu z řádku pravidla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Specific Symbol Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 348895196 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to consider a variable symbol to automatically apply a payment to an open record.</source>
+          <target state="translated">Určuje, zda bude zvažován variabilní symbol pro automatické aplikování platby na otevřený záznam.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Variable Symbol - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 672324457 - Control 1242970604 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the transaction variable symbol filter from the bank statement. If the system finds a match in the bank statement line based on the specified filters, then the account type and account number from the rule line are entered in the financial journal line.</source>
+          <target state="translated">Specifikuje filtr variabilního symbolu transakce z bankovního výpisu. Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu z řádku pravidla.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Variable Symbol Filter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4203843427 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Search Rules</source>
@@ -5390,6 +5504,12 @@
           <target state="translated">Specifikuje filtr popisu transakce z bankovního výpisu. Pokud systém v řádku bankovního výpisu na základě zadaných filtrů najde shodu, pak se do řádku finančního deníku zapíše typ účtu a číslo účtu z řádku pravidla.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Subform CZB - Control Description Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3252996523 - Control 195135658 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the match related party only</source>
+          <target state="translated">Určuje párování jen na partnera.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Subform CZB - Control Match Related Party Only - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3252996523 - Control 120583795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>In the case of multiple search results, determines which record to select for automatic payment applying.</source>
@@ -6842,6 +6962,12 @@
           <target state="translated">Bankovní doklady CZ - úprava</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Bank Documents - Edit CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2897792056 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Bank Documents - Objects</source>
+          <target state="translated">CZ Bankovní dokumenty - Objekty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Bank Documents - Obj. CZB - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 2863513961 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Bank Documents - Read</source>

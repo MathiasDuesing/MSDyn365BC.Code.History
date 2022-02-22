@@ -4430,6 +4430,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Fixed Asset - Edit CZF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 3450986341 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CZ Fixed Asset - Objects</source>
+          <target state="translated">CZ Dlouhodobý majetek - Objekty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Fixed Asset - Objects CZF - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PermissionSet 720383161 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Fixed Asset - Read</source>
           <target state="translated">CZ Dlouhodobý majetek - čtení</target>
