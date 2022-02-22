@@ -20,6 +20,7 @@
             trigger OnValidate()
             var
                 StandardCodesMgt: Codeunit "Standard Codes Mgt.";
+                LocationCode: Code[10];
                 IsHandled: Boolean;
             begin
                 CheckCreditLimitIfLineNotInsertedYet;
@@ -107,8 +108,11 @@
                 "Send IC Document" := ("Sell-to IC Partner Code" <> '') and ("IC Direction" = "IC Direction"::Outgoing);
 
                 UpdateShipToCodeFromCust();
+                LocationCode := "Location Code";
+
                 SetBillToCustomerNo(Cust);
 
+                Validate("Location Code", LocationCode);
                 GetShippingTime(FieldNo("Sell-to Customer No."));
 
                 if (xRec."Sell-to Customer No." <> "Sell-to Customer No.") or
