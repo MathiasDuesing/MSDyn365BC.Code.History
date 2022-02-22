@@ -1179,8 +1179,7 @@ codeunit 12184 "Fattura Doc. Helper"
         LineDiscountPct := LineRecRef.Field(LineDiscountPercFieldNo).Value;
         if (InvDiscAmountByQty <> 0) or (LineDiscountPct <> 0) then begin
             TempFatturaLine."Discount Percent" := LineDiscountPct;
-            if TempFatturaLine."Discount Percent" = 0 then
-                TempFatturaLine."Discount Amount" := InvDiscAmountByQty;
+            TempFatturaLine."Discount Amount" := InvDiscAmountByQty;
         end;
 
         LineAmount := LineRecRef.Field(LineAmountFieldNo).Value;
