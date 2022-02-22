@@ -20,6 +20,7 @@
             trigger OnValidate()
             var
                 StandardCodesMgt: Codeunit "Standard Codes Mgt.";
+                LocationCode: Code[10];
                 IsHandled: Boolean;
             begin
                 CheckCreditLimitIfLineNotInsertedYet;
@@ -108,12 +109,15 @@
                 ValidateShipmentMethodCode(Cust."Shipment Method Code");
                 // NAVCZ
                 UpdateShipToCodeFromCust();
+                LocationCode := "Location Code";
+
                 SetBillToCustomerNo(Cust);
 
                 Validate("Transaction Type");
                 Validate("Transaction Specification");
                 Validate("Transport Method");
 
+                Validate("Location Code", LocationCode);
                 GetShippingTime(FieldNo("Sell-to Customer No."));
 
                 if (xRec."Sell-to Customer No." <> "Sell-to Customer No.") or
