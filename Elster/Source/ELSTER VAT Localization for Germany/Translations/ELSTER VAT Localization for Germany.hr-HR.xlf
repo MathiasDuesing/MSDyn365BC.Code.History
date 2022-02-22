@@ -53,11 +53,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType FileExistsMsg</note>
         </trans-unit>
-        <trans-unit id="Table 3039476855 - NamedType 1504683300" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The file or path %1 does not exist.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType FilePathNotExistErr</note>
-        </trans-unit>
         <trans-unit id="Table 3039476855 - NamedType 3833465197" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify a beginning of a month as starting date of the statement period.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -238,11 +233,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - NamedType Text1140000Lbl</note>
         </trans-unit>
-        <trans-unit id="Page 1934416626 - NamedType 2936506638" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Extensible Stylesheet-Files|*.xsl|All Files|*.*</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - NamedType Text1140001Lbl</note>
-        </trans-unit>
         <trans-unit id="Page 1934416626 - Control 3050372732 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Communication</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -403,16 +393,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action GLVATReconciliation - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1934416626 - Action 1006698272 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Preview the sales VAT advance notification that you will send to the tax authorities.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action P&amp;review - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1934416626 - Action 1006698272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>P&amp;review</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action P&amp;review - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1934416626 - Action 1002420131 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print the information in the window. A print request window opens where you can specify what to include on the print-out.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -512,16 +492,6 @@
           <source>G/L - VAT Reconciliation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action GLVATReconciliation - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 323663860 - Action 1006698272 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Preview the sales VAT advance notification that you will send to the tax authorities.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action P&amp;review - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 323663860 - Action 1006698272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>P&amp;review</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action P&amp;review - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 323663860 - Action 1002420131 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print the information in the window. A print request window opens where you can specify what to include on the print-out.</source>
