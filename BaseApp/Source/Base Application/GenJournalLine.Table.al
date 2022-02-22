@@ -605,6 +605,11 @@
                   DATABASE::Campaign, "Campaign No.");
             end;
         }
+        field(28; "Pending Approval"; Boolean)
+        {
+            Caption = 'Pending Approval';
+            Editable = false;
+        }
         field(29; "Source Code"; Code[10])
         {
             Caption = 'Source Code';
