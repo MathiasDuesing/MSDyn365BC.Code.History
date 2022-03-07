@@ -2735,7 +2735,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1996465967 - Control 2472119308 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the QR-bill bank account number. IBAN and QR-IBAN values from this bank account determine which IBAN or QR-IBAN number will be printed on the QR-bills that use this payment method. If no bank account is specified, the IBAN or QR-IBAN from the Company Information age is used.</source>
-          <target state="translated">Spécifie le numéro de compte bancaire des QR-factures. Les valeurs IBAN et QR-IBAN de ce compte bancaire déterminent le numéro IBAN ou QR-IBAN qui sera imprimé sur les QR-factures qui utilisent ce mode de règlement. Si aucun compte bancaire n'est spécifié, l'IBAN ou le QR-IBAN de la page Informations compagnie est utilisé.</target>
+          <target state="translated">Spécifie le numéro de compte bancaire des QR-factures. Les valeurs IBAN et QR-IBAN de ce compte bancaire déterminent le numéro IBAN ou QR-IBAN qui sera imprimé sur les QR-factures qui utilisent ce mode de règlement. Si aucun compte bancaire n'est spécifié, l'IBAN ou le QR-IBAN de la page Informations société est utilisé.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2805771090</note>
