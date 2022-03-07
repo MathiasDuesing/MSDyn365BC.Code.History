@@ -377,7 +377,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2673552518 - NamedType 1753922530" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Input VAT deduct. (domestic)</source>
-          <target state="translated">Fradragsberettiget inngående avgift hjemme</target>
+          <target state="translated">Inng. mva. frab. (innenlands)</target>
           <note from="Developer" annotates="general" priority="2">Fradragsberettiget innenlands inng+�ende merverdiavgift</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType InputVATDeductibleDomesticTxt</note>
         </trans-unit>
