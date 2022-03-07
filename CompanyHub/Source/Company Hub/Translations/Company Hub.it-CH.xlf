@@ -1409,7 +1409,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2252641548 - NamedType 3101518995" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Hub extension is not supported in the On-Prem enviroment.</source>
-          <target state="translated">Estensione hub aziendale non supportata nell'ambiente locale.</target>
+          <target state="translated">L'estensione hub aziendale non è supportata nell'ambiente locale.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit COHUB Core - NamedType CompanyHubNotSupportedOnPremMsg</note>
         </trans-unit>
@@ -2957,7 +2957,7 @@
         </trans-unit>
         <trans-unit id="Profile 3084187460 - Property 4111922599" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For users that primarily do work in other companies. Company Hub gives you a list of links to the companies you work in.</source>
-          <target state="translated">Per gli utenti che lavorano principalmente in altre società. Hub società fornisce una lista di collegamenti alle società in cui si lavora.</target>
+          <target state="translated">Per gli utenti che lavorano principalmente in altre società, l'hub aziendale fornisce la lista di collegamenti alle società per cui si lavora.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Profile CompanyHub - Property ProfileDescription</note>
         </trans-unit>
