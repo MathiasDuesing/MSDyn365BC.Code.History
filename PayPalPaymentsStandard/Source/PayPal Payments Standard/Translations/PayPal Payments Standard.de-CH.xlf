@@ -545,7 +545,7 @@
         </trans-unit>
         <trans-unit id="Page 4268182158 - Control 3302455580 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if this PayPal account should be included on all of the Documents by default.</source>
-          <target state="translated">Gibt an, ob dieses PayPal-Konto standardmässig in alle Belege einbezogen werden soll.</target>
+          <target state="translated">Gibt an, ob dieses PayPal-Konto standardmäßig in alle Belege einbezogen werden soll.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - PayPal Standard Setup - Control Always Include on Documents - Property ToolTip</note>
         </trans-unit>
@@ -647,7 +647,7 @@
         </trans-unit>
         <trans-unit id="Page 945518375 - Control 2228795340 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the URL from which the logo will be refreshed regularly.</source>
-          <target state="translated">Gibt die URL an, von der das Logo regelmässig aktualisiert wird.</target>
+          <target state="translated">Gibt die URL an, von der das Logo regelmäßig aktualisiert wird.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - PayPal Standard Template - Control LogoURL - Property ToolTip</note>
         </trans-unit>
