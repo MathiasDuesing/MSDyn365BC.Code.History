@@ -1348,6 +1348,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed GST Entry Buffer - Field Exempted - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 373089496 - Field 1527563463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Detailed GST Entry Buffer - Field External Document No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 373089496 - Field 421086102 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FA Journal Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4932,6 +4937,11 @@
           <source>Document Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Posting Buffer - Field Document Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1391755332 - Field 1527563463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table GST Posting Buffer - Field External Document No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1391755332 - Field 979496082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Forex Fluctuation</source>
@@ -12173,6 +12183,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType ShipToGSTARNErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 2132866371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Customer GST Registration No. or ARN No. in Customer should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType CustGSTARNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 4070209287" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All lines in the document must have same GST Jurisdiction Type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType DiffJurisdictionTypeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 3670246544" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select Ship-to Code or Ship-to Customer in transaction header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType GSTPlaceOfSupplyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 597186953" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select the same GST Registration No. / ARN No. for all lines in Document No. = %1, Line No. = %2 Registration No. / ARN No. is  %3  should be %4.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document No. ; %2 = Line No.; %3 = Registration No. / ARN No.;%4 = Registration No. / ARN No. </note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType GSTRegistrationValidationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 101512666" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Transaction with Ship-to Code is not allowed against Unregistered Customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType GSTShipToStateCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 631393150 - NamedType 1360120843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Either Ship-To Address GST Registration No. or ARN No. in Ship-To Address should have a value.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Ship To Address - NamedType ShipToGSTARNErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1469762492 - NamedType 465907211" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Service Transfer Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12187,6 +12227,11 @@
           <source>GST Group Code %1 with Reverse Charge cannot be selected for Service transactions.</source>
           <note from="Developer" annotates="general" priority="2">GST Group Code %1.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Validations - NamedType GSTGroupReverseChargeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 972043095 - NamedType 3670246544" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must select Ship-to Code or Ship-to Customer in transaction header.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Service Validations - NamedType GSTPlaceOfSupplyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 972043095 - NamedType 2533484992" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document is attached with Reference Invoice No. Please delete attached Reference Invoice No.</source>
@@ -14103,6 +14148,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0321474a-abd0-45db-8cea-b586a5cb7f49}Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1927711848" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {d22c3484-e0de-473f-9d62-2bb1dd4b10b9}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 814998299" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {2ff34432-5a9d-4c71-af8b-6dddc92f0a85}Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -14342,6 +14397,11 @@
           <source>Service Transfer order %1 canNot be posted because %2 and %3 are the same.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Transfer Order;%2 = From Location;%3 = To Location</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Service Transfer Post - NamedType SameLocErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2040166474 - NamedType 2680615959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to post. Service Transfer Line not available for the selected Document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Service Transfer Post - NamedType ServiceTransferLineErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2040166474 - NamedType 1364893056" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Transfer - %1</source>
@@ -23378,6 +23438,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer Order - Action Post - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2935633412 - Action 4266201246 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Review the different types of entries that will be created when you post the document or journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer Order - Action Preview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2935633412 - Action 4266201246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Preview Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer Order - Action Preview - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2656130129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Transfer Rcpt. Subform</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -31217,6 +31287,11 @@
           <source>Specifies whether the line item is applicable for GST or not.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Service Lines - Control Non-GST Line - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1171619720 - Control 2702658225 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 297536702">
+          <source>Specifies the GST calculation dependency mentioned in service management setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Service Mgt Setup - Control GST Dependency Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 828168453 - Action 1481724448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2145436509">
           <source>Specifies the function through which reference number can be updated in the document.</source>

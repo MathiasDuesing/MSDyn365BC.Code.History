@@ -4399,7 +4399,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType ShowUseCasesLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 1316980702 - NamedType 1369207394" size-unit="char" translate="yes" xml:space="preserve">
-          <source>We have upgraded tax confgiurations, this includes bug fix's or regulatory changes. we reconmmend you to upgrade it now or else it will be imported when you create documents.</source>
+          <source>We have upgraded tax configurations; this includes bug fix's or regulatory changes. we reconmmend you to upgrade it now or else it will be imported when you create documents.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Tax Engine Assisted Setup - NamedType TaxConfigUpgradeMsg</note>
         </trans-unit>
