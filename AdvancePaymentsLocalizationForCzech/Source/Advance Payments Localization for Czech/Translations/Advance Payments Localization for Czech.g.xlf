@@ -1373,6 +1373,16 @@
           <note from="Developer" annotates="general" priority="2">%1 = Line Description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Payment Handler CZZ - Method AddAdvanceRuleLineOnAfterInsertRuleLine - NamedType DescriptionTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 1234273833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType PurchaseAdvanceLetterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 677905200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType SalesAdvanceLetterTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4182671345 - Method 2287209808 - NamedType 625134644" size-unit="char" translate="yes" xml:space="preserve">
           <source>'%1' %2 in '%3' is already applied on other payment order.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Purch. Advance Letter No. CZZ FieldCaption; %2 = Purch. Advance Letter No. CZZ; %3 = RecordId</note>

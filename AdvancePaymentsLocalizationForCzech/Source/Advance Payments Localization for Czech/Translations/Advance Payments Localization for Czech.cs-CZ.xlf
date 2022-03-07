@@ -3671,7 +3671,7 @@
         </trans-unit>
         <trans-unit id="Page 2936817786 - Control 1577567912 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
-          <target state="translated">Určuje Kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <target state="translated">Určuje kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Shortcut Dimension 1 Code - Property ToolTip</note>
         </trans-unit>
@@ -5141,7 +5141,7 @@
         </trans-unit>
         <trans-unit id="Page 2081690216 - Control 1577567912 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
-          <target state="translated">Určuje Kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
+          <target state="translated">Určuje kód pro zkratku Dimenze 1, což je jeden ze dvou kódů globálních dimenzí, které jste nastavili v okně Nastavení financí.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Control Shortcut Dimension 1 Code - Property ToolTip</note>
         </trans-unit>

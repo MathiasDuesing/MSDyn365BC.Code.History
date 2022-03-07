@@ -5369,7 +5369,7 @@
         </trans-unit>
         <trans-unit id="Page 672324457 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description line of the rule.</source>
-          <target state="translated">Určuje popis pravidla.</target>
+          <target state="translated">Určuje řádek popisu pravidla.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Search Rule Line Lookup CZB - Control Description - Property ToolTip</note>
         </trans-unit>

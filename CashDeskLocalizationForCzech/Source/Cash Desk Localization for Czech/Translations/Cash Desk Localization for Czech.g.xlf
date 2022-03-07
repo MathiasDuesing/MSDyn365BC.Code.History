@@ -2033,6 +2033,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method FindPostedCashDocumentHdr - NamedType PostedCashDocumentTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1275455400 - NamedType 409826367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZP - NamedType CashReceiptTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1275455400 - NamedType 2313871946" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Withdrawal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZP - NamedType CashWithdrawalTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2944632038 - NamedType 3883586894" size-unit="char" translate="yes" xml:space="preserve">
           <source>An approval request for a cash document is canceled.</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -1758,6 +1758,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Issue Payment Order YesNo CZB - NamedType IssueQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4164059914 - NamedType 1643415992" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZB - NamedType PaymentOrderTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3420928472 - NamedType 314128662" size-unit="char" translate="yes" xml:space="preserve">
           <source>'%1' %2 in '%3 is malformed.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = Account No.; %3 = RecordId</note>
