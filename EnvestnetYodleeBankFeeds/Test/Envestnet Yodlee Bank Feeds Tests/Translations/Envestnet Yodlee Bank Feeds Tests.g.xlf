@@ -140,7 +140,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3810257405 - NamedType 1109901106" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines out of %2 are applied.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%2 is the total of lines, %1 is the ones applied</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Bank Service Tests - NamedType MatchSummaryMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 3810257405 - NamedType 4104633221" size-unit="char" translate="yes" xml:space="preserve">

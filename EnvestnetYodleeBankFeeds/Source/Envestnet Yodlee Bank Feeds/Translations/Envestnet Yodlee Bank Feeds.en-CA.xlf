@@ -366,7 +366,7 @@
         <trans-unit id="Codeunit 758984636 - NamedType 1977805956" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2</source>
           <target state="translated">%1 %2</target>
-          <note from="Developer" annotates="general" priority="2">Used to concat AccountLinkingSummaryMsg and AccountUnLinkingSummaryMsg</note>
+          <note from="Developer" annotates="general" priority="2">Used to concat AccountLinkingSummaryMsg (%1) and AccountUnLinkingSummaryMsg (%2)</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ConcatAccountSummaryMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 44359669" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -489,12 +489,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType GetUnlinkAccountTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 248097893" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The name of the key is not valid.</source>
-          <target state="translated">The name of the key is not valid.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType InvalidKeyErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 232778209" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The response was not valid.</source>
           <target state="translated">The response was not valid.</target>
@@ -582,7 +576,7 @@
         <trans-unit id="Codeunit 758984636 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Waiting for Envestnet Yodlee to complete the bank account refresh #1</source>
           <target state="translated">Waiting for Envestnet Yodlee to complete the bank account refresh #1</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">#1 is a number tracking the progress of the refresh</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ProgressWindowMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 29832492" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -638,12 +632,6 @@
           <target state="translated">The request failed due to an underlying issue such as network connectivity, DNS failure, server certificate validation or timeout.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType RequestUnsuccessfulErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 758984636 - NamedType 4220031043" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The name of the key is too long. The maximum length is 50 characters.</source>
-          <target state="translated">The name of the key is too long. The maximum length is 50 characters.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - Yodlee Service Mgt. - NamedType ServiceKeyTooLongErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 758984636 - NamedType 1658257400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set it up here.</source>
