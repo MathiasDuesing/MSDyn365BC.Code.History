@@ -73,11 +73,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType DeleteXMLFileQst</note>
         </trans-unit>
-        <trans-unit id="Table 3039476855 - NamedType 1045516353" size-unit="char" translate="yes" xml:space="preserve">
-          <source>File already exists. Overwrite?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType FileExistsMsg</note>
-        </trans-unit>
         <trans-unit id="Table 3039476855 - NamedType 3833465197" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify a beginning of a month as starting date of the statement period.</source>
           <note from="Developer" annotates="general" priority="2"></note>
