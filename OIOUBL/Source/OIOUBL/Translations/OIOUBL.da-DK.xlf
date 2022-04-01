@@ -240,7 +240,7 @@
         <trans-unit id="Codeunit 87117224 - NamedType 2912267127" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The electronic document format %1 does not exist for the document type %2.</source>
           <target state="translated">Det elektronisk dokuments format %1 findes ikke for dokumenttypen %2.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 - OIOUBL, %2 - Enum "Electronic Document Format Usage"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType NonExistingDocumentFormatErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 87117224 - NamedType 267233681" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
