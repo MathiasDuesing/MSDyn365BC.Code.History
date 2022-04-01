@@ -2109,53 +2109,65 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Issue Payment Order YesNo CZB - NamedType IssueQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 314128662" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3 is malformed.</source>
-          <target state="translated">'%1' %2 v '%3 je chybný.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = Account No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType AccountNoMalformedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 3576202793" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to continue?</source>
-          <target state="translated">Chcete pokračovat?</target>
+        <trans-unit id="Codeunit 4164059914 - NamedType 1643415992" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Order</source>
+          <target state="translated">Platební příkaz</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType ContinueQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZB - NamedType PaymentOrderTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 91730279" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 in '%3' is Blocked.</source>
-          <target state="translated">%1 %2 v '%3' je uzavřen.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType CustVendBlockedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 1319501308" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3' is already applied on other payment order.</source>
-          <target state="translated">'%1' %2 v '%3' je již vyrovnáno na jiném platebním příkaze.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Applies-to C/V Entry No. FieldCaption; %2 = Applies-to C/V Entry No; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType CustVendLedgEntryAlreadyAppliedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 2594037857" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' or '%2' in '%3' must be specified.</source>
-          <target state="translated">'%1' nebo '%2' v '%3' musí být specifikován.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = IBAN FieldCaption; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType MustBeSpecifiedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 1905097733" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 in '%3' is blocked for privacy.</source>
-          <target state="translated">%1 %2 v '%3' je uzavřen z důvodu ochrany soukromí.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType PrivacyBlockedErr</note>
+        <trans-unit id="Codeunit 3420928472 - Method 1836162220 - NamedType 389604884" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Ledger Entry No. %2 is suggested to application on other documents in the system.\Do you want to use it for this Payment Order?</source>
+          <target state="translated">Položka %1 číslo %2 je navržena k vyrovnání na jiném dokladu v systému.\Chcete ji použít pro tento platební příkaz?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Type, %2 = Applies-to C/V/E Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApply - NamedType SuggestedAmountToApplyQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 3420928472 - Method 3437982689 - NamedType 1118573040" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3' is already applied on other payment order.</source>
-          <target state="translated">'%1' %2 '%3' se již vyrovnána na jiném platebním příkaze.</target>
+          <source>%1 %2 in %3 is already applied on other or the same payment order.</source>
+          <target state="translated">%1 %2 v %3 je již vyrovnána na jiném nebo stejném platebním příkazu.</target>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Letter No.; %2 = Letter No.; %3 = recordid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToAdvanceLetter - NamedType AdvanceAlreadyAppliedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3420928472 - Method 3437982689 - NamedType 1388888926" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' and '%2' %3 %4 in '%5' is already applied on other payment order.</source>
-          <target state="translated">'%1' a '%2' %3 %4 v '%5' je již vyrovnáno na jiném platebním příkaze.</target>
+          <source>%1 and %2 %3 %4 in %5 is already applied on other or the same payment order.</source>
+          <target state="translated">%1 a %2 %3 %4 v %5 je již vyrovnán na jiném nebo stejném platební příkazu.</target>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Letter No.; %2 = fieldcaption of Letter Line No.; %3 = Letter No.; %4 = Letter Line No.; %5 = recordid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToAdvanceLetter - NamedType AdvanceLineAlreadyAppliedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1689390151 - NamedType 1319501308" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is already applied on other or the same payment order.</source>
+          <target state="translated">%1 %2 v %3 je již vyrovnána na jiném nebo stejném platebním příkazu.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Applies-to C/V Entry No. FieldCaption; %2 = Applies-to C/V Entry No; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToOtherEntries - NamedType CustVendLedgEntryAlreadyAppliedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1617421870 - NamedType 314128662" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is malformed.</source>
+          <target state="translated">%1 %2 v %3 je chybný.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = Account No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineBankAccountNo - NamedType AccountNoMalformedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 2095429480 - NamedType 91730279" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is blocked.</source>
+          <target state="translated">%1 %2 v %3 je uzavřen.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineCustVendBlocked - NamedType CustVendBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 2095429480 - NamedType 1905097733" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is blocked for privacy.</source>
+          <target state="translated">%1 %2 v %3 je uzavřen z důvodu ochrany soukromí.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineCustVendBlocked - NamedType PrivacyBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1826321201 - NamedType 2594037857" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 or %2 in %3 must be specified.</source>
+          <target state="translated">%1 nebo %2 v %3 musí být specifikován.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = IBAN FieldCaption; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineFormat - NamedType MustBeSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 555018757 - NamedType 3576202793" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to continue?</source>
+          <target state="translated">Chcete pokračovat?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method ProcessErrorMessages - NamedType ContinueQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2440601293 - Method 1921517890 - NamedType 565480431" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 field must be filled.</source>
@@ -4785,6 +4797,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control Public Bank Account - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1588770455 - Control 1659230960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total Amount (LCY) related suggestions to apply.</source>
+          <target state="translated">Určuje celkovou částku (LM) související s návrhy k vyrovnání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control RelatedAmountToApply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1588770455 - Control 1659230960 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Amount to Apply (LCY)</source>
+          <target state="translated">Související částka k vyrovnání (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control RelatedAmountToApply - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1588770455 - Control 1639344207 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies possible remaining payment discount.</source>
           <target state="translated">Určuje možné zbývající skonto.</target>
@@ -6092,6 +6116,62 @@
           <target state="translated">Použít skonto</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Suggest Payments CZB - Control UsePaymentDiscCZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 1252050781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit bank statements.</source>
+          <target state="translated">Zobrazte nebo upravte bankovní výpisy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 1252050781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Statements</source>
+          <target state="translated">Bankovní výpisy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2313358256 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit payment orders.</source>
+          <target state="translated">Zobrazte nebo upravte platební příkazy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2313358256 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Orders</source>
+          <target state="translated">Platební příkazy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2658619482 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View issued bank statements.</source>
+          <target state="translated">Zobrazte vydané bankovní výpisy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2658619482 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Bank Statements</source>
+          <target state="translated">Vydané bankovní výpisy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 3541249563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View issued payment orders.</source>
+          <target state="translated">Zobrazte vydané platební příkazy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 3541249563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Payment Orders</source>
+          <target state="translated">Vydané platební příkazy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
         </trans-unit>
         <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Search Rules</source>

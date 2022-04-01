@@ -2988,6 +2988,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Maintenance - Analysis CZF - Control StartingDateCZF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 456193447 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View, print, or send the fixed asset physical inventory list report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action FA Physical Inventory List CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 456193447 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>FA Physical Inventory List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action FA Physical Inventory List CZF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 3831506117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View, print, or send the fixed asset analysis of depreciation book report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset - An. Dep.Book CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 3831506117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Fixed Asset - Depreciation Book Analysis</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset - An. Dep.Book CZF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1185486633 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View, print, or send the fixed asset book value 1 report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset - Book Value 1 CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1185486633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Fixed Asset - Book Value 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset - Book Value 1 CZF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1612362103 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View, print, or send the fixed asset card report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset Card CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1612362103 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Fixed Asset Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZF - Action Fixed Asset Card CZF - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1156164925 - Control 3089043389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1855807544">
           <source>Specifies if all acquisition has to be posted in the same year.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3238,6 +3278,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Fixed Asset Card CZF - Control Tax Deprec. Group Code CZF - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3022151236 - Control 2838561355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4232171073">
+          <source>Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to an account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Fixed Asset Journal CZF - Control Correction CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022151236 - Control 3136066546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4232171073">
+          <source>Specifies the reason code on the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Fixed Asset Journal CZF - Control Reason Code CZF - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1909085757 - Action 667011734 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 949348664">
           <source>Open fixed asset history entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3367,6 +3417,16 @@
           <source>Specifies no. series used as document no. in fixed asset history entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Fixed Asset Setup CZF - Control Fixed Asset History Nos. CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102296127 - Control 2838561355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2550189034">
+          <source>Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to an account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Recur. Fixed Asset Journal CZF - Control Correction CZF - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102296127 - Control 3136066546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2550189034">
+          <source>Specifies the reason code on the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Recur. Fixed Asset Journal CZF - Control Reason Code CZF - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 1168969897 - Field 3089043389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1615433100">
           <source>All Acquisition in same Year</source>

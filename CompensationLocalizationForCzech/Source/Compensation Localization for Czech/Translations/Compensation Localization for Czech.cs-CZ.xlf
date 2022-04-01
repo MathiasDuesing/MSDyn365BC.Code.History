@@ -813,35 +813,41 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZC - Method FindPostedCompesationHeader - NamedType PostedCompensationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 630424172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This document can only be released when the approval process is complete.</source>
-          <target state="translated">Tento doklad lze vydat pouze po dokončení procesu schvalování.</target>
+        <trans-unit id="Codeunit 3526363297 - NamedType 3531114968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation</source>
+          <target state="translated">Zápočet</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType ApprovalProcessReleaseErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZC - NamedType CompensationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 1140108518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The approval process must be cancelled or completed to reopen this document.</source>
-          <target state="translated">Proces schvalování musí být stornován nebo dokončen, pokud chcete doklad znovu otevřít.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType ApprovalProcessReopenErr</note>
+        <trans-unit id="Codeunit 585442029 - Method 832708040 - NamedType 3975508567" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be less or equal to %2.</source>
+          <target state="translated">%1 musí být menší nebo roven hodnotě v poli %2.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Compensation Balance (LCY) FieldCaption, %2 = Max. Rounding Amount FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationBalance - NamedType MustBeLessOrEqualErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 2113434353" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 585442029 - Method 2355882001 - NamedType 389604884" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Ledger Entry No. %2 is suggested to application on other documents in the system.\Do you want to use it for this Compensation?</source>
+          <target state="translated">Položka %1 číslo %2 je navržena k vyrovnání na jiném dokladu v systému.\Chcete ji použít pro tento zápočet?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Source Type, %2 = Source Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationLines - NamedType SuggestedAmountToApplyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 585442029 - Method 2355882001 - NamedType 2113434353" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>All lines with currency %1 must have the same currency factor.</source>
           <target state="translated">Všechny řádky s měnou %1 musí mít stejný faktor měny.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Currency Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType CurrencyFactorErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationLines - NamedType CurrencyFactorErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 3975508567" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must be less or equal to %2.</source>
-          <target state="translated">%1 musí být menší nebo rovna hodnotě v poli %2.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Compensation Balance (LCY) FieldCaption, %2 = Max. Rounding Amount FieldCaption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType MustBeLessOrEqualErr</note>
+        <trans-unit id="Codeunit 585442029 - Method 2792400078 - NamedType 630424172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This document can only be released when the approval process is complete.</source>
+          <target state="translated">Tento doklad lze vydat pouze po dokončení procesu schvalování.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method PerformManualRelease - NamedType ApprovalProcessReleaseErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 662543090" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 %3 is already used. Do you want to use it for Compensation?</source>
-          <target state="translated">%1 %2 %3 je již použita. Chcete ji použít pro zápočet?</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Customer/Vendor LE TableCaption, %2 = Entry No. FieldCption, %3 = Entry No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType UseChangedLedgerEntryQst</note>
+        <trans-unit id="Codeunit 585442029 - Method 1479096300 - NamedType 1140108518" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The approval process must be cancelled or completed to reopen this document.</source>
+          <target state="translated">Proces schvalování musí být stornován nebo dokončen, pokud chcete doklad znovu otevřít.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method PerformManualReopen - NamedType ApprovalProcessReopenErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 387005850 - Method 119720622 - NamedType 1279814613" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The operation is prohibited, until journal line of Journal Template Name = '%1', Journal Batch Name = '%2', Line No. = '%3' is deleted or posted.</source>
@@ -2325,6 +2331,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control Posting Group - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2725993544 - Control 1659230960 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total Amount (LCY) related suggestions to apply.</source>
+          <target state="translated">Určuje celkovou částku (LM) související s návrhy k vyrovnání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control RelatedAmountToApply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2725993544 - Control 1659230960 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Amount to Apply (LCY)</source>
+          <target state="translated">Odpovídající částka k vyrovnání (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control RelatedAmountToApply - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2725993544 - Control 2975378708 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount after doing compensation process.</source>
           <target state="translated">Určuje částku po provedení procesu zápočtu.</target>
@@ -3399,6 +3417,34 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - Control NoOfCopiesCZC - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 3950432719 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View and edit compensations.</source>
+          <target state="translated">Zobrazení a úprava zápočtů.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 3950432719 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensations</source>
+          <target state="translated">Zápočty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 86029864 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View posted compensations.</source>
+          <target state="translated">Zobrazit účtované zápočty.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 86029864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Compensations</source>
+          <target state="translated">Účtované zápočty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2623527395 - Control 784577327 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount on the unposted compensation.</source>
           <target state="translated">Určuje částku na nezaúčtovaném zápočtu.</target>
@@ -3523,17 +3569,17 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Proposal Method CZC - EnumValue Registration No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3514499822 - EnumValue 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2784200430 - EnumValue 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation</source>
           <target state="translated">Zápočet</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Compensation - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Compensation - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3514499822 - EnumValue 646382055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2784200430 - EnumValue 646382055 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Compensation</source>
           <target state="translated">Účtovaný zápočet</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Posted Compensation - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Posted Compensation - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4019691003 - EnumValue 3993128796 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact</source>

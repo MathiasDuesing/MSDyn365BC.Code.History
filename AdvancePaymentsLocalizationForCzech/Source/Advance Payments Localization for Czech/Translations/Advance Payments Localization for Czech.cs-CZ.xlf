@@ -136,26 +136,26 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table Advance Letter Template CZZ - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 370756209 - Field 360862913 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Report Caption</source>
-          <target state="translated">Titulek sestavy zálohové faktury</target>
+          <source>Document Report Caption (Obsolete)</source>
+          <target state="translated">Titulek sestavy dokladu (zastaralý)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Advance Letter Template CZZ - Field Document Report Caption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 370756209 - Field 3209126864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Report ID</source>
-          <target state="translated">ID sestavy zálohové faktury</target>
+          <source>Document Report ID (Obsolete)</source>
+          <target state="translated">ID sestavy dokladu (zastaralý)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Advance Letter Template CZZ - Field Document Report ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 370756209 - Field 2928330232 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice/Cr. Memo Report Caption</source>
-          <target state="translated">Titulek sestavy faktury/dobropisu</target>
+          <source>Invoice/Cr. Memo Report Caption (Obsolete)</source>
+          <target state="translated">Titulek sestavy faktura/dobropis (zastaralý)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Advance Letter Template CZZ - Field Invoice/Cr. Memo Rep. Caption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 370756209 - Field 734592308 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Invoice/Cr. Memo Report ID</source>
-          <target state="translated">ID sestavy faktury/dobropisu</target>
+          <source>Invoice/Cr. Memo Report ID (Obsolete)</source>
+          <target state="translated">ID sestavy faktura/dobropis (zastaralé)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Advance Letter Template CZZ - Field Invoice/Cr. Memo Report ID - Property Caption</note>
         </trans-unit>
@@ -1617,6 +1617,18 @@
           <note from="Developer" annotates="general" priority="2">%1 = caption of table, %2 = code of record, example: Source data doesn't exist for G/L Account: 8210.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Flow Handler CZZ - NamedType SourceDataDoesNotExistErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4041478369 - Method 2302599178 - NamedType 389604884" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance %1 is suggested to application on other documents in the system.\Do you want to use it for this Cash Document?</source>
+          <target state="translated">Nákup záloha %1 je navržena k vyrovnání na jiných dokladech v systému.\Chcete ji použít pro tento pokladní doklad?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Advance Letter No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cross Application Handler CZZ - Method CheckSuggestedAmountToApplyOnBeforeCheckCashDocumentLine - NamedType SuggestedAmountToApplyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4041478369 - Method 3368138112 - NamedType 389604884" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance %1 is suggested to application on other documents in the system.\Do you want to use it for this Payment Order?</source>
+          <target state="translated">Nákup záloha %1 je navržena k vyrovnání na jiných dokladech v systému.\Chcete ji použít pro tento příkaz k úhradě?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Purch. Advance Letter No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cross Application Handler CZZ - Method CheckSuggestedAmountToApplyOnBeforeCheckPaymentOrderLine - NamedType SuggestedAmountToApplyQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4146039880 - NamedType 1427565258" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you use Advance Payments, data from Base application to Czech localization application will be copied.</source>
           <target state="translated">Pokud budete používat Advance Payments, data budou zkopírována z Base Application do aplikace české lokaliazce.</target>
@@ -1647,9 +1659,21 @@
           <note from="Developer" annotates="general" priority="2">%1 = Line Description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Payment Handler CZZ - Method AddAdvanceRuleLineOnAfterInsertRuleLine - NamedType DescriptionTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 1234273833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letter</source>
+          <target state="translated">Nákupní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType PurchaseAdvanceLetterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 677905200" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType SalesAdvanceLetterTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4182671345 - Method 2287209808 - NamedType 625134644" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3' is already applied on other payment order.</source>
-          <target state="translated">'%1' %2 v '%3' je již vyrovnáno na jiném platebním příkaze.</target>
+          <source>%1 %2 in %3 is already applied on other or the same payment order.</source>
+          <target state="translated">%1 %2 v %3 je již vyrovnána na jiném nebo stejném platebním příkazu.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Purch. Advance Letter No. CZZ FieldCaption; %2 = Purch. Advance Letter No. CZZ; %3 = RecordId</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Mgt. Handler CZZ - Method IsPurchAdvanceAppliedOnBeforeCheckPaymentOrderLineApplyToOtherEntries - NamedType PurchAdvanceAlreadyAppliedErr</note>
         </trans-unit>
@@ -1785,6 +1809,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Purch.Adv.Letter Doc. CZZ - NamedType ApprovalProcessReopenErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4167133227 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be negative</source>
+          <target state="translated">nesmí být záporné</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Purch.Adv.Letter Doc. CZZ - NamedType NegativeAmountErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3483474005 - NamedType 630424172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This document can only be released when the approval process is complete.</source>
           <target state="translated">Tento doklad lze vydat pouze po dokončení procesu schvalování.</target>
@@ -1796,6 +1826,36 @@
           <target state="translated">Proces schvalování musí být stornován nebo dokončen, pokud chcete doklad znovu otevřít.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Sales Adv.Letter Doc. CZZ - NamedType ApprovalProcessReopenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3483474005 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be negative</source>
+          <target state="translated">nesmí být záporné</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Sales Adv.Letter Doc. CZZ - NamedType NegativeAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1496175903 - Method 3807355560 - NamedType 2129717482" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance</source>
+          <target state="translated">Prodejní záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Report Selection Handler CZZ - Method AddAdvanceReportsOnAfterGetFullDocumentTypeText - NamedType SalesAdvanceLetterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1496175903 - Method 3807355560 - NamedType 4286175424" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance VAT Document</source>
+          <target state="translated">Prodejní zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Report Selection Handler CZZ - Method AddAdvanceReportsOnAfterGetFullDocumentTypeText - NamedType SalesAdvanceVATDocumentLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1496175903 - Method 3807355560 - NamedType 2803376271" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance</source>
+          <target state="translated">Nákupní záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Report Selection Handler CZZ - Method AddAdvanceReportsOnAfterGetFullDocumentTypeText - NamedType PurchaseAdvanceLetterLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1496175903 - Method 3807355560 - NamedType 1932186993" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance VAT Document</source>
+          <target state="translated">Nákupní zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Report Selection Handler CZZ - Method AddAdvanceReportsOnAfterGetFullDocumentTypeText - NamedType PurchaseAdvanceVATDocumentLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2748602711 - NamedType 519972416" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date and VAT Date cannot be empty.</source>
@@ -2626,8 +2686,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Control Vendor Ledger Entry No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4091573732 - Action 353868217 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Document</source>
-          <target state="translated">Daňový doklad</target>
+          <source>Posting</source>
+          <target state="translated">Účtovani</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Adv. Letter Entries CZZ - Action AdvanceLetterVAT - Property Caption</note>
         </trans-unit>
@@ -3693,6 +3753,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2936817786 - Control 2866783829 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total Amount (LCY) suggested to apply.</source>
+          <target state="translated">Určuje celkovou částku (LM) navrženou k vyrovnání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control SuggestedAmountToApplyCZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2936817786 - Control 2866783829 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggested Amount to Apply (LCY)</source>
+          <target state="translated">Navržená částka k vyrovnání (LM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letters CZZ - Control SuggestedAmountToApplyCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2936817786 - Control 1234572229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies to pay amount.</source>
           <target state="translated">Určuje částku pro zaplacení.</target>
@@ -4132,10 +4204,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Control VAT Prod. Posting Group - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 688385878 - Action 353868217 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>VAT Document</source>
-          <target state="translated">Daňový doklad</target>
+          <source>Posting</source>
+          <target state="translated">Účtovani</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action AdvanceLetterVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 688385878 - Action 2049962466 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finalize and prepare to send the document according to the customer's sending profile, such as attached to an email. The Send document to window opens first so you can confirm or select a sending profile.</source>
+          <target state="translated">Dokončete a připravte se na odeslání dokumentu podle profilu odesílání zákazníka, který je například připojen k e-mailu. Nejprve se otevře okno Odeslat dokument do, ve kterém můžete potvrdit nebo vybrat profil odesílání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action PostAndSendPaymentVAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 688385878 - Action 2049962466 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Payment VAT and &amp;Send</source>
+          <target state="translated">&amp;Zaúčtujte DPH k platbě a odešlete</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action PostAndSendPaymentVAT - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 688385878 - Action 2177836368 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Post credit memo VAT.</source>
@@ -4220,6 +4304,18 @@
           <target state="translated">Odpojit platbu zálohy</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action UnlinkAdvancePayment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 688385878 - Action 1285973296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepare to email the document. The Send Email window opens prefilled with the customer's email address so you can add or edit information.</source>
+          <target state="translated">Připravte se na odeslání dokumentu e-mailem. Otevře se okno Odeslat e-mail s předvyplněnou e-mailovou adresou zákazníka, abyste mohli přidat nebo upravit informace.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 688385878 - Action 1285973296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Send by Email</source>
+          <target state="translated">&amp;Odeslat e-mailem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Adv. Letter Entries CZZ - Action Email - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 688385878 - Action 3050169775 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print VAT document.</source>
@@ -4929,6 +5025,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action SendApprovalRequest - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1285973296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepare to email the document. The Send Email window opens prefilled with the customer's email address so you can add or edit information.</source>
+          <target state="translated">Připravte se na odeslání dokumentu e-mailem. Otevře se okno Odeslat e-mail s předvyplněnou e-mailovou adresou zákazníka, abyste mohli přidat nebo upravit informace.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1285973296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Send by Email</source>
+          <target state="translated">&amp;Odeslat e-mailem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action Email - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2641234761 - Action 1002420131 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allows the print of advance letter.</source>
           <target state="translated">Umožňuje tisk zálohové faktury.</target>
@@ -5336,6 +5444,18 @@
           <target state="translated">Zálohy DPH</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Action AdvanceLettersVAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2081690216 - Action 1285973296 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prepare to email the document. The Send Email window opens prefilled with the customer's email address so you can add or edit information.</source>
+          <target state="translated">Připravte se na odeslání dokumentu e-mailem. Otevře se okno Odeslat e-mail s předvyplněnou e-mailovou adresou zákazníka, abyste mohli přidat nebo upravit informace.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Action Email - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2081690216 - Action 1285973296 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Send by Email</source>
+          <target state="translated">&amp;Odeslat e-mailem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letters CZZ - Action Email - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2081690216 - Action 3986159229 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create a PDF file and attach it to the document.</source>
@@ -7419,6 +7539,153 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales Advance Letters VAT CZZ - Control ToDateField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 170015005 - Control 1450284548 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether line of sales journal is advance payment.</source>
+          <target state="translated">Určuje, zda řádek deníku prodeje je zálohová platba.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2252013879</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 3828423806 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit purchase advance letters.</source>
+          <target state="translated">Zobrazení nebo úprava nákupních zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 3828423806 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letters</source>
+          <target state="translated">Nákupní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 1418597291 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit sales advance letters.</source>
+          <target state="translated">Zobrazení nebo úprava prodejních zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 1418597291 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letters</source>
+          <target state="translated">Prodejní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2273488980 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new purchase advance letter.</source>
+          <target state="translated">Vytvořte novou nákupní zálohu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2273488980 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letter</source>
+          <target state="translated">Nákupní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 3524332069 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a new sales advance letter.</source>
+          <target state="translated">Vytvořte novou prodejní zálohu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 3524332069 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 415329009 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the purchase advance letters report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu nákupní zálohové faktury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 415329009 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letters</source>
+          <target state="translated">Nákupní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2198729397 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the purchase advance letters recapitulation report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu rekapitulace nákupních zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2198729397 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letters Recapitulation</source>
+          <target state="translated">Rekapitulace nákupních záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2056761776 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the purchase advance letters VAT report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy nákupní zálohy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2056761776 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letters VAT</source>
+          <target state="translated">Nákupní zálohové faktury DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2081690216 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the sales advance letters report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu prodejních zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 2081690216 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letters</source>
+          <target state="translated">Prodejní zálohové faktury</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 1934523636 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the sales advance letters recapitulation report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu rekapitulace prodejních zálohových faktur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 1934523636 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letters Recapitulation</source>
+          <target state="translated">Rekapitulace prodejních zálohových faktur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 290321289 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the sales advance letters VAT report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy prodejní zálohy DPH.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4098891913 - Action 290321289 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letters VAT</source>
+          <target state="translated">Prodejní zálohy DPH</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
         <trans-unit id="PageExtension 274923258 - Action 223652187 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show purchase advance letters.</source>
           <target state="translated">Zobrazit nákupní zálohové faktury.</target>
@@ -8287,6 +8554,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 518836496</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2819975460 - Field 1450284548 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Payments</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4226338242</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2819975460 - Field 1450284548 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Yes,No</source>
+          <target state="translated"> ,Ano,Ne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4226338242</note>
+        </trans-unit>
         <trans-unit id="TableExtension 240450061 - Field 2060499916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter No.</source>
           <target state="translated">Číslo zálohy</target>
@@ -8634,12 +8915,40 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Enum 2702425922</note>
         </trans-unit>
+        <trans-unit id="EnumExtension 2374814406 - EnumValue 3721890065 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter</source>
+          <target state="translated">Záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1358428903</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2374814406 - EnumValue 2652524887 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance VAT Document</source>
+          <target state="translated">Zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1358428903</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 26321991 - EnumValue 2473906886 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance</source>
           <target state="translated">Záloha</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Enum 1170745677</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 1342594411 - EnumValue 2641234761 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 2593693414</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 1342594411 - EnumValue 3156008943 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance VAT Document</source>
+          <target state="translated">Prodejní zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 2593693414</note>
         </trans-unit>
         <trans-unit id="EnumExtension 960125044 - EnumValue 4269074616 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Payments Localization for Czech</source>
@@ -8654,6 +8963,62 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Enum 4244706559</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3209209361 - EnumValue 3721890065 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter</source>
+          <target state="translated">Záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 405939076</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3209209361 - EnumValue 2652524887 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance VAT Document</source>
+          <target state="translated">Zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 405939076</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2029560016 - EnumValue 3721890065 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter</source>
+          <target state="translated">Záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1788069285</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2029560016 - EnumValue 2652524887 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance VAT Document</source>
+          <target state="translated">Zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 1788069285</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3486627444 - EnumValue 4045895320 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letter</source>
+          <target state="translated">Nákupní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3528066925</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3486627444 - EnumValue 1159700914 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance VAT Document</source>
+          <target state="translated">Nákupní zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3528066925</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3486627444 - EnumValue 2641234761 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3528066925</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3486627444 - EnumValue 3156008943 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance VAT Document</source>
+          <target state="translated">Prodejní zálohový daňový doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3528066925</note>
         </trans-unit>
         <trans-unit id="EnumExtension 940368793 - EnumValue 1707175179 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance</source>

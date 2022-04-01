@@ -683,30 +683,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZC - NamedType CompensationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 630424172" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This document can only be released when the approval process is complete.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType ApprovalProcessReleaseErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 1140108518" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The approval process must be cancelled or completed to reopen this document.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType ApprovalProcessReopenErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 2113434353" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All lines with currency %1 must have the same currency factor.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Currency Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType CurrencyFactorErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 3975508567" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 585442029 - Method 832708040 - NamedType 3975508567" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be less or equal to %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Compensation Balance (LCY) FieldCaption, %2 = Max. Rounding Amount FieldCaption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType MustBeLessOrEqualErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationBalance - NamedType MustBeLessOrEqualErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 585442029 - NamedType 662543090" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 %3 is already used. Do you want to use it for Compensation?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Customer/Vendor LE TableCaption, %2 = Entry No. FieldCption, %3 = Entry No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType UseChangedLedgerEntryQst</note>
+        <trans-unit id="Codeunit 585442029 - Method 2355882001 - NamedType 389604884" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Ledger Entry No. %2 is suggested to application on other documents in the system.\Do you want to use it for this Compensation?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Source Type, %2 = Source Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationLines - NamedType SuggestedAmountToApplyQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 585442029 - Method 2355882001 - NamedType 2113434353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All lines with currency %1 must have the same currency factor.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Currency Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method CheckCompensationLines - NamedType CurrencyFactorErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 585442029 - Method 2792400078 - NamedType 630424172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This document can only be released when the approval process is complete.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method PerformManualRelease - NamedType ApprovalProcessReleaseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 585442029 - Method 1479096300 - NamedType 1140108518" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The approval process must be cancelled or completed to reopen this document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - Method PerformManualReopen - NamedType ApprovalProcessReopenErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 387005850 - Method 119720622 - NamedType 1279814613" size-unit="char" translate="yes" xml:space="preserve">
           <source>The operation is prohibited, until journal line of Journal Template Name = '%1', Journal Batch Name = '%2', Line No. = '%3' is deleted or posted.</source>
@@ -1943,6 +1943,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control Posting Group - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2725993544 - Control 1659230960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total Amount (LCY) related suggestions to apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control RelatedAmountToApply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2725993544 - Control 1659230960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Amount to Apply (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Subform CZC - Control RelatedAmountToApply - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2725993544 - Control 2975378708 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount after doing compensation process.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2838,6 +2848,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - Control NoOfCopiesCZC - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 3950432719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View and edit compensations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZC - Action Compensations CZC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 3950432719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Compensations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZC - Action Compensations CZC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 86029864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View posted compensations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZC - Action Posted Compensations CZC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2316771610 - Action 86029864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Posted Compensations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZC - Action Posted Compensations CZC - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2623527395 - Control 784577327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
           <source>Specifies the amount on the unposted compensation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2928,15 +2958,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Proposal Method CZC - EnumValue Registration No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3514499822 - EnumValue 3835983272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2784200430 - EnumValue 3835983272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Compensation - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Compensation - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3514499822 - EnumValue 646382055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Enum 2784200430 - EnumValue 646382055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posted Compensation</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Posted Compensation - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Compens. Report Sel. Usage CZC - EnumValue Posted Compensation - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4019691003 - EnumValue 3993128796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact</source>

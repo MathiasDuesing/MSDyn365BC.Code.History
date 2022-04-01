@@ -1763,45 +1763,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZB - NamedType PaymentOrderTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 314128662" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3 is malformed.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = Account No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType AccountNoMalformedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 3576202793" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Do you want to continue?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType ContinueQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 91730279" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 in '%3' is Blocked.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType CustVendBlockedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 1319501308" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3' is already applied on other payment order.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Applies-to C/V Entry No. FieldCaption; %2 = Applies-to C/V Entry No; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType CustVendLedgEntryAlreadyAppliedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 2594037857" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' or '%2' in '%3' must be specified.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = IBAN FieldCaption; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType MustBeSpecifiedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3420928472 - NamedType 1905097733" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 in '%3' is blocked for privacy.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - NamedType PrivacyBlockedErr</note>
+        <trans-unit id="Codeunit 3420928472 - Method 1836162220 - NamedType 389604884" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 Ledger Entry No. %2 is suggested to application on other documents in the system.\Do you want to use it for this Payment Order?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Type, %2 = Applies-to C/V/E Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApply - NamedType SuggestedAmountToApplyQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 3420928472 - Method 3437982689 - NamedType 1118573040" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' %2 in '%3' is already applied on other payment order.</source>
+          <source>%1 %2 in %3 is already applied on other or the same payment order.</source>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Letter No.; %2 = Letter No.; %3 = recordid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToAdvanceLetter - NamedType AdvanceAlreadyAppliedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3420928472 - Method 3437982689 - NamedType 1388888926" size-unit="char" translate="yes" xml:space="preserve">
-          <source>'%1' and '%2' %3 %4 in '%5' is already applied on other payment order.</source>
+          <source>%1 and %2 %3 %4 in %5 is already applied on other or the same payment order.</source>
           <note from="Developer" annotates="general" priority="2">%1 = fieldcaption of Letter No.; %2 = fieldcaption of Letter Line No.; %3 = Letter No.; %4 = Letter Line No.; %5 = recordid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToAdvanceLetter - NamedType AdvanceLineAlreadyAppliedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1689390151 - NamedType 1319501308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is already applied on other or the same payment order.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Applies-to C/V Entry No. FieldCaption; %2 = Applies-to C/V Entry No; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineApplyToOtherEntries - NamedType CustVendLedgEntryAlreadyAppliedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1617421870 - NamedType 314128662" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is malformed.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = Account No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineBankAccountNo - NamedType AccountNoMalformedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 2095429480 - NamedType 91730279" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is blocked.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineCustVendBlocked - NamedType CustVendBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 2095429480 - NamedType 1905097733" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 in %3 is blocked for privacy.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption; %2 = No.; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineCustVendBlocked - NamedType PrivacyBlockedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 1826321201 - NamedType 2594037857" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 or %2 in %3 must be specified.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Account No. FieldCaption; %2 = IBAN FieldCaption; %3 = RecordId</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method CheckPaymentOrderLineFormat - NamedType MustBeSpecifiedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3420928472 - Method 555018757 - NamedType 3576202793" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Payment Order Management CZB - Method ProcessErrorMessages - NamedType ContinueQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2440601293 - Method 1921517890 - NamedType 565480431" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 field must be filled.</source>
@@ -3993,6 +3998,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control Public Bank Account - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1588770455 - Control 1659230960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total Amount (LCY) related suggestions to apply.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control RelatedAmountToApply - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1588770455 - Control 1659230960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Amount to Apply (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control RelatedAmountToApply - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1588770455 - Control 1639344207 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies possible remaining payment discount.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5082,6 +5097,46 @@
           <source>Find Payment Discounts</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Suggest Payments CZB - Control UsePaymentDiscCZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 1252050781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View or edit bank statements.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Bank Statements CZB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 1252050781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Bank Statements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Bank Statements CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2313358256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View or edit payment orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Payment Orders CZB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2313358256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Payment Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Payment Orders CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2658619482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View issued bank statements.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Issued Bank Statements CZB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 2658619482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Issued Bank Statements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Issued Bank Statements CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 3541249563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>View issued payment orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Issued Payment Orders CZB - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1679074993 - Action 3541249563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3761073867">
+          <source>Issued Payment Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Issued Payment Orders CZB - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4183424761">
           <source>Search Rules</source>

@@ -177,6 +177,42 @@
           <note from="Developer" annotates="general" priority="2">%1 = TableCaption G/L Entry, %2 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Reversal Entry Handler CZA - Method GLEntryPostApplicationOnCheckGLAccOnBeforeTestFields - NamedType ReverseErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 84682111 - NamedType 272546004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This shipment has already been received. Undo Shipment can be applied only to posted, but not received shipments.</source>
+          <target state="translated">Tato dodávka již byla přijata. Vrácení dodávky lze použít pouze u dodávek, které jsou zaúčtovány, nikoli však přijaty.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method CheckTransShptLine - NamedType ShptAlreadyReceiptErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 3004954119 - NamedType 2109322063" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undo Quantity posting...</source>
+          <target state="translated">Účtování vrácení množství...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method Code - NamedType UndoQtyPostingMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 3004954119 - NamedType 3943784158" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Checking lines...</source>
+          <target state="translated">Kontrola řádků...</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method Code - NamedType CheckingLinesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 3955351095 - NamedType 1336088190" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is not enough space to insert correction lines.</source>
+          <target state="translated">Pro vložení opravných řádků není dostatek místa.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method InsertNewShipmentLine - NamedType NotEnoughSpaceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 1665861916 - NamedType 4118026048" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you really want to undo the selected Shipment lines?</source>
+          <target state="translated">Chcete opravdu vrátit vybrané řádky dodávky?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method OnRun - NamedType UndoShptLinesQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1997957299 - Method 1665861916 - NamedType 2248902352" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undo Shipment can be performed only for lines with nonempty Item No. Please select a line with nonempty Item No. and repeat the procedure.</source>
+          <target state="translated">Vrácení dodávky lze provést pouze u řádků, kde je vyplněno Číslo zboží. Vyberte řádek, kde je vyplněno Číslo zboží a akci opakujte.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method OnRun - NamedType EmptyItemNoErr</note>
+        </trans-unit>
         <trans-unit id="Page 756275509 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Applied General Ledger Entries</source>
           <target state="translated">Vyrovnané věcné položky</target>
@@ -1024,20 +1060,20 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewPageperGLAcc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the apllied entries is to be show</source>
-          <target state="translated">Určuje, kdy mají být zobrazeny vyrovnané položky.</target>
+          <source>Specifies when the applied entries is to be shown.</source>
+          <target state="translated">Určuje, kdy se mají zobrazit vyrovnané položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Apllied Entries</source>
-          <target state="translated">Zobraz položky vyrovnaní</target>
+          <source>Show Applied Entries</source>
+          <target state="translated">Zobrazit vyrovnané položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 50186443 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the entries with zero remainig amt. is to be show</source>
-          <target state="translated">Určuje, kdy mají být zobrazeny položky s nulovou zbývající částkou.</target>
+          <source>Specifies when the entries with zero remainig amount is to be shown.</source>
+          <target state="translated">Určuje, kdy mají být zobrazeny položky s nulovým zbývajícím množstvím.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property ToolTip</note>
         </trans-unit>
@@ -1193,6 +1229,48 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2128748224</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 1714971046 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Handle application of G/L entries.</source>
+          <target state="translated">Proveďte vyrovnání věcných položek.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 1714971046 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Apply G/L Entries</source>
+          <target state="translated">Vyrovnat věcné položky</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 2555123392 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the inventory account to date report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu Inventura účtu k datu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 2555123392 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Account to Date</source>
+          <target state="translated">Inventura účtu k datu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 2461347119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the open G/L entries to date report.</source>
+          <target state="translated">Zobrazte, vytiskněte nebo odešlete sestavu otevřených věcných položek k dnešnímu dni.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1041378376 - Action 2461347119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open G/L Entries to Date</source>
+          <target state="translated">Otevřené věcné položky do data</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2996679564 - Control 1447799953 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the General Business Posting Group that applies to the entry.</source>
           <target state="translated">Určuje kód obecné obchodní účtoskupiny, která je použita pro položku.</target>
@@ -1279,7 +1357,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1765747566 - Action 166047328 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>View the inventory account to specific date.</source>
-          <target state="translated">Zobrazte inventury účtu k určitému datu.</target>
+          <target state="translated">Zobrazení účtu zásob k určitému datu.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
@@ -1417,6 +1495,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2405093420</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3187947203 - Control 4156805326 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the source number used on the entry.</source>
+          <target state="translated">Určuje číslo původu použitého pro tuto položku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2405093420</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1190526150 - Control 2261959332 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies where the entry originated</source>
           <target state="translated">Určuje původ položky</target>
@@ -1427,6 +1512,13 @@
         <trans-unit id="PageExtension 1190526150 - Control 1258762823 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies where the entry originated</source>
           <target state="translated">Určuje původ položky</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3595318222</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1190526150 - Control 4156805326 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies where the entry originated.</source>
+          <target state="translated">Určuje, kde je položka vytvořena.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3595318222</note>
@@ -1458,6 +1550,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4213585053</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 120755117 - Action 1908199188 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withdraw the line from the shipment. This is useful for making corrections, because the line is not deleted. You can make changes and post it again.</source>
+          <target state="translated">Vyjme řádek z dodávky. To je užitečné k dělání oprav, protože řádek není smazán. Můžete udělat změny a opět ho zaúčtovat.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2991235355</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 120755117 - Action 1908199188 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Undo Shipment</source>
+          <target state="translated">V&amp;rátit dodávku</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2991235355</note>
         </trans-unit>
         <trans-unit id="PageExtension 1716206927 - Control 617672214 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies general bussiness posting group for items receive.</source>
@@ -1676,6 +1782,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1180040559</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1213658185 - Field 912901044 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="translated">Zpět</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2446230529</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3817588302 - Field 1844538358 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
           <target state="translated">Kód měny</target>
@@ -1851,6 +1964,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1340367376</note>
         </trans-unit>
+        <trans-unit id="TableExtension 859326863 - Field 2200864738 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Correction</source>
+          <target state="translated">Oprava</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1496656855</note>
+        </trans-unit>
         <trans-unit id="TableExtension 859326863 - Field 617672214 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Post. Group Receive</source>
           <target state="translated">Obec.obch.účt.sk.příjem</target>
@@ -1861,6 +1981,13 @@
         <trans-unit id="TableExtension 859326863 - Field 1461697477 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Post. Group Ship</source>
           <target state="translated">Obec.obch.účt.sk.dodání</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1496656855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 859326863 - Field 4246370480 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transfer Order Line No.</source>
+          <target state="translated">Číslo řádku objednávky transf.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1496656855</note>

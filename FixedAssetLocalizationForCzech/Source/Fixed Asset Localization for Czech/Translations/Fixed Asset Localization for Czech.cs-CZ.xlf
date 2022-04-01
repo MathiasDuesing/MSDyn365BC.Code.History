@@ -3585,6 +3585,62 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Maintenance - Analysis CZF - Control StartingDateCZF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 456193447 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the fixed asset physical inventory list report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy Seznam fyzické inventury DM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 456193447 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FA Physical Inventory List</source>
+          <target state="translated">Seznam fyzické inventury DM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 3831506117 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the fixed asset analysis of depreciation book report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy porovnání odpisových knih dlouhodobého majetku.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 3831506117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset - Depreciation Book Analysis</source>
+          <target state="translated">Dlouhodobý majetek - porovnání odp.knih</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1185486633 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the fixed asset book value 1 report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy Dlouhodobí majetek - úč.hodn.01.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1185486633 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset - Book Value 1</source>
+          <target state="translated">Dlouhodobý majetek - účetní hodnota 1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1612362103 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View, print, or send the fixed asset card report.</source>
+          <target state="translated">Zobrazení, tisk nebo odeslání sestavy Karta DM.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4229861461 - Action 1612362103 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset Card</source>
+          <target state="translated">Karta DM</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1156164925 - Control 3089043389 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if all acquisition has to be posted in the same year.</source>
           <target state="translated">Určuje, že všechna zařazení musí být zaúčtována ve stejném roce.</target>
@@ -3935,6 +3991,20 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3133908286</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3022151236 - Control 2838561355 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to an account.</source>
+          <target state="translated">Určuje položku jako opravnou položku. Pole můžete použít, pokud potřebujete zaúčtovat opravnou položku na účet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4232171073</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3022151236 - Control 3136066546 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason code on the entry.</source>
+          <target state="translated">Určuje kód příčiny položky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4232171073</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1909085757 - Action 667011734 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open fixed asset history entries.</source>
           <target state="translated">Otevře položky historie dlouhodobého majetku.</target>
@@ -4116,6 +4186,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 594930339</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102296127 - Control 2838561355 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry as a corrective entry. You can use the field if you need to post a corrective entry to an account.</source>
+          <target state="translated">Určuje položku jako opravnou položku. Pole můžete použít, pokud potřebujete zaúčtovat opravnou položku na účet.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2550189034</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102296127 - Control 3136066546 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the reason code on the entry.</source>
+          <target state="translated">Určuje kód příčiny položky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 2550189034</note>
         </trans-unit>
         <trans-unit id="TableExtension 1168969897 - Field 3089043389 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>All Acquisition in same Year</source>
