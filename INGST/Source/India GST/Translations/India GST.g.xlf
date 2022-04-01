@@ -5589,7 +5589,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Cess Tax Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 229426313 - Field 1334543401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Generate E-Inv. on Ser. Post</source>
+          <source>Generate E-Inv. on Service Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table GST Setup - Field Generate E-Inv. on Ser. Post - Property Caption</note>
         </trans-unit>
@@ -24673,11 +24673,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Subcontracting Order Subform - Control Blanket Order No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 720507622 - Control 2168672665 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the cross reference number is linked with this line.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Subcontracting Order Subform - Control Cross-Reference No. - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 720507622 - Control 2678752220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of delivery challan posted</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -24777,6 +24772,11 @@
           <source>Specifies the invoice discount amount of this line.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Subcontracting Order Subform - Control Inv. Discount Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 720507622 - Control 3948462483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item reference number is linked with this line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Subcontracting Order Subform - Control Item Reference No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 720507622 - Control 3685049847 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the job line amount of this order.</source>
@@ -25264,7 +25264,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3621093334 - Control 1334543401 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the boolean for Generate E-Inv. on Ser. Post</source>
+          <source>Specifies the function through which e-invoice will be generated at the time of service post.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Tax Type Setup - Control Generate E-Inv. on Ser. Post - Property ToolTip</note>
         </trans-unit>
