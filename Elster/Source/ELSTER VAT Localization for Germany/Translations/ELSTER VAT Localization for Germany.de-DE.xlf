@@ -3,6 +3,24 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="ELSTER VAT Localization for Germany">
     <body>
       <group id="body">
+        <trans-unit id="Table 2848605974 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. VAT Decl. Buffer</source>
+          <target state="translated">Elektr. Umsatzsteuererkl.-Puffer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Decl. Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2848605974 - Field 636392376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <target state="translated">Betrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Decl. Buffer - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2848605974 - Field 3004954119 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Elec. VAT Decl. Buffer - Field Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1923262567 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Elec. VAT Decl. Setup</source>
           <target state="translated">Elektr. Umsatzsteuererklärung – Einrichtung</target>
@@ -248,6 +266,42 @@
           <target state="translated">MwSt.-Voranmeldung</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster - Initialize - NamedType XVATADVANCENOTIFICATIONTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - NamedType 3406582961" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cannot identify XML nodes related to amounts in the submission message.</source>
+          <target state="translated">XML-Knoten, die sich auf Beträge in der Übermittlungsnachricht beziehen, können nicht identifiziert werden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType CannotIdentifyAmountsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - NamedType 3062628261" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No submission message has been created. Press the Create action to generate it.</source>
+          <target state="translated">Es wurde keine Übermittlungsnachricht erstellt. Drücken Sie die Aktion „Erstellen“, um diese zu generieren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType SubmissionMessageNotCreatedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1032026331 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Elec. VAT Decl. Overview</source>
+          <target state="translated">Elektr. Umsatzsteuererkl.-Übersicht</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Decl. Overview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1032026331 - Control 2445482498 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">Allgemein</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Decl. Overview - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1032026331 - Control 636392376 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the amount to report.</source>
+          <target state="translated">Gibt den zu meldenden Betrag an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Decl. Overview - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1032026331 - Control 3004954119 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT code to report.</source>
+          <target state="translated">Gibt den MwSt.-Code an, der gemeldet werden soll.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Elec. VAT Decl. Overview - Control Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2767607058 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic VAT Decl. Setup</source>
@@ -507,6 +561,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action GLVATReconciliation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 1006698272 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a VAT statement as a preview of the sales VAT advance notification that you will send to the tax authorities.</source>
+          <target state="translated">Zeigen Sie eine MwSt.-Abrechnung als Vorschau der Umsatzsteuervoranmeldung an, die Sie an die Steuerbehörden senden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action P&amp;review - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 1006698272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;review statement</source>
+          <target state="translated">V&amp;orschauabrechnung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action P&amp;review - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 4290830447 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the amounts from the XML file that you will send to the tax authorities.</source>
+          <target state="translated">Zeigen Sie die Beträge aus der XML-Datei an, die Sie an die Steuerbehörden senden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action PreviewAmounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1934416626 - Action 4290830447 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show amounts from XML file</source>
+          <target state="translated">Beträge aus XML-Datei anzeigen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. Card - Action PreviewAmounts - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1934416626 - Action 1002420131 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print the information in the window. A print request window opens where you can specify what to include on the print-out.</source>
           <target state="translated">Druckt die Informationen im Fenster. Ein Druckanforderungsfenster wird geöffnet, in dem Sie angeben können, was der Ausdruck enthalten soll.</target>
@@ -638,6 +716,30 @@
           <target state="translated">FIBU – MwSt.-Abstimmung</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action GLVATReconciliation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 323663860 - Action 1006698272 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View a VAT statement as a preview of the sales VAT advance notification that you will send to the tax authorities.</source>
+          <target state="translated">Zeigen Sie eine MwSt.-Abrechnung als Vorschau der Umsatzsteuervoranmeldung an, die Sie an die Steuerbehörden senden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action P&amp;review - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 323663860 - Action 1006698272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P&amp;review statement</source>
+          <target state="translated">V&amp;orschauabrechnung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action P&amp;review - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 323663860 - Action 4290830447 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the amounts from the XML file that you will send to the tax authorities.</source>
+          <target state="translated">Zeigen Sie die Beträge aus der XML-Datei an, die Sie an die Steuerbehörden senden.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action PreviewAmounts - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 323663860 - Action 4290830447 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show amounts from XML file</source>
+          <target state="translated">Beträge aus XML-Datei anzeigen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales VAT Adv. Notif. List - Action PreviewAmounts - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 323663860 - Action 1002420131 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Print the information in the window. A print request window opens where you can specify what to include on the print-out.</source>
