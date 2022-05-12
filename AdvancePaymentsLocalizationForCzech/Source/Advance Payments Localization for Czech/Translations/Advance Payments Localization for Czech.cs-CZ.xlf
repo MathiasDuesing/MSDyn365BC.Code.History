@@ -1647,6 +1647,18 @@
           <note from="Developer" annotates="general" priority="2">%1 = Line Description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Match Bank Payment Handler CZZ - Method AddAdvanceRuleLineOnAfterInsertRuleLine - NamedType DescriptionTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 1234273833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance Letter</source>
+          <target state="translated">Nákupní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType PurchaseAdvanceLetterTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3357454274 - NamedType 677905200" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance Letter</source>
+          <target state="translated">Prodejní zálohová faktura</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZZ - NamedType SalesAdvanceLetterTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4182671345 - Method 2287209808 - NamedType 625134644" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>'%1' %2 in '%3' is already applied on other payment order.</source>
           <target state="translated">'%1' %2 v '%3' je již vyrovnáno na jiném platebním příkaze.</target>
@@ -1785,6 +1797,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Purch.Adv.Letter Doc. CZZ - NamedType ApprovalProcessReopenErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4167133227 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be negative</source>
+          <target state="translated">nesmí být záporné</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Purch.Adv.Letter Doc. CZZ - NamedType NegativeAmountErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3483474005 - NamedType 630424172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This document can only be released when the approval process is complete.</source>
           <target state="translated">Tento doklad lze vydat pouze po dokončení procesu schvalování.</target>
@@ -1796,6 +1814,12 @@
           <target state="translated">Proces schvalování musí být stornován nebo dokončen, pokud chcete doklad znovu otevřít.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Sales Adv.Letter Doc. CZZ - NamedType ApprovalProcessReopenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3483474005 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be negative</source>
+          <target state="translated">nesmí být záporné</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Rel. Sales Adv.Letter Doc. CZZ - NamedType NegativeAmountErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2748602711 - NamedType 519972416" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date and VAT Date cannot be empty.</source>
@@ -8028,6 +8052,62 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">PageExtension 2724491344</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3993974069 - Control 2287577662 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the customer.</source>
+          <target state="translated">Určuje počet zálohových plateb pro zákazníka.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1244689284</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3993974069 - Control 2287577662 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1244689284</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3993974069 - Control 1413820427 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the customer.</source>
+          <target state="translated">Určuje počet zálohových plateb pro zákazníka.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1244689284</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3993974069 - Control 1413820427 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 1244689284</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2668696898 - Control 2287577662 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the customer.</source>
+          <target state="translated">Určuje počet zálohových plateb pro zákazníka.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 21747839</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2668696898 - Control 2287577662 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 21747839</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2668696898 - Control 1413820427 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the customer.</source>
+          <target state="translated">Určuje počet zálohových plateb pro zákazníka.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 21747839</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2668696898 - Control 1413820427 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 21747839</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2594871462 - Action 298825070 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter</source>
           <target state="translated">Záloha</target>
@@ -8195,6 +8275,62 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4132487568</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1456012752 - Control 2287577662 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the vendor.</source>
+          <target state="translated">Určuje počet zálohových plateb pro dodavatele.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 729613392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1456012752 - Control 2287577662 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 729613392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1456012752 - Control 1413820427 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the vendor.</source>
+          <target state="translated">Určuje počet zálohových plateb pro dodavatele.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 729613392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1456012752 - Control 1413820427 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 729613392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2615653353 - Control 2287577662 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the vendor.</source>
+          <target state="translated">Určuje počet zálohových plateb pro dodavatele.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4204281033</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2615653353 - Control 2287577662 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4204281033</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2615653353 - Control 1413820427 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of advance payments for the vendor.</source>
+          <target state="translated">Určuje počet zálohových plateb pro dodavatele.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4204281033</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2615653353 - Control 1413820427 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advances</source>
+          <target state="translated">Zálohy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4204281033</note>
         </trans-unit>
         <trans-unit id="PageExtension 581201733 - Action 2796163641 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create purchase advance letter.</source>

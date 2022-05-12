@@ -2439,6 +2439,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZP - Method FindPostedCashDocumentHdr - NamedType PostedCashDocumentTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1275455400 - NamedType 409826367" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Receipt</source>
+          <target state="translated">Příjmový pokladní doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZP - NamedType CashReceiptTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1275455400 - NamedType 2313871946" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cash Withdrawal</source>
+          <target state="translated">Výdajový pokladní doklad</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZP - NamedType CashWithdrawalTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2944632038 - NamedType 3883586894" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>An approval request for a cash document is canceled.</source>
           <target state="translated">Požadavek ke schvalování pokladního dokladu byl zrušen.</target>

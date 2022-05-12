@@ -854,17 +854,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewPageperGLAcc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the apllied entries is to be show</source>
+          <source>Specifies when the applied entries is to be shown.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Apllied Entries</source>
+          <source>Show Applied Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 50186443 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the entries with zero remainig amt. is to be show</source>
+          <source>Specifies when the entries with zero remainig amount is to be shown.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property ToolTip</note>
         </trans-unit>

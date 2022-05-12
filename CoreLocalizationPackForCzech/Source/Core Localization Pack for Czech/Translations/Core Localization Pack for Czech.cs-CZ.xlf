@@ -14505,6 +14505,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control PostingDescriptionField - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 629953382 - Control 175637332 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to skip Advance Payments</source>
+          <target state="translated">Určuje, zda chcete přeskočit zálohové platby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control SkipAdvancePaymentsField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 629953382 - Control 175637332 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Advance Payments</source>
+          <target state="translated">Přeskočit zálohové platby</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Adjust Exchange Rates CZL - Control SkipAdvancePaymentsField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 629953382 - Control 493843669 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the etries will be summarized</source>
           <target state="translated">Určuje, pokud mají být položky sumarizovány.</target>
@@ -21047,7 +21059,7 @@
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3407441673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission</source>
-          <target state="translated">Provize</target>
+          <target state="translated">Komise</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel CommissionLbl</note>
         </trans-unit>
@@ -21095,7 +21107,7 @@
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3131523370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reason</source>
-          <target state="translated">Důvod:</target>
+          <target state="translated">Důvod</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel ReasonLbl</note>
         </trans-unit>

@@ -2109,6 +2109,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Issue Payment Order YesNo CZB - NamedType IssueQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4164059914 - NamedType 1643415992" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Order</source>
+          <target state="translated">Platební příkaz</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZB - NamedType PaymentOrderTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3420928472 - NamedType 314128662" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>'%1' %2 in '%3 is malformed.</source>
           <target state="translated">'%1' %2 v '%3 je chybný.</target>

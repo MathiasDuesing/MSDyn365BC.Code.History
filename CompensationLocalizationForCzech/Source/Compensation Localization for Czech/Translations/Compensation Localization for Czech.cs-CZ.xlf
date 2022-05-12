@@ -813,6 +813,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Navigate Handler CZC - Method FindPostedCompesationHeader - NamedType PostedCompensationTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3526363297 - NamedType 3531114968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation</source>
+          <target state="translated">Zápočet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Notification Handler CZC - NamedType CompensationTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 585442029 - NamedType 630424172" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This document can only be released when the approval process is complete.</source>
           <target state="translated">Tento doklad lze vydat pouze po dokončení procesu schvalování.</target>

@@ -1024,20 +1024,20 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewPageperGLAcc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the apllied entries is to be show</source>
-          <target state="translated">Určuje, kdy mají být zobrazeny vyrovnané položky.</target>
+          <source>Specifies when the applied entries is to be shown.</source>
+          <target state="translated">Určuje, kdy se mají zobrazit vyrovnané položky.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 3814107 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Show Apllied Entries</source>
-          <target state="translated">Zobraz položky vyrovnaní</target>
+          <source>Show Applied Entries</source>
+          <target state="translated">Zobrazit vyrovnané položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowApplyEntries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 166047328 - Control 50186443 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies when the entries with zero remainig amt. is to be show</source>
-          <target state="translated">Určuje, kdy mají být zobrazeny položky s nulovou zbývající částkou.</target>
+          <source>Specifies when the entries with zero remainig amount is to be shown.</source>
+          <target state="translated">Určuje, kdy mají být zobrazeny položky s nulovým zbývajícím množstvím.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property ToolTip</note>
         </trans-unit>
