@@ -155,7 +155,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4149390856 - NamedType 3949230830" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Environment blocks an outgoing HTTP request to '%1'.</source>
-          <target state="translated">Environment blokkerer en utgående HTTP-forespørsel til '%1'.</target>
+          <target state="translated">Miljøet blokkerer en utgående HTTP-forespørsel til %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 - url, e.g. https://microsoft.com</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Connection Mgt. - NamedType EnvironmentBlocksErr</note>
         </trans-unit>
@@ -341,7 +341,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2673552518 - NamedType 1753922530" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Input VAT deduct. (domestic)</source>
-          <target state="translated">Inng. mva. frab. (innenlands)</target>
+          <target state="translated">Fradragsberettiget inngående mva. (innenlands)</target>
           <note from="Developer" annotates="general" priority="2">Fradragsberettiget innenlands inng+�ende merverdiavgift</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Data Mgt. - NamedType InputVATDeductibleDomesticTxt</note>
         </trans-unit>
@@ -482,24 +482,6 @@
           <target state="translated">Oppsett for elektronisk innsending av mva-retur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType ServiceConnectionSetupLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 2221241153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The amount on the row %1 has an incorrect sign. It must be %2.</source>
-          <target state="translated">Beløpet på rad %1 har feil tegn. Det må være %2.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = either positive or negative</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType IncorrectSignErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 3126481395" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>negative</source>
-          <target state="translated">virke</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType NegativeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 2660910107" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>positive</source>
-          <target state="translated">positive</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType PositiveLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3905663042 - NamedType 1939937657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The VAT amount in the box %1 is not equal to the base VAT * VAT Rate.</source>
@@ -847,7 +829,7 @@
         </trans-unit>
         <trans-unit id="Page 1354521070 - Control 618784563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the redirect URL.</source>
-          <target state="translated">Angir URL-adressen for omdirigering.</target>
+          <target state="translated">Angir nettadressen for omdirigering.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Electronic VAT Setup Card - Control Redirect URL - Property ToolTip</note>
         </trans-unit>
