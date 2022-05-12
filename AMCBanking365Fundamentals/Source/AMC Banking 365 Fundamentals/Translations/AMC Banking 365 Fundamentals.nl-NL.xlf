@@ -353,7 +353,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2242781076" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank account number was not found in the data to be imported.</source>
-          <target state="translated">Het bankrekeningnummer kon niet worden gevonden in de gegevens die moeten worden geïmporteerd.</target>
+          <target state="translated">Het bankrekeningnummer is niet gevonden in de gegevens die moeten worden geïmporteerd.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoInDataErr</note>
         </trans-unit>
@@ -365,7 +365,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 742056434" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The closing balance was not found in the data to be imported.</source>
-          <target state="translated">De slotbalans kon niet worden gevonden in de gegevens die moeten worden geïmporteerd.</target>
+          <target state="translated">Het eindsaldo is niet gevonden in de gegevens die moeten worden geïmporteerd.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingClosingBalInDataMsg</note>
         </trans-unit>
