@@ -353,7 +353,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 2242781076" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank account number was not found in the data to be imported.</source>
-          <target state="translated">No se encontró el número de cuenta bancaria en los datos que se van a importar.</target>
+          <target state="translated">No se encontró el número de cuenta bancaria en los datos que se importarán.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingBankAccNoInDataErr</note>
         </trans-unit>
@@ -371,7 +371,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1106260476" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The statement date was not found in the data to be imported.</source>
-          <target state="translated">No se encontró la fecha del estado de cuenta de banco en los datos que se van a importar.</target>
+          <target state="translated">No se encontró la fecha del estado de cuenta en los datos que se van a importar.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType MissingStmtDateInDataMsg</note>
         </trans-unit>
@@ -1603,7 +1603,7 @@
         </trans-unit>
         <trans-unit id="XmlPort 417263901 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Export CreditTransfer</source>
-          <target state="translated">CreditTransfer exportación de AMC Banking</target>
+          <target state="translated">Transferencia crédito exportación AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort AMC Bank Export CreditTransfer - Property Caption</note>
         </trans-unit>
