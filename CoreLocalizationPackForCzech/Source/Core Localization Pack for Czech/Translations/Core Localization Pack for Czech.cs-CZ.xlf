@@ -15393,13 +15393,13 @@
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3131523370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reason</source>
-          <target state="translated">Důvod:</target>
+          <target state="translated">Důvod</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel ReasonLbl</note>
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3407441673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission</source>
-          <target state="translated">Provize</target>
+          <target state="translated">Komise</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel CommissionLbl</note>
         </trans-unit>
