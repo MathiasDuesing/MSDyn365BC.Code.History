@@ -4689,6 +4689,18 @@
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyUninstalledMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 2879639004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have selected to delete extension data for the %1 extension and all of its dependents: %2. Continuing uninstall will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Vous avez choisi de supprimer les données d’extension pour l’extension %1 et toutes ses dépendances : %2. La poursuite de la désinstallation va supprimer les tables contenant les données pour l’extension %1 et toutes ses dépendances. Cette action ne peut pas être annulée. Voulez-vous continuer ?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app ,%2= all dependent extensions</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 4098040153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabling Delete Extension Data will delete the tables that contain data for the %1 extension and all of its dependents on uninstall. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Si l’option Supprimer les données d’extension est activée, les tables contenant les données de l’extension %1 et de toutes ses dépendances seront supprimées lors de la désinstallation. Cette action ne peut pas être annulée. Voulez-vous continuer ?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 3775415435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?</source>
           <target state="translated">L'extension %1 a une dépendance sur une, voire plusieurs extensions : %2. \ \Souhaitez-vous installer %1 et toutes ses dépendances ?</target>
@@ -11170,7 +11182,7 @@
         </trans-unit>
         <trans-unit id="Page 906691248 - NamedType 1232297936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The state parameter value does not match.</source>
-          <target state="translated">La valeur du paramètre d'état ne correspond pas.</target>
+          <target state="translated">La valeur du paramètre d’état ne correspond pas.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page OAuth2ControlAddIn - NamedType NotMatchingStateErr</note>
         </trans-unit>
@@ -13022,7 +13034,7 @@
         </trans-unit>
         <trans-unit id="Page 1849231761 - Property 1064389655" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>About user setting details</source>
-          <target state="translated">À propos des détails des préférences client</target>
+          <target state="translated">À propos des détails des paramètres utilisateur</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page User Personalization - Property AboutTitle</note>
         </trans-unit>
@@ -14066,7 +14078,7 @@
         </trans-unit>
         <trans-unit id="Page 1153700271 - Control 730832363 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the entity the template is asscociated with.</source>
-          <target state="translated">Spécifie l’entité avec laquelle le modèle est associé.</target>
+          <target state="translated">Spécifie l’entité à laquelle le modèle est associé.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Word Template Selection Wizard - Control TableName - Property ToolTip</note>
         </trans-unit>

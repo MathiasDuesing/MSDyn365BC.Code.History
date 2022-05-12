@@ -4689,6 +4689,18 @@
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyUninstalledMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 2879639004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have selected to delete extension data for the %1 extension and all of its dependents: %2. Continuing uninstall will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Notandi hefur valið að eyða gögnum viðbótar fyrir viðbótina %1 og allt sem tengist henni: %2. Ef haldið er áfram verður töflum sem innihalda gögn fyrir viðbótina %1 og öllu sem tengist henni eytt. Ekki er hægt að afturkalla þessa aðgerð. Á að halda áfram?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app ,%2= all dependent extensions</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 4098040153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabling Delete Extension Data will delete the tables that contain data for the %1 extension and all of its dependents on uninstall. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Ef kveikt er á „Eyða gögnum viðbótar“ verður töflunum sem innihalda gögn fyrir viðbótina %1 og allt sem tengist henni eytt. Ekki er hægt að afturkalla þessa aðgerð. Á að halda áfram?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 3775415435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?</source>
           <target state="translated">Viðbótin %1 er háð einni eða fleiri viðbótum: %2. \ \Á að setja upp %1 og öll háð atriði?</target>
@@ -5639,7 +5651,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3102643942 - NamedType 1633402485" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company %1 was just created, and we are still setting it up for you.\This may take up to 10 minutes, so take a short break before you begin to use %2.</source>
-          <target state="translated">Fyrirtækið %1 var stofnað rétt í þessu og enn er verið að setja það upp.\Þetta getur tekið allt að 10 mínútur og því hægt að taka pásu áður en byrjað er að nota %2.</target>
+          <target state="translated">Fyrirtæki %1 var stofnað rétt í þessu og enn er verið að setja það upp.\Þetta getur tekið allt að 10 mínútur. Hægt er að taka smápásu áður hafist er handa við notkun %2.</target>
           <note from="Developer" annotates="general" priority="2">%1 - a company name,%2 - our product name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Settings Impl. - NamedType CompanySetUpInProgressMsg</note>
         </trans-unit>
@@ -5651,7 +5663,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3102643942 - NamedType 246036057" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Your last sign in was on %1.</source>
-          <target state="translated">Síðasta innskráningin var %1.</target>
+          <target state="translated">Síðasta innskráning var %1.</target>
           <note from="Developer" annotates="general" priority="2">%1 - a date time object</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Settings Impl. - NamedType MyLastLoginLbl</note>
         </trans-unit>
@@ -5663,7 +5675,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3102643942 - NamedType 1499713021" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>We're glad you've chosen to explore %1!\\Your session will restart to activate the new settings.</source>
-          <target state="translated">Það gleður okkur að þú hafir ákveðið að kynna þér %1!\\Lotan þín mun endurræsast til að virkja nýju stillingarnar.</target>
+          <target state="translated">Það gleður okkur að þú hafir ákveðið að skoða %1!\\Lotan mun endurræsast til að virkja nýju stillingarnar.</target>
           <note from="Developer" annotates="general" priority="2">%1 - our product name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Settings Impl. - NamedType TrialStartMsg</note>
         </trans-unit>
