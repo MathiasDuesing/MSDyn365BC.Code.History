@@ -87,6 +87,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table SMTP Account - Field User Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 687035094 - NamedType 4026580400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The address %1 could not be parsed correctly.</source>
+          <target state="translated">Impossibile analizzare l'indirizzo %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1=The email address</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Connector SMTP Message - NamedType EmailParseFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 687035094 - NamedType 3985540982" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to add linked resource. Content Type: %1</source>
+          <target state="translated">Impossibile aggiungere la risorsa collegata. Tipo di contenuto: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 - The Content Type of the resource.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Connector SMTP Message - NamedType FailedToAddLinkResourceMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 687035094 - NamedType 2104307454" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The From address %1 could not be parsed correctly.</source>
+          <target state="translated">Impossibile analizzare l'indirizzo del mittente %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1=The email address</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Connector SMTP Message - NamedType FromEmailParseFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 687035094 - NamedType 3677629754" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not add recipient %1.</source>
+          <target state="translated">Impossibile aggiungere il destinatario %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = email address</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Connector SMTP Message - NamedType RecipientErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4052218681 - NamedType 2563123446" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not authenticate.</source>
           <target state="translated">Impossibile eseguire l'autenticazione.</target>
@@ -200,30 +224,6 @@
           <target state="translated">Messaggio e-mail inviato.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Connector Impl. - NamedType SmtpSendTelemetryMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 607767707 - NamedType 4026580400" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The address %1 could not be parsed correctly.</source>
-          <target state="translated">Impossibile analizzare correttamente l'indirizzo %1.</target>
-          <note from="Developer" annotates="general" priority="2">%1=The email address</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType EmailParseFailureErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 607767707 - NamedType 3985540982" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Failed to add linked resource. Content Type: %1</source>
-          <target state="translated">Impossibile aggiungere risorsa collegata. Tipo di contenuto: %1</target>
-          <note from="Developer" annotates="general" priority="2">%1 - The Content Type of the resource.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType FailedToAddLinkResourceMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 607767707 - NamedType 2104307454" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The From address %1 could not be parsed correctly.</source>
-          <target state="translated">Impossibile analizzare correttamente l'indirizzo del mittente %1.</target>
-          <note from="Developer" annotates="general" priority="2">%1=The email address</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType FromEmailParseFailureErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 607767707 - NamedType 3677629754" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Could not add recipient %1.</source>
-          <target state="translated">Impossibile aggiungere il destinatario %1.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = email address</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SMTP Message - NamedType RecipientErr</note>
         </trans-unit>
         <trans-unit id="Page 4170592685 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SMTP Account</source>
