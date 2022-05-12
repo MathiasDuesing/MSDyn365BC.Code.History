@@ -13739,7 +13739,7 @@
         </trans-unit>
         <trans-unit id="PermissionSet 757517586 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assign permissions to users</source>
-          <target state="translated">Tilordne tillatel. til brukere</target>
+          <target state="translated">Tildel tillatel. til brukere</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet SECURITY - Property Caption</note>
         </trans-unit>

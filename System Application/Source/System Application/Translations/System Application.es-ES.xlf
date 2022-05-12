@@ -527,13 +527,13 @@
         </trans-unit>
         <trans-unit id="Table 414606611 - Field 1577117606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object ID to Run</source>
-          <target state="translated">Id. de objeto que se ejecutará</target>
+          <target state="translated">Id. objeto para ejecutar</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Checklist Item Buffer - Field Object ID to Run - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 414606611 - Field 994380745 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object Type to Run</source>
-          <target state="translated">Tipo de objeto que se ejecutará</target>
+          <target state="translated">Tipo objeto para ejecutar</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Checklist Item Buffer - Field Object Type to Run - Property Caption</note>
         </trans-unit>
@@ -1604,13 +1604,13 @@
         </trans-unit>
         <trans-unit id="Table 3519071095 - Field 1577117606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object ID to Run</source>
-          <target state="translated">Id. de objeto que se ejecutará</target>
+          <target state="translated">Id. objeto para ejecutar</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Guided Experience Item - Field Object ID to Run - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3519071095 - Field 994380745 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object Type to Run</source>
-          <target state="translated">Tipo de objeto que se ejecutará</target>
+          <target state="translated">Tipo objeto para ejecutar</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Guided Experience Item - Field Object Type to Run - Property Caption</note>
         </trans-unit>
@@ -7866,7 +7866,7 @@
         </trans-unit>
         <trans-unit id="Page 240224259 - Control 989751795 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the attachment</source>
-          <target state="translated">Especifica el nombre del archivo adjunto</target>
+          <target state="translated">Especifica el nombre del archivo adjunto.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Email Related Attachments - Control FileName - Property ToolTip</note>
         </trans-unit>
