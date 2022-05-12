@@ -1468,7 +1468,7 @@
         </trans-unit>
         <trans-unit id="Page 3704095706 - Control 1958465003 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>License number of Business Central for AMC Banking</source>
-          <target state="translated">Licensnummer til Business Central for AMC Banking</target>
+          <target state="translated">Licensnummer til Business Central til AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page AMC Banking Setup - Control BCLicenseNumber - Property ToolTip</note>
         </trans-unit>
@@ -1605,7 +1605,7 @@
         </trans-unit>
         <trans-unit id="XmlPort 417263901 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>AMC Banking Export CreditTransfer</source>
-          <target state="translated">AMC Banking-eksportkreditoverførsel</target>
+          <target state="translated">Eksport af kreditoverførsel fra AMC Banking</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort AMC Bank Export CreditTransfer - Property Caption</note>
         </trans-unit>
