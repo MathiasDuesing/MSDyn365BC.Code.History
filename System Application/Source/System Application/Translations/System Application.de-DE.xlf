@@ -3513,11 +3513,23 @@
           <note from="Developer" annotates="general" priority="2">%1 = Source URI; %2 = Blob</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType AppendBlockFromUrlOperationNotSuccessfulErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 1422921443" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blob</source>
+          <target state="translated">Blob</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType BlobLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 4292101918" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not %2 block list on %1.</source>
           <target state="translated">%2 von Blockliste in %1 nicht möglich.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Blob; %2 = Get/Set</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType BlockListOperationNotSuccessfulErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 1877850615" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Container</source>
+          <target state="translated">Container</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType ContainerLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 1651198496" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not copy %1 to %2.</source>
@@ -3561,6 +3573,42 @@
           <note from="Developer" annotates="general" priority="2">%1 = Blob</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType GetBlobOperationNotSuccessfulErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 638986168" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>acquire</source>
+          <target state="translated">Erwerben</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseAcquireLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 866805029" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>break</source>
+          <target state="translated">Unterbrechen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseBreakLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 592510374" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>change</source>
+          <target state="translated">Ändern</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseChangeLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 3473948105" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Could not %1 lease for %2 %3.</source>
+          <target state="translated">%1 von Mietvertrag für %2 %3 nicht möglich.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Lease Action, %2 = Type (Container or Blob), %3 = Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseOperationNotSuccessfulErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 2819296591" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>release</source>
+          <target state="translated">Freigeben</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseReleaseLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 1119377977" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>renew</source>
+          <target state="translated">Verlängern</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType LeaseRenewLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 579037001" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not list blobs for container %1.</source>
           <target state="translated">Blobs für Container %1 konnten nicht aufgelistet werden.</target>
@@ -3572,6 +3620,24 @@
           <target state="translated">Container konnte nicht aufgelistet werden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType ListContainercOperationNotSuccessfulErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 3386439318" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration can be -1 (for infinite) or between 15 and 60 seconds. Parameter Value: %1</source>
+          <target state="translated">Dauer kann -1 (für unendlich) sein oder zwischen 15 und 60 Sekunden liegen. Parameterwert: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Current Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType ParameterDurationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 3084543117" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duration can be  between 0 and 60 seconds. Parameter Value: %1</source>
+          <target state="translated">Dauer kann zwischen 0 und 60 Sekunden liegen. Parameterwert: %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Current Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType ParameterLeaseBreakDurationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 335290041 - NamedType 3362851988" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You need to specify %1 (%2)</source>
+          <target state="translated">%1 muss angegeben werden (%2)</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Parameter Name, %2 = Header Identifer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - NamedType ParameterMissingErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 335290041 - NamedType 3264097216" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Could not put block from URL %1 on %2.</source>
@@ -3608,18 +3674,6 @@
           <target state="translated">Sie müssen einen Datum/Uhrzeit-Wert für Option %1 angeben</target>
           <note from="Developer" annotates="general" priority="2">%1 = Expiry Option</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Client Impl. - Method SetBlobExpiry - NamedType SpecifyDateTimeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2127254391 - Method 2022965485 - NamedType 2627506007" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1%2=%3</source>
-          <target state="translated">%1%2=%3</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Concatenation character, %2 = Parameter Identifer, %3 = Parameter Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Format Helper - Method AppendToUri - NamedType AppendType1Lbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2127254391 - Method 2022965485 - NamedType 3865131514" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1%2</source>
-          <target state="translated">%1%2</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Concatenation character, %2 = Parameter Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ABS Format Helper - Method AppendToUri - NamedType AppendType2Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2127254391 - Method 3022268586 - NamedType 1467098217" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>"%1" %2 %3%4%5</source>
@@ -3902,12 +3956,6 @@
           <target state="translated">Anzahl der abgerufenen Benutzer: '#1#################################\Anzahl der verarbeiteten Business Central-Benutzer: '#2#################################\Letzter verarbeiteter Business Central-Benutzername: '#3#################################\</target>
           <note from="Developer" annotates="general" priority="2">%1 Total number of users, %2 Number of BC users, %3 User name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Azure AD User Mgmt. Impl. - NamedType ProgressDlgWithBCUsersMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 390433962 - NamedType 3107018368" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The user "%1" cannot be deleted because the user has been logged on to the system. To deactivate a user, set the user's state to Disabled.</source>
-          <target state="translated">Der Benutzer „%1“ kann nicht gelöscht werden, weil er sich bereits am System angemeldet hat. Setzen Sie zum Deaktivieren des Benutzers seinen Status auf „Deaktiviert“.</target>
-          <note from="Developer" annotates="general" priority="2">Shown when trying to delete a user that has been logged onto the system. %1 = UserName.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Azure AD User Mgmt. Impl. - NamedType UserCannotBeDeletedAlreadyLoggedInErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4215518646 - NamedType 3975998961" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Initialization of allowed secret names failed.</source>
@@ -4640,18 +4688,6 @@
           <target state="translated">Die Erweiterung %1 ist nicht installiert.</target>
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyUninstalledMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1128445799 - NamedType 2879639004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have selected to delete extension data for the %1 extension. Continuing uninstall will delete the tables that contain data for the %1 extension. This action cannot be undone. Do you want to continue?</source>
-          <target state="translated">Sie haben ausgewählt, dass die Erweiterungsdaten für die %1 Erweiterung gelöscht werden sollen. Wenn Sie die Deinstallation fortsetzen, werden die Tabellen gelöscht, die Daten für die %1 Erweiterung enthalten. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?</target>
-          <note from="Developer" annotates="general" priority="2">%1=name of app</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1128445799 - NamedType 4098040153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enabling Delete Extension Data will delete the tables that contain data for the %1 extension on uninstall. This action cannot be undone. Do you want to continue?</source>
-          <target state="translated">Mit dem Befehl „Erweiterungsdaten löschen“ werden bei der Deinstallation die Tabellen gelöscht, die Daten für die Erweiterung %1 enthalten. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?</target>
-          <note from="Developer" annotates="general" priority="2">%1=name of app</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 3775415435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?</source>
