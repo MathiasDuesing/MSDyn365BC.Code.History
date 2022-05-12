@@ -1288,6 +1288,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension OIOUBL-Sales Receivables Setup - Control OIOUBL-Group - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 960185344 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Use the internal document number if the External Document No. field is empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension OIOUBL-Sales Receivables Setup - Control Document No. as Ext. Doc. No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2217635177 - Control 3651937062 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>Specifies the default profile that you use in the electronic documents that you send to customers in the Danish public sector.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1972,6 +1977,11 @@
           <source>OIOUBL path of the OIOMXL file is missing. Do you want to update it now?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales&amp;Receivables Setup - NamedType SetupOIOUBLQst</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 960185344 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Document No. as External Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension OIOUBL-Sales&amp;Receivables Setup - Field Document No. as Ext. Doc. No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2054303147 - Field 152881633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Cr. Memo Path</source>
