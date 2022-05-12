@@ -403,21 +403,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT OAuth Mgt. - NamedType ServiceConnectionSetupLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 2221241153" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The amount on the row %1 has an incorrect sign. It must be %2.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = number, %2 = either positive or negative</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType IncorrectSignErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 3126481395" size-unit="char" translate="yes" xml:space="preserve">
-          <source>negative</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType NegativeLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3905663042 - NamedType 2660910107" size-unit="char" translate="yes" xml:space="preserve">
-          <source>positive</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elec. VAT Validate Return - NamedType PositiveLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3905663042 - NamedType 1939937657" size-unit="char" translate="yes" xml:space="preserve">
           <source>The VAT amount in the box %1 is not equal to the base VAT * VAT Rate.</source>
           <note from="Developer" annotates="general" priority="2">%1 - number</note>
