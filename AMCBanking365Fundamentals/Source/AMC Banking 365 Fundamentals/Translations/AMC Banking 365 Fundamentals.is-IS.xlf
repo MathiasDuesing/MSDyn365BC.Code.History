@@ -335,7 +335,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1873957797 - NamedType 1428720056" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The bank statement that you are importing contains transactions in currencies other than the %1 %2 of bank account %3.</source>
-          <target state="translated">Bankayfirlitið sem verið að flytja inn inniheldur færslur í gjaldmiðlum sem eru aðrir en %1 %2 í bankareikningi %3.</target>
+          <target state="translated">Bankayfirlitið sem verið er að flytja inn inniheldur færslur í öðrum gjaldmiðlum en %1 %2 fyrir bankareikninginn %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 %2 = Currency Code EUR; %3 = Bank Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AMC Bank Pre&amp;Post Process - NamedType BankAccCurrErr</note>
         </trans-unit>
