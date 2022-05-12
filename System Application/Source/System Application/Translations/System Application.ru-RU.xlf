@@ -7012,7 +7012,7 @@
         </trans-unit>
         <trans-unit id="Page 3756518970 - Control 59836318 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Choose Next to get started.</source>
-          <target state="translated">Нажмите "Далее", чтобы начать работу.</target>
+          <target state="translated">Чтобы начать, нажмите "Далее".</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Email Account Wizard - Control GetStartedText - Property InstructionalText</note>
         </trans-unit>
@@ -10713,7 +10713,7 @@
         </trans-unit>
         <trans-unit id="Page 1206474225 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Navigate</source>
-          <target state="translated">Новый,Процесс,Отчет,Перейти</target>
+          <target state="translated">Новый, Процесс, Отчет, Навигатор</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup Card - Property PromotedActionCategories</note>
         </trans-unit>
@@ -10899,7 +10899,7 @@
         </trans-unit>
         <trans-unit id="Page 3918924451 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Navigate</source>
-          <target state="translated">Новый,Процесс,Отчет,Перейти</target>
+          <target state="translated">Новый, Процесс, Отчет, Навигатор</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup List - Property PromotedActionCategories</note>
         </trans-unit>
@@ -11252,7 +11252,7 @@
         </trans-unit>
         <trans-unit id="Page 1919691214 - Control 3997336476 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The name of the company the table belongs to</source>
-          <target state="translated">Название организации, к которой относится таблица</target>
+          <target state="translated">Название организации, к которой относится таблица.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Table Information - Control Company Name - Property ToolTip</note>
         </trans-unit>
@@ -13751,7 +13751,7 @@
         </trans-unit>
         <trans-unit id="PermissionSet 3938257139 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>This role has all permissions.</source>
-          <target state="translated">Эта роль имеет все разрешения.</target>
+          <target state="translated">У этой роли есть все разрешения.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet SUPER - Property Caption</note>
         </trans-unit>

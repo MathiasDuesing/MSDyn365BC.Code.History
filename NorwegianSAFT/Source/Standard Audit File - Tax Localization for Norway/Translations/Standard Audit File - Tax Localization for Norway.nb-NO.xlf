@@ -2293,7 +2293,7 @@
         </trans-unit>
         <trans-unit id="Page 3865464019 - Control 2971014054 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies how VAT will be calculated for purchases or sales of items with this particular combination of VAT business posting group and VAT product posting group.</source>
-          <target state="translated">Angir hvordan mva. skal beregnes for kjøp eller salg av varer med denne spesielle kombinasjonen av mva-bokføringsgruppe - firma og mva-bokføringsgruppe - vare.</target>
+          <target state="translated">Angir hvordan mva. skal beregnes for kjøp eller salg av varer med denne spesielle kombinasjonen av mva-bokføringsgruppe – firma og mva-bokføringsgruppe – vare.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control VAT Calculation Type - Property ToolTip</note>
         </trans-unit>
