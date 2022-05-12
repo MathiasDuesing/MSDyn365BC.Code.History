@@ -2763,16 +2763,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action AdvanceLetterGr - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2509033255 - Action 3964368254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This function opens the approvals entries.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action A&amp;pprovals - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2509033255 - Action 3964368254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A&amp;pprovals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action A&amp;pprovals - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2509033255 - Action 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2807,6 +2797,16 @@
           <source>History</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 3964368254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This function opens the approvals entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action A&amp;pprovals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 3964368254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A&amp;pprovals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action A&amp;pprovals - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2509033255 - Action 2571907030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View a list of entries related to this document.</source>
@@ -4023,16 +4023,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action AdvanceLetterGr - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2641234761 - Action 3964368254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This function opens the approvals entries.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action A&amp;pprovals - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2641234761 - Action 3964368254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A&amp;pprovals</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action A&amp;pprovals - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2641234761 - Action 2173385693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4067,6 +4057,16 @@
           <source>History</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action History - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 3964368254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This function opens the approvals entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action A&amp;pprovals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 3964368254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A&amp;pprovals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action A&amp;pprovals - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2641234761 - Action 2571907030 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View a list of entries related to this document.</source>
@@ -5338,6 +5338,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Purchase - Advance VAT Doc.CZZ - NamedType DocumentLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1924672342 - NamedType 4155226488" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Advance VAT Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Purchase - Advance VAT Doc.CZZ - NamedType OriginalAdvanceVATDocumentNoLbl</note>
+        </trans-unit>
         <trans-unit id="Report 1924672342 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5792,6 +5797,11 @@
           <source>Exchange Rate %1 %2 / %3 %4</source>
           <note from="Developer" annotates="general" priority="2">%1=calculatedexchrate;%2=general ledger setup.LCY Code;%3=currexchrate.exchange rate amount;%4=currency code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Advance VAT Doc. CZZ - NamedType ExchangeRateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2545706739 - NamedType 4155226488" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Advance VAT Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Advance VAT Doc. CZZ - NamedType OriginalAdvanceVATDocumentNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 2545706739 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>

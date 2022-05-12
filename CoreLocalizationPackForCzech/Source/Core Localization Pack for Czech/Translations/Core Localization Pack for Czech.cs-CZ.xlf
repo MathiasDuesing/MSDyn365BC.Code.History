@@ -22437,6 +22437,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3309874008 - NamedType 1845236427" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intrastat_%1.csv</source>
+          <target state="translated">Intrastat_%1.csv</target>
+          <note from="Developer" annotates="general" priority="2">%1 = name of intrastat journal batch</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Declaration Exp. CZL - NamedType FileNameTxt</note>
+        </trans-unit>
         <trans-unit id="Report 3309874008 - NamedType 1640883238" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The formatted value %1 = %2 has exceeded the maximum length of %3 characters in %4</source>
           <target state="translated">Formátovaná hodnota %1 = %2 překročila maximální délku %3 znaků v %4</target>
@@ -23453,7 +23459,7 @@
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3407441673" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission</source>
-          <target state="translated">Provize</target>
+          <target state="translated">Komise</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel CommissionLbl</note>
         </trans-unit>
@@ -23501,7 +23507,7 @@
         </trans-unit>
         <trans-unit id="Report 2493664168 - ReportLabel 3131523370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reason</source>
-          <target state="translated">Důvod:</target>
+          <target state="translated">Důvod</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Phys. Inventory Document CZL - ReportLabel ReasonLbl</note>
         </trans-unit>

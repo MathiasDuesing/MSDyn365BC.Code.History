@@ -163,10 +163,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method Code - NamedType CheckingLinesMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1997957299 - Method 3955351095 - NamedType 1336088190" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1997957299 - Method 3336414311 - NamedType 1336088190" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is not enough space to insert correction lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method InsertNewShipmentLine - NamedType NotEnoughSpaceErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Undo Transfer Ship. Line CZA - Method GetNextTransferShipmentLineNo - NamedType NotEnoughSpaceErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1997957299 - Method 1665861916 - NamedType 4118026048" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you really want to undo the selected Shipment lines?</source>
