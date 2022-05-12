@@ -9879,7 +9879,7 @@
         </trans-unit>
         <trans-unit id="Page 906691248 - NamedType 1232297936" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The state parameter value does not match.</source>
-          <target state="translated">The Province/State parameter value does not match.</target>
+          <target state="translated">The state parameter value does not match.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page OAuth2ControlAddIn - NamedType NotMatchingStateErr</note>
         </trans-unit>
@@ -12749,7 +12749,7 @@
         </trans-unit>
         <trans-unit id="Query 1846668439 - QueryColumn 3454837147 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>User State</source>
-          <target state="translated">User Province/State</target>
+          <target state="translated">User State</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query Users in Plans - QueryColumn User_State - Property Caption</note>
         </trans-unit>
