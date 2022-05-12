@@ -41,7 +41,7 @@
         </trans-unit>
         <trans-unit id="Table 3508446305 - Field 2259985461 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Landscape</source>
-          <target state="translated">Krajina</target>
+          <target state="translated">Na šířku</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Email Printer Settings - Field Landscape - Property Caption</note>
         </trans-unit>
@@ -347,7 +347,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2148701171 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Manage, Email Print, Universal Print</source>
-          <target state="translated">Nové, Proces, Sestava, Spravovat, Tisk e-mailu, Universal Print</target>
+          <target state="translated">Nové, Proces, Sestava, Spravovat, E-mailová tiskárna, Univerzální tisk</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 1215073847</note>
