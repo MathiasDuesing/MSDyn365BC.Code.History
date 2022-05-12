@@ -288,6 +288,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Fixed Asset Shift - Field First User-Defined Depr. Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4180567722 - Field 831575283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Fixed Asset Shift - Field Fixed Asset Posting Group - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4180567722 - Field 1876741401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fixed Depr. Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -713,6 +718,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Fixed Asset Shifts - Control FA Posting Group - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 784014999 - Control 265035428 - Method 2126772001 - NamedType 1777517178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This field has been depricated, use a new field Fixed Asset Posting Group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Fixed Asset Shifts - Control FA Posting Group - Method OnValidate - NamedType FAPostingGroupsErr</note>
+        </trans-unit>
         <trans-unit id="Page 784014999 - Control 4220621782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the final rounding amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -722,6 +732,11 @@
           <source>Specifies the first user-defined depreciation date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Fixed Asset Shifts - Control First User-Defined Depr. Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 784014999 - Control 831575283 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the fixed asset posting group.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Fixed Asset Shifts - Control Fixed Asset Posting Group - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 784014999 - Control 1876741401 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the fixed depreciation amount.</source>

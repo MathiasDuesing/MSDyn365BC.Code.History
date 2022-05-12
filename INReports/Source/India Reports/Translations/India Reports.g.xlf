@@ -1483,6 +1483,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType CessAmountTxt</note>
         </trans-unit>
+        <trans-unit id="Report 266737323 - NamedType 233175607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CESS Non Advol Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType CessNonAdvolAmountTxt</note>
+        </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 2866397042" size-unit="char" translate="yes" xml:space="preserve">
           <source>CESS</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1504,7 +1509,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType DescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 3090415793" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Dispatch State</source>
+          <source>Dispatch From State</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType DispatchStateTxt</note>
         </trans-unit>
@@ -1554,7 +1559,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType FromOtherPartyNameTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 3266765976" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From Pin Code</source>
+          <source>Dispatch Pin Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType FromPinCodeTxt</note>
         </trans-unit>
@@ -1564,7 +1569,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType FromPlaceTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 4111651683" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From State</source>
+          <source>Bill From State</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType FromStateTxt</note>
         </trans-unit>
@@ -1587,6 +1592,11 @@
           <source>You must enter Location Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType LocRegNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 266737323 - NamedType 3900529497" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Others</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType OthersTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 4244255965" size-unit="char" translate="yes" xml:space="preserve">
           <source>Product</source>
@@ -1628,13 +1638,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType SubTypeTxt</note>
         </trans-unit>
+        <trans-unit id="Report 266737323 - NamedType 3207827198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supply_Type_Desc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType SupplyTypeDescTxt</note>
+        </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 961843589" size-unit="char" translate="yes" xml:space="preserve">
           <source>Supply Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType SupplyTypeTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 2986893689" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tax Rate(S + C + I + Cess)</source>
+          <source>Rate(S + C + I + Cess + CESS NONADVOL)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType TaxRateTxt</note>
         </trans-unit>
@@ -1659,7 +1674,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType ToOtherPartyNameTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 3663293027" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To Pin Code</source>
+          <source>Ship To Pin Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType ToPinCodeTxt</note>
         </trans-unit>
@@ -1669,9 +1684,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType ToPlaceTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 2923869464" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To State</source>
+          <source>Bill To State</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType ToStateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 266737323 - NamedType 3348314252" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Invoice Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType TotalInvoiceValueTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 266737323 - NamedType 2835411888" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report E-Way Bill File Format GST - NamedType TransactionTypeTxt</note>
         </trans-unit>
         <trans-unit id="Report 266737323 - NamedType 727831890" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trans Date</source>
