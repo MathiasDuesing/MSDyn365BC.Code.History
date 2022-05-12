@@ -1695,6 +1695,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2217635177 - Control 960185344 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use the internal document number if the External Document No. field is empty.</source>
+          <target state="translated">Brug det interne bilagsnummer, hvis feltet Eksternt bilagsnr. er tomt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4145206282</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2217635177 - Control 3651937062 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the default profile that you use in the electronic documents that you send to customers in the Danish public sector.</source>
           <target state="translated">Angiver den standardprofil, som du vil bruge til de elektroniske bilag, som du sender til debitorer i den danske offentlige sektor.</target>
@@ -2653,6 +2660,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2054303147</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2054303147 - Field 960185344 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No. as External Doc. No.</source>
+          <target state="translated">Bilagsnr. som eksternt bilagsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 4145206282</note>
         </trans-unit>
         <trans-unit id="TableExtension 2054303147 - Field 152881633 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cr. Memo Path</source>
