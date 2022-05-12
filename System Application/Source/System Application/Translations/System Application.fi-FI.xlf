@@ -10809,7 +10809,7 @@
         </trans-unit>
         <trans-unit id="Page 1206474225 - Control 1789703403 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies an identifier for the retention period.</source>
-          <target state="translated">Määrittää säilytyskauden tunnuksen.</target>
+          <target state="translated">Määrittää säilytysjakson tunnuksen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup Card - Control Retention Period - Property ToolTip</note>
         </trans-unit>
@@ -10887,7 +10887,7 @@
         </trans-unit>
         <trans-unit id="Page 1623743194 - Control 1789703403 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies an identifier for the retention period.</source>
-          <target state="translated">Määrittää säilytyskauden tunnuksen.</target>
+          <target state="translated">Määrittää säilytysjakson tunnuksen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup Lines - Control Retention Period - Property ToolTip</note>
         </trans-unit>
@@ -10923,7 +10923,7 @@
         </trans-unit>
         <trans-unit id="Page 3918924451 - Control 1789703403 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies an identifier for the retention period.</source>
-          <target state="translated">Määrittää säilytyskauden tunnuksen.</target>
+          <target state="translated">Määrittää säilytysjakson tunnuksen.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup List - Control Retention Period - Property ToolTip</note>
         </trans-unit>
@@ -12278,7 +12278,7 @@
         </trans-unit>
         <trans-unit id="Page 1153700271 - Control 730832363 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the entity the template is asscociated with.</source>
-          <target state="translated">Määrittää kohteen, johon malli on liitetty.</target>
+          <target state="translated">Määrittää objektin, johon malli on liitetty.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Word Template Selection Wizard - Control TableName - Property ToolTip</note>
         </trans-unit>
