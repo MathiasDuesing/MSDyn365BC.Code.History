@@ -4493,13 +4493,13 @@
         </trans-unit>
         <trans-unit id="Page 4099491740 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - Aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Invoices - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4099491740 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - Aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Invoices - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -5147,13 +5147,13 @@
         </trans-unit>
         <trans-unit id="Page 825103897 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - Aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Orders - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 825103897 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - Aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Orders - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -5405,13 +5405,13 @@
         </trans-unit>
         <trans-unit id="Page 3772100527 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Receipts - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3772100527 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Purchase Receipts - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -6119,13 +6119,13 @@
         </trans-unit>
         <trans-unit id="Page 3006414751 - Control 1534408368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 1</source>
-          <target state="translated">Selt-til - Aðseturslína 1</target>
+          <target state="translated">Selt-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Credit Memos - Control sellToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3006414751 - Control 2172104985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 2</source>
-          <target state="translated">Selt-til - Aðseturslína 2</target>
+          <target state="translated">Selt-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Credit Memos - Control sellToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -6779,13 +6779,13 @@
         </trans-unit>
         <trans-unit id="Page 3783002405 - Control 1534408368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 1</source>
-          <target state="translated">Selt-til - Aðseturslína 1</target>
+          <target state="translated">Selt-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Invoices - Control sellToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3783002405 - Control 2172104985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 2</source>
-          <target state="translated">Selt-til - Aðseturslína 2</target>
+          <target state="translated">Selt-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Invoices - Control sellToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -6821,13 +6821,13 @@
         </trans-unit>
         <trans-unit id="Page 3783002405 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - Aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Invoices - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3783002405 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - Aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Invoices - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -7451,13 +7451,13 @@
         </trans-unit>
         <trans-unit id="Page 48856144 - Control 1534408368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 1</source>
-          <target state="translated">Selt-til - Aðseturslína 1</target>
+          <target state="translated">Selt-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Orders - Control sellToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 48856144 - Control 2172104985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 2</source>
-          <target state="translated">Selt-til - Aðseturslína 2</target>
+          <target state="translated">Selt-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Orders - Control sellToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -7493,13 +7493,13 @@
         </trans-unit>
         <trans-unit id="Page 48856144 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - Aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Orders - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 48856144 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - Aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Orders - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -8069,13 +8069,13 @@
         </trans-unit>
         <trans-unit id="Page 617149860 - Control 1534408368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 1</source>
-          <target state="translated">Selt-til - Aðseturslína 1</target>
+          <target state="translated">Selt-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Quotes - Control sellToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 617149860 - Control 2172104985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 2</source>
-          <target state="translated">Selt-til - Aðseturslína 2</target>
+          <target state="translated">Selt-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Quotes - Control sellToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -8117,13 +8117,13 @@
         </trans-unit>
         <trans-unit id="Page 617149860 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - Aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Quotes - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 617149860 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - Aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Quotes - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -8483,13 +8483,13 @@
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 1534408368 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 1</source>
-          <target state="translated">Selt-til - aðseturslína 1</target>
+          <target state="translated">Selt-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control sellToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 2172104985 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to Address Line 2</source>
-          <target state="translated">Selt-til - aðseturslína 2</target>
+          <target state="translated">Selt-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control sellToAddressLine2 - Property Caption</note>
         </trans-unit>
@@ -8525,13 +8525,13 @@
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 354324300 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 1</source>
-          <target state="translated">Sendist-til - aðseturslína 1</target>
+          <target state="translated">Sendist-til – aðseturslína 1</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control shipToAddressLine1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 992020917 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship-to Address Line 2</source>
-          <target state="translated">Sendist-til - aðseturslína 2</target>
+          <target state="translated">Sendist-til – aðseturslína 2</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control shipToAddressLine2 - Property Caption</note>
         </trans-unit>
