@@ -4689,6 +4689,18 @@
           <note from="Developer" annotates="general" priority="2">%1=name of app</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType AlreadyUninstalledMsg</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 2879639004" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have selected to delete extension data for the %1 extension and all of its dependents: %2. Continuing uninstall will delete the tables that contain data for the %1 extension and all of its dependents. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Sie haben ausgewählt, dass die Erweiterungsdaten für die Erweiterung %1 und alle abhängigen Elemente gelöscht werden sollen: %2. Wenn Sie die Deinstallation fortsetzen, werden die Tabellen gelöscht, die Daten für die Erweiterung %1 und alle abhängigen Elemente enthalten. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app ,%2= all dependent extensions</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1128445799 - NamedType 4098040153" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabling Delete Extension Data will delete the tables that contain data for the %1 extension and all of its dependents on uninstall. This action cannot be undone. Do you want to continue?</source>
+          <target state="translated">Mit dem Befehl „Erweiterungsdaten löschen“ werden bei der Deinstallation die Tabellen gelöscht, die Daten für die Erweiterung %1 und alle abhängigen Elemente enthalten. Diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?</target>
+          <note from="Developer" annotates="general" priority="2">%1=name of app</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Extension Installation Impl - NamedType ClearExtensionSchemaQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1128445799 - NamedType 3775415435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The extension %1 has a dependency on one or more extensions: %2. \ \Do you want to install %1 and all of its dependencies?</source>
           <target state="translated">Die Erweiterung %1 weist eine Abhängigkeit für mindestens eine Erweiterung auf: %2. \ \Möchten Sie %1 und alle Abhängigkeiten installieren?</target>
@@ -5639,7 +5651,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3102643942 - NamedType 1633402485" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company %1 was just created, and we are still setting it up for you.\This may take up to 10 minutes, so take a short break before you begin to use %2.</source>
-          <target state="translated">Mandant %1 wurde gerade erst erstellt. Wir richten ihn noch ein.\Dies könnte bis zu zehn Minuten dauern. Warten Sie bitte kurz ab, bevor Sie %2 verwenden.</target>
+          <target state="translated">Unternehmen %1 wurde gerade erst erstellt. Wir richten es noch ein.\Dies könnte bis zu 10 Minuten dauern. Warten Sie bitte kurz ab, bevor Sie %2 verwenden.</target>
           <note from="Developer" annotates="general" priority="2">%1 - a company name,%2 - our product name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit User Settings Impl. - NamedType CompanySetUpInProgressMsg</note>
         </trans-unit>
@@ -5867,7 +5879,7 @@
         </trans-unit>
         <trans-unit id="Page 2892733561 - Action 246139633 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get assistance with creating a new company.</source>
-          <target state="translated">Erhalten Sie Unterstützung beim Erstellen eines neuen Mandanten.</target>
+          <target state="translated">Erhalten Sie Unterstützung beim Erstellen eines neuen Unternehmens.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Accessible Companies - Action Create New Company - Property ToolTip</note>
         </trans-unit>
@@ -10948,7 +10960,7 @@
         </trans-unit>
         <trans-unit id="Page 25890369 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description of the item.</source>
-          <target state="translated">Gibt die Beschreibung des Elements an.</target>
+          <target state="translated">Gibt die Beschreibung des Artikels an.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Guided Experience Item List - Control Description - Property ToolTip</note>
         </trans-unit>
@@ -10966,7 +10978,7 @@
         </trans-unit>
         <trans-unit id="Page 25890369 - Control 329424276 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the item.</source>
-          <target state="translated">Gibt den Namen des Elements an.</target>
+          <target state="translated">Gibt den Namen des Artikels an.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Guided Experience Item List - Control Title - Property ToolTip</note>
         </trans-unit>
@@ -15704,7 +15716,7 @@
         </trans-unit>
         <trans-unit id="PermissionSet 757517586 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assign permissions to users</source>
-          <target state="translated">Benutzer Berechtigung zuweisen</target>
+          <target state="translated">Benutzern Berechtigungen zuweisen</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet SECURITY - Property Caption</note>
         </trans-unit>
