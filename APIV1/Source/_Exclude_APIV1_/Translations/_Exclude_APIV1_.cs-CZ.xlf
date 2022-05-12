@@ -184,6 +184,7 @@
         </trans-unit>
         <trans-unit id="Page 348875001 - Control 3959524797 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Journal Line Dimensions.</source>
+          <target state="translated">Určuje dimenze řádku deníku.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV1 - Customer Payments - Control dimensions - Property ToolTip</note>
         </trans-unit>
@@ -217,6 +218,7 @@
         </trans-unit>
         <trans-unit id="Page 423687670 - Control 1355182586 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>dimensionValueCode</source>
+          <target state="translated">KódHodnotyDimenze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV1 - Default Dimensions - Control dimensionValueCode - Property Caption</note>
         </trans-unit>
