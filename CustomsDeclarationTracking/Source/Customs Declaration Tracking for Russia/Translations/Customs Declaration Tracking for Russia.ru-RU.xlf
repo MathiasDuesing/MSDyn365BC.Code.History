@@ -353,7 +353,7 @@
         </trans-unit>
         <trans-unit id="Page 3323754071 - Control 65514489 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies how serial or lot numbers assigned to the item are tracked in the supply chain.</source>
-          <target state="translated">Определяет порядок отслеживания серийных номеров и номеров партий, назначенных товарам, в цепочке поставок.</target>
+          <target state="translated">Определяет порядок отслеживания присвоенного товару серийного номера или номера партии в цепочке поставок.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CD Location Setup - Control Item Tracking Code - Property ToolTip</note>
         </trans-unit>
