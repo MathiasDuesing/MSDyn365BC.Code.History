@@ -1138,6 +1138,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType ChartOfAccountsAlreadyExistsErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1223916161 - NamedType 3262655130" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to copy sales and purchase reporting codes to sales/purchase SAF-T standard tax codes?</source>
+          <target state="translated">Vil du kopiere koder for salgs- og kjøpsrapportering til standard SAF-T-avgiftskoder for salg/kjøp?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType CopyReportingCodesToSAFTCodesQst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1223916161 - NamedType 1184871457" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assorted Journals</source>
           <target state="translated">Assorterte journaler</target>
@@ -2256,6 +2262,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 3717046756 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT code to be used with this VAT posting setup for sales reporting.</source>
+          <target state="translated">Angir mva-koden som skal brukes med dette mva-bokføringsoppsettet for salgsrapportering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Sales VAT Reporting Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Control 3863697861 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT code to be used with this VAT posting setup for purchase reporting.</source>
+          <target state="translated">Angir mva-koden som skal brukes med dette mva-bokføringsoppsettet for kjøpsrapportering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Purchase VAT Reporting Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3865464019 - Control 3378701591 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code of the VAT posting setup that will be used for the TaxCode XML node in the SAF-T file for the sales VAT entries.</source>
           <target state="translated">Angir koden for mva-bokføringsoppsettet som skal brukes for TaxCode-XML-noden i SAF-T-filen for utgående mva-poster.</target>
@@ -2279,6 +2297,18 @@
           <target state="translated">Angir koden for mva-bokføringsoppsettet som skal brukes for StandardTaxCode-XML-noden i SAF-T-filen for inngående mva-poster.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Control Purch. SAF-T Standard Tax Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Action 161509663 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Reporting Codes to SAF-T</source>
+          <target state="translated">Kopier rapporteringskoder til SAF-T</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Action CopyReportingCodes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3865464019 - Action 161509663 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy sales and purchase reporting codes to sales/purchase SAF-T standard tax codes.</source>
+          <target state="translated">Kopier koder for salgs- og kjøpsrapportering til standard SAF-T-avgiftskoder for salg/kjøp.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T VAT Posting Setup - Action CopyReportingCodes - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 351339034 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Source Codes</source>
