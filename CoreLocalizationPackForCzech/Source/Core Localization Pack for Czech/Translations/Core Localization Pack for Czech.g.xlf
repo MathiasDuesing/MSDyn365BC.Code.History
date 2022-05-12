@@ -26178,6 +26178,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Resource Card CZL - Control Tariff No. CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1062602730 - Control 3243078520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4255274469">
+          <source>Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Responsibility Center Card CZL - Control PaymentsCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1062602730 - Control 1381025112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4255274469">
           <source>Specifies the default bank account code for payment.</source>
           <note from="Developer" annotates="general" priority="2"></note>

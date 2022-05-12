@@ -133,6 +133,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Compensation Header CZC - Field Incoming Document Entry No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3403374699 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Compensation Header CZC - Field Language Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3403374699 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -447,6 +452,11 @@
           <source>Document Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Compensation Header CZC - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1408769188 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Posted Compensation Header CZC - Field Language Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1408769188 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
@@ -1282,6 +1292,11 @@
           <source>Specifies the date on which you created the compensation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Card CZC - Control Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3012527878 - Control 2273653569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the language to be used on printouts for this document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Card CZC - Control Language Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3012527878 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the compensation.</source>
@@ -2188,6 +2203,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Posted Compensation Card CZC - Control Document Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2647720189 - Control 2273653569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the language to be used on printouts for this document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Posted Compensation Card CZC - Control Language Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2647720189 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the Compensation card.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2533,135 +2553,135 @@
           <note from="Developer" annotates="general" priority="2">%1 = Variable Symbol, %2 = Remaining Amount, %3 = Currency Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType AmountAfterCompensationTxt</note>
         </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2145524630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank connection:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType BankConnectionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2679026581" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Name:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType BusinessNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2305539182" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType CompensationAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2212981588" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType CurrencyCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 481445982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DueDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 3580268037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This agreement shall enter into force upon signature by both parties.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType EnterIntoForceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 3128156579" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ForLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 980530542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In .............................., date .................</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType InAndDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2159676074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledg. Entry Original Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType LedgerEntryOriginalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 726269581" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledg. Entry Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType LedgerEntryRemainingAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 901611368" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType MakeDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 810335054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name and Signature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType NameAndSignatureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 102569336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>by reciprocally Compensation receibables by PAR. 1982-1991 of Civil Code No. 89/2012</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ParagraphLbl</note>
+        </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 3802017459" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payables %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType PayablesTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 1027969698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType PostingDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2382355777" size-unit="char" translate="yes" xml:space="preserve">
           <source>Receivables %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ReceivablesTxt</note>
         </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2857599222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reg. No.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType RegistrationNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 4094501430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType RemainingAmountLbl</note>
+        </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 1275755931" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Receivable and Payables of %1 to pay after realize Compensation.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType RemainingReceivablesAndPayablesTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 2431673826" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Residence:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ResidenceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2863951890 - NamedType 973945911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In case you agree, send one confirmed agreement back to our address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType SendBackLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 3088120073" size-unit="char" translate="yes" xml:space="preserve">
           <source>To Date %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ToDateTxt</note>
         </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2145524630" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank connection:</source>
+        <trans-unit id="Report 2863951890 - NamedType 989255230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variable Symbol</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel BankConnectionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2679026581" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Business Name:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel BusinessNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2305539182" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Compensation Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel CompensationAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2212981588" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Currency Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel CurrencyCodeLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 1721277456" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel DocumentNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2636616999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel DocumentTypeLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType VariableSymbolLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - ReportLabel 13641762" size-unit="char" translate="yes" xml:space="preserve">
           <source>......................................................................</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel DotsLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 481445982" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel DueDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 3580268037" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This agreement shall enter into force upon signature by both parties.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel EnterIntoForceLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 3128156579" size-unit="char" translate="yes" xml:space="preserve">
-          <source>For</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel ForLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 980530542" size-unit="char" translate="yes" xml:space="preserve">
-          <source>In .............................., date .................</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel InAndDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2159676074" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ledg. Entry Original Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel LedgerEntryOriginalAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 726269581" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ledg. Entry Remaining Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel LedgerEntryRemainingAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 901611368" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Make Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel MakeDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 810335054" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name and Signature</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel NameAndSignatureLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 102569336" size-unit="char" translate="yes" xml:space="preserve">
-          <source>by reciprocally Compensation receibables by PAR. 1982-1991 of Civil Code No. 89/2012</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel ParagraphLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 1027969698" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel PostingDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2857599222" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reg. No.:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel RegistrationNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 4094501430" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remaining Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel RemainingAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 2431673826" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Residence:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel ResidenceLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 973945911" size-unit="char" translate="yes" xml:space="preserve">
-          <source>In case you agree, send one confirmed agreement back to our address.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel SendBackLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2863951890 - ReportLabel 989255230" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Variable Symbol</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - ReportLabel VariableSymbolLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
@@ -2693,135 +2713,135 @@
           <note from="Developer" annotates="general" priority="2">%1 = Variable Symbol, %2 = Remaining Amount, %3 = Currency Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType AmountAfterCompensationTxt</note>
         </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2145524630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank connection:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType BankConnectionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2679026581" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Name:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType BusinessNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2305539182" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType CompensationAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2212981588" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType CurrencyCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 481445982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DueDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 3580268037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This agreement shall enter into force upon signature by both parties.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType EnterIntoForceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 3128156579" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ForLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 980530542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In .............................., date .................</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType InAndDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2159676074" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledg. Entry Original Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType LedgerEntryOriginalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 726269581" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledg. Entry Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType LedgerEntryRemainingAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 901611368" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType MakeDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 810335054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name and Signature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType NameAndSignatureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 102569336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>by reciprocally Compensation receibables by PAR. 1982-1991 of Civil Code No. 89/2012</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ParagraphLbl</note>
+        </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 3802017459" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payables %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType PayablesTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 1027969698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType PostingDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2382355777" size-unit="char" translate="yes" xml:space="preserve">
           <source>Receivables %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ReceivablesTxt</note>
         </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2857599222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reg. No.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType RegistrationNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 4094501430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType RemainingAmountLbl</note>
+        </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 1275755931" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Receivable and Payables of %1 to pay after realize Compensation.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType RemainingReceivablesAndPayablesTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 2431673826" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Residence:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ResidenceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4000964689 - NamedType 973945911" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In case you agree, send one confirmed agreement back to our address.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType SendBackLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 3088120073" size-unit="char" translate="yes" xml:space="preserve">
           <source>To Date %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ToDateTxt</note>
         </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2145524630" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bank connection:</source>
+        <trans-unit id="Report 4000964689 - NamedType 989255230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variable Symbol</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel BankConnectionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2679026581" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Business Name:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel BusinessNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2305539182" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Compensation Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel CompensationAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2212981588" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Currency Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel CurrencyCodeLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 1721277456" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document No</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel DocumentNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2636616999" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel DocumentTypeLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType VariableSymbolLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - ReportLabel 13641762" size-unit="char" translate="yes" xml:space="preserve">
           <source>......................................................................</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel DotsLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 481445982" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel DueDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 3580268037" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This agreement shall enter into force upon signature by both parties.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel EnterIntoForceLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 3128156579" size-unit="char" translate="yes" xml:space="preserve">
-          <source>For</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel ForLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 980530542" size-unit="char" translate="yes" xml:space="preserve">
-          <source>In .............................., date .................</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel InAndDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2159676074" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ledg. Entry Original Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel LedgerEntryOriginalAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 726269581" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ledg. Entry Remaining Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel LedgerEntryRemainingAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 901611368" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Make Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel MakeDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 810335054" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name and Signature</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel NameAndSignatureLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 102569336" size-unit="char" translate="yes" xml:space="preserve">
-          <source>by reciprocally Compensation receibables by PAR. 1982-1991 of Civil Code No. 89/2012</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel ParagraphLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 1027969698" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel PostingDateLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2857599222" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reg. No.:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel RegistrationNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 4094501430" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remaining Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel RemainingAmountLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 2431673826" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Residence:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel ResidenceLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 973945911" size-unit="char" translate="yes" xml:space="preserve">
-          <source>In case you agree, send one confirmed agreement back to our address.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel SendBackLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4000964689 - ReportLabel 989255230" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Variable Symbol</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - ReportLabel VariableSymbolLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
