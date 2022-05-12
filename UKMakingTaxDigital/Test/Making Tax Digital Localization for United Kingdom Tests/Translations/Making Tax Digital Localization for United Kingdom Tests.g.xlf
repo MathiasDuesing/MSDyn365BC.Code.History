@@ -38,16 +38,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Library - Making Tax Digital - NamedType ConfirmHeadersMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3288911696 - NamedType 2910485357" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All required fraud prevention headers were provided in the latest HMRC request.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Test Fraud Prevention Hdrs - NamedType NoMissingHeaderMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3288911696 - NamedType 872010099" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The following fraud prevention headers were missing in the latest HMRC request:\\%1</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTD Test Fraud Prevention Hdrs - NamedType MissingHeadersMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2445249313 - NamedType 94923679" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get VAT Liabilities</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -97,11 +87,6 @@
           <source>Do you want to open the setup?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuth - NamedType OpenSetupQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 323320427 - NamedType 1481040075" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authorization successful.\Do you want to open the Company Information setup to verify the VAT registration number?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MTDTestOAuthWebService - NamedType CheckCompanyVATNoAfterSuccessAuthorizationQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 323320427 - NamedType 3921054357" size-unit="char" translate="yes" xml:space="preserve">
           <source>OAuth setup is not enabled for HMRC Making Tax Digital.</source>
