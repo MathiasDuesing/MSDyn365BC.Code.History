@@ -3542,7 +3542,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3692338268 - NamedType 1949645189" maxwidth="60" size-unit="char" translate="yes" xml:space="preserve">
           <source>Complete the last steps to get ready for business</source>
-          <target state="translated">completa gli ultimi passaggi della preparazione al business</target>
+          <target state="translated">Completa gli ultimi passaggi della preparazione al business</target>
           <note from="Developer" annotates="general" priority="2">*Onboarding Checklist*</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Checklist Banner - NamedType CollapsedBannerHeader75To100CompletedLbl</note>
         </trans-unit>
@@ -5120,7 +5120,7 @@
         </trans-unit>
         <trans-unit id="Page 523480673 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update users from Microsoft 365</source>
-          <target state="translated">Aggiorna utenti da Microsoft 365</target>
+          <target state="translated">Aggiorna gli utenti da Microsoft 365</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Azure AD User Update Wizard - Property Caption</note>
         </trans-unit>
@@ -9657,7 +9657,7 @@
         </trans-unit>
         <trans-unit id="Page 25890369 - Control 3461834954 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description of the item.</source>
-          <target state="translated">Specifica la descrizione dell'elemento.</target>
+          <target state="translated">Specifica la descrizione dell'articolo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Guided Experience Item List - Control Description - Property ToolTip</note>
         </trans-unit>
@@ -9675,7 +9675,7 @@
         </trans-unit>
         <trans-unit id="Page 25890369 - Control 329424276 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the item.</source>
-          <target state="translated">Specifica il nome dell'elemento.</target>
+          <target state="translated">Specifica il nome dell'articolo.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Guided Experience Item List - Control Title - Property ToolTip</note>
         </trans-unit>
@@ -9867,7 +9867,7 @@
         </trans-unit>
         <trans-unit id="Page 906691248 - NamedType 3906946713" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error: %1, description: %2</source>
-          <target state="translated">Errore: %1. Descrizione: %2.</target>
+          <target state="translated">Errore: %1, descrizione: %2</target>
           <note from="Developer" annotates="general" priority="2">%1 = The authorization error message, %2 = The authorization error description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page OAuth2ControlAddIn - NamedType AuthCodeErrorLbl</note>
         </trans-unit>
