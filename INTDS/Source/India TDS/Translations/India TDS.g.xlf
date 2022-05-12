@@ -1893,6 +1893,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method GetConfig - NamedType {08737F79-35F1-4670-BD1D-E41764E3A9DE}Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3589253041 - Method 3738100424 - NamedType 1284409804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method GetConfig - NamedType {f8bf58d9-7681-458d-9dfc-71ea23a9f853}Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3589253041 - Method 2638051844 - NamedType 3257280872" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3163,10 +3168,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TDS Concessional Codes - Control Concessional Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2938641352 - Control 2649176925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the ending date of concessional certificate issued.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Concessional Codes - Control End Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2938641352 - Control 2937872379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specify the Section codes under which tax has been deducted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TDS Concessional Codes - Control Section - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2938641352 - Control 474480784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the starting date of concessional certificate issued.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Concessional Codes - Control Start Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2938641352 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the vendor code</source>

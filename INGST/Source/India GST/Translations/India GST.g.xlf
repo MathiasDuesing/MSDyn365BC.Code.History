@@ -12094,7 +12094,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTPANErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 4110818621" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You can only select GST without payment Of Duty in Export or Deemed Export Customer.</source>
+          <source>You can only select GST without payment Of Duty in Sez,Export or Deemed Export Customer.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTPaymentDutyErr</note>
         </trans-unit>
@@ -12144,9 +12144,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType POSGSTInvoiceErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 1214195065" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Only allow for GST Customer type SEZ Development &amp; SEZ Unit.</source>
+          <source>Only allow for GST Customer type Deemed Export, SEZ Development &amp; SEZ Unit.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType PostGSTtoCustErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 378964061 - NamedType 2845165943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must have to select GST without payment of duty - Yes for Ship to GST customer type - SEZ/Deemed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType PostingErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 3355982385" size-unit="char" translate="yes" xml:space="preserve">
           <source>Selected Document No does not exit for Reference Invoice No.</source>
@@ -14252,6 +14257,56 @@
           <source>GST Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {7be46e73-ef21-4766-b4f2-34558460a2c9}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1397325559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {2c82cf3d-40b2-4fcc-8f04-e649dadd1619}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 135936802" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1f930cb5-93a8-4be9-b412-b9b44f1fbe2b}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 807270745" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {71177393-f102-466e-ac36-1a460bc1c3e9}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3562464946" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {5fb236fb-7619-48a1-92d0-bd12f5c8a5c0}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3955705103" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {a030c0c9-951c-4818-8a68-c6d5917c31bf}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2521590839" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0bd7bb2e-38e6-4254-82cb-713f429d787c}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1961039583" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {b66179f8-e62e-45f8-9de3-5351c859f85d}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3658377563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {2f7b1f64-56f5-48c9-a6b2-a5f7f2bf8a2f}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2331601820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {332a3e45-c1c8-423a-9063-b55efa585045}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2655507781" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {74e6e05f-641d-4857-8f88-c48783b29b3e}Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
@@ -26468,6 +26523,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Receipt Voucher Ext - Control GST on Advance Payment - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 434911021 - Control 3958490267 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1124727046">
+          <source>Specifies the state based on customer of Ship-to-Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Receipt Voucher Ext - Control GST Place of Supply - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 434911021 - Control 1235676394 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1124727046">
           <source>Specifies the state code for which GST TCS is applicable.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -30018,6 +30078,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - Action Update Reference Invoice No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1648643826 - Control 993414011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Specifies the Ship to Code code on the sales document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Credit Memo Ext - Control Ship-to Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1648643826 - Control 3195762964 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Specifies the Ship to Customer code on the sales document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -30757,6 +30822,11 @@
           <source>Specifies if GST is applicable on assessable value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Subform Ext - Control GST on Assessable Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2519103331 - Control 1475517051 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies the GST Place of Supply. For example Bill-to Address, Ship-to Address, Location Address etc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Sales Quote Subform Ext - Control GST Place Of Supply - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2519103331 - Control 2629078778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
           <source>Specifies the HSN/SAC code for the calculation of GST on Sales line.</source>
@@ -31712,6 +31782,11 @@
           <source>Specifies the Vendors GST Reg. No. issues by Authorized body for Ship to Address.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Ship-to Address - Control GST Registration No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 38373102 - Control 1883316924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187003046">
+          <source>Specifies the type of Ship-to GST Customer Type for the Ship to Address. For example Registered/Sez/Deemed Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Ship-to Address - Control Ship-to GST Customer Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 38373102 - Control 269761521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1187003046">
           <source>Specifies the state code of Ship to Address</source>
@@ -32847,6 +32922,11 @@
           <source>Ship-to GST Reg. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field Ship-to GST Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 314775136 - Field 269761521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Gen. Journal Line Ext - Field State - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 314775136 - Field 563469320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>Supply Finish Date</source>
@@ -35368,6 +35448,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Ext - Field GST Without Payment of Duty - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 811202466 - Field 1781228596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>GST-Ship To Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Ext - Field GST-Ship to Customer Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 811202466 - Field 171465319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>GST-Ship To Invoice Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Sales Header Ext - Field GST-Ship to Invoice Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 811202466 - Field 4095313195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Invoice Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -37082,6 +37172,11 @@
           <source>GST Registration No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Ship-to Address Ext - Field GST Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3214599965 - Field 1883316924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
+          <source>Ship-to GST Customer Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Ship-to Address Ext - Field Ship-to GST Customer Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3214599965 - Field 269761521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1187003046">
           <source>State</source>
