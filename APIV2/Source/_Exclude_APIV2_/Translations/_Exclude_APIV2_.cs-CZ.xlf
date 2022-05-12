@@ -1493,6 +1493,7 @@
         </trans-unit>
         <trans-unit id="Page 79567422 - Control 3163706192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Email</source>
+          <target state="translated">E-mail</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Contacts - Control email - Property Caption</note>
         </trans-unit>
@@ -3483,6 +3484,7 @@
         </trans-unit>
         <trans-unit id="Page 2676188065 - Control 3163706192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Email</source>
+          <target state="translated">E-mail</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Locations - Control email - Property Caption</note>
         </trans-unit>
@@ -8059,6 +8061,7 @@
         </trans-unit>
         <trans-unit id="Page 3546002718 - Control 3163706192 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Email</source>
+          <target state="translated">E-mail</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page APIV2 - Sales Shipments - Control email - Property Caption</note>
         </trans-unit>
