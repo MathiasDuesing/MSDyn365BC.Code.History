@@ -1348,6 +1348,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = caption of table, %2 = code of record, example: Source data doesn't exist for G/L Account: 8210.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Flow Handler CZZ - NamedType SourceDataDoesNotExistErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 319845959 - NamedType 4290779705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The entry is applied to advance letter and cannot be used to applying or unapplying.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cust. Ledger Entry Handler CZZ - NamedType AppliedToAdvanceLetterErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4146039880 - NamedType 1427565258" size-unit="char" translate="yes" xml:space="preserve">
           <source>If you use Advance Payments, data from Base application to Czech localization application will be copied.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1602,6 +1607,11 @@
           <source>Advance is used on document(s) %1.\Continue?</source>
           <note from="Developer" annotates="general" priority="2">%1 = Advance No. list</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SalesAdvLetterManagement CZZ - Method UnlinkAdvancePayment - NamedType UsedOnDocumentQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 976944857 - NamedType 4290779705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The entry is applied to advance letter and cannot be used to applying or unapplying.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Vendor Ledg. Entry Handler CZZ - NamedType AppliedToAdvanceLetterErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 862633164 - NamedType 95001997" size-unit="char" translate="yes" xml:space="preserve">
           <source>An approval request for a purchase advance letter is canceled.</source>

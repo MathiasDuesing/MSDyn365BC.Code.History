@@ -161,6 +161,7 @@
         </trans-unit>
         <trans-unit id="Table 3403374699 - Field 2273653569 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
+          <target state="translated">Kód jazyka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Compensation Header CZC - Field Language Code - Property Caption</note>
         </trans-unit>
@@ -544,6 +545,7 @@
         </trans-unit>
         <trans-unit id="Table 1408769188 - Field 2273653569 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
+          <target state="translated">Kód jazyka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Compensation Header CZC - Field Language Code - Property Caption</note>
         </trans-unit>
@@ -3063,36 +3065,43 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2145524630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank connection:</source>
+          <target state="translated">Bankovní spojení:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType BankConnectionLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2679026581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Business Name:</source>
+          <target state="translated">Obchodní jméno:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType BusinessNameLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2305539182" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation Amount</source>
+          <target state="translated">Částka zápočtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType CompensationAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2212981588" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
+          <target state="translated">Kód měny</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType CurrencyCodeLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 1721277456" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No</source>
+          <target state="translated">Číslo dokladu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DocumentNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2636616999" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
+          <target state="translated">Typ dokladu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DocumentTypeLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 481445982" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Due Date</source>
+          <target state="translated">Datum splatnosti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType DueDateLbl</note>
         </trans-unit>
@@ -3104,31 +3113,37 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 3128156579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For</source>
+          <target state="translated">za </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ForLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 980530542" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>In .............................., date .................</source>
+          <target state="translated">V(e) ................................, dne .....................................</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType InAndDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2159676074" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ledg. Entry Original Amount</source>
+          <target state="translated">Původní částka položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType LedgerEntryOriginalAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 726269581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ledg. Entry Remaining Amount</source>
+          <target state="translated">Zůstatek položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType LedgerEntryRemainingAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 901611368" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Make Date</source>
+          <target state="translated">Vystaveno dne</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType MakeDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 810335054" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name and Signature</source>
+          <target state="translated">Jméno a podpis</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType NameAndSignatureLbl</note>
         </trans-unit>
@@ -3146,6 +3161,7 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 1027969698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
+          <target state="translated">Zúčtovací datum</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType PostingDateLbl</note>
         </trans-unit>
@@ -3157,11 +3173,13 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2857599222" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reg. No.:</source>
+          <target state="translated">IČ:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType RegistrationNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 4094501430" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Amount</source>
+          <target state="translated">Zůstatek</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType RemainingAmountLbl</note>
         </trans-unit>
@@ -3173,6 +3191,7 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 2431673826" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Residence:</source>
+          <target state="translated">Sídlo:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType ResidenceLbl</note>
         </trans-unit>
@@ -3190,6 +3209,7 @@
         </trans-unit>
         <trans-unit id="Report 2863951890 - NamedType 989255230" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable Symbol</source>
+          <target state="translated">Variabilní symbol</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Compensation CZC - NamedType VariableSymbolLbl</note>
         </trans-unit>
@@ -3237,36 +3257,43 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2145524630" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank connection:</source>
+          <target state="translated">Bankovní spojení:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType BankConnectionLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2679026581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Business Name:</source>
+          <target state="translated">Obchodní jméno:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType BusinessNameLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2305539182" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation Amount</source>
+          <target state="translated">Částka zápočtu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType CompensationAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2212981588" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
+          <target state="translated">Kód měny</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType CurrencyCodeLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 1721277456" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No</source>
+          <target state="translated">Číslo dokladu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DocumentNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2636616999" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document Type</source>
+          <target state="translated">Typ dokladu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DocumentTypeLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 481445982" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Due Date</source>
+          <target state="translated">Datum splatnosti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType DueDateLbl</note>
         </trans-unit>
@@ -3278,31 +3305,37 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 3128156579" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>For</source>
+          <target state="translated">za </target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ForLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 980530542" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>In .............................., date .................</source>
+          <target state="translated">V(e) ................................, dne .....................................</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType InAndDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2159676074" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ledg. Entry Original Amount</source>
+          <target state="translated">Původní částka položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType LedgerEntryOriginalAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 726269581" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ledg. Entry Remaining Amount</source>
+          <target state="translated">Zůstatek položky</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType LedgerEntryRemainingAmountLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 901611368" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Make Date</source>
+          <target state="translated">Vystaveno dne</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType MakeDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 810335054" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name and Signature</source>
+          <target state="translated">Jméno a podpis</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType NameAndSignatureLbl</note>
         </trans-unit>
@@ -3320,6 +3353,7 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 1027969698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
+          <target state="translated">Zúčtovací datum</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType PostingDateLbl</note>
         </trans-unit>
@@ -3331,11 +3365,13 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2857599222" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Reg. No.:</source>
+          <target state="translated">IČ:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType RegistrationNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 4094501430" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Amount</source>
+          <target state="translated">Zůstatek</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType RemainingAmountLbl</note>
         </trans-unit>
@@ -3347,6 +3383,7 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 2431673826" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Residence:</source>
+          <target state="translated">Sídlo:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType ResidenceLbl</note>
         </trans-unit>
@@ -3364,6 +3401,7 @@
         </trans-unit>
         <trans-unit id="Report 4000964689 - NamedType 989255230" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variable Symbol</source>
+          <target state="translated">Variabilní symbol</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Posted Compensation CZC - NamedType VariableSymbolLbl</note>
         </trans-unit>
