@@ -137,7 +137,7 @@
         </trans-unit>
         <trans-unit id="Table 3340763564 - Field 3440505640 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table DIOT Report Buffer - Field Type of Operation - Property OptionCaption</note>
         </trans-unit>
@@ -719,7 +719,7 @@
         </trans-unit>
         <trans-unit id="Page 1713992279 - Control 4200184881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
-          <target state="translated">Especifica el número del movimiento o del registro implicado, según la serie numérica especificada.</target>
+          <target state="translated">Indica el número del movimiento o el registro relacionado, según la serie numérica especificada.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Setup Vendor DIOT Type - Control No. - Property ToolTip</note>
         </trans-unit>
@@ -909,7 +909,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 447154957 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
@@ -930,7 +930,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 116529096 - Field 349234259 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 3921990236</note>
@@ -944,7 +944,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 59620640 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1592379974</note>
@@ -958,7 +958,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 1968756878 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2072992664</note>
@@ -972,7 +972,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 2677889483 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2941967353</note>
@@ -993,7 +993,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 2347064590 - Field 1452465310 - Property 62802879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source> ,Prof. Services,Lease and Rent,Others</source>
-          <target state="translated"> ,Servicios prof.,arrendamiento y alquiler,otros</target>
+          <target state="translated"> ,Servicios prof.,Arrendamiento y alquiler,Otros</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1936001480</note>
