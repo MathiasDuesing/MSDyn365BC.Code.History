@@ -527,7 +527,7 @@
         </trans-unit>
         <trans-unit id="Table 414606611 - Field 1577117606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object ID to Run</source>
-          <target state="translated">Code objet à exécuter</target>
+          <target state="translated">ID objet à exécuter</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Checklist Item Buffer - Field Object ID to Run - Property Caption</note>
         </trans-unit>
@@ -1604,7 +1604,7 @@
         </trans-unit>
         <trans-unit id="Table 3519071095 - Field 1577117606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Object ID to Run</source>
-          <target state="translated">Code objet à exécuter</target>
+          <target state="translated">ID objet à exécuter</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Guided Experience Item - Field Object ID to Run - Property Caption</note>
         </trans-unit>
@@ -10551,7 +10551,7 @@
         </trans-unit>
         <trans-unit id="Page 1431104360 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Navigate</source>
-          <target state="translated">Nouveau, Processus, Rapport, Naviguer</target>
+          <target state="translated">Nouveau,Traiter,Déclarer,Naviguer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Reten. Policy Setup ListPart - Property PromotedActionCategories</note>
         </trans-unit>
@@ -10713,7 +10713,7 @@
         </trans-unit>
         <trans-unit id="Page 1206474225 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Navigate</source>
-          <target state="translated">Nouveau,Traiter,Rapport,Naviguer</target>
+          <target state="translated">Nouveau,Traiter,Déclarer,Naviguer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup Card - Property PromotedActionCategories</note>
         </trans-unit>
@@ -10899,7 +10899,7 @@
         </trans-unit>
         <trans-unit id="Page 3918924451 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>New, Process, Report, Navigate</source>
-          <target state="translated">Nouveau,Traiter,Rapport,Naviguer</target>
+          <target state="translated">Nouveau,Traiter,Déclarer,Naviguer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Retention Policy Setup List - Property PromotedActionCategories</note>
         </trans-unit>
@@ -11156,7 +11156,7 @@
         </trans-unit>
         <trans-unit id="Page 709229469 - Control 3162830111 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the date and time the email was sent.</source>
-          <target state="translated">Spécifie la date et l'heure d'envoi du courriel.</target>
+          <target state="translated">Spécifie la date et l’heure d’envoi du courriel.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sent Emails - Control DateTimeSent - Property ToolTip</note>
         </trans-unit>
