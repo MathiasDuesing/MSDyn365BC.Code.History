@@ -168,6 +168,9 @@
                         "path":  ".\\salesandinventoryforecast\\test\\Sales and Inventory Forecast Tests"
                     },
                     {
+                        "path":  ".\\shopify\\test\\Shopify Connector Test"
+                    },
+                    {
                         "path":  ".\\SwissQRBill\\Test\\QR-Bill Management for Switzerland Tests"
                     },
                     {
