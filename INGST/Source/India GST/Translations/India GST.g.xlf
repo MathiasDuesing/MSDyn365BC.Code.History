@@ -11778,6 +11778,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = Bank Charge Code , %2 = Upper Limit</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - NamedType UpperLimitSmallModifyErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 296313779 - Method 3797709866 - NamedType 12013015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rounding Type %1 is not a valid option.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = GST Ledger Transaction Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Journal Validations - Method TaxComponentDirections2DetailedGSTLedgerDirection - NamedType ConversionErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3910298368 - NamedType 3301309831" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST On Payment Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12187,6 +12192,11 @@
           <source>Either Ship-To Address GST Registration No. or ARN No. in Ship-To Address should have a value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType ShipToGSTARNErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 378964061 - Method 749018551 - NamedType 1126852379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The value in the Line Discount % field must be between 0 and 100.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - Method OnBeforeUpdateLineDiscPct - NamedType LineDiscountPctErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 631393150 - NamedType 2132866371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Either Customer GST Registration No. or ARN No. in Customer should have a value.</source>
