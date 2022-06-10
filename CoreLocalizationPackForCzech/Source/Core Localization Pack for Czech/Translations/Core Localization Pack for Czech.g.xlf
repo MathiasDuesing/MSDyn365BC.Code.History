@@ -26753,6 +26753,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Sales Inv. Subform CZL - Control Tariff No. CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 583147558 - Control 958090087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1821313830">
+          <source>Specifies the additional symbol of bank payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Sales Inv. Update CZL - Control Constant Symbol CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 583147558 - Control 167070957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1821313830">
+          <source>Specifies the additional symbol of bank payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Sales Inv. Update CZL - Control Specific Symbol CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 583147558 - Control 1509242559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1821313830">
+          <source>Specifies the detail information for payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Sales Inv. Update CZL - Control Variable Symbol CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2561975415 - Control 1054067672 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Specifies the reason code on the entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -27187,6 +27202,21 @@
           <source>Specifies a code for the item's tariff number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Serv. Inv. Subform CZL - Control Tariff No. CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726723721 - Control 958090087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018740041">
+          <source>Specifies the additional symbol of bank payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Service Inv. Update CZL - Control Constant Symbol CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726723721 - Control 167070957 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018740041">
+          <source>Specifies the additional symbol of bank payments.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Service Inv. Update CZL - Control Specific Symbol CZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726723721 - Control 1509242559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018740041">
+          <source>Specifies the detail information for payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Service Inv. Update CZL - Control Variable Symbol CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2879885508 - Control 747509869 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1778940791">
           <source>Specifies a VAT business posting group code.</source>
