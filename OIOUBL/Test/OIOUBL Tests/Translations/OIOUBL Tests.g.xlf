@@ -143,6 +143,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType WrongAllowanceChargeErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4277811839 - NamedType 267233681" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File name should be: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 - Client File Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType WrongFileNameErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 4277811839 - NamedType 2693520614" size-unit="char" translate="yes" xml:space="preserve">
           <source>Wrong count of "InvoiceLine".</source>
           <note from="Developer" annotates="general" priority="2"></note>
