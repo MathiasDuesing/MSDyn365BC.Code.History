@@ -229,7 +229,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Action Navigate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 756275509 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Find entries...</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Applied G/L Entries CZA - Action Navigate - Property Caption</note>
         </trans-unit>
@@ -544,7 +544,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Navigate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1714971046 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Find entries...</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Apply G/L Entries CZA - Action Navigate - Property Caption</note>
         </trans-unit>
@@ -614,7 +614,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Action Navigate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2110698122 - Action 3538210097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Find entries</source>
+          <source>Find Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Detailed G/L Entries CZA - Action Navigate - Property Caption</note>
         </trans-unit>

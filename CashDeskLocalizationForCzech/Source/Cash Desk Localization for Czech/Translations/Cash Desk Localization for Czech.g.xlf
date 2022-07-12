@@ -1838,10 +1838,10 @@
           <note from="Developer" annotates="general" priority="2">%1 = Cash Desk No. &amp; "Cash Document Type &amp; No., %2 = Line Count</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Document-Post CZP - NamedType DialogMsg</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3510857294 - NamedType 2789051626" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3510857294 - NamedType 69498920" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not equal %2.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Amount Including VAT FieldCaption, %2 = Released Amount FieldCaption)</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Document-Post CZP - NamedType IsNotEqualErr</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Amount Including VAT FieldCaption, %2 = Released Amount FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Document-Post CZP - NamedType NotEqualErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3510857294 - NamedType 394975156" size-unit="char" translate="yes" xml:space="preserve">
           <source>is not within your range of allowed posting dates</source>
@@ -1907,6 +1907,11 @@
           <source>must be positive</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Document-Release CZP - NamedType MustBePositiveErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 826359093 - NamedType 69498920" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not equal %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Amount Including VAT FieldCaption, %2 = Released Amount FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cash Document-Release CZP - NamedType NotEqualErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 826359093 - Method 3738265255 - NamedType 389604884" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 Ledger Entry %2 %3 is suggested to application on other documents in the system.\Do you want to use it for this Cash Document?</source>
