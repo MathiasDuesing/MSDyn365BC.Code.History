@@ -11944,7 +11944,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType SamePANErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3536484230 - NamedType 606221348" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GST Vendor Type must be Unregistered or Registered Reverse Charge for Invoice Type : Self-Invoice.</source>
+          <source>GST Vendor Type must be Unregistered, Registered Reverse Charge or Imports for Invoice Type : Self-Invoice.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType SelfInvoiceTypeErr</note>
         </trans-unit>
@@ -39392,6 +39392,16 @@
           <source>Resource</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Resource - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1987462733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D365 Common Access - India GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet D365 Common Access - India GST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 152218016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D365 Read Access - India GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet D365 Read Access - India GST - Property Caption</note>
         </trans-unit>
       </group>
     </body>

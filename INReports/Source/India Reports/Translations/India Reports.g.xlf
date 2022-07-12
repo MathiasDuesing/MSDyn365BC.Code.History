@@ -8773,6 +8773,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2BQuery - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Query 3214909822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GSTR1B2BSalesTranship</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query GSTR1B2BSalesTranship - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Query 2655311126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GSTR1B2CInterCess</source>
           <note from="Developer" annotates="general" priority="2"></note>
