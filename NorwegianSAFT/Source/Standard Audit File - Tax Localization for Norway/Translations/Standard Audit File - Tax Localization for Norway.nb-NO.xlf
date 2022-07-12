@@ -2438,7 +2438,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 766791453 - Control 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation</source>
-          <target state="translated">Lønn</target>
+          <target state="translated">Kompensasjon</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3059077503</note>
@@ -2515,7 +2515,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 766791453 - Field 3835983272 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation</source>
-          <target state="translated">Lønn</target>
+          <target state="translated">Kompensasjon</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1256068594</note>
