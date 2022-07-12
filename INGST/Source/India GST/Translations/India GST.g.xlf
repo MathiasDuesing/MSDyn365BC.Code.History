@@ -39393,6 +39393,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Resource - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PermissionSet 1987462733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D365 Common Access - India GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet D365 Common Access - India GST - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 152218016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D365 Read Access - India GST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet D365 Read Access - India GST - Property Caption</note>
+        </trans-unit>
       </group>
     </body>
   </file>
