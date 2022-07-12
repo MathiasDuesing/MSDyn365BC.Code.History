@@ -1187,12 +1187,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - NamedType TermsOfUseLinkLbl</note>
         </trans-unit>
-        <trans-unit id="Page 1126992302 - Control 2495031051 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. This enables efficient payment processing and bank reconciliation. To enable the service, you must read and agree to the terms of use from Envestnet Yodlee.</source>
-          <target state="translated">With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. This enables efficient payment processing and bank reconciliation. To enable the service, you must read and agree to the terms of use from Envestnet Yodlee.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control TermsOfUseViewAndAccept - Property InstructionalText</note>
-        </trans-unit>
         <trans-unit id="Page 1126992302 - Control 3147377785 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if you accept the terms of use for Envestnet Yodlee.</source>
           <target state="translated">Specifies if you accept the terms of use for Envestnet Yodlee.</target>

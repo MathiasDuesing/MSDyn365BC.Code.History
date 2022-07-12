@@ -1293,6 +1293,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1126992302 - NamedType 2228740799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Privacy Statement</source>
+          <target state="translated">Énoncé de confidentialité Microsoft</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - NamedType MicrosoftPrivacyStatementLbl</note>
+        </trans-unit>
         <trans-unit id="Page 1126992302 - NamedType 4275923287" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Envestnet Yodlee Terms of Use</source>
           <target state="translated">Conditions d'utilisation Envestnet Yodlee</target>
@@ -1300,8 +1306,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - NamedType TermsOfUseLinkLbl</note>
         </trans-unit>
         <trans-unit id="Page 1126992302 - Control 2495031051 - Property 1968111052" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. This enables efficient payment processing and bank reconciliation. To enable the service, you must read and agree to the terms of use from Envestnet Yodlee.</source>
-          <target state="translated">Le service tiers Envestnet Yodlee Bank Feeds vous permet de lier vos comptes bancaires dans Dynamics 365 Business Central à vos comptes bancaires en ligne pour obtenir des flux bancaires électroniques. Cela garantit un traitement efficace des paiements et rapprochements bancaires. Pour activer le service, vous devez lire et accepter les conditions d'utilisation d'Envestnet Yodlee.</target>
+          <source>With the third-party Envestnet Yodlee Bank Feeds service, you can link your bank accounts in Dynamics 365 Business Central to your online bank accounts to get electronic bank feeds. By agreeing to the terms of use you give consent to Microsoft to use, collect, store, handle and share your data in accordance with the Microsoft Privacy Statement (see link below). YOU PROVIDE LOG-IN CREDENTIALS TO YOUR ACCOUNTS AT YOUR OWN RISK. BY USING ENVESTNET YODLEE BANK FEEDS SERVICE YOU AGREE THAT THE DATA SOURCES THAT MAINTAIN YOUR ACCOUNTS AND ANY THIRD PARTIES THAT INTERACT WITH YOUR CREDENTIALS OR ACCOUNT DATA IN CONNECTION WITH OUR SERVICE ARE NOT LIABLE FOR ANY LOSS, THEFT, COMPROMISE, OR MISUSE WHATSOEVER IN CONNECTION WITH OUR SERVICES (INCLUDING NEGLIGENCE), EXCEPT TO THE EXTENT SUCH LIABILITY CANNOT BE LIMITED UNDER APPLICABLE LAW. DATA SOURCES MAKE NO WARRANTIES OF ANY KIND RELATED TO THE DATA PROVIDED BY OUR SERVICES--WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE. EXCEPT FOR PDFS OF OFFICIAL ACCOUNT DOCUMENTS WE RETRIEVE ON YOUR BEHALF AND PROVIDE TO YOU WITHOUT ALTERATION, NO DATA PROVIDED BY OUR SERVICES IS AN OFFICIAL RECORD OF ANY OF YOUR ACCOUNTS.</source>
+          <target state="translated">Le service tiers Envestnet Yodlee Bank Feeds vous permet de lier vos comptes bancaires dans Dynamics 365 Business Central à vos comptes bancaires en ligne pour obtenir des flux bancaires électroniques. En acceptant les conditions d’utilisation, vous autorisez Microsoft à utiliser, collecter, stocker, traiter et partager vos données conformément à l’Énoncé de confidentialité Microsoft (voir lien ci-dessous). VOUS FOURNISSEZ LES IDENTIFIANTS DE CONNEXION À VOS COMPTES À VOS PROPRES RISQUES. EN UTILISANT LE SERVICE ENVESTNET YODLEE BANK FEEDS, VOUS ACCEPTEZ QUE LES SOURCES DE DONNÉES QUI GÈRENT VOS COMPTES ET LES TIERS QUI INTERAGISSENT AVEC VOS INFORMATIONS D’IDENTIFICATION OU LES DONNÉES DE VOTRE COMPTE DANS LE CADRE DE NOTRE SERVICE NE SOIENT PAS RESPONSABLES DE TOUTE PERTE, VOL, COMPROMISSION OU MAUVAISE UTILISATION DE QUELQUE NATURE QUE CE SOIT EN RAPPORT AVEC NOS SERVICES (Y COMPRIS LA NÉGLIGENCE), SAUF DANS LA MESURE OÙ CETTE RESPONSABILITÉ NE PEUT ÊTRE LIMITÉE EN VERTU DE LA LOI APPLICABLE. LES SOURCES DE DONNÉES NE DONNENT AUCUNE GARANTIE DE QUELQUE NATURE QUE CE SOIT CONCERNANT LES DONNÉES FOURNIES PAR NOS SERVICES, QU’ELLE SOIT EXPRESSE, IMPLICITE, STATUTAIRE OU AUTRE. À L’EXCEPTION DES PDF DES DOCUMENTS DE COMPTE OFFICIELS QUE NOUS RÉCUPÉRONS EN VOTRE NOM ET QUE NOUS VOUS FOURNISSONS SANS MODIFICATION, AUCUNE DONNÉE FOURNIE PAR NOS SERVICES NE CONSTITUE UN ENREGISTREMENT OFFICIEL DE L’UN DE VOS COMPTES.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control TermsOfUseViewAndAccept - Property InstructionalText</note>
         </trans-unit>
@@ -1310,6 +1316,12 @@
           <target state="translated">Spécifie si vous acceptez les conditions d'utilisation d'Envestnet Yodlee.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control Accept Terms of Use - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1126992302 - Control 1506706266 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a link to the Microsoft Privacy Statement.</source>
+          <target state="translated">Spécifie un lien vers l’Énoncé de confidentialité Microsoft.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MS - Yodlee Terms of use - Control MicrosoftPrivacyStmtLbl - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1126992302 - Control 2038165031 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies a link to the terms of use for Envestnet Yodlee.</source>
