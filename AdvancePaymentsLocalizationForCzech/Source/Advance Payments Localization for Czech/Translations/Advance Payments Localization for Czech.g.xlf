@@ -433,6 +433,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Header CZZ - Field IBAN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3911307783 - Field 596789822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incoming Document Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Header CZZ - Field Incoming Document Entry No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3911307783 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -462,6 +467,11 @@
           <source>Order No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Header CZZ - Field Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3911307783 - Field 1165839923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Document VAT Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purch. Adv. Letter Header CZZ - Field Original Document VAT Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3911307783 - Field 3196232876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pay-to Address</source>
@@ -1083,6 +1093,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales Adv. Letter Header CZZ - Field IBAN - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2442512937 - Field 596789822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incoming Document Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Adv. Letter Header CZZ - Field Incoming Document Entry No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2442512937 - Field 2273653569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Language Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1373,6 +1388,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Guided Experience Handler CZZ - Method RegisterAdvanceLetterTemplates - NamedType AdvanceLetterTemplateKeywordsTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 2684903836 - NamedType 2043662066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method AddAdvancesOnAfterSetCreatedDocumentType - NamedType PurchAdvanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 2684903836 - NamedType 3500068454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method AddAdvancesOnAfterSetCreatedDocumentType - NamedType SalesAdvanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4181878336 - NamedType 3897912870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The incoming document has already been assigned to purchase advance %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method CheckAdvanceLetterOnTestIfAlreadyExists - NamedType AlreadyUsedInPurchaseAdvanceErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4181878336 - NamedType 2388653563" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The incoming document has already been assigned to sales advance %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method CheckAdvanceLetterOnTestIfAlreadyExists - NamedType AlreadyUsedInSalesAdvanceErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 491990744 - Method 593047187 - NamedType 1427565258" size-unit="char" translate="yes" xml:space="preserve">
           <source>Both, Advance, %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Line Description</note>
@@ -1407,6 +1442,11 @@
           <source>Nothing to Post.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PurchAdvLetterManagement CZZ - NamedType NothingToPostErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3588268779 - NamedType 72781804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Document VAT Date (%1) must be less or equal to VAT Date (%2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = OriginalDocVATDate, %2 = VATDate</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit PurchAdvLetterManagement CZZ - NamedType OriginalDocVATDateMustBeLessOrVATDateErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3588268779 - NamedType 3254498843" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Document already exists.</source>
@@ -2508,6 +2548,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control On Hold - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2509033255 - Control 1165839923 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT date of the original document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control Original Document VAT Date - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2509033255 - Control 3326794610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Pay-to</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2663,6 +2708,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control Payment Terms Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2509033255 - Control 2153225461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the registration number of vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control Registration No. CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2509033255 - Control 1577567912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2673,10 +2723,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control Shortcut Dimension 2 Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2509033255 - Control 715756482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the secondary VAT registration number for the vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control Tax Registration No. CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2509033255 - Control 1844012642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Control 4140626140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT registration number. The field will be used when you do business with partners from EU countries/regions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Control VAT Registration No. CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2509033255 - Control 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Details</source>
@@ -2857,6 +2917,51 @@
           <source>Close Advance Letter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action CloseAdvanceLetter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 2748447179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action IncomingDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 1671420421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an incoming document record by selecting a file to attach, and then link the incoming document record to the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action IncomingDocAttachFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 1671420421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Incoming Document from File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action IncomingDocAttachFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 2879753038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View any incoming document records and file attachments that exist for the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action IncomingDocCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 2879753038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action IncomingDocCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 909458268 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove an external document that has been recorded, manually or automatically, and attached as a file to a document or ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action RemoveIncomingDoc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 909458268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action RemoveIncomingDoc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 1744698506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select an incoming document record and file attachment that you want to link to the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action SelectIncomingDoc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2509033255 - Action 1744698506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purch. Advance Letter CZZ - Action SelectIncomingDoc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2509033255 - Action 3735014768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Release</source>
@@ -3893,6 +3998,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control Payment Terms Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2641234761 - Control 2153225461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the registration number of customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control Registration No. CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2641234761 - Control 1577567912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3903,10 +4013,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control Shortcut Dimension 2 Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2641234761 - Control 715756482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the secondary VAT registration number for the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control Tax Registration No. CZL - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2641234761 - Control 1844012642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control VAT Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Control 4140626140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the VAT registration number. The field will be used when you do business with partners from EU countries/regions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Control VAT Registration No. CZL - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2641234761 - Control 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Details</source>
@@ -4087,6 +4207,51 @@
           <source>Close Advance Letter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action CloseAdvanceLetter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 2748447179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action IncomingDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1671420421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an incoming document record by selecting a file to attach, and then link the incoming document record to the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action IncomingDocAttachFile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1671420421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Incoming Document from File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action IncomingDocAttachFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 2879753038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View any incoming document records and file attachments that exist for the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action IncomingDocCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 2879753038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action IncomingDocCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 909458268 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove an external document that has been recorded, manually or automatically, and attached as a file to a document or ledger entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action RemoveIncomingDoc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 909458268 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action RemoveIncomingDoc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1744698506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select an incoming document record and file attachment that you want to link to the entry or document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action SelectIncomingDoc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2641234761 - Action 1744698506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Incoming Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sales Advance Letter CZZ - Action SelectIncomingDoc - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2641234761 - Action 3735014768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Release</source>
@@ -4744,7 +4909,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Create Purch. Adv. Letter CZZ - NamedType AdvLetterCodeEmptyErr</note>
         </trans-unit>
         <trans-unit id="Report 2844976210 - NamedType 2265592727" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amount cannot be greater then %1.</source>
+          <source>Amount cannot be greater than %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Amount Including VAT</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create Purch. Adv. Letter CZZ - NamedType AmountCannotBeGreaterErr</note>
         </trans-unit>
@@ -4814,7 +4979,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report Create Sales Adv. Letter CZZ - NamedType AdvLetterCodeEmptyErr</note>
         </trans-unit>
         <trans-unit id="Report 1707835856 - NamedType 2265592727" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amount cannot be greater then %1.</source>
+          <source>Amount cannot be greater than %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Amount Including VAT</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create Sales Adv. Letter CZZ - NamedType AmountCannotBeGreaterErr</note>
         </trans-unit>
@@ -7197,6 +7362,16 @@
           <source>Advance Payments Localization for Czech</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Feature To Update - CZZ - EnumValue AdvancePaymentsLocalizationForCzech - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 1100363000 - EnumValue 1288781342 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 838578914">
+          <source>Purchase Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Incoming Related Doc. Type CZZ - EnumValue Purchase Advance CZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 1100363000 - EnumValue 4191797075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 838578914">
+          <source>Sales Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Incoming Related Doc. Type CZZ - EnumValue Sales Advance CZZ - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 2464366122 - EnumValue 1450284548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4244706559">
           <source>Advance Payments</source>

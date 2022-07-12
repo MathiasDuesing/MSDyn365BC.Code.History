@@ -363,6 +363,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Compensation Line CZC - Field Source Entry No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3407372436 - Field 3627141058 - Method 2126772001 - NamedType 1992722591" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is related to Advance Letter.</source>
+          <target state="translated">%1 %2 souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Ledger Entry TableCaption, %2 = Ledger Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Compensation Line CZC - Field Source Entry No. - Method OnValidate - NamedType RelatedToAdvanceLetterErr</note>
+        </trans-unit>
         <trans-unit id="Table 3407372436 - Field 1882905478 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source No.</source>
           <target state="translated">Číslo původu</target>
@@ -807,6 +813,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Guided Experience Handler CZC - Method RegisterCompensationsSetup - NamedType CompensationsSetupKeywordsTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1849462133 - Method 2254405975 - NamedType 3531114968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compensation</source>
+          <target state="translated">Zápočet</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZC - Method AddCompensationOnAfterSetCreatedDocumentType - NamedType CompensationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1849462133 - Method 3389311912 - NamedType 2654051617" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The incoming document has already been assigned to compensation %1.</source>
+          <target state="translated">Došlý doklad již byl přiřazen k zápočtu %1.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZC - Method CheckCompensationOnTestIfAlreadyExists - NamedType AlreadyUsedInCompensationErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1319708387 - Method 1545708818 - NamedType 2202301896" maxwidth="10" size-unit="char" translate="yes" xml:space="preserve">
           <source>COMPENS</source>
           <target state="translated">ZÁPOČTY</target>
@@ -854,6 +872,12 @@
           <target state="translated">%1 musí být menší nebo rovna hodnotě v poli %2.</target>
           <note from="Developer" annotates="general" priority="2">%1 = Compensation Balance (LCY) FieldCaption, %2 = Max. Rounding Amount FieldCaption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType MustBeLessOrEqualErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 585442029 - NamedType 1992722591" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is related to Advance Letter.</source>
+          <target state="translated">%1 %2 souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Ledger Entry TableCaption, %2 = Ledger Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Release Compens. Document CZC - NamedType RelatedToAdvanceLetterErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 585442029 - NamedType 662543090" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 %3 is already used. Do you want to use it for Compensation?</source>
@@ -1071,6 +1095,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Cust. LE Subform CZC - Control Reason Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2900022699 - Control 3515342543 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry is related to advance letter.</source>
+          <target state="translated">Určuje, že položka souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Cust. LE Subform CZC - Control RelatedToAdvanceLetterCZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2900022699 - Control 3515342543 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related to Advance Letter</source>
+          <target state="translated">Související se zálohou</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Cust. LE Subform CZC - Control RelatedToAdvanceLetterCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2900022699 - Control 2975378708 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount that remains to be applied to before the entry has been completely applied. The amount is shown in the currency of the original transaction.</source>
           <target state="translated">Určuje částku, kterou zbývá zaplatit dříve, než byla položka plně použita. Částka je zobrazena v měně původní transakce.</target>
@@ -1142,6 +1178,12 @@
           <target state="translated">Nastavit nebo vymazat značku</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Cust. LE Subform CZC - Action SetMark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2900022699 - Action 3646293009 - Method 1377591017 - NamedType 2448500163" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 was not marked because is related to Advance Letter.</source>
+          <target state="translated">%1 %2 nebyl označen, protože souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Ledger Entry TableCaption, %2 = Ledger Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Cust. LE Subform CZC - Action SetMark - Method OnAction - NamedType RelatedToAdvanceLetterMsg</note>
         </trans-unit>
         <trans-unit id="Page 2900022699 - Action 1946948181 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies only the marked customer ledger entries.</source>
@@ -1371,6 +1413,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Control Reason Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2798928406 - Control 3515342543 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the entry is related to advance letter.</source>
+          <target state="translated">Určuje, že položka souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Control RelatedToAdvanceLetterCZL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2798928406 - Control 3515342543 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related to Advance Letter</source>
+          <target state="translated">Související se zálohou</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Control RelatedToAdvanceLetterCZL - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2798928406 - Control 2975378708 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the amount that remains to be applied to before the entry has been completely applied. The amount is shown in the currency of the original transaction.</source>
           <target state="translated">Určuje částku, kterou zbývá zaplatit dříve, než byla položka plně použita. Částka je zobrazena v měně původní transakce.</target>
@@ -1442,6 +1496,12 @@
           <target state="translated">Nastavit nebo vymazat značku</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Action SetMark - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2798928406 - Action 3646293009 - Method 1377591017 - NamedType 2448500163" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 was not marked because is related to Advance Letter.</source>
+          <target state="translated">%1 %2 nebyl označen, protože souvisí se zálohou.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Ledger Entry TableCaption, %2 = Ledger Entry No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Action SetMark - Method OnAction - NamedType RelatedToAdvanceLetterMsg</note>
         </trans-unit>
         <trans-unit id="Page 2798928406 - Action 1946948181 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies only the marked vendor ledger entries.</source>
@@ -3491,13 +3551,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2507776045 - Method 1363232495 - NamedType 128634895" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The incoming document has already been assigned to %1 %2 (%3).</source>
-          <target state="translated">Došlý doklad již byl přiřazen k %1 %2 (%3).</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Document Type, %2 = Document No., %3 = Table Name.</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2507776045</note>
         </trans-unit>
         <trans-unit id="TableExtension 619833866 - Field 2863951890 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation</source>
