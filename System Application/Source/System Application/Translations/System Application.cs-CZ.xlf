@@ -449,7 +449,7 @@
         </trans-unit>
         <trans-unit id="Table 2732765979 - Field 1001654749 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order ID</source>
-          <target state="translated">ID Objednávky</target>
+          <target state="translated">ID pořadí</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Checklist Item - Field Order ID - Property Caption</note>
         </trans-unit>
@@ -527,7 +527,7 @@
         </trans-unit>
         <trans-unit id="Table 414606611 - Field 1001654749 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order ID</source>
-          <target state="translated">ID Objednávky</target>
+          <target state="translated">ID pořadí</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Checklist Item Buffer - Field Order ID - Property Caption</note>
         </trans-unit>
