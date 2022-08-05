@@ -4273,7 +4273,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 4291531020 - Field 3920485520 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Keep Depreciation Ending Date</source>
-          <target state="translated">Poslední datum odpisování</target>
+          <target state="translated">Zachovat poslední datum odpisu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1786551609</note>

@@ -41980,20 +41980,6 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 3527872399 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 1928147838 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
-        </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Field 10130681 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank Account Code</source>
           <target state="translated">Kód bankovního účtu</target>
@@ -42782,20 +42768,6 @@
           <source>%1 does not exist for currency %2 and date %3.</source>
           <target state="translated">%1neexistuje pro měnu %2 a datum %3.</target>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 3527872399 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3" />
-          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 1928147838 - NamedType 1207693657" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <target state="translated">Změnili jste %1. Chcete aktualizovat %2?</target>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
         </trans-unit>
