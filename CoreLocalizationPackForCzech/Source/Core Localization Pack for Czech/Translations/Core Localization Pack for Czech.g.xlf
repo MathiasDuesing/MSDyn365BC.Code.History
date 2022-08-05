@@ -30278,20 +30278,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header Archive CZL - Field VAT Date CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3087185091 - NamedType 886382813" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
+          <source>Do you want to update the exchange rate for VAT?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - NamedType UpdateExchRateQst</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method CheckCurrencyExchangeRateCZL - NamedType CurrExchRateNotExistsErr</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method UpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 3087185091 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3087185091">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Purchase Header CZL - Method VATDateUpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
         </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Field 10130681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Bank Account Code</source>
@@ -30843,20 +30838,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header Archive CZL - Field VAT Date CZL - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4002280534 - NamedType 886382813" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
+          <source>Do you want to update the exchange rate for VAT?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - NamedType UpdateExchRateQst</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4002280534 - Method 2522804495 - NamedType 334162638" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CurrExchRate.TableCaption, %2 = Currency Code, %3 = Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method CheckCurrencyExchangeRateCZL - NamedType CurrExchRateNotExistsErr</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 3527872399 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method UpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 4002280534 - Method 1928147838 - NamedType 1207693657" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 4002280534">
-          <source>You have changed %1. Do you want to update %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = field caption, %2 = field caption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Sales Header CZL - Method VATDateUpdateVATCurrencyFactorCZL - NamedType UpdateChangedFieldQst</note>
         </trans-unit>
         <trans-unit id="TableExtension 4002280534 - Field 10130681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Bank Account Code</source>
