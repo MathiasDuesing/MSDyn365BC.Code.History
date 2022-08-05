@@ -148,6 +148,16 @@
           <note from="Developer" annotates="general" priority="2">%1= Stale Check Expiry Date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType StaleCheckExpiryDateErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1613073681 - NamedType 2847126115" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void all printed checks?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType VoidAllCheckLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1613073681 - NamedType 128632937" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Void Check %1?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Check No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Check Management Subscriber - NamedType VoidCheckConfirmationLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1613073681 - NamedType 3699957020" size-unit="char" translate="yes" xml:space="preserve">
           <source>Voiding check %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = CheckLedgEntry."Check No."</note>
@@ -217,6 +227,11 @@
           <source>Account Type or Bal. Account Type can only be G/L Account or Bank Account for Sub Voucher Type %1 and Document No. %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Sub Voucher Type, %2 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validation Events - NamedType ShouldBeGLOrBankAccountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3894693032 - NamedType 1198654344" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For Contra Voucher %1 is not allowed</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Transaction Direction</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Validation Events - NamedType TransactionDirectionErr</note>
         </trans-unit>
         <trans-unit id="Page 205333289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Check Preview</source>
@@ -2218,6 +2233,51 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Company Information Ext - Action Journal Voucher Posting Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 1995465164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>&amp;Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action &amp;Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 1160402318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Select this option to preview computer check, if the Bank Payment Type field on the Payment Journal window is set to Computer Check, the checks must be printed before posting the journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action P&amp;review Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 1160402318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>P&amp;review Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action P&amp;review Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 3243840921 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Select this option to Print computer check, if the Bank Payment Type field on the Payment Journal window is set to Computer Check, the checks must be printed before posting the journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Print Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 3243840921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Print Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Print Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 3668851114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Select this option to void all checks which have printed but not posted on the journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Void &amp;All Checks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 3668851114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Void &amp;All Checks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Void &amp;All Checks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 1787783558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Select this option to void one check. Select the line with Computer Check in the Bank Payment Type field on the Journal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Void Check - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Action 1787783558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Void Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Action Void Check - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2018235175 - Control 2807262541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
           <source>Specifies the cheque date of the journal entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2227,6 +2287,16 @@
           <source>Specifies the cheque number of the journal entry.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Control Cheque No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Control 1261265694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Specifies the cheque number of the journal entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Control Cheque No.2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2018235175 - Control 1261265694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2018235175">
+          <source>Cheque No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Contra Voucher - Control Cheque No.2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1183321529 - Action 1774964744 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
           <source>Select this option to enter narration for a particular line.</source>

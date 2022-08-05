@@ -3733,6 +3733,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Control AttributeValue9 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 1553741435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clears Filter on Tax Rates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ClearFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 1553741435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ClearFilter - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3464193326 - Action 2283777931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deletes all tax rates for the tax type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3752,6 +3762,16 @@
           <source>Export To Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action ExportToExcel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2390565067 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Tax Rates by attributes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action FilterRates - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3464193326 - Action 2390565067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter By Attributes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TDS Rates - Action FilterRates - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3464193326 - Action 3545432896 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import the tax rates from Excel.</source>

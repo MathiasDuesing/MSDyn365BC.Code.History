@@ -9753,16 +9753,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Service Lines count</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - NamedType ServiceLinesMaxCountLimitErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1720667578 - Method 1584447853 - NamedType 2507510580" size-unit="char" translate="yes" xml:space="preserve">
-          <source>B2B</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - Method ReadCreditMemoTransactionDetails - NamedType B2BLbl</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1720667578 - Method 1584447853 - NamedType 1498444585" size-unit="char" translate="yes" xml:space="preserve">
-          <source>EXP</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler for Ser - Method ReadCreditMemoTransactionDetails - NamedType EXPLbl</note>
-        </trans-unit>
         <trans-unit id="Codeunit 209614294 - NamedType 2925920819" size-unit="char" translate="yes" xml:space="preserve">
           <source>Tax Accounting Period does not exist for the given Date %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Posting Date</note>
@@ -11952,6 +11942,11 @@
           <source>%1 is applicable on for SEZ Vendors.</source>
           <note from="Developer" annotates="general" priority="2">%1= Without Bill Of Entry</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType SEZWboeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3536484230 - NamedType 2565869833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code is mandatory for ship-to Custom Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Purchase Subscribers - NamedType ShipToOptionErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3536484230 - NamedType 856751175" size-unit="char" translate="yes" xml:space="preserve">
           <source>POS as Vendor state is only applicable for G/L Account, the current value is %1.</source>
@@ -14592,6 +14587,16 @@
           <source>&amp;Ship,&amp;Receive</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Service Transfer Post - NamedType ShipReceiveQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3346871563 - NamedType 272352229" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is nothing to post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Confirm-Post - NamedType NothingToPostErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3346871563 - NamedType 2023331670" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to post the %1?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document No</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Subcontracting Confirm-Post - NamedType SendPostQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 4004495554 - NamedType 4035734291" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 applied against delivery challan line must be equal to %2 in Document No.=%3, Document Line No.=%4, Parent Item No.=%5, Line No.=%6.</source>
@@ -27468,6 +27473,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Item Charges Ext - Control HSN/SAC Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2705767620 - Control 574103807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2185457841">
+          <source>Specifies if the GST credit has to be availed or not.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Item Template Card Ext - Control GST Credit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2705767620 - Control 1815712918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2185457841">
+          <source>Specifies an unique identifier for the GST group code used to calculate and post GST.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Item Template Card Ext - Control GST Group Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2705767620 - Control 2629078778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2185457841">
+          <source>Specifies an unique identifier for the type of HSN or SAC that is used to calculate and post GST.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Item Template Card Ext - Control HSN/SAC Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3521790404 - Control 4025331349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Specifies if location is defined as a bonded warehouse.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -33218,6 +33238,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Item Ext. - Field Subcontracting - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3297875872 - Field 574103807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 463323981">
+          <source>GST Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Item Templ. Ext. - Field GST Credit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3297875872 - Field 1815712918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 463323981">
+          <source>GST Group Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Item Templ. Ext. - Field GST Group Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3297875872 - Field 2629078778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 463323981">
+          <source>HSN/SAC Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Item Templ. Ext. - Field HSN/SAC Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3561195320 - Field 4025331349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
           <source>Bonded warehouse</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -34543,6 +34578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchase Header Ext - Field Shipping Agent Service Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1766504351 - Field 2984886928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Subcon. Multiple Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchase Header Ext - Field Subcon. Multiple Receipt - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1766504351 - Field 3431321049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Subcon. Order Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -34882,6 +34922,11 @@
           <source>Subcon. Order No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchase Line Ext - Field Subcon. Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 783358472 - Field 563323258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Subcon. Receiving</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Purchase Line Ext - Field Subcon. Receiving - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 783358472 - Field 2699408679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
           <source>SubConReceive</source>
