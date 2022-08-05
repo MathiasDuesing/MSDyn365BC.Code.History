@@ -3014,7 +3014,7 @@
         </trans-unit>
         <trans-unit id="Table 3975264862 - Field 1581469095 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Full Name</source>
-          <target state="translated">Úplný název</target>
+          <target state="translated">Celé jméno</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table User Plan - Field User Full Name - Property Caption</note>
         </trans-unit>
@@ -11635,7 +11635,7 @@
         </trans-unit>
         <trans-unit id="Page 383217645 - Control 2981864456 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Full Name</source>
-          <target state="translated">Úplný název</target>
+          <target state="translated">Celé jméno</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page User Lookup - Control Full Name - Property Caption</note>
         </trans-unit>
@@ -12821,7 +12821,7 @@
         </trans-unit>
         <trans-unit id="Enum 3165356393 - EnumValue 2981864456 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Full Name</source>
-          <target state="translated">Úplný název</target>
+          <target state="translated">Celé jméno</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Azure AD User Update Entity - EnumValue Full Name - Property Caption</note>
         </trans-unit>
