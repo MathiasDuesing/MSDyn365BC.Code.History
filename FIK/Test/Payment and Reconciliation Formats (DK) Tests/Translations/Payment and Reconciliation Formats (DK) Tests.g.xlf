@@ -118,6 +118,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Bank Imp. Bank Rec. Line - Method TestSDCSampleImport - NamedType SDCHeaderTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1270266574 - NamedType 504802183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>12345678</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType BankCreditorNoLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1270266574 - NamedType 2483914297" size-unit="char" translate="yes" xml:space="preserve">
           <source>The expected control cypher does not match the actual.</source>
           <note from="Developer" annotates="general" priority="2"></note>
