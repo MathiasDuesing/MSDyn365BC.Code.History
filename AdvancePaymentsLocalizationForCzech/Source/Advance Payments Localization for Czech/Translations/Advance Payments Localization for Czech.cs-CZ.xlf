@@ -1701,6 +1701,18 @@
           <note from="Developer" annotates="general" priority="2">%1 = Document Number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method CheckAdvanceLetterOnTestIfAlreadyExists - NamedType AlreadyUsedInSalesAdvanceErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4208227854 - NamedType 3500068454" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance</source>
+          <target state="translated">Prodejní záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method GetRelatedRecordCaption - NamedType SalesAdvanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4208227854 - NamedType 2043662066" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance</source>
+          <target state="translated">Nákupní záloha</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method GetRelatedRecordCaption - NamedType PurchAdvanceTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 491990744 - Method 593047187 - NamedType 1427565258" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Both, Advance, %1</source>
           <target state="translated">Obojí, Záloha, %1</target>
@@ -8853,6 +8865,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2245263682 - Field 1612228127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter Template Code</source>
+          <target state="translated">Kód šablony záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2245263682 - Field 2060499916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter No.</source>
           <target state="translated">Číslo zálohy</target>
@@ -8894,6 +8913,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1618970480</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1900491339 - NamedType 3076544083" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter %1 is already applied on payment order. Do you want to continue?</source>
+          <target state="translated">Záloha %1 je již na platebním příkazu použita. Chcete pokračovat?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Advance Letter No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1900491339</note>
         </trans-unit>
         <trans-unit id="TableExtension 1900491339 - Field 58856918 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase Advance Letter No.</source>

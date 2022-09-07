@@ -1418,6 +1418,16 @@
           <note from="Developer" annotates="general" priority="2">%1 = Document Number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method CheckAdvanceLetterOnTestIfAlreadyExists - NamedType AlreadyUsedInSalesAdvanceErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4208227854 - NamedType 3500068454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method GetRelatedRecordCaption - NamedType SalesAdvanceTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 612008374 - Method 4208227854 - NamedType 2043662066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Advance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Incoming Document Handler CZZ - Method GetRelatedRecordCaption - NamedType PurchAdvanceTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 491990744 - Method 593047187 - NamedType 1427565258" size-unit="char" translate="yes" xml:space="preserve">
           <source>Both, Advance, %1</source>
           <note from="Developer" annotates="general" priority="2">%1 = Line Description</note>
@@ -7248,6 +7258,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Line CZZ - Field Adv. Letter No. (Entry) CZZ - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2245263682 - Field 1612228127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Advance Letter Template Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Gen. Journal Line CZZ - Field Adv. Letter Template Code CZZ - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2245263682 - Field 2060499916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
           <source>Advance Letter No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7277,6 +7292,11 @@
           <source>Advance Letter No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Match Bank Payment Buffer CZZ - Field Advance Letter No. CZZ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1900491339 - NamedType 3076544083" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1900491339">
+          <source>Advance Letter %1 is already applied on payment order. Do you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Advance Letter No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Payment Order Line CZZ - NamedType AdvanceLetterAlreadyAppliedQst</note>
         </trans-unit>
         <trans-unit id="TableExtension 1900491339 - Field 58856918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2707096979">
           <source>Purchase Advance Letter No.</source>

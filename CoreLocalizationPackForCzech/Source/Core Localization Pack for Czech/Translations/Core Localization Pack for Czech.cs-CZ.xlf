@@ -41973,6 +41973,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 146271610</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3087185091 - NamedType 886382813" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to update the exchange rate for VAT?</source>
+          <target state="translated">Chcete aktualizovat směnný kurz DPH?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 3087185091</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3087185091 - Method 2522804495 - NamedType 334162638" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 does not exist for currency %2 and date %3.</source>
           <target state="translated">%1neexistuje pro měnu %2 a datum %3.</target>
@@ -42763,6 +42770,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1948788855</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4002280534 - NamedType 886382813" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to update the exchange rate for VAT?</source>
+          <target state="translated">Chcete aktualizovat směnný kurz DPH?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4002280534</note>
         </trans-unit>
         <trans-unit id="TableExtension 4002280534 - Method 2522804495 - NamedType 334162638" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 does not exist for currency %2 and date %3.</source>
