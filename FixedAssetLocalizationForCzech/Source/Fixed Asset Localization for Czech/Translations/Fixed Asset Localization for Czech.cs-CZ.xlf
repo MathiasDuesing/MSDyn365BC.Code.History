@@ -2717,7 +2717,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - NamedType 3738975698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use report start date must not be empty.</source>
-          <target state="translated">Počáteční datum sestavy nesmí být prázdné.</target>
+          <target state="translated">Datum zařazení DM do užívání nesmí být prázdný.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - NamedType EmptyDate2Err</note>
         </trans-unit>
@@ -2753,13 +2753,13 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - ReportLabel 3745135737" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Date</source>
-          <target state="translated">Datum zařazení</target>
+          <target state="translated">Datum pořízení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - ReportLabel AcquisitionDateLbl</note>
         </trans-unit>
         <trans-unit id="Report 4247254988 - ReportLabel 2605862638" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition No.</source>
-          <target state="translated">Číslo akvizice</target>
+          <target state="translated">Číslo dokladu pořízení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - ReportLabel AcquisitionNoLbl</note>
         </trans-unit>
@@ -2849,7 +2849,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - Control 3783454080 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Report Date</source>
-          <target state="translated">Datum sestavy pořízení</target>
+          <target state="translated">Datum pořízení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - Control AcquisitionReportDateCZF - Property Caption</note>
         </trans-unit>
@@ -2861,7 +2861,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - Control 3935693443 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Report No.</source>
-          <target state="translated">Číslo zprávy o akvizici</target>
+          <target state="translated">Číslo dokladu pořízení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - Control AcquisitionReportNoCZF - Property Caption</note>
         </trans-unit>
@@ -2921,7 +2921,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - Control 656999234 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Report Start Date</source>
-          <target state="translated">Použít počáteční datum sestavy</target>
+          <target state="translated">Datum zařazení DM do užívání</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - Control UseReportStartDateCZF - Property Caption</note>
         </trans-unit>
@@ -3023,7 +3023,7 @@
         </trans-unit>
         <trans-unit id="Report 421526922 - NamedType 4098724061" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Disposal report date must not be empty.</source>
-          <target state="translated">Datum sestavy vyřazení nesmí být prázdné.</target>
+          <target state="translated">Datum vyřazení nesmí být prázdné.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Disposal CZF - NamedType EmptyRepDateErr</note>
         </trans-unit>
@@ -3137,7 +3137,7 @@
         </trans-unit>
         <trans-unit id="Report 421526922 - Control 4210602758 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Disposal Report Date</source>
-          <target state="translated">Datum sestavy vyřazení</target>
+          <target state="translated">Datum vyřazení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Disposal CZF - Control DisposalReportDateCZF - Property Caption</note>
         </trans-unit>
@@ -3149,7 +3149,7 @@
         </trans-unit>
         <trans-unit id="Report 421526922 - Control 1540394785 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Disposal Report No.</source>
-          <target state="translated">Č. sestavy vyřazení</target>
+          <target state="translated">Číslo dokladu vyřazení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Disposal CZF - Control DisposalReportNoCZF - Property Caption</note>
         </trans-unit>

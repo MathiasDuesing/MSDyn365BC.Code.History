@@ -8708,6 +8708,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2245263682 - Field 1612228127 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advance Letter Template Code</source>
+          <target state="translated">Kód šablony záloh</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 1806786327</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2245263682 - Field 2060499916 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Advance Letter No.</source>
           <target state="translated">Číslo zálohy</target>
