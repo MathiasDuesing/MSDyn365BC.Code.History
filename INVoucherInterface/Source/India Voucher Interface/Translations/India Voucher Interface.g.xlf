@@ -118,6 +118,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Voucher Posting Debit Account - Field Account Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 853067585 - Field 6575914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For UPI Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Voucher Posting Debit Account - Field For UPI Payments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 853067585 - Field 1605888252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Location code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -652,6 +657,16 @@
           <source>Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Voucher Posting Debit Accounts - Control Account No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4265151768 - Control 6575914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the UPI ID should have a value in bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Voucher Posting Debit Accounts - Control For UPI Payments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4265151768 - Control 6575914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For UPI Payments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Voucher Posting Debit Accounts - Control For UPI Payments - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4265151768 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of account that a balancing entry is posted to, such as BANK or a cash account.</source>
@@ -1973,6 +1988,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card Ext - Control Stale Cheque Stipulated Period - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3910192470 - Control 3506240275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Specifies UPI ID for this bank account.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card Ext - Control UPI ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3910192470 - Control 3506240275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>UPI ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Bank Account Card Ext - Control UPI ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 52617824 - NamedType 2847126115" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 52617824">
           <source>Void all printed checks?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2767,6 +2792,11 @@
           <source>Stale Cheque Stipulated Period</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account Ext - Field Stale Cheque Stipulated Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3033648794 - Field 3506240275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>UPI ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Bank Account Ext - Field UPI ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3717382282 - Field 3764421056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 717244561">
           <source>Cheque Stale Date</source>

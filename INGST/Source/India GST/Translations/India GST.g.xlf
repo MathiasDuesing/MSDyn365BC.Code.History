@@ -9713,15 +9713,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Cess Use Case Data - NamedType CessUseCaseLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2445053675 - NamedType 2543001212" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UPI ID must have a value in bank account %1. It cannot be empty</source>
+          <note from="Developer" annotates="general" priority="2">%1 BankAccount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType B2CUPIPaymentErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2445053675 - NamedType 3296489515" size-unit="char" translate="yes" xml:space="preserve">
           <source>E-Invoicing is not supported if document number is blank in the current document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType DocumentNoBlankErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2445053675 - NamedType 3690465086" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Invoicing is not applicable for Non-GST Transactions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType eInvoiceNonGSTTransactionErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2445053675 - NamedType 1880470668" size-unit="char" translate="yes" xml:space="preserve">
           <source>E-Invoicing is not applicable for Unregistered Customer.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType eInvoiceNotApplicableCustErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2445053675 - NamedType 2534688988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dynamic QR Code generation is allowed for Unregistered customers only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit e-Invoice Json Handler - NamedType GenerateQRCodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2445053675 - NamedType 2060224454" size-unit="char" translate="yes" xml:space="preserve">
           <source>No matched IRN Hash %1 found to update.</source>
@@ -12083,6 +12098,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTDependencyTypeErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 378964061 - NamedType 1399750461" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Group Code must be same in Sales Document Lines for the Document Type %1 and Document No. %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Type ; %2 = Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Sales Validation - NamedType GSTGroupCodeEqualErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 378964061 - NamedType 4028750564" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Group Code %1 with Reverse Charge cannot be selected for Sales transactions.</source>
           <note from="Developer" annotates="general" priority="2">%1 = GSTGroupCode</note>
@@ -14312,6 +14332,191 @@
           <source>GST Use Cases</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {74e6e05f-641d-4857-8f88-c48783b29b3e}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 101728166" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {8a58255b-97c9-4691-9dbf-1c041d4433db}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1627153861" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {8ee30985-1662-4a16-b9b1-2c36589f4f94}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3628943759" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1dd024d8-c5d0-44dc-bd2e-3b4a395f33fe}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2950468545" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {478e0789-2184-4644-8165-3b5169084277}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 743224182" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {afccc11e-97b1-4627-8dfd-4184537e2509}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1719904205" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {66a099c8-9660-498e-9beb-61296a76cfaf}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3227738814" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {8b96f1e1-fc2c-48fd-ad1e-62986961ac0d}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 541951765" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {cce6e98e-5330-48ba-b42e-70e2bde3e45b}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3742637132" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {718c2339-648b-4fc6-a496-737b12176d01}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2821292470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0abf122d-4ed5-4820-8411-7c39147b2819}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2790201925" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {fcc8aa84-e16b-4d3f-a139-946089738fb0}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3637368822" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {e365b9af-953a-462b-a562-9b494d0b84b9}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2437498312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {e6b10245-e536-41cf-a9cc-aa043113f6f4}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1381917763" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {666a5198-99ba-4ec0-a89a-c991109bbc0f}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1079340777" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {679f358f-4db0-4587-9f0c-ce643b16a152}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 733425672" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {e246f7fe-de34-4e3c-bd3b-d8943d9b966c}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2945318722" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {4fa8a9f3-d8c5-4b20-acb0-f52bfe013a01}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1837364684" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {cd837506-8d55-4e71-8576-fa6b9934a6bb}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 4280663933" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {2a0e0c4e-331f-42b3-96d2-f9cff01e6fc1}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1303881958" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {c4dd33b4-d4db-4f30-8c86-e2045b473c57}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2774433075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {bfb5b4f3-bbc1-4a5b-9b7c-c3572578cd78}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 532827805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {38f58d78-84d4-40d9-be77-cd33c02b49af}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3919264743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {38583b1e-682c-4b06-bb69-005849014e82}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2026408502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {0e9f08c2-7cf2-4ac1-afb4-57ac8383e732}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2380386506" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {3a542488-e9a7-41e5-bf0b-c73f9c82a8db}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3338149213" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {c85088e3-672f-4f2e-b1ef-19cbdfa5460b}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1790721076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {d2457d2f-2b0e-4f56-bf93-007e245c4ff8}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3409183918" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {6a0a47a2-4a0f-4ccd-ac63-a70c76e05091}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 4168476924" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {e5053eeb-44d1-4552-8084-67d72a90cecb}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2810149787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1eb264e9-24dd-43ec-a17f-e623bf565203}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3521703691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {03418ffd-0af9-48f5-a500-ec48bf9de4e5}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2706664701" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {da3fc765-67aa-4232-8c30-6ce3e6e6dfdc}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3586237985" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {714e77d3-c569-418a-a932-dbff272d3b92}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3498480748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {d50e350f-963c-4c3c-9e78-08f12ab7d8f0}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 1972538510" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {ffcc9396-d3c4-4a81-bde8-23070bf8976f}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 2723981128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {21e3248f-92c2-444c-b7e9-b48218ad918a}Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 353386062 - Method 3738100424 - NamedType 3189846576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GST Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit GST Use Case Labels - Method GetConfig - NamedType {1988b611-abd4-44c4-9cb5-67bb88e0002c}Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2680351807 - NamedType 870778515" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company Information must have either GST Registration No. or ARN No.</source>
@@ -26409,7 +26614,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Accounting Periods Ext - Control Credit Memo Locking Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3856563150 - Control 2143950946 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
-          <source>Species the GST Registration number of the bank.</source>
+          <source>Specifies the GST Registration number of the bank.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Account Card Ext - Control GST Registration No. - Property ToolTip</note>
         </trans-unit>
@@ -26417,6 +26622,11 @@
           <source>Specifies the GST Registration Status of the bank.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Account Card Ext - Control GST Registration Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3856563150 - Control 3793188142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
+          <source>Specifies the IFSC Code of the bank.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Bank Account Card Ext - Control IFSC Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3856563150 - Control 2748392062 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2292249509">
           <source>Specifies the state code of the bank.</source>
@@ -28298,6 +28508,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - NamedType eInvoiceNotApplicableCustomerErr</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1968287659 - NamedType 3594767322" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1968287659">
+          <source>QR Code for the Invoice no. %1 is already been generated</source>
+          <note from="Developer" annotates="general" priority="2">%1 = DocumentNo</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - NamedType QRCodeAlreadyExistErr</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1968287659 - NamedType 3010701400" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1968287659">
           <source>This field has been marked as obsolete and will be removed from version 23.0. Instead of this field use ‘E-Comm. Merchant Id’</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -28332,6 +28547,16 @@
           <source>Generate IRN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Action Generate IRN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1968287659 - Action 3860409975 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Specifies the function through which QR Code will be generated for B2C Transactions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Action Generate QR Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1968287659 - Action 3860409975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Generate QR Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension GST Posted Sales Invoice Ext - Action Generate QR Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1968287659 - Action 4161479801 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Specifies the function through which Json file can be imported.</source>
@@ -32312,6 +32537,11 @@
           <source>GST Registration Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Bank Account Ext - Field GST Registration Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2277196402 - Field 3793188142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
+          <source>IFSC Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension GST Bank Account Ext - Field IFSC Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2277196402 - Field 2748392062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1682139193">
           <source>State Code</source>

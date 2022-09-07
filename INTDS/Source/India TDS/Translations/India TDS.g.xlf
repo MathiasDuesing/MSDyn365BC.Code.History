@@ -1903,6 +1903,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method GetConfig - NamedType {1abe2c56-9700-4a30-a14a-5e8ecc2f32dd}Lbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3589253041 - Method 3738100424 - NamedType 4040162863" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TDS Use Cases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TDS Tax Engine Setup - Method GetConfig - NamedType {b8a33720-278b-45b4-8465-2d9fa273d813}Lbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3589253041 - Method 2638051844 - NamedType 3257280872" size-unit="char" translate="yes" xml:space="preserve">
           <source>TDS</source>
           <note from="Developer" annotates="general" priority="2"></note>
