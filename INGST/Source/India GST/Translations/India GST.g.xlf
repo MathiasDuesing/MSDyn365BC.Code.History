@@ -17533,11 +17533,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page GST Claim Setoff - Control Set Off Component Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1353545353 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,New Document,Approve,Request Approval,Prices and Discounts,Navigate,Customer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page GST Component Dist. Card - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 1353545353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Component Dist. Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -19542,11 +19537,6 @@
           <source>Specifies the year for which GST reconciliation is created.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page GST Reconcilation List - Control Year - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3561564721 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Manage,Matching</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page GST Reconciliation - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 3561564721 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>GST Reconciliation</source>
@@ -23493,11 +23483,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer Lines - Control Transfer To G/L Account No. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1418656432 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Document</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer List - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 1418656432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Transfer List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -23587,11 +23572,6 @@
           <source>Dimensions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer List - Action Dimensions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2935633412 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Document,Posting,GST</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Service Transfer Order - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2935633412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Transfer Order</source>

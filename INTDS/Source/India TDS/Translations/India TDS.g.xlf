@@ -4948,10 +4948,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Receipt Journal TDS - Control TDS Certificate Receivable - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2188811817 - Control 3105022 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>TDS Certificate Receivable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Receipt Journal TDS - Control TDS Certificate Receivable - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2188811817 - Control 1211981681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
           <source>Specifies the Section Codes as per the Income Tax Act 1961 for e tds returns</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Receipt Journal TDS - Control TDS Section Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2188811817 - Control 1211981681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1638686336">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Cash Receipt Journal TDS - Control TDS Section Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1802865343 - Control 3205163301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1802865343">
           <source>Specify the tax rates prescribed under the IT Act or DTAA for which the journal line has been created.</source>
@@ -5088,35 +5098,70 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Party Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 276340605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Party Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Party Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 148971114 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Specifies the type of party that the entry on the journal line will be posted to.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Party Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 148971114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Party Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Party Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 3205163301 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Specify the tax rates prescribed under the IT Act or DTAA for which the journal line has been created.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Act Applicable - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 3205163301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Act Applicable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Act Applicable - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 3059961727 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Specifies the applied provisional entry number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Applied Provisional Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 3059961727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Applied Provisional Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Applied Provisional Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 2419379247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Select this field to include GST value in the TDS Base.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Include GST in TDS Base - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 2419379247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Include GST in TDS Base</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Include GST in TDS Base - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 3595321206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Specify the type of Remittance deductee deals with for which the journal line has been created.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Nature of Remittance - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 3595321206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Nature of Remittance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Nature of Remittance - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 476147668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Specifies whether this is a provisional entry or not.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Provisional Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 476147668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Provisional Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control Provisional Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3905379818 - Control 3105022 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
           <source>Selected to allow calculating TDS for the customer.</source>
@@ -5132,6 +5177,11 @@
           <source>Specifies the Section Codes as per the Income Tax Act 1961 for eTDS Returns.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control TDS Section Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3905379818 - Control 1211981681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension General Journal Ext - Control TDS Section Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3336251243 - Action 352215824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3336251243">
           <source>Select this option to apply provisional entry against purchase invoice (actual entry).</source>
@@ -5378,6 +5428,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Payment Jnl - Control TDS Section Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1315695262 - Control 1211981681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3196174509">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Payment Jnl - Control TDS Section Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3420593985 - Control 32346441 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1780952628">
           <source>Specifies the amount of TDS that is included in the total amount.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5438,6 +5493,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control Applied Provisional Entry - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3872830763 - Control 3059961727 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+          <source>Applied Provisional Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control Applied Provisional Entry - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3872830763 - Control 2419379247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
           <source>Select this field to include GST value in the TDS Base.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5453,10 +5513,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control Provisional Entry - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3872830763 - Control 476147668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+          <source>Provisional Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control Provisional Entry - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3872830763 - Control 1211981681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
           <source>Specifies the Section Codes as per the Income Tax Act 1961 for e tds returns</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control TDS Section Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3872830763 - Control 1211981681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3580867622">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Purchase Journal TDS - Control TDS Section Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 387971303 - Control 2419379247 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
           <source>Select this field to include GST value in the TDS Base.</source>
@@ -5682,6 +5752,11 @@
           <source>Specify the Section codes under which tax has been deducted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Ledger Entry - Control TDS Section Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 406314583 - Control 1211981681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1567633909">
+          <source>TDS Section Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Vendor Ledger Entry - Control TDS Section Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2733917450 - Field 1758561070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
           <source>Certificate No.</source>

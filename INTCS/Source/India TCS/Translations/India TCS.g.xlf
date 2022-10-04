@@ -3903,6 +3903,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Journal - Control Location Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1727838235 - Control 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Journal - Control Location Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1727838235 - Control 1205445041 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1727838235">
           <source>Specifies the T.C.A.N. number of the person who is responsible for collecting tax.</source>
           <note from="Developer" annotates="general" priority="2"></note>
