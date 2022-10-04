@@ -75,6 +75,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field User ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 203391184 - Method 3446377402 - NamedType 3138183596" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When used %1 without change, %2 must be set to one value.</source>
+          <target state="translated">Když použijete %1 beze změny, %2 musí být nastaven na jednu hodnotu.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption, %2 = FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calculate Invent. Handler CZA - Method CheckFiltersOnAfterItemOnPreDataItem - NamedType ItemFilterErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1333083693 - Method 2666294569 - NamedType 398206678" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot set %1 in Base Application if the same field is set in %2.</source>
           <target state="translated">V Base Application nelze nastavit %1, pokud je stejné pole nastaveno v %2.</target>
@@ -164,6 +170,12 @@
           <target state="translated">Je nutné zadat %1 nebo %2.</target>
           <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Document No., %2 = FieldCaption Applies-to ID</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Jnl.-Apply Handler CZA - Method ApplyGLEntryCZA - NamedType MustSpecifyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1831468166 - Method 1601754079 - NamedType 1530172513" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. %1 is already on inventory.</source>
+          <target state="translated">Sériové číslo %1 je již na skladě.</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Serial No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Journal Line Handler CZA - Method CheckSerialNoOnAfterCopyTrackingFromItemLedgEntry - NamedType SerialNoOnInventoryErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3704903574 - Method 4282663470 - NamedType 3274276298" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No. Serie was not selected.</source>
@@ -1083,6 +1095,132 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 4070554326 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order - WIP</source>
+          <target state="translated">Výrobní zakázka - NV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 491350045" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1</source>
+          <target state="translated">Ke dni %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType AsOfTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 684809554" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target state="translated">Strana</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3417994960" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation - WIP</source>
+          <target state="translated">Hodnota zásob - vl.výroba</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType InventoryValuationWIPCptnLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1709940831" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Popis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderDescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3551686465" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <target state="translated">Číslo původu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderSourceNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2752776940" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <target state="translated">Typ původu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderSourceTypeCaptnLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1157689385" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated">Stav</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderStatusCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3527442548" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target state="translated">Číslo</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProductionOrderNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1583171122" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target state="translated">Celkem</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2139571179" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Posted to G/L</source>
+          <target state="translated">Zaúčtované náklady</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueEntryCostPostedtoGLCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 855577832" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity </source>
+          <target state="translated">Kapacita</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfCapCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2800359233" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumption </source>
+          <target state="translated">Spotřeba</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfMatConsumpCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2051916859" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output </source>
+          <target state="translated">Výstup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfOutputCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2346885236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="translated">Možnosti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 3592094765 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date to which the report or batch job processes information.</source>
+          <target state="translated">Určuje datum, do kterého sestava nebo dávková úloha, zpracovává informace.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 3592094765 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <target state="translated">Koncové datum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2846528429 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the prod. orders without movement is to be skip</source>
+          <target state="translated">Určuje, kdy přeskočit výrobní zakázky bez pohybu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control SkipItemWithoutMovement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2846528429 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Prod. Orders without Movement</source>
+          <target state="translated">Přeskočit výrobní zakázky bez pohybu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control SkipItemWithoutMovement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 543275552 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the beginning of the period covered by the inventory valuation report.</source>
+          <target state="translated">Určuje začátek období pokrývané sestavou ocenění zásob.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 543275552 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target state="translated">Počáteční datum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control StartingDate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 1581848143 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open G/L Entries To Date</source>
           <target state="translated">Otevřené věcné položky do data</target>
@@ -1565,6 +1703,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 2991235355</note>
         </trans-unit>
+        <trans-unit id="PageExtension 867960685 - Control 2133642496 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the location that you are transferring items to.</source>
+          <target state="translated">Určuje kód místa, do kterého převádíte položky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4230074215</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1716206927 - Control 617672214 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies general bussiness posting group for items receive.</source>
           <target state="translated">Určuje obecnou obchodní účto skupinu pro příjem zboží.</target>
@@ -1880,6 +2025,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Table 2916177371</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3640817033 - Field 2133642496 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Location Code</source>
+          <target state="translated">Nový kód lokace</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Table 2808718315</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2570785984 - Field 617672214 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Post. Group Receive</source>
           <target state="translated">Obec.obch.účt.sk.příjem</target>
@@ -2044,6 +2196,48 @@
           <target state="translated">CZ Advance Pack - čtení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Read CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 3458544376 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if you want to insert lines for items that do not change.</source>
+          <target state="translated">Určuje, zda chcete vložit řádky pro zboží, které se nemění.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 3469506762</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 3458544376 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items without Change</source>
+          <target state="translated">Zboží bez pohybu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 3469506762</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 2489646079 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the item dimensions will be used for inventory entries.</source>
+          <target state="translated">Určuje, zda budou použity dimenze zboží pro skladové položky.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 3469506762</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 2489646079 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Item Dimensions</source>
+          <target state="translated">Použít dimenze zboží</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 3469506762</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3943593584 - Control 487602785 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies no. series for reporting</source>
+          <target state="translated">Určuje číselnou řadu pro vykazování.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 2412862659</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3943593584 - Control 487602785 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target state="translated">Číselná řada</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Report 2412862659</note>
         </trans-unit>
       </group>
     </body>

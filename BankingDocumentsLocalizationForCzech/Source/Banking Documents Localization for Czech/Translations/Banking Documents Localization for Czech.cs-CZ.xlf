@@ -4131,12 +4131,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Iss. Payment Orders CZB - Action PrintToAttachment - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3668461697 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <target state="translated">Nový,Proces,Sestava,Schválit,Schvalování požadavku</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order CZB - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3668461697 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Order</source>
           <target state="translated">Platební příkaz</target>
@@ -4874,12 +4868,6 @@
           <target state="translated">Celková částka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control TotalPaymentOrderHeaderPaymentOrderCurrency - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2313358256 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <target state="translated">Nový,Proces,Sestava,Schválit,Schvalování požadavku</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Orders CZB - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2313358256 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Orders</source>
@@ -6173,6 +6161,13 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3761073867</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit search rules.</source>
+          <target state="translated">Zobrazte nebo upravte pravidla hledání.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4183424761</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Search Rules</source>
           <target state="translated">Pravidla hledání</target>
@@ -6425,9 +6420,23 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 3398968351</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 1252050781 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit bank statements.</source>
+          <target state="translated">Zobrazte nebo upravte bankovní výpisy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 1252050781 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank Statements</source>
           <target state="translated">Bankovní výpisy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 2658619482 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View issued bank statements.</source>
+          <target state="translated">Zobrazte vydané bankovní výpisy.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
@@ -6439,9 +6448,23 @@
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 3541249563 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View issued payment orders.</source>
+          <target state="translated">Zobrazte vydané platební příkazy.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 3541249563 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issued Payment Orders</source>
           <target state="translated">Vydané platební příkazy</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 2313358256 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit payment orders.</source>
+          <target state="translated">Zobrazte nebo upravte platební příkazy.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4105562392</note>

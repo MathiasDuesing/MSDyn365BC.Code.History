@@ -63,6 +63,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Detailed G/L Entry CZA - Field User ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 203391184 - Method 3446377402 - NamedType 3138183596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When used %1 without change, %2 must be set to one value.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = TableCaption, %2 = FieldCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Calculate Invent. Handler CZA - Method CheckFiltersOnAfterItemOnPreDataItem - NamedType ItemFilterErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1333083693 - Method 2666294569 - NamedType 398206678" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot set %1 in Base Application if the same field is set in %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Field Caption, %2 = Application Name</note>
@@ -137,6 +142,11 @@
           <source>You must specify %1 or %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = FieldCaption Document No., %2 = FieldCaption Applies-to ID</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Gen. Jnl.-Apply Handler CZA - Method ApplyGLEntryCZA - NamedType MustSpecifyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1831468166 - Method 1601754079 - NamedType 1530172513" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial No. %1 is already on inventory.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Serial No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Item Journal Line Handler CZA - Method CheckSerialNoOnAfterCopyTrackingFromItemLedgEntry - NamedType SerialNoOnInventoryErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3704903574 - Method 4282663470 - NamedType 3274276298" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No. Serie was not selected.</source>
@@ -903,6 +913,111 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Account To Date CZA - Control NewShowZeroRemainAmt - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 4070554326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order - WIP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 491350045" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Date</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType AsOfTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3417994960" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Valuation - WIP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType InventoryValuationWIPCptnLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1709940831" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderDescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3551686465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderSourceNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2752776940" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderSourceTypeCaptnLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1157689385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProdOrderStatusCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 3527442548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ProductionOrderNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2139571179" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cost Posted to G/L</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueEntryCostPostedtoGLCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 855577832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfCapCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2800359233" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Consumption </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfMatConsumpCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - NamedType 2051916859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - NamedType ValueOfOutputCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 3592094765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date to which the report or batch job processes information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 3592094765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control EndingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2846528429 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the prod. orders without movement is to be skip</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control SkipItemWithoutMovement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 2846528429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip Prod. Orders without Movement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control SkipItemWithoutMovement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 543275552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the beginning of the period covered by the inventory valuation report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4070554326 - Control 543275552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Inventory Valuation - WIP CZA - Control StartingDate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 1581848143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open G/L Entries To Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1258,6 +1373,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Transfer Shp. Subf. CZA - Action UndoShipmentCZA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 867960685 - Control 2133642496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4230074215">
+          <source>Specifies the code of the location that you are transferring items to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Std. Item Journal Subform CZA - Control New Location Code CZA - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1716206927 - Control 617672214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
           <source>Specifies general bussiness posting group for items receive.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1483,6 +1603,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Posted Assembly Line CZA - Field Gen. Bus. Posting Group CZA - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3640817033 - Field 2133642496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2808718315">
+          <source>New Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Std. Item Journal Line CZA - Field New Location Code CZA - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2570785984 - Field 617672214 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 151805736">
           <source>Gen. Bus. Post. Group Receive</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1602,6 +1727,36 @@
           <source>CZ Advance Pack - Read</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CZ Advance Pack - Read CZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 3458544376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3469506762">
+          <source>Specifies if you want to insert lines for items that do not change.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Calculate Inventory CZA - Control ItemsWithoutChangeCZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 3458544376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3469506762">
+          <source>Items without Change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Calculate Inventory CZA - Control ItemsWithoutChangeCZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 2489646079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3469506762">
+          <source>Specifies if the item dimensions will be used for inventory entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Calculate Inventory CZA - Control UseItemDimensionsCZA - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 2230658498 - Control 2489646079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 3469506762">
+          <source>Use Item Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Calculate Inventory CZA - Control UseItemDimensionsCZA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3943593584 - Control 487602785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2412862659">
+          <source>Specifies no. series for reporting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Carry Out Action Msg. Req. CZA - Control PurchOrderHeaderNoSeries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="ReportExtension 3943593584 - Control 487602785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Report 2412862659">
+          <source>No. Series</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">ReportExtension Carry Out Action Msg. Req. CZA - Control PurchOrderHeaderNoSeries - Property Caption</note>
         </trans-unit>
       </group>
     </body>

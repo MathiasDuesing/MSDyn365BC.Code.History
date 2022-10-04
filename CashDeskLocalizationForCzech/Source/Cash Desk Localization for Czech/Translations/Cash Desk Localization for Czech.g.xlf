@@ -3088,11 +3088,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Desk Users CZP - Control User ID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1970646769 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document CZP - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 1970646769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3633,11 +3628,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Lines CZP - Control Shortcut Dimension 2 Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4221146319 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document List CZP - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 4221146319 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cash Documents</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4043,15 +4033,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control Reason Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 548777415 - Control 1659230960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 548777415 - Control 1451979186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the total Amount (LCY) related suggestions to apply.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control RelatedAmountToApply - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control RelatedAmountToApplyField - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 548777415 - Control 1659230960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 548777415 - Control 1451979186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Related Amount to Apply (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control RelatedAmountToApply - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Cash Document Subform CZP - Control RelatedAmountToApplyField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 548777415 - Control 3883264070 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies which salesperson is assigned to the cash document line.</source>

@@ -263,11 +263,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FA Deprec. Book Handler CZF - Method CheckFALedgerEntriesExistOnBeforeFAPostingGroup - NamedType FAPostingGroupCanNotBeChangedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 87876262 - Method 1980008236 - NamedType 599275449" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The depreciation group (%1) associated with classification code %2 doesn't correspond to depreciation group (%3) associated with tax depreciation group code %4.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Classification Code Depreciation Group, %2 = Fixed Asset Clasification Code, %3 = Tax Depreciation Group Code, %4 = Tax Deprec. Group Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FA Deprec. Book Handler CZF - Method CheckTaxDepreciationCodeOnAfterValidateEvent - NamedType DeprecGroupMismatchMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 87876262 - Method 1481877995 - NamedType 2794349891" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Cost or Appreciation must be posted after Depreciation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3662,6 +3657,11 @@
           <source>Straight-Line Intangible</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Tax Depreciation Type CZF - EnumValue Straight-Line Intangible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2571018645 - EnumValue 2007769458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3218516000">
+          <source>Custom 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Purchase FA Posting Type CZF - EnumValue Custom 2 CZF - Property Caption</note>
         </trans-unit>
         <trans-unit id="PermissionSet 4243341595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Fixed Asset - Edit</source>

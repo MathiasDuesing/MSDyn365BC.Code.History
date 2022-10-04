@@ -618,11 +618,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Compensation Line CZC - Field Variable Symbol - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 165626565 - NamedType 901367092" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 was found. Resolve this before issue banking document.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption, %2 = No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Compensation - Post CZC - NamedType DuplicityFoundErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 165626565 - NamedType 1858590414" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to post.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1263,11 +1258,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Action ShowMarkedOnly - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3012527878 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Card CZC - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3012527878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1712,11 +1702,6 @@
           <source>Dimensions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Lines CZC - Action Dimensions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2069854880 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation List CZC - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2069854880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensations</source>

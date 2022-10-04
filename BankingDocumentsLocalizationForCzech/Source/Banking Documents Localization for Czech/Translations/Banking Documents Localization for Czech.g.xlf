@@ -3443,11 +3443,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Iss. Payment Orders CZB - Action PrintToAttachment - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3668461697 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order CZB - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3668461697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4062,11 +4057,6 @@
           <source>Total Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Payment Order Subform CZB - Control TotalPaymentOrderHeaderPaymentOrderCurrency - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2313358256 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Payment Orders CZB - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2313358256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Orders</source>
@@ -5138,6 +5128,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Accountant CZ Role Center CZB - Action Issued Payment Orders CZB - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4183424761">
+          <source>View or edit search rules.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Administrator RC CZB - Action Search Rules CZB - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2020310579 - Action 1049763556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4183424761">
           <source>Search Rules</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5318,20 +5313,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Employee Ledger Entries CZB - Control Amount on Pmt. Order (LCY) CZB - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 1252050781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View or edit bank statements.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Bank Statements CZB - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 1252050781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
           <source>Bank Statements</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Bank Statements CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 2658619482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View issued bank statements.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Issued Bank Statements CZB - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 2658619482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
           <source>Issued Bank Statements</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Issued Bank Statements CZB - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 3541249563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View issued payment orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Issued Payment Orders CZB - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 3541249563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
           <source>Issued Payment Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Issued Payment Orders CZB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4147625011 - Action 2313358256 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
+          <source>View or edit payment orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Finance Manager RC CZB - Action Payment Orders CZB - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 4147625011 - Action 2313358256 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4105562392">
           <source>Payment Orders</source>

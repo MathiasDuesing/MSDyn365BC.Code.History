@@ -315,12 +315,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FA Deprec. Book Handler CZF - Method CheckFALedgerEntriesExistOnBeforeFAPostingGroup - NamedType FAPostingGroupCanNotBeChangedErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 87876262 - Method 1980008236 - NamedType 599275449" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The depreciation group (%1) associated with classification code %2 doesn't correspond to depreciation group (%3) associated with tax depreciation group code %4.</source>
-          <target state="translated">Odpisová skupina (%1) spojená s kódem klasifikace %2 neodpovídá odpisové skupině (%3) spojené s kódem daňové odpisové skupiny %4.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = Classification Code Depreciation Group, %2 = Fixed Asset Clasification Code, %3 = Tax Depreciation Group Code, %4 = Tax Deprec. Group Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit FA Deprec. Book Handler CZF - Method CheckTaxDepreciationCodeOnAfterValidateEvent - NamedType DeprecGroupMismatchMsg</note>
-        </trans-unit>
         <trans-unit id="Codeunit 87876262 - Method 1481877995 - NamedType 2794349891" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Cost or Appreciation must be posted after Depreciation.</source>
           <target state="translated">Pořizovací cena nebo zhodnocení musí být zaúčtovány po odpisu.</target>
@@ -755,7 +749,7 @@
         </trans-unit>
         <trans-unit id="Report 4085820406 - NamedType 2420549545" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The depreciation has been calculated.\\%1 fixed asset G/L journal lines were created.\\Do you want to open the Fixed Asset G/L Journal window?</source>
-          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlohodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
+          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlouhodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Number of created Gen. Journal Lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Calculate Depreciation CZF - NamedType CompletionStatsGenJnlQst</note>
         </trans-unit>
@@ -2717,7 +2711,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - NamedType 3738975698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use report start date must not be empty.</source>
-          <target state="translated">Počáteční datum sestavy nesmí být prázdné.</target>
+          <target state="translated">Datum zařazení DM do užívání nesmí být prázdný.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - NamedType EmptyDate2Err</note>
         </trans-unit>
@@ -2921,7 +2915,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - Control 656999234 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Report Start Date</source>
-          <target state="translated">Použít počáteční datum sestavy</target>
+          <target state="translated">Datum zařazení DM do užívání</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - Control UseReportStartDateCZF - Property Caption</note>
         </trans-unit>
@@ -4507,6 +4501,13 @@
           <target state="translated">Lineární nehmotný</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Tax Depreciation Type CZF - EnumValue Straight-Line Intangible - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2571018645 - EnumValue 2007769458 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Custom 2</source>
+          <target state="translated">Pořízení</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Enum 3218516000</note>
         </trans-unit>
         <trans-unit id="PermissionSet 4243341595 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>CZ Fixed Asset - Edit</source>

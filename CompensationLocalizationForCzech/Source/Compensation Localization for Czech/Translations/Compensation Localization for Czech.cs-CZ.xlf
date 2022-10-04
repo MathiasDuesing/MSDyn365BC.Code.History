@@ -741,12 +741,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Posted Compensation Line CZC - Field Variable Symbol - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 165626565 - NamedType 901367092" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 was found. Resolve this before issue banking document.</source>
-          <target state="translated">%1 %2 bylo nalezeno. Vyřešte to před vydáním bankovního dokladu.</target>
-          <note from="Developer" annotates="general" priority="2">%1 = TableCaption, %2 = No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Compensation - Post CZC - NamedType DuplicityFoundErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 165626565 - NamedType 1858590414" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to post.</source>
           <target state="translated">Není nic k účtování.</target>
@@ -1515,12 +1509,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compens. Vendor LE Subform CZC - Action ShowMarkedOnly - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3012527878 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <target state="translated">Nový,Proces,Sestava,Schválit,Schvalování požadavku</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Card CZC - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3012527878 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensation Card</source>
           <target state="translated">Karta zápočtu</target>
@@ -2054,12 +2042,6 @@
           <target state="translated">Dimenze</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Compensation Lines CZC - Action Dimensions - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2069854880 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Approve,Request Approval</source>
-          <target state="translated">Nový,Proces,Sestava,Schválit,Schvalování požadavku</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Compensation List CZC - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2069854880 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Compensations</source>
