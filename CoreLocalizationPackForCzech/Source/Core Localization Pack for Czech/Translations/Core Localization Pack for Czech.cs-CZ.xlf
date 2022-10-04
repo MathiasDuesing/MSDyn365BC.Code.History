@@ -5315,7 +5315,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4190120476 - NamedType 3742999479" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>E.1. Intangible and Tangible Fixed Assets Adjustments</source>
-          <target state="translated">E.1. Úpravy hodnot dlohodobého nehm. a hm. majetku</target>
+          <target state="translated">E.1. Úpravy hodnot dlouhodobého nehm. a hm. majetku</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Account Category Mgt. CZL - NamedType E1_IntangibleandTangibleFixedAssestsAdjustmentsTxt</note>
         </trans-unit>
@@ -9149,7 +9149,7 @@
         </trans-unit>
         <trans-unit id="Page 3761073867 - Action 1103640261 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Personalize the structure of your financial statements by mapping general ledger accounts to account categories. You can create category groups by indenting subcategories under them. Each grouping shows a total balance. When you choose the Generate Account Schedules action, the account schedules for the underlying financial reports are updated. The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes.</source>
-          <target state="translated">Přizpůsobte strukturu svých finančních výkazů mapováním účtů hlavní knihy na kategorie účtů. Skupiny kategorií můžete vytvořit odsazením podkategorií pod nimi. Každé seskupení zobrazuje celkový zůstatek. Pokud zvolíte akci Generovat účetní schémata, účetní schémata pro podkladové finanční sestavy se aktualizují. Při příštím spuštění jedné z těchto sestav, například výkazu zůstatku, jsou na základě vašich změn přidány nové součty a podpoložky.</target>
+          <target state="translated">Upravte strukturu finančních výkazů mapováním finančních účtů ke kategoriím účtů. Můžete vytvořit skupiny kategorií odsazením podkategorií pod nimi. Každá skupina zobrazuje celkové saldo. Když vyberete akci Generovat účetní schémata, účetní schémata pro podtržené účetní výkazy jsou zaktualizována. Při příštím spuštění jednoho z těchto výkazů jako je rozvaha, nové součty a podsoučty jsou přidány na základě vašich změn.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Accountant CZ Role Center CZL - Action G/L Account Categories - Property ToolTip</note>
         </trans-unit>
@@ -31945,6 +31945,13 @@
         <trans-unit id="PageExtension 2091246586 - Control 2180203312 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the VAT currency code of the purchase invoice.</source>
           <target state="translated">Určuje kód měny DPH nákupní faktury.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3" />
+          <note from="ObjectTarget" annotates="general" priority="5">Page 4048657685</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2091246586 - Control 3624777196 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Foreign Trade</source>
+          <target state="translated">Zahraniční obchod</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">Page 4048657685</note>

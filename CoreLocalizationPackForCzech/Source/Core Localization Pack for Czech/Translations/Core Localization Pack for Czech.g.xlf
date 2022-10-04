@@ -26208,6 +26208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Purchase Invoice CZL - Control VAT Currency Code CZL - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2091246586 - Control 3624777196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
+          <source>Foreign Trade</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Posted Purchase Invoice CZL - Control Foreign Trade - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2091246586 - Control 2340776342 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Specifies the area code used in the invoice</source>
           <note from="Developer" annotates="general" priority="2"></note>

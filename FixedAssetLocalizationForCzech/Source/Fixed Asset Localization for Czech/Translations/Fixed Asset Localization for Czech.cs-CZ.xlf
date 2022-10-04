@@ -755,7 +755,7 @@
         </trans-unit>
         <trans-unit id="Report 4085820406 - NamedType 2420549545" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The depreciation has been calculated.\\%1 fixed asset G/L journal lines were created.\\Do you want to open the Fixed Asset G/L Journal window?</source>
-          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlohodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
+          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlouhodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Number of created Gen. Journal Lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Calculate Depreciation CZF - NamedType CompletionStatsGenJnlQst</note>
         </trans-unit>
@@ -2717,7 +2717,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - NamedType 3738975698" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use report start date must not be empty.</source>
-          <target state="translated">Počáteční datum sestavy nesmí být prázdné.</target>
+          <target state="translated">Datum zařazení DM do užívání nesmí být prázdný.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - NamedType EmptyDate2Err</note>
         </trans-unit>
@@ -2921,7 +2921,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - Control 656999234 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Report Start Date</source>
-          <target state="translated">Použít počáteční datum sestavy</target>
+          <target state="translated">Datum zařazení DM do užívání</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - Control UseReportStartDateCZF - Property Caption</note>
         </trans-unit>
