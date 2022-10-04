@@ -72,7 +72,7 @@
         <trans-unit id="Table 3039476855 - NamedType 3649316047" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot change the value of this field anymore after the XML-File for the %1 has been created.</source>
           <target state="translated">Sie können den Wert dieses Feldes nicht mehr ändern, nachdem die XML-Datei für die %1 erstellt wurde.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales VAT Advance Notif. Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType CannotChangeXMLFileErr</note>
         </trans-unit>
         <trans-unit id="Table 3039476855 - NamedType 2384819798" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -84,7 +84,7 @@
         <trans-unit id="Table 3039476855 - NamedType 951475484" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to delete the XML-File for the %1?</source>
           <target state="translated">Wollen Sie die XML-Datei für die %1 löschen?</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales VAT Advance Notif. Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType DeleteXMLFileQst</note>
         </trans-unit>
         <trans-unit id="Table 3039476855 - NamedType 3833465197" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -102,7 +102,7 @@
         <trans-unit id="Table 3039476855 - NamedType 1904452951" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Places of %1 in area %2 must be %3.</source>
           <target state="translated">Die %1 im Bundesland %2 muss %3stellig sein.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Registration No. Field Caption; %2 = Tax Office Area; %3 = VAT No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sales VAT Advance Notif. - NamedType WrongPlaceErr</note>
         </trans-unit>
         <trans-unit id="Table 3039476855 - Field 3864084727 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -266,6 +266,24 @@
           <target state="translated">XML-Knoten, die sich auf Beträge in der Übermittlungsnachricht beziehen, können nicht identifiziert werden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType CannotIdentifyAmountsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - NamedType 1403730536" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create the files needed to report VAT via ELSTER to authorities and comply with German VAT requirements.</source>
+          <target state="translated">Erstellen Sie die Dateien, die benötigt werden, um die MwSt. über ELSTER an die Behörden zu melden und die deutschen MwSt.-Anforderungen einzuhalten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType ElecVATReportingDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - NamedType 2066581244" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT reporting</source>
+          <target state="translated">Elektronische MwSt.-Berichterstellung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType ElecVATReportingShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2091453214 - NamedType 2102565814" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up electronic VAT reporting to the authorities.</source>
+          <target state="translated">Richten Sie die elektronische MwSt.-Berichterstellung an die Behörden ein.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Elster Management - NamedType ElecVATReportingTitleTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2091453214 - NamedType 3062628261" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No submission message has been created. Press the Create action to generate it.</source>
@@ -768,25 +786,25 @@
         <trans-unit id="Report 3274648176 - NamedType 2791085623" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Please make sure that as well category %1 and %2 are defined in %3 %4.</source>
           <target state="translated">Stellen Sie zudem sicher, dass Kategorie %1 und %2 in %3 %4 definiert sind.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Tax Pair Category; %2 = Tax Pair Category; %3 = VAT Statement Name Table Caption; %4 = VAT Statement Name Table Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType ErrorCategoryErr</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 1131951820" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Key figure %1 must not be negative.</source>
           <target state="translated">Der %1 darf nicht negativ sein.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Key Figure No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType ErrorKeyFigureErr</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 880678143" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 must consist of 4 digits.</source>
           <target state="translated">%1 muss aus 4 Ziffern bestehen.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Tax Office Number Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType ErrorMustConsistErr</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 2269596954" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The length of the field %1 of table %2 exceeds the maximum length of %3 allowed. The text will be truncated from\\%4 to\%5.\\Do you want to continue?</source>
           <target state="translated">Die Länge des Feldes %1 von Tabelle %2 überschreitet die maximal zulässige Länge von %3. Der Text wird von \\%4 auf \%5 beschnitten.\\Möchten Sie fortfahren?</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Checked Company Info Field Caption; %2 = Company Info Table Caption; %3 = Maximum Length; %4 = Original Field Value; %5 = Truncated Text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType TruncateRequestMsg</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 3400324537" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -798,13 +816,13 @@
         <trans-unit id="Report 3274648176 - NamedType 1352191502" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The XML-File for the %1 already exists.</source>
           <target state="translated">Die XML-Datei für %1 existiert bereits.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales VAT Advance Notif. Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType XMLFileExistsErr</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - NamedType 4131375196" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The XML-File for the %1 has been created successfully.</source>
           <target state="translated">Die XML-Datei für %1 wurde erfolgreich erstellt.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales VAT Advance Notif. Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Create XML-File VAT Adv.Notif. - NamedType XMLFileHasBeenCreatedMsg</note>
         </trans-unit>
         <trans-unit id="Report 3274648176 - Control 2346885236 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -869,7 +887,7 @@
         <trans-unit id="TableExtension 1421593324 - NamedType 2126343653" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is already a %1 set up for %2.</source>
           <target state="translated">Es ist bereits eine %1 für %2 eingerichtet.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Elster VAT Statement Name Table Caption; %2 = Sales VAT Adv. Notif. Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 1421593324</note>
         </trans-unit>
