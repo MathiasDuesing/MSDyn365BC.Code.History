@@ -428,6 +428,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType AssistedSetupTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 2488570620" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up Business Central to be able to report VAT to the Norwegian authorities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 2232969864" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT submission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 3483010370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up electronic VAT submission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Page 547137075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic VAT Submission Wizard</source>
           <note from="Developer" annotates="general" priority="2"></note>

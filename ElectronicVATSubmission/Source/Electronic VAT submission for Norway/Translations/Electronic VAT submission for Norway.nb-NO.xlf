@@ -513,6 +513,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType AssistedSetupTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 2488570620" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up Business Central to be able to report VAT to the Norwegian authorities.</source>
+          <target state="translated">Konfigurer Business Central for å kunne rapportere mva. til de norske myndighetene.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 2232969864" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic VAT submission</source>
+          <target state="translated">Elektronisk mva-innsending</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2454974391 - NamedType 3483010370" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up electronic VAT submission</source>
+          <target state="translated">Konfigurer elektronisk mva-innsending</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Electronic VAT Installation - NamedType ElectronicVATSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Page 547137075 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Electronic VAT Submission Wizard</source>
           <target state="translated">Vei viser for sending via elektronisk mva</target>

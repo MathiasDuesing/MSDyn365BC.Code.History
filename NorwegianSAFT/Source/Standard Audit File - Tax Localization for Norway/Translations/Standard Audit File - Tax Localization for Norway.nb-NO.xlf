@@ -1035,6 +1035,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType VATPostingSetupWithoutTaxCodeErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 3988550211" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>With a few steps, you can set up Business Central for reporting SAF-T that is required by the Norwegian authorities.</source>
+          <target state="translated">Med et par trinn kan du konfigurere Business Central for rapportering av SAF-T som kreves av de norske myndighetene.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 2841692647" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Reporting</source>
+          <target state="translated">SAF-T-rapportering</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 1006249033" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up SAF-T reporting</source>
+          <target state="translated">Konfigurer SAF-T-rapportering</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2929691879" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>No file generated</source>
           <target state="translated">Ingen fil generert</target>
@@ -1676,12 +1694,6 @@
           <target state="translated">Angir startdatoen for SAF-T-rapporteringsperioden.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control StartingDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2085307926 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New, Process</source>
-          <target state="translated">Ny, Prosess</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2085307926 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Mapping Setup</source>

@@ -863,6 +863,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Mapping Helper - NamedType VATPostingSetupWithoutTaxCodeErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 3988550211" size-unit="char" translate="yes" xml:space="preserve">
+          <source>With a few steps, you can set up Business Central for reporting SAF-T that is required by the Norwegian authorities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 2841692647" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SAF-T Reporting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1658226040 - NamedType 1006249033" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up SAF-T reporting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Subscribers - NamedType SAFTSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2208688230 - NamedType 2929691879" size-unit="char" translate="yes" xml:space="preserve">
           <source>No file generated</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1397,11 +1412,6 @@
           <source>Specifies the starting date of the SAF-T reporting period.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup - Control StartingDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2085307926 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New, Process</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page SAF-T Mapping Setup Card - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2085307926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>SAF-T Mapping Setup</source>

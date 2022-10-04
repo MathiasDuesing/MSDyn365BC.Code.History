@@ -10,7 +10,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4101635234 - NamedType 1936075235" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not specified</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType FieldValueIsNotSpecifiedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4101635234 - NamedType 3959011560" size-unit="char" translate="yes" xml:space="preserve">
@@ -25,7 +25,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4101635234 - NamedType 1752140215" size-unit="char" translate="yes" xml:space="preserve">
           <source>One or more VAT posting setup do not have a %1. Open the VAT Posting Setup page and specify %1 for each VAT posting setup combination.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Tax Code Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit SAF-T Check Tests - NamedType VATPostingSetupWithoutTaxCodeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1266366402 - NamedType 3339583646" size-unit="char" translate="yes" xml:space="preserve">

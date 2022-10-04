@@ -123,6 +123,9 @@
                         "path":  ".\\DataArchive\\test\\Data Archive Tests"
                     },
                     {
+                        "path":  ".\\DataSearch\\test\\Data Search Tests"
+                    },
+                    {
                         "path":  ".\\Email - Current User Connector\\Test\\Email - Current User Connector Tests"
                     },
                     {
@@ -151,6 +154,9 @@
                     },
                     {
                         "path":  ".\\ImportNOPayroll\\Test\\Payroll Data Import Definition (NO) Tests"
+                    },
+                    {
+                        "path":  ".\\Intrastat\\Test\\Intrastat Core Tests"
                     },
                     {
                         "path":  ".\\LatePaymentPredictor\\Test\\Late Payment Prediction Tests"
@@ -196,6 +202,9 @@
                     },
                     {
                         "path":  ".\\testframework\\TestLibraries"
+                    },
+                    {
+                        "path":  ".\\testframework\\teststabilitytools"
                     },
                     {
                         "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests"
