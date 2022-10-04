@@ -25,12 +25,12 @@
         </trans-unit>
         <trans-unit id="Codeunit 2217454995 - NamedType 4275565513" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number of lines in file %1 is wrong.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = File Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt Export Fixed-Width UT - NamedType FileLineCountIsWrongErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2217454995 - NamedType 2993047145" size-unit="char" translate="yes" xml:space="preserve">
           <source>Column number %1 has an unexpected value at line number %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Column Number; %2 = Line Number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Pmt Export Fixed-Width UT - NamedType FileLineValueIsWrongErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1493445404 - Method 4180374821 - NamedType 1646966345" size-unit="char" translate="yes" xml:space="preserve">
@@ -138,35 +138,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestFIK - NamedType WrongFIKErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 2582613147" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must have a value</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType FieldMustHaveValueErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1975316130 - NamedType 3308473712" size-unit="char" translate="yes" xml:space="preserve">
           <source>Field GiroAccNo has wrong value.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType GiroAccValueErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 1610805731" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should be %2 in %3.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldBeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 589692984" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 should not be %2 in %3.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType PaymentTypeShouldNotBeErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1975316130 - NamedType 3170386756" size-unit="char" translate="yes" xml:space="preserve">
           <source>The selected export format only supports vendor payments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType VendorPmtErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1975316130 - NamedType 987998246" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The value in the %1 field does not have the length that is required by the export format.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit TestPmtExport Validation DK UT - NamedType WrongBankInfoLengthErr</note>
         </trans-unit>
       </group>
     </body>

@@ -53,11 +53,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType DefaultCodeTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1358558472 - NamedType 1511827303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Procurement-BilSim-1.0</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType DefaultProfileIDTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1358558472 - NamedType 1121374649" size-unit="char" translate="yes" xml:space="preserve">
           <source>cbc:ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -65,7 +60,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1358558472 - NamedType 2912267127" size-unit="char" translate="yes" xml:space="preserve">
           <source>The electronic document format OIOUBL does not exist for the document type %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Service Invoice Document Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Elec. Service Document - NamedType NonExistingDocumentFormatErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1358558472 - NamedType 1742544578" size-unit="char" translate="yes" xml:space="preserve">
@@ -90,7 +85,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4277811839 - NamedType 1947391627" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be %2 in %3.</source>
-          <note from="Developer" annotates="general" priority="2">"%1:FieldCaption</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Amount Field Caption; %2 = Amount Value; %3 = GL Entry Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType AmountErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4277811839 - NamedType 3702624130" size-unit="char" translate="yes" xml:space="preserve">
@@ -120,7 +115,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4277811839 - NamedType 2912267127" size-unit="char" translate="yes" xml:space="preserve">
           <source>The electronic document format OIOUBL does not exist for the document type %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales Invoice</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Elec Document Sales - NamedType NonExistingDocumentFormatErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4277811839 - NamedType 1742544578" size-unit="char" translate="yes" xml:space="preserve">
@@ -220,7 +215,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4121410283 - NamedType 580168651" size-unit="char" translate="yes" xml:space="preserve">
           <source>The GLN %1 is not valid.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = GLN No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType GLNNoErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4121410283 - NamedType 18626856" size-unit="char" translate="yes" xml:space="preserve">
@@ -270,7 +265,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4121410283 - NamedType 3785504592" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1:BANK</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Country or Region Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType PaymentChannelCodeTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 4121410283 - NamedType 2681684395" size-unit="char" translate="yes" xml:space="preserve">
@@ -290,12 +285,12 @@
         </trans-unit>
         <trans-unit id="Codeunit 4121410283 - NamedType 3800651618" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be %2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption; %2 = Expected Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Misc Elec. Invoice - NamedType ValidationErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 3273540359" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Date must have a value in Sales Header: Document Type=Invoice, No.=%1. It cannot be zero or empty.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales Line Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType BlankOrderDateErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 868040810" size-unit="char" translate="yes" xml:space="preserve">
@@ -325,17 +320,17 @@
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 1498947560" size-unit="char" translate="yes" xml:space="preserve">
           <source>The needed information to support OIOUBL is not provided in %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Company Information Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType MissingOIOUBMInfoErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 2889147007" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must have a value in Sales Header: Document Type=Invoice, No.=%2. It cannot be zero or empty</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption; %2 = Sales Header No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType SalesInvoiceFieldsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 1169888859" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must have a value in Service Header: Document Type=Credit Memo, No.=%2. It cannot be zero or empty.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Caption; %2 = Service Header No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-ERM Sales/Service Docs - NamedType ServiceFieldsErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2738608168 - NamedType 327842246" size-unit="char" translate="yes" xml:space="preserve">

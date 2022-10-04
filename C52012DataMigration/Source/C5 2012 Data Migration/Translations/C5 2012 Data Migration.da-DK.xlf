@@ -4995,12 +4995,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3539943979 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Related Entities</source>
-          <target state="translated">Relaterede poster</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3539943979 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Customer Table</source>
           <target state="translated">C5-debitortabel</target>
@@ -5013,11 +5007,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action RelatedEntities - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 2120976881 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Customer Contact Persons.</source>
+          <target state="translated">Åbn C5-debitorkontakterne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustContact - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3539943979 - Action 2120976881 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Persons</source>
           <target state="translated">Kontakter</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustContact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 3859002567 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Customer Discount Groups page.</source>
+          <target state="translated">Åbn siden C5-debitorrabatgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustDiscGroup - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3539943979 - Action 3859002567 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Discount Group</source>
@@ -5025,11 +5031,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustDiscGroup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 2204069180 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Customer Groups page.</source>
+          <target state="translated">Åbn siden C5-debitorgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3539943979 - Action 2204069180 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Group</source>
           <target state="translated">Debitorgruppe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 2908672711 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Customer Entries.</source>
+          <target state="translated">Åbn C5-debitorposterne.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustTrans - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3539943979 - Action 2908672711 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Entries</source>
@@ -5037,11 +5055,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5CustTrans - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 2018699606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Delivery page.</source>
+          <target state="translated">Åbn siden C5-levering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5Delivery - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3539943979 - Action 2018699606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delivery</source>
           <target state="translated">Levering</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5Delivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 2271646808 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Payment page.</source>
+          <target state="translated">Åbn siden C5-betaling.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5Payment - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3539943979 - Action 2271646808 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment</source>
@@ -5049,17 +5079,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5Payment - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 333702905 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Process Codes page.</source>
+          <target state="translated">Åbn siden C5-proceskoder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5PaymentMode - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3539943979 - Action 333702905 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Mode</source>
           <target state="translated">Betalingsmetode</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5PaymentMode - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 1795985104 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Inventory Price Groups page.</source>
+          <target state="translated">Åbn siden C5-lagerprisgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5PriceGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3539943979 - Action 1795985104 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price Group</source>
           <target state="translated">Prisgruppe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5PriceGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3539943979 - Action 1923662707 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Employee page.</source>
+          <target state="translated">Åbn siden med C5-medarbejder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable - Action C5SalesRep - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3539943979 - Action 1923662707 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Representative</source>
@@ -5072,6 +5120,12 @@
           <target state="translated">Kunder (Debitorer)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3073595157 - Control 2852966117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target state="translated">Fejlmeddelelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 CustTable List - Control Error Message - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3306450511 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Customer Entries</source>
@@ -5127,6 +5181,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenPrice - Action RelatedEntities - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 541957803 - Action 2515551274 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Inventory Price Groups page.</source>
+          <target state="translated">Åbn siden C5-lagerprisgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenPrice - Action C5InvenPriceGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 541957803 - Action 2515551274 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 InvenPriceGroup</source>
           <target state="translated">Lagerprisgruppe i C5</target>
@@ -5138,12 +5198,6 @@
           <target state="translated">C5-lagerprisgrupper</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenPriceGroup - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2113318422 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Related Entities</source>
-          <target state="translated">Relaterede poster</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Property PromotedActionCategories</note>
         </trans-unit>
         <trans-unit id="Page 2113318422 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Inventory Table</source>
@@ -5157,11 +5211,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action RelatedEntities - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 2478625956 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the Bill of Materials page.</source>
+          <target state="translated">Åbn siden Stykliste.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action BOM - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2113318422 - Action 2478625956 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill of Materials</source>
           <target state="translated">Stykliste</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 3455974450 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Item CN8 Codes page.</source>
+          <target state="translated">Åbn siden C5-vare CN8-koder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5CN8Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2113318422 - Action 3455974450 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item CN8 Codes</source>
@@ -5169,11 +5235,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5CN8Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 1621644692 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Inventory Discount page.</source>
+          <target state="translated">Åbn siden C5-lagerrabat.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5InvenCustDisc - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2113318422 - Action 1621644692 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Discount</source>
           <target state="translated">Varerabat</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5InvenCustDisc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 724500883 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Inventory Prices page.</source>
+          <target state="translated">Åbn siden C5-lagerpriser.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5InvenPrice - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2113318422 - Action 724500883 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inventory Prices</source>
@@ -5181,11 +5259,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action C5InvenPrice - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 403400876 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Item Groups page.</source>
+          <target state="translated">Åbn siden C5-varegrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action InvenItemGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2113318422 - Action 403400876 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Groups</source>
           <target state="translated">Varegrupper</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action InvenItemGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2113318422 - Action 2919754460 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Inventory Entries page.</source>
+          <target state="translated">Åbn siden C5-lagerposter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable - Action InvenTrans - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2113318422 - Action 2919754460 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inventory Entries</source>
@@ -5198,6 +5288,12 @@
           <target state="translated">Varer</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1456083540 - Control 2852966117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target state="translated">Fejlmeddelelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 InvenTable List - Control Error Message - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3319706570 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Inventory Entries</source>
@@ -5217,11 +5313,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 LedTable List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 236701609 - Control 2852966117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target state="translated">Fejlmeddelelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 LedTable List - Control Error Message - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3921138069 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Ledger Entries</source>
           <target state="translated">C5-poster</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 LedTrans List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3921138069 - Control 2852966117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target state="translated">Fejlmeddelelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 LedTrans List - Control Error Message - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3286176864 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Payment</source>
@@ -5253,12 +5361,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendGroup - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 424594451 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Related Entities</source>
-          <target state="translated">Relaterede poster</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 424594451 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Vendor Table</source>
           <target state="translated">C5-kreditortabel</target>
@@ -5271,11 +5373,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action RelatedEntities - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 424594451 - Action 2018699606 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Delivery page.</source>
+          <target state="translated">Åbn siden C5-levering.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Delivery - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 424594451 - Action 2018699606 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delivery</source>
           <target state="translated">Levering</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Delivery - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 424594451 - Action 2439520920 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Vendor Discount Groups page.</source>
+          <target state="translated">Åbn siden C5 kreditorrabatgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5DiscGroup - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 424594451 - Action 2439520920 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount Group</source>
@@ -5283,11 +5397,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5DiscGroup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 424594451 - Action 2271646808 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Payment page.</source>
+          <target state="translated">Åbn siden C5-betaling.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Payment - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 424594451 - Action 2271646808 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment</source>
           <target state="translated">Betaling</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Payment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 424594451 - Action 4174279329 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Employee page.</source>
+          <target state="translated">Åbn siden med C5-medarbejder.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Purchaser - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 424594451 - Action 4174279329 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchaser</source>
@@ -5295,17 +5421,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5Purchaser - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 424594451 - Action 4112477817 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Vendor Contact Persons page.</source>
+          <target state="translated">Åbn siden C5 kreditorkontakter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendContact - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 424594451 - Action 4112477817 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Persons</source>
           <target state="translated">Kontakter</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendContact - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 424594451 - Action 3350198740 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Vendor Groups page.</source>
+          <target state="translated">Åbn siden C5 kreditorgrupper.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendGroup - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 424594451 - Action 3350198740 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Group</source>
           <target state="translated">Kreditorgruppe</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 424594451 - Action 4067842687 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the C5 Vendor Entries page.</source>
+          <target state="translated">Åbn siden C5 kreditorposter.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable - Action C5VendTrans - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 424594451 - Action 4067842687 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Entries</source>
@@ -5318,6 +5462,12 @@
           <target state="translated">Leverandører (Kreditorer)</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2536447293 - Control 2852966117 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <target state="translated">Fejlmeddelelse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page C5 VendTable List - Control Error Message - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1668449495 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>C5 Vendor Entries</source>

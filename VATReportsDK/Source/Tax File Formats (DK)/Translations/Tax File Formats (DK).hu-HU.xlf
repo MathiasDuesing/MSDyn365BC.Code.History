@@ -6,7 +6,7 @@
         <trans-unit id="Codeunit 3511232442 - NamedType 3726603109" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
           <target state="translated">It is not possible to display %1 in a field with a length of %2.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Text to be displayed; %2 = Maximum length for the field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS - ECSL Report Export File - NamedType ExceedingLenghtErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3511232442 - NamedType 1977192435" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -36,7 +36,7 @@
         <trans-unit id="Report 2597579300 - NamedType 4260029528" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to display %1 in a field with a length of %2.</source>
           <target state="translated">It is not possible to display %1 in a field with a length of %2.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Text to be displayed; %2 = Maximum length for the field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Intrastat Export To Disk - NamedType ZeroFormatErr</note>
         </trans-unit>
       </group>

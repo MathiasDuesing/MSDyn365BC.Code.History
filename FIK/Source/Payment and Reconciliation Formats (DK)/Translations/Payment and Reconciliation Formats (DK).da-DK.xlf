@@ -30,7 +30,7 @@
         <trans-unit id="Codeunit 1144821822 - NamedType 2210098175" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Transfer Date value should be the same for all payment export data within the specified filters: %1.</source>
           <target state="translated">Værdien af Overflytningsdato skal være den samme for alle betalingseksportdata i de angivne filtre: %1.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Filters set for Payment Export Data</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Export BankData Fixed Width - NamedType NotSameDueDateForAllLinesErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2941720393 - NamedType 2318297758" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -102,7 +102,7 @@
         <trans-unit id="Codeunit 3470095905 - NamedType 2819125358" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Creditor Number field must not exceed %1 digits.</source>
           <target state="translated">Feltet Kreditornummer må ikke overstige %1 cifre.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Maximum length for the Creditor Number field</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType CreditorNumberLengthErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3470095905 - NamedType 306597383" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -126,7 +126,7 @@
         <trans-unit id="Codeunit 3470095905 - NamedType 1438492929" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The %1 in %2, %3 must be %4 or %5.</source>
           <target state="translated">%1 i %2, %3 skal være %4 eller %5.</target>
-          <note from="Developer" annotates="general" priority="2">The Payment Type Validation in Payment Method, Code must be Domestic or International.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Type Validation Field Caption; %2 = Payment Method Table Caption; %3 = Code Field; %4 = Enum Value Domestic; %5 = Enum Value International</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIKManagement - NamedType PmtTypeValidationErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3470095905 - NamedType 2415257204" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -222,37 +222,37 @@
         <trans-unit id="Codeunit 2671379033 - NamedType 3985604872" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are duplicates.\</source>
           <target state="translated">%1 betalingslinjer er dubletter.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of duplicates in Bank Account Reconciliation lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchDuplicateTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines have excess amounts.\</source>
           <target state="translated">%1 betalingslinjer har overskydende beløb.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched Bank Account Reconciliation lines that has excess amounts</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchExtraTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are fully applied.\</source>
           <target state="translated">%1 betalingslinjer er helt udlignet.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched Bank Account Reconciliation lines that has been fully applied</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchFullyTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 2688615703" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are already paid.\</source>
           <target state="translated">%1 betalingslinjer er allerede betalt.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched Bank Account Reconciliation lines that has been paid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchIsPaidTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are partially paid.\</source>
           <target state="translated">%1 betalingslinjer er delvist betalt.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched Bank Account Reconciliation lines that has been partially paid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchPartialTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines out of %2 have been applied.\\</source>
           <target state="translated">%1 betalingslinjer af %2 er udlignet.\\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched Bank Account Reconciliation lines; %2 = Total number of Bank Account Reconciliation lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchBankRecLines - NamedType MatchSummaryMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2671379033 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -306,25 +306,25 @@
         <trans-unit id="Codeunit 1543107980 - NamedType 1934290403" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines have excess amounts.\</source>
           <target state="translated">%1 betalingslinjer har overskydende beløb.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched General Journal Lines that has excess amounts</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchExtraTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1543107980 - NamedType 4131700411" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are fully applied.\</source>
           <target state="translated">%1 betalingslinjer er helt udlignet.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched General Journal Lines that has been fully paid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchFullyTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1543107980 - NamedType 2486924124" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines are partially paid.\</source>
           <target state="translated">%1 betalingslinjer er delvist betalt.\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched General Journal Lines that has been partially paid</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchPartialTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1543107980 - NamedType 1109901106" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 payment lines out of %2 have been applied.\\</source>
           <target state="translated">%1 betalingslinjer af %2 er udlignet.\\</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of matched General Journal Lines; %2 = Total number of General Journal Lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit FIK_MatchGenJournalLines - NamedType MatchSummaryMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 1543107980 - NamedType 1549244863" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -348,7 +348,7 @@
         <trans-unit id="Codeunit 3601034231 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must have a value</source>
           <target state="translated">%1 skal indeholde en værdi</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Reference Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType FieldIsNotEmptyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3601034231 - NamedType 966906556" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -360,13 +360,13 @@
         <trans-unit id="Codeunit 3601034231 - NamedType 1610805731" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should be %2 in %3.</source>
           <target state="translated">%1 skal være %2 i %3.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Type Validation Field Caption; %2 = International Enum Value; %3 = Payment Method Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldBeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3601034231 - NamedType 589692984" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should not be %2 in %3.</source>
           <target state="translated">%1 må ikke være %2 i %3.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Type Validation Field Caption; %2 = International Enum Value; %3 = Payment Method Table Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit PaymentExportManagement - NamedType PaymentTypeShouldNotBeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3601034231 - NamedType 318205512" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -586,7 +586,7 @@
         <trans-unit id="TableExtension 591338493 - NamedType 1923762040" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be an 8-digit number.</source>
           <target state="translated">%1 skal være et tal på otte cifre.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Bank Creditor Number</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 591338493</note>
         </trans-unit>
@@ -649,7 +649,7 @@
         <trans-unit id="TableExtension 2937376488 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should be blank for %2 %3.</source>
           <target state="translated">%1 skal være tom for %2 %3.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Reference Field Caption; %2 = Payment Reference Table Caption; %3 = Payment Method Code</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 2937376488</note>
         </trans-unit>
@@ -677,14 +677,14 @@
         <trans-unit id="TableExtension 4104438143 - NamedType 3719928791" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 cannot be used while %2 has a value.</source>
           <target state="translated">%1 kan ikke bruges, når %2 indeholder en værdi.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Creditor No. Field Caption; %2 = Recipient Bank Account Field Caption</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
         </trans-unit>
         <trans-unit id="TableExtension 4104438143 - NamedType 1477709441" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 should be blank for %2 %3.</source>
           <target state="translated">%1 skal være tom for %2 %3.</target>
-          <note from="Developer" annotates="general" priority="2">%1=Field;%2=Table;%3=Field</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Payment Reference Field Caption; %2 = Payment Reference Table Caption; %3 = Payment Method Code</note>
           <note from="Xliff Generator" annotates="general" priority="3" />
           <note from="ObjectTarget" annotates="general" priority="5">TableExtension 4104438143</note>
         </trans-unit>

@@ -213,6 +213,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Management - NamedType ZipArchiveSaveDialogTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 626384346 - NamedType 1817541021" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get ready for submitting invoices, credit memos, finance charge memos, and reminders for sales and services.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - NamedType OIOUBLSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - NamedType 78521457" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Electronic Invoicing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - NamedType OIOUBLSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 626384346 - NamedType 932338975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send electronic documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit OIOUBL-Subscribers - NamedType OIOUBLSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Page 3172652121 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>OIOUBL-Company Info. Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>

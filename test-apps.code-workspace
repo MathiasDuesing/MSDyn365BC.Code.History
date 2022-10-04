@@ -126,6 +126,9 @@
                         "path":  ".\\DataArchive\\test\\Data Archive Tests"
                     },
                     {
+                        "path":  ".\\DataSearch\\test\\Data Search Tests"
+                    },
+                    {
                         "path":  ".\\DKCore\\Test\\DK Core Tests"
                     },
                     {
@@ -160,6 +163,9 @@
                     },
                     {
                         "path":  ".\\ImportDKPayroll\\Test\\Payroll Data Import Definitions (DK) Tests"
+                    },
+                    {
+                        "path":  ".\\Intrastat\\Test\\Intrastat Core Tests"
                     },
                     {
                         "path":  ".\\LatePaymentPredictor\\Test\\Late Payment Prediction Tests"
@@ -205,6 +211,9 @@
                     },
                     {
                         "path":  ".\\testframework\\TestLibraries"
+                    },
+                    {
+                        "path":  ".\\testframework\\teststabilitytools"
                     },
                     {
                         "path":  ".\\testframework\\performancetoolkit\\Performance Toolkit Tests"

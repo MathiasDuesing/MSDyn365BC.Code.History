@@ -5,7 +5,7 @@
       <group id="body">
         <trans-unit id="Codeunit 3285796945 - NamedType 3656526069" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 Field: "%2" different from expected.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Assertion Message; %2 = Expected Field Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Test Payroll Imp. Gen. Jnl. Ln - NamedType AssertMsg</note>
         </trans-unit>
       </group>

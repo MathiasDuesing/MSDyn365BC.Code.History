@@ -3,11 +3,23 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="Payroll Data Import Definitions (DK)">
     <body>
       <group id="body">
-        <trans-unit id="Page 868071540 - Property 2019332006" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,General,Posting,VAT,Bank,Journal Templates</source>
-          <target state="translated">Ny,Proces,Rapport,Generelt,Bogføring,Moms,Bank,Kladdetyper</target>
+        <trans-unit id="Codeunit 359599811 - NamedType 1627661378" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up your Business Central to be able to import payroll data from Danish service providers such as Danloen, Dataloen, Loenservice, Multiloen, and Proloen.</source>
+          <target state="translated">Konfigurer din Business Central til at kunne importere løndata fra danske tjenesteudbydere som Danløn, Dataløn, Lønservice, Multiløn og Proløn.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Setup DK Payroll Service - Property PromotedActionCategories</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ImportPayrollDataExchDef - NamedType SetupDKPayrollServiceDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 359599811 - NamedType 3188147398" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payroll Definitions</source>
+          <target state="translated">Løndefinitioner</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ImportPayrollDataExchDef - NamedType SetupDKPayrollServiceShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 359599811 - NamedType 1382574188" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ready for Danish payroll</source>
+          <target state="translated">Klar til dansk løn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ImportPayrollDataExchDef - NamedType SetupDKPayrollServiceTitleTxt</note>
         </trans-unit>
         <trans-unit id="Page 868071540 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup Payroll Data Import Definitions (DK)</source>
