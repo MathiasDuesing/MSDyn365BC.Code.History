@@ -69,6 +69,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll import - NamedType EmployeeTaxTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 542045096 - NamedType 575561459" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up the Ceridian Payroll app and easily import payroll transactions from Ceridian HR/Payroll (US) and Ceridian Powerpay (Canada).</source>
+          <target state="translated">Configurer l’application Paie Ceridian vous permet d’importer des transactions de paie à partir des services Ceridian HR/Payroll (US) et Ceridian PowerPay (Canada).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll Mgt. - NamedType MSCeredianPayrollSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 542045096 - NamedType 1746023799" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ceridian Payroll</source>
+          <target state="translated">Paie Ceridian</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll Mgt. - NamedType MSCeredianPayrollSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 542045096 - NamedType 1450365369" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up Ceridian Payroll</source>
+          <target state="translated">Configuration de la paie Ceridian</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MS Ceridian Payroll Mgt. - NamedType MSCeredianPayrollSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Page 692256314 - Property 2879900210" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>MS - Ceridian Payroll Setup</source>
           <target state="translated">Configuration de la paie Ceridian - MS</target>

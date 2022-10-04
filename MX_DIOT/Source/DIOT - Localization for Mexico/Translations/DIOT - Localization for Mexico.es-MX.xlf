@@ -354,7 +354,7 @@
         <trans-unit id="Codeunit 1712460711 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The amount for Concept No. %1 for Vendor with No. = %2 is negative, which is not valid.</source>
           <target state="translated">El importe del concepto N.º %1 para el proveedor con Nº = %2 es negativo, lo que no es válido.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = DIOT Concept No. Field Value; %2 = Vendor No. Field Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType NegativeAmountErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 3970746100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
@@ -362,6 +362,24 @@
           <target state="translated">No existen movimientos de IVA para los conceptos configurados en el intervalo de fechas especificado.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType NoDataMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1245640553 - NamedType 3292654753" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Business Central can help you produce the Declaración Informativa de Operaciones con Terceros (DIOT) required for Mexico. Set it up here.</source>
+          <target state="translated">Business Central puede ayudarlo a generar la Declaración Informativa de Operaciones con Terceros (DIOT) requerida para México. Puede configurarla aquí.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Subscribers - NamedType DIOTSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1245640553 - NamedType 3762206365" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DIOT Reporting</source>
+          <target state="translated">Informes de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Subscribers - NamedType DIOTSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1245640553 - NamedType 2279409515" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up DIOT reporting</source>
+          <target state="translated">Configurar informes de DIOT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Subscribers - NamedType DIOTSetupTitleTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1245640553 - NamedType 1329765847" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Non-MX Vendors cannot have Type of Operation equal to Lease and Rent</source>
@@ -380,6 +398,12 @@
           <target state="translated">Enlaces de conceptos de DIOT</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3456414591 - NamedType 1683168610" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Concept No. = %1</source>
+          <target state="translated">N.º de concepto = %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = DIOT Concept No. Field Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page DIOT Concept Links - NamedType DataCaptionTxt</note>
         </trans-unit>
         <trans-unit id="Page 3456414591 - Control 1844012642 - Property 1295455071" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the VAT specification of the involved customer or vendor to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
