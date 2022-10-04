@@ -501,6 +501,24 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Swiss QR-Bill Setup - Field Umlaut Chars Encode Mode - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 385350960 - NamedType 1689235809" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Easily generate, send, and import QR-bills. QR-bills enable easier processing and payment of received invoices from vendors. Set it up now.</source>
+          <target state="translated">QR-Rechnungen einfach generieren, senden und importieren. QR-Rechnungen ermöglichen eine schnellere Verarbeitung und Bezahlung erhaltener Rechnungen von Anbietern. Jetzt einrichten.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR - Setup Mgt. - NamedType AssistedSetupDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 385350960 - NamedType 2507620317" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>QR-Bill Setup</source>
+          <target state="translated">Einrichtung von QR-Rechnungen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR - Setup Mgt. - NamedType AssistedSetupShortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 385350960 - NamedType 3160010795" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up QR-Bills</source>
+          <target state="translated">QR-Rechnungen einrichten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Swiss QR - Setup Mgt. - NamedType AssistedSetupTitleTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1536358807 - NamedType 3248521621" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 to %2</source>
           <target state="translated">%1 bis %2</target>
