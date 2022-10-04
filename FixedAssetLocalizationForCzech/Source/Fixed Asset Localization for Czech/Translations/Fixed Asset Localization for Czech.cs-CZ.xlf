@@ -749,7 +749,7 @@
         </trans-unit>
         <trans-unit id="Report 4085820406 - NamedType 2420549545" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The depreciation has been calculated.\\%1 fixed asset G/L journal lines were created.\\Do you want to open the Fixed Asset G/L Journal window?</source>
-          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlohodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
+          <target state="translated">Odpisy byly vypočítány.\\%1 řádků finančního deníku dlouhodobého majetku bylo vytvořeno.\\Chcete otevřít okno Finančního deníku DM?</target>
           <note from="Developer" annotates="general" priority="2">%1 = Number of created Gen. Journal Lines</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Calculate Depreciation CZF - NamedType CompletionStatsGenJnlQst</note>
         </trans-unit>
@@ -2747,7 +2747,7 @@
         </trans-unit>
         <trans-unit id="Report 4247254988 - ReportLabel 3745135737" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>Acquisition Date</source>
-          <target state="translated">Datum pořízení</target>
+          <target state="translated">Datum zařazení</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Fixed Asset Acquisition CZF - ReportLabel AcquisitionDateLbl</note>
         </trans-unit>
