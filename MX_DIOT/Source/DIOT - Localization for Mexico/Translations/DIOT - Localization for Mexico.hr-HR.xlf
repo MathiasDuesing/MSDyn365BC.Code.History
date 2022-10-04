@@ -280,7 +280,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 4223821622" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>The amount for Concept No. %1 for Vendor with No. = %2 is negative, which is not valid.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = DIOT Concept No. Field Value; %2 = Vendor No. Field Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit DIOT Data Management - NamedType NegativeAmountErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1712460711 - NamedType 3970746100" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
