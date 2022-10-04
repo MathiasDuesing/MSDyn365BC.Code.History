@@ -5117,7 +5117,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4190120476 - NamedType 3742999479" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
           <source>E.1. Intangible and Tangible Fixed Assets Adjustments</source>
-          <target state="translated">E.1. Úpravy hodnot dlohodobého nehm. a hm. majetku</target>
+          <target state="translated">E.1. Úpravy hodnot dlouhodobého nehm. a hm. majetku</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit G/L Account Category Mgt. CZL - NamedType E1_IntangibleandTangibleFixedAssestsAdjustmentsTxt</note>
         </trans-unit>
