@@ -1,12 +1,4 @@
 {
-  "settings": {
-    "al.enableCodeAnalysis": false,
-    "allint.enabled": false,
-    "search.exclude": {
-      "**.xlf": true
-    },
-    "al.enableCodeActions": false
-  },
   "folders": [
     {
       "path": "./MasterDataManagement/Test/_Exclude_Master_Data_Management_Tests"
@@ -269,5 +261,13 @@
     {
       "path": "./BankingDocumentsLocalizationForCzech/Test/Banking Documents Localization for Czech Tests"
     }
-  ]
+  ],
+  "settings": {
+    "al.enableCodeAnalysis": false,
+    "al.enableCodeActions": false,
+    "search.exclude": {
+      "**.xlf": true
+    },
+    "allint.enabled": false
+  }
 }
